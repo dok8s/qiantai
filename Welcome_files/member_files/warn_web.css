@@ -1,0 +1,186 @@
+.show_main {
+	padding-top: 126px;
+}
+.show_top {
+	background: url("../../images/member/showMaintain_top.jpg") no-repeat; margin: auto; width: 786px; height: 195px;
+}
+.show_bottom {
+	margin: 73px auto auto; width: 100%; background-color: rgb(81, 63, 51);
+}
+.show_txtG {
+	margin: auto; width: 1020px; height: 281px;
+}
+.show_txt {
+	padding: 25px 0px 0px 28px; width: 340px; height: 281px; text-align: left; font-size: 15px; border-right-color: rgb(66, 51, 41); border-right-width: 1px; border-right-style: solid; float: left; position: relative;
+}
+.show_noline {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.show_txt ul {
+	color: rgb(218, 191, 147); margin-bottom: 6px;
+}
+ul.show_lightTxt {
+	color: rgb(200, 196, 176);
+}
+.show_txt li {
+	line-height: 23px;
+}
+.show_txt tt {
+	font-size: 14px; font-weight: bold;
+}
+.show_space {
+	margin-left: 38px;
+}
+.show_mail {
+	left: 26px; bottom: 28px; color: rgb(200, 196, 176); position: absolute;
+}
+ul.US {
+	font-size: 14px; margin-bottom: 7px;
+}
+.US li {
+	line-height: 20px;
+}
+.US .show_space {
+	margin-left: 50px;
+}
+.show_copyright {
+	text-align: center; color: rgb(172, 149, 108); font-size: 12px; margin-top: 19px;
+}
+.clean_Main {
+	background: url("../../images/member/ord_DIV_Mask.png"); width: 100%; height: 100%; display: table;
+}
+.clean_TD {
+	vertical-align: middle; display: table-cell;
+}
+.cleanG {
+	margin: auto; width: 450px; height: 234px; text-align: center;
+}
+.cleanG h1 {
+	height: 40px; color: rgb(255, 241, 214); line-height: 40px; font-size: 15px; font-weight: bold; background-color: rgb(80, 63, 50);
+}
+.cleanTxt {
+	padding: 7px 0px 10px; display: block; background-color: rgb(255, 255, 255);
+}
+.cleanG h2 {
+	color: rgb(69, 64, 59); line-height: 16px; font-size: 13px;
+}
+.cleanG img {
+	margin: 10px auto 7px;
+}
+.cleanG tt {
+	color: rgb(83, 159, 9);
+}
+.browserDIV {
+	background: url("../../images/member/browserDIV.png"); padding: 34px 0px; width: 100%;
+}
+.browserG {
+	margin: auto; padding: 37px 60px 17px; width: 900px; background-color: rgb(255, 255, 255);
+}
+.browserG h1 {
+	color: rgb(112, 86, 54); font-size: 30px;
+}
+.browserG ul {
+	color: rgb(112, 86, 54); font-size: 15px; margin-top: 15px;
+}
+.browserG li {
+	margin-bottom: 17px;
+}
+.browserG li a {
+	color: rgb(46, 188, 140);
+}
+.browserBTNG {
+	margin: 37px auto 36px; width: 100%;
+}
+.browser_ChromeBTN {
+	background: url("../../images/member/browser_ChromeBTN.png") no-repeat center 27px rgb(250, 238, 228); border-radius: 8px; border: 1px solid rgb(229, 206, 188); border-image: none; width: 229px; height: 244px; margin-right: 46px; float: left; position: relative; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.browser_FirefoxBTN {
+	background: url("../../images/member/browser_ChromeBTN.png") no-repeat center 27px rgb(250, 238, 228); border-radius: 8px; border: 1px solid rgb(229, 206, 188); border-image: none; width: 229px; height: 244px; margin-right: 46px; float: left; position: relative; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.browser_Safari {
+	background: url("../../images/member/browser_ChromeBTN.png") no-repeat center 27px rgb(250, 238, 228); border-radius: 8px; border: 1px solid rgb(229, 206, 188); border-image: none; width: 229px; height: 244px; margin-right: 46px; float: left; position: relative; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.browser_FirefoxBTN {
+	background: url("../../images/member/browser_FirefoxBTN.png") no-repeat center 27px rgb(250, 238, 228);
+}
+.browser_Safari {
+	background: url("../../images/member/browser_Safari.png") no-repeat center 27px rgb(250, 238, 228); margin-right: 0px;
+}
+.browser_ChromeBTN:hover {
+	background: url("../../images/member/browser_ChromeBTN.png") no-repeat center -426px rgb(250, 227, 203); border: 1px solid rgb(239, 196, 163); border-image: none;
+}
+.browser_FirefoxBTN:hover {
+	background: url("../../images/member/browser_FirefoxBTN.png") no-repeat center -426px rgb(250, 227, 203); border: 1px solid rgb(239, 196, 163); border-image: none;
+}
+.browser_Safari:hover {
+	background: url("../../images/member/browser_Safari.png") no-repeat center -426px rgb(250, 227, 203); border: 1px solid rgb(239, 196, 163); border-image: none;
+}
+.browser_recommend {
+	background: url("../../images/member/browser_recommend.png") no-repeat; left: 8px; top: -6px; width: 43px; height: 45px; display: block; position: absolute;
+}
+.browser_ChromeBTN tt {
+	top: 138px; width: 100%; text-align: center; color: rgb(112, 86, 54); font-size: 14px; position: absolute;
+}
+.browser_FirefoxBTN tt {
+	top: 138px; width: 100%; text-align: center; color: rgb(112, 86, 54); font-size: 14px; position: absolute;
+}
+.browser_Safari tt {
+	top: 138px; width: 100%; text-align: center; color: rgb(112, 86, 54); font-size: 14px; position: absolute;
+}
+.browser_downloadBTN {
+	margin: 169px auto auto; border-radius: 3px; border: 1px solid rgb(39, 166, 123); border-image: none; width: 124px; height: 40px; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 40px; font-size: 13px; display: block; background-color: rgb(46, 188, 140); -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.browser_downloadBTN:hover {
+	background-color: rgb(51, 208, 155);
+}
+.browserG h2 {
+	color: rgb(112, 86, 54); font-size: 18px; margin-bottom: 30px;
+}
+.browserWordG {
+	width: 100%;
+}
+.browserWord_txt01 {
+	background: url("../../images/member/browserWord_txt01.png") no-repeat left top; padding: 4px 0px 0px 48px; width: 360px; height: 95px; margin-right: 40px; float: left;
+}
+.browserWord_txt03 {
+	background: url("../../images/member/browserWord_txt01.png") no-repeat left top; padding: 4px 0px 0px 48px; width: 360px; height: 95px; margin-right: 40px; float: left;
+}
+.browserWord_txt02 {
+	background: url("../../images/member/browserWord_txt01.png") no-repeat left top; padding: 4px 0px 0px 48px; width: 360px; height: 95px; margin-right: 40px; float: left;
+}
+.browserWord_txt04 {
+	background: url("../../images/member/browserWord_txt01.png") no-repeat left top; padding: 4px 0px 0px 48px; width: 360px; height: 95px; margin-right: 40px; float: left;
+}
+.browserWord_txt02 {
+	background: url("../../images/member/browserWord_txt02.png") no-repeat left top; margin-right: 0px;
+}
+.browserWord_txt03 {
+	background: url("../../images/member/browserWord_txt03.png") no-repeat left top;
+}
+.browserWord_txt04 {
+	background: url("../../images/member/browserWord_txt04.png") no-repeat left top; margin-right: 0px;
+}
+.browserWordG h3 {
+	color: rgb(112, 86, 54); text-transform: uppercase; font-size: 16px; font-weight: bold; margin-bottom: 5px;
+}
+.browserWordG h4 {
+	color: rgb(112, 86, 54); line-height: 17px; font-size: 14px;
+}
+.status_errDIV {
+	background: url("../../images/member/status_errDIV.jpg") repeat-x; width: 100%; height: 211px; text-align: center; color: rgb(50, 50, 50); line-height: 38px; padding-top: 88px; font-size: 16px; border-bottom-color: rgb(186, 162, 131); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.status_errDIV tt {
+	color: rgb(112, 86, 54); font-weight: bold;
+}
+.cleanG h1 {
+	text-transform: uppercase;
+}
+.ord_viewBTN {
+	cursor: pointer;
+}
+.browserG li a {
+	cursor: pointer;
+}
+.browser_downloadBTN {
+	cursor: pointer;
+}

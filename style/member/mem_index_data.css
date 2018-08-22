@@ -1,0 +1,489 @@
+HTML {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/member/inda_bg.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/member/inda_bg.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#RRR {
+	
+}
+#RFT {
+	
+}
+#RBK {
+	
+}
+#RTN {
+	
+}
+#RVB {
+	
+}
+#RF1 {
+	
+}
+#container {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; MARGIN-LEFT: auto; BORDER-LEFT: #000 1px solid; WIDTH: 90%; MARGIN-RIGHT: auto; BORDER-BOTTOM: #000 1px solid; POSITION: relative; TEXT-ALIGN: left
+}
+#header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/member/inda_head_b.png) repeat-x 50% top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#header H1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(/images/member/inda_head_r.jpg) no-repeat right top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 81px
+}
+#header SPAN {
+	DISPLAY: block; BACKGROUND: url(/images/member/inda_head_l.png) no-repeat left top; WIDTH: 100%; HEIGHT: 81px
+}
+TABLE {
+	BORDER-RIGHT: #bc9a3f 2px solid; BORDER-TOP: #bc9a3f 2px solid; BORDER-LEFT: #bc9a3f 2px solid; BORDER-BOTTOM: #bc9a3f 2px solid
+}
+TH {
+	BACKGROUND-COLOR: #c8a670
+}
+TH {
+	BORDER-RIGHT: #b9b9a3 1px solid; BORDER-TOP: #b9b9a3 1px solid; BORDER-LEFT: #b9b9a3 1px solid; BORDER-BOTTOM: #b9b9a3 1px solid
+}
+TD {
+	BORDER-RIGHT: #b9b9a3 1px solid; BORDER-TOP: #b9b9a3 1px solid; BORDER-LEFT: #b9b9a3 1px solid; BORDER-BOTTOM: #b9b9a3 1px solid
+}
+.subHead {
+	BACKGROUND-COLOR: #dadada
+}
+#RBK TABLE {
+	BORDER-RIGHT: #518a57 2px solid; BORDER-TOP: #518a57 2px solid; BORDER-LEFT: #518a57 2px solid; BORDER-BOTTOM: #518a57 2px solid
+}
+#RBK TH {
+	COLOR: #fff; BACKGROUND-COLOR: #57593a
+}
+#RBK TH {
+	BORDER-RIGHT: #b9b9a3 1px solid; BORDER-TOP: #b9b9a3 1px solid; BORDER-LEFT: #b9b9a3 1px solid; BORDER-BOTTOM: #b9b9a3 1px solid
+}
+#RBK TD {
+	BORDER-RIGHT: #b9b9a3 1px solid; BORDER-TOP: #b9b9a3 1px solid; BORDER-LEFT: #b9b9a3 1px solid; BORDER-BOTTOM: #b9b9a3 1px solid
+}
+A {
+	
+}
+A:link {
+	COLOR: #669900
+}
+A:visited {
+	COLOR: #669900
+}
+A:hover {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+P {
+	MARGIN: 0px; LINE-HEIGHT: 1.3
+}
+STRONG {
+	FONT-WEIGHT: normal; COLOR: #c00
+}
+EM {
+	COLOR: #00f; FONT-STYLE: normal
+}
+TD.em {
+	COLOR: #00f; FONT-STYLE: normal
+}
+S {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: #fff; PADDING-TOP: 2px; BACKGROUND-COLOR: #f00; TEXT-DECORATION: none
+}
+TABLE {
+	FONT: 0.75em Verdana, Arial, Helvetica, sans-serif; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #ffffff
+}
+TH {
+	FONT-WEIGHT: normal
+}
+TABLE TH {
+	PADDING-RIGHT: 0.3em; PADDING-LEFT: 0.3em; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+TABLE TD {
+	PADDING-RIGHT: 0.3em; PADDING-LEFT: 0.3em; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+ACRONYM {
+	
+}
+TT {
+	FONT-WEIGHT: bold; FONT-SIZE: 1em; MARGIN-LEFT: 2px; COLOR: #993300; MARGIN-RIGHT: 2px
+}
+UL {
+	MARGIN: 0px
+}
+OL {
+	MARGIN: 0px
+}
+#info {
+	PADDING-RIGHT: 2.5em; PADDING-LEFT: 2.5em; PADDING-BOTTOM: 1.4em; FONT: 0.75em Arial, Helvetica, sans-serif; BORDER-LEFT: #413c15 180px solid; PADDING-TOP: 1.4em; BACKGROUND-COLOR: #ffffff
+}
+#intro {
+	MARGIN-BOTTOM: 2.2em
+}
+#intro H2 {
+	FONT-SIZE: 1.2em; MARGIN: 0px; COLOR: #690
+}
+#intro UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 12px 0px 0px 15px; LINE-HEIGHT: 1.3; PADDING-TOP: 0px
+}
+#intro LI {
+	MARGIN-BOTTOM: 0.7em; TEXT-ALIGN: justify
+}
+#summary {
+	MARGIN-BOTTOM: 4em
+}
+#summary H3 {
+	FONT-SIZE: 1em; MARGIN: 0px; COLOR: #8f7421
+}
+#summary UL {
+	MARGIN-TOP: 1em; LIST-STYLE-TYPE: none
+}
+#summary LI {
+	DISPLAY: inline
+}
+#summary A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -120px; MARGIN-BOTTOM: 0.6em; WHITE-SPACE: nowrap
+}
+#rule {
+	
+}
+.play {
+	MARGIN-BOTTOM: 3em
+}
+.play TABLE {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 0.6em
+}
+.play UL {
+	MARGIN-LEFT: 15px
+}
+.play OL {
+	MARGIN-LEFT: 15px
+}
+#rule H4 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 22px; FONT-WEIGHT: normal; FONT-SIZE: 1em; BACKGROUND: url(/images/member/inda_h4.jpg) no-repeat left center; PADDING-BOTTOM: 0.2em; MARGIN: 0px 0px 0.6em -5px; COLOR: #fff; PADDING-TOP: 6px; HEIGHT: 23px
+}
+#rule H4 EM {
+	MARGIN-LEFT: 4px; COLOR: #600; MARGIN-RIGHT: 4px
+}
+#rule P.p4 {
+	MARGIN: 0px 0px 1.5em; LINE-HEIGHT: 1.6em
+}
+TD.team {
+	PADDING-LEFT: 0.4em; TEXT-ALIGN: left
+}
+TD.drawn {
+	COLOR: #c00; TEXT-ALIGN: right
+}
+.rig {
+	TEXT-ALIGN: right
+}
+.bb {
+	FONT-WEIGHT: bold; COLOR: #c00
+}
+.htd {
+	PADDING-LEFT: 18px; FONT-WEIGHT: bold; BACKGROUND: url(/images/member/inda_BS_r.gif) #e4f0f3 no-repeat 3px 50%; COLOR: #060
+}
+.htd2 {
+	PADDING-LEFT: 17px; FONT-WEIGHT: bold; BACKGROUND: url(/images/member/inda_BS_r.gif) #ffc no-repeat 3px 50%; COLOR: #c00
+}
+TD.hp3 {
+	PADDING-RIGHT: 17px; BORDER-TOP: 0px; BACKGROUND: url(/images/member/inda_BS_r.gif) no-repeat 98% center; MARGIN: 0px; BORDER-BOTTOM: 0px; TEXT-ALIGN: right
+}
+TD.hp3 STRONG {
+	MARGIN-LEFT: 2px
+}
+TABLE EM {
+	MARGIN-RIGHT: 0.5em
+}
+TABLE STRONG {
+	FONT-WEIGHT: bold
+}
+.type {
+	
+}
+.type H5 {
+	PADDING-LEFT: 22px; BACKGROUND: url(/images/member/point.gif) no-repeat left top; MARGIN: 0.5em 0px; COLOR: #c00; LINE-HEIGHT: 1.2em; HEIGHT: 20px
+}
+.type H5 EM {
+	MARGIN-LEFT: 1px; COLOR: #666; MARGIN-RIGHT: 1px
+}
+.type P.p5 {
+	MARGIN-LEFT: 22px
+}
+#rule P.p5 {
+	MARGIN-LEFT: 22px
+}
+.type H6 {
+	FONT-SIZE: 1.1em; MARGIN: 1em 0px 0.8em 22px; COLOR: #33c
+}
+.type .tex {
+	PADDING-RIGHT: 1.3em; PADDING-LEFT: 1.3em; PADDING-BOTTOM: 0.5em; MARGIN-LEFT: 22px; WIDTH: 100%; MARGIN-RIGHT: 22px; PADDING-TOP: 0.5em; BACKGROUND-COLOR: #ffffcc
+}
+.type .tex P {
+	MARGIN: 0.7em 18px 0.5em auto
+}
+.type .tex STRONG {
+	MARGIN-LEFT: 0.3em; MARGIN-RIGHT: 0.3em
+}
+.type .tex P:first-line {
+	COLOR: #009
+}
+.type .tex SPAN {
+	DISPLAY: block; COLOR: #666
+}
+.type UL {
+	MARGIN-BOTTOM: 0.8em; MARGIN-LEFT: 35px; LINE-HEIGHT: 1.2
+}
+.type OL {
+	MARGIN-BOTTOM: 0.8em; MARGIN-LEFT: 35px; LINE-HEIGHT: 1.2
+}
+.type LI {
+	MARGIN-BOTTOM: 0.7em; LINE-HEIGHT: 1.3
+}
+.type TABLE {
+	MARGIN: 0.6em auto 0.6em 22px
+}
+.play CAPTION {
+	COLOR: #33c; TEXT-ALIGN: left
+}
+.type CAPTION {
+	COLOR: #33c; TEXT-ALIGN: left
+}
+.top {
+	DISPLAY: block; MARGIN-BOTTOM: 1em; TEXT-ALIGN: right
+}
+.top A {
+	DISPLAY: block; BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -119px; WIDTH: 5em; WHITE-SPACE: nowrap
+}
+#nav {
+	LEFT: 0px; FONT: 0.75em Verdana, Arial, Helvetica, sans-serif; MARGIN-LEFT: 1px; WIDTH: 180px; POSITION: absolute; TOP: 81px
+}
+#nav UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; PADDING-TOP: 15px; LIST-STYLE-TYPE: none
+}
+#nav LI {
+	PADDING-RIGHT: 12px; DISPLAY: block; PADDING-LEFT: 12px; PADDING-BOTTOM: 8px; WIDTH: 160px; PADDING-TOP: 8px; BORDER-BOTTOM: #937520 1px solid
+}
+#nav A {
+	DISPLAY: block; PADDING-LEFT: 15px; TEXT-DECORATION: none
+}
+#nav A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left top; COLOR: #fff
+}
+#nav A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left top; COLOR: #fff
+}
+#nav A:hover {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #ff0
+}
+#nav .mail {
+	
+}
+BODY#RRR LI.rr A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RRR LI.rr A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RFT LI.ft A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RFT LI.ft A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RBK LI.bk A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RBK LI.bk A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RTN LI.tn A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RTN LI.tn A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RVB LI.vb A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RVB LI.vb A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RF1 LI.f1 A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RF1 LI.f1 A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RBM LI.bm A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RBM LI.bm A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RNF LI.nf A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RNF LI.nf A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RIH LI.ih A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RIH LI.ih A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RSK LI.sk A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RSK LI.sk A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RPD LI.pd A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RPD LI.pd A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RHB LI.hb A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RHB LI.hb A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RBS LI.bs A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RBS LI.bs A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RPP LI.pp A:link {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+BODY#RPP LI.pp A:visited {
+	BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -60px; COLOR: #fc0
+}
+#foot {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: 0px; FONT-SIZE: 0.75em; MARGIN-LEFT: auto; BORDER-LEFT: #000 1px solid; WIDTH: 90%; COLOR: #fff; BOTTOM: 0px; MARGIN-RIGHT: auto; PADDING-TOP: 6px; BORDER-BOTTOM: #000 1px solid; HEIGHT: 28px; BACKGROUND-COLOR: #7c631d; TEXT-ALIGN: center
+}
+#foot TT {
+	COLOR: #fff
+}
+#RMP H2 {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: -0.5em; HEIGHT: 1em
+}
+#RMP STRONG {
+	MARGIN-LEFT: 0.2em; MARGIN-RIGHT: 0.2em
+}
+#RMP SPAN.img {
+	DISPLAY: block; PADDING-LEFT: 28px; BACKGROUND: url(/images/member/ind_mp_bg.jpg) no-repeat left top; MARGIN-BOTTOM: 0.1em; WIDTH: 178px; MARGIN-RIGHT: 1.5em; PADDING-TOP: 66px; HEIGHT: 309px
+}
+#RMP SPAN.fl {
+	FLOAT: left
+}
+#RMP BR.clear {
+	CLEAR: left
+}
+H5 {
+	CLEAR: left
+}
+.top {
+	CLEAR: left
+}
+#RMP H5 {
+	MARGIN-BOTTOM: 0.5em; BORDER-BOTTOM: #666 1px dotted
+}
+#RMP .type OL {
+	MARGIN-TOP: 1em
+}
+#RMP .type UL {
+	MARGIN-TOP: 1em
+}
+#RMP #foot SPAN {
+	DISPLAY: none
+}
+#RMP #info {
+	BORDER-LEFT: 0px
+}
+#RCHK #info {
+	BORDER-LEFT: 0px
+}
+#RCHK H2 {
+	MARGIN-TOP: 1.5em; MARGIN-BOTTOM: -0.5em
+}
+#RCHK #container {
+	WIDTH: 800px
+}
+#RCHK #foot {
+	WIDTH: 800px
+}
+#RCHK .type H5 {
+	MARGIN-TOP: 1.8em
+}
+#RCHK .type SPAN {
+	PADDING-RIGHT: 0px; MARGIN-TOP: -25px; DISPLAY: block; PADDING-LEFT: 0px; MARGIN-BOTTOM: -25px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+#RCHK BR.clear {
+	CLEAR: both
+}
+#RCHK .top {
+	CLEAR: both; BORDER-TOP: #666 1px dotted; MARGIN-BOTTOM: 1em; PADDING-TOP: 0.7em; TEXT-ALIGN: center
+}
+#RCHK .top SPAN {
+	DISPLAY: block; BACKGROUND: url(/images/member/ind_arr.gif) no-repeat left -119px; WIDTH: 24em; WHITE-SPACE: nowrap
+}
+#RCHK .chk {
+	CLEAR: both; TEXT-ALIGN: center
+}
+#RCHK .chk FORM {
+	DISPLAY: inline
+}
+#RCHK .chk INPUT {
+	MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em
+}
+UNKNOWN {
+	FONT-SIZE: 1.2em
+}
+UNKNOWN {
+	PADDING-TOP: 1em
+}
+UNKNOWN {
+	MARGIN-LEFT: -2px
+}
+UNKNOWN {
+	FONT-SIZE: 12px
+}
+UNKNOWN {
+	WIDTH: 130px
+}
+UNKNOWN {
+	FONT-SIZE: 12px
+}
+UNKNOWN {
+	MARGIN-LEFT: -2.5em
+}
+UNKNOWN {
+	PADDING-TOP: 1px
+}
+UNKNOWN {
+	FLOAT: right
+}
+UNKNOWN {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#RRR #info {
+	HEIGHT: 580px
+}
+#RBM #info {
+	HEIGHT: 580px
+}
+#RIH #info {
+	HEIGHT: 580px
+}
+#RSK #info {
+	HEIGHT: 580px
+}
+#RHB #info {
+	HEIGHT: 580px
+}
+#RPP #info {
+	HEIGHT: 580px
+}

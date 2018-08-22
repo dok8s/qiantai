@@ -1,0 +1,72 @@
+
+<html>
+<head>
+    <meta name="Robots" contect="none">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>帮助</title>
+
+    <script>
+        function chg_language(langx) {
+            var homepage = "";
+            if (langx != "zh-vn" && langx != "zh-cn") {
+                homepage = "/tpl/member/en-us/QA.html";
+            } else {
+                homepage = "/tpl/member/"+langx+"/QA.html";
+            }
+            self.location = homepage;
+        }
+        function OnMouseOverPIC(langx) {
+            document.getElementById("OverQA_"+langx).style.display = "block";
+            document.getElementById("OutQA_"+langx).style.display = "none";
+        }
+        function OnMouseOutPIC(langx) {
+            document.getElementById("OverQA_"+langx).style.display = "none";
+            document.getElementById("OutQA_"+langx).style.display = "block";
+        }
+    </script>
+
+    <link href="/style/member/mem_pass.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="gui_div">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="3"><div class="gui_title">Trợ giúp</div></td>
+        </tr>
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_1.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">1.Đăng nhập bằng "Tài khoản thành viên".</td>
+        </tr>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_2.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">2.Vui lòng nhập tên hoặc mã bạn muốn đặt trong trường "Đăng nhập tài khoản" Hệ thống sẽ hiển thị thông báo xác nhận xem tài khoản đăng nhập bạn đã nhập có được sử dụng hay không. Bạn phải đăng nhập lại sau khi hoàn tất quá trình thiết lập.</td>
+        </tr>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_3.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w"></td>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_4.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w"></td>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_5.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">3.Đăng nhập bằng cài đặt mới "Đăng nhập tài khoản"</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

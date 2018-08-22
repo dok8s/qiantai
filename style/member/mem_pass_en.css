@@ -1,0 +1,17 @@
+/*2010-09-20-For NewSI2 =======chg passwd ======*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ chg_passwd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+html, body { margin:0; padding:0; text-align:left; background-color:#FFF;}
+form { margin:0; padding:0;}
+.main {/*width:360px;*/ width:492px; padding-top:20px; height:228px;font: 12px  Arial, Helvetica, sans-serif; text-align:left;}
+h1 {margin: 0px;padding-top: 5px;font-size: 12px;font-weight: lighter;}
+h2 {height: 42px; font-size:12px; margin:0 0 0 48px; padding:0px 10px 0 42px/* EN Change */; text-align:left; background:url(../../images/member/chg_icon.gif) no-repeat 0 0;}
+em{width:86px; font-style:normal;white-space: nowrap;color:#000;text-align:right;font-size: 12px;}
+table { margin-left:10px;}/* EN Change */
+p { margin:0; padding:5px 0; text-align:right;}
+.keyin { text-align: left; width:300px;}
+.info { vertical-align: top; padding-left:20px;/* EN Change */ padding-top:5px;  line-height:18px;font: 12px  Arial, Helvetica, sans-serif;}
+.info span { display:block;}
+tt { margin-left:-14px;font: 12px  Arial, Helvetica, sans-serif;/* EN Change */ }
+.txt { width:108px;}
+.foot { height:50px; margin-top:15px; padding-top:12px; padding-right:8px; text-align:right; background-color:#F0F0F0;}
+.yes, .no { width:88px; color:#393939; height: 24px;}

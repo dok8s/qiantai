@@ -1,0 +1,644 @@
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content="歡迎訪問 hg0088.com, 優越服務專屬於註冊會員。">
+    <title>hg0088</title>
+    <link href="../../../style/member/index_2012_5_tw.css" rel="stylesheet" type="text/css">
+    <script language="javascript" src="../../../js/HttpRequest.js"></script>
+    <script>
+        if(self == top) location='qiantai.dede163.com';
+        top.game_alert='';
+        var myDate = new Date();
+        top.today_gmt = myDate.getFullYear()+"-"+myDate.getMonth()+"-"+myDate.getDate();
+        var chgURL_domain='66.133.87.55';
+        var chgURL_new_domain='qiantai.dede163.com';
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8 "><script>
+</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8 "><script>
+    <!--
+    function MM_swapImgRestore() { //v3.0
+        var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+    }
+
+    function MM_preloadImages() { //v3.0
+        var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+            var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+                if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    }
+
+    function MM_findObj(n, d) { //v4.0
+        var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+            d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+        if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+        for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+        if(!x && document.getElementById) x=document.getElementById(n); return x;
+    }
+
+    function MM_swapImage() { //v3.0
+        var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+            if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+    }
+    var interval=0;
+    var strChk_Number="";
+    if ((""+top.nametop)=="undefined") top.nametop="";
+    if ((""+top.selLang)=="undefined") top.selLang="web_new";
+    var cookieAry = new Array();
+    var username_placeholder="";
+    var passwd_placeholder="";
+
+    function show(){
+        //====== 判斷是否為ip登入 若ip登入則不秀選擇新舊版本按鈕 ======
+        var strDomain = (document.domain).split(".");
+        var strChkDomain="";
+        var showVersion="N";
+
+        if(document.getElementById("username").value!=""){
+            document.getElementById("username_def").style.visibility="hidden";
+        }
+        //for( var i=0;i<strDomain.length;i++){
+        //	if(isNaN(strDomain[i])){
+        //		showVersion="Y";
+        //		break;
+        //	}
+        //}
+        //if(showVersion=="N"){
+        //document.getElementById("vs_new").style.display="none";
+        //document.getElementById("vs_old").style.display="none";
+        //}
+        //============================================================
+        setDomainEvent();
+        document.getElementById("div_site").style.display = (isIPad())?"none":"";
+        //document.all.show_flash.style.position='absolute';
+        //document.all.show_flash.style.visibility='visible';
+        //window.setTimeout("close_flash()", 9000);
+        //document.all.username.focus();
+        //set_img();
+        //alert(top.nametop);
+        //游標預設在帳號欄
+        //alert(document.referrer)
+
+        //username_placeholder=document.getElementById("username").placeholder;
+        //passwd_placeholder=document.getElementById("passwd").placeholder;
+
+        //setPassword();
+
+//if(notisIE10()) chg_domain("new");
+        window.onresize = scrollFun;
+
+        cookieAry = document.cookie.split(";");
+        for(var i=0; i<cookieAry.length; i++){
+            var thisCookie = cookieAry[i].split("=");
+            if(thisCookie[0].indexOf("username_cookie") != -1){
+                document.forms.LoginForm.username.style.color = "#000000";
+                document.forms.LoginForm.username.value = thisCookie[1];
+                document.all.remember.checked = true;
+                document.getElementById("username_def").style.visibility="hidden";
+            }else{
+                //document.forms.LoginForm.username.focus();
+                document.getElementById("username").focus();
+            }
+        }
+
+        if(window.event){
+            document.getElementById("username").onkeypress = function(){ key_value( event ); };
+            document.getElementById("passwd").onkeypress = function(){ key_value( event ); };
+        }else{
+            document.getElementById("username").onkeypress = function(event){ key_value( event ); };
+            document.getElementById("passwd").onkeypress = function(event){ key_value( event ); };
+        }
+
+        //interval=window.setInterval("checkloginQue()",300);
+
+        //document.forms.LoginForm.username.focus();
+        //document.forms.LoginForm.username.value=top.nametop;
+        //var ratio_obj=document.all.vs_change;
+        //alert(ratio_obj.length);
+        //document.forms['fm1'].country[i].checked
+        /*
+         if(top.selLang=="web_old"){
+         document.getElementById("lang_tis").style.display = "";
+         document.getElementById("lang_vi").style.display = "none";
+         }else{
+         document.getElementById("lang_tis").style.display = "none";
+         }
+         */
+        /*
+         for(var i=0; i < ratio_obj.length; i++){
+         if(ratio_obj[i].value==top.selLang){
+         ratio_obj[i].checked=true;
+         break;
+         }
+         }
+         */
+    }
+
+    /*function inputFocus(obj,side){
+     obj.placeholder = "";
+     }
+
+     function inputBlur(obj,side){
+     var placehold="";
+
+     if(side=="username"){
+     placehold=username_placeholder;
+     }else{
+     placehold=passwd_placeholder;
+     }
+
+     obj.placeholder = placehold;
+     }*/
+
+    function isIPad(){
+        var agent = navigator.userAgent;
+        if(agent.indexOf("iPad")!=-1){
+            return true;
+        }
+        return false;
+    }
+
+    function setPassword(){
+        var passwd_def = document.getElementById("passwd_def");
+        passwd_def.style.position = "absolute";
+        passwd_def.style.top = document.getElementById("passwd").style.top;
+        passwd_def.style.left = document.getElementById("passwd").style.left;
+    }
+
+    //placeholder屬性IE系列不能用用程式做	2016-04-13 William
+    function onKeydown(side)//按下按鍵
+    {
+        if(side == "username")
+        {
+            document.getElementById("username_def").style.visibility="hidden";
+        }
+        else if (side == "passwd")
+        {
+            document.getElementById("passwd_def").style.visibility="hidden";
+        }
+    }
+
+    function onKeyup(side)//按下了按鍵離開時
+    {
+        if(side == "username")
+        {
+            if(document.getElementById("username").value == "")
+            {
+                document.getElementById("username_def").style.visibility="";
+            }
+        }
+        else if(side == "passwd")
+        {
+            if(document.getElementById("passwd").value == "")
+            {
+                document.getElementById("passwd_def").style.visibility="";
+            }
+        }
+    }
+
+    var str_username = "";
+    function onFocus(obj,side){
+        var input = document.getElementById (side+"_def");
+        if ('selectionStart' in input) {
+            input.selectionStart = 0;
+            input.selectionEnd = 0;
+            input.focus ();
+        }
+    }
+
+    function onBlur(obj,side){
+        if(side == "username"){
+            if(document.getElementById("username").value == "")
+            {
+                document.getElementById("username_def").style.visibility="";
+            }
+        }
+        else if(side == "passwd"){
+            if(document.getElementById("passwd").value == "")
+            {
+                document.getElementById("passwd_def").style.visibility="";
+            }
+        }
+    }
+
+    function checkNull(obj){
+        return (obj.value == "")?true:false;
+    }
+
+    var intel=0;
+    function key_value(evt){
+        var key = window.event ? evt.keyCode : evt.which;
+
+        if(key == "13"){
+            do_login();
+        }
+    }
+
+    function close_flash(){
+        document.all.show_flash.style.visibility='hidden';
+    }
+
+    function chk_acc(){
+        var username=document.getElementById("username").value;
+        var passwd=document.getElementById("passwd").value;
+
+        top.nametop=username;
+
+        try{
+            var isChceked = document.getElementById("remember").checked;
+        }catch(e){
+            isChceked = false;
+        };
+
+        if(isChceked && username!=""){
+            document.cookie = "username_cookie="+username+";";
+        }
+
+        document.getElementById("JE").value = navigator.javaEnabled();
+        if(username==""){
+            hr_info.innerHTML=top.account;
+            document.all.username.focus();
+            document.getElementById("err_info").style.display = "";
+            return false;
+        }
+        if(passwd==""){
+            hr_info.innerHTML=top.password;
+            document.all.passwd.focus();
+            document.getElementById("err_info").style.display = "";
+            return false;
+        }
+
+        return true;
+        //document.all.mac.value=top.aps.mac;
+        //document.all.ver.value=top.aps.ver;
+
+    }
+
+    var login_version="SERVER";//SERVER or PHP
+    var timeObj;
+    var timeOut=300;//多久執行
+    var checking = false;
+
+    function do_login(){
+        clearTimeout(timeObj)
+        timeObj=setTimeout(login_fun,timeOut);
+    }
+    function show_chg_div(sw){
+        do_login();
+    }
+    /**
+     連對方的資料 iovation 160513
+     **/
+    function login_fun(){
+
+        //if(login_version=="PHP"){
+        //		document.getElementById("err_info").style.display = "none";
+        //		document.getElementById("LoginForm").action = "./login.php?blackbox="+blackbox;
+        //		document.getElementById("LoginForm").submit();
+        //}else{
+        var username=document.getElementById("username").value;
+        var passwd=document.getElementById("passwd").value;
+        var langx=document.getElementById("langx").value;
+        var is_chk=chk_acc();
+        if(is_chk && !checking){
+            checking=true;
+            var req;
+            req = new HttpRequest();
+            req.connectFail=function(stat){alert(top.cnnectFailMsg)};
+            req.addEventListener("LoadComplete", show_msg);
+            req.loadURL("/app/member/login.php","POST", "username="+username+"&passwd="+passwd+"&langx="+langx+"&auto="+top.iovationKey+"&blackbox="+top.blackbox);
+        }
+        //}
+    }
+
+    function show_msg(msg){
+        var msg_arr = msg.split("|");
+        var statu=msg_arr[0];
+        var msg=msg_arr[1];
+        var code_message=msg_arr[2];
+        var uid=msg_arr[3];
+        var mtype=msg_arr[4];
+        var langx=msg_arr[5];
+        var username=document.getElementById("username").value;
+        var passwd=document.getElementById("passwd").value;
+        var protocol = document.location.protocol;
+
+        if(statu =="200"){
+            /*
+             $arr_out['login']['status']."|".
+             $arr_out['login']['msg']."|".
+             $arr_out['login']['code_message']."|".
+             $arr_out['login']['uid']."|".
+             $arr_out['login']['ltype']."|".
+             $arr_out['login']['langx'];
+             */
+
+            //100:正常登入 (101 102 103:傳錯誤訊息) 104:轉導更改安全代碼 105:無此帳號 106:三十天未修改密碼
+
+            top.uid=uid;
+            top.langx=langx;
+            top.hot_game="";
+            top.hasLogin = 'login';
+            top.mtype=mtype;
+            if(msg=="100"){
+                //window.location.href =protocol+"//"+document.domain+"/app/member/FT_index.php?mtype="+mtype+"&uid="+uid+"&langx="+langx+"&news_mem=Y";
+                if(chg_site()){
+                    window.location.href =protocol+"//"+document.domain+"/app/member/FT_index.php?mtype="+mtype+"&uid="+uid+"&langx="+langx+"&news_mem=Y";
+                }else{
+                    window.location.href =protocol+"//"+document.domain+"/app/member/chg_site.php?uid="+uid+"&langx="+langx+"&outside=Y"+"&new_domain="+chgURL_domain+"&mtype="+mtype;
+                }
+            }else if(msg=="104"){
+                checking = false;
+                //window.location.href= protocol+"//"+document.domain+"/app/member/account/chg_passwd_safe.php?uid="+uid+"&username="+username+"&password="+passwd+"&langx="+langx+"&mtype="+mtype;
+                // 2017-05-02 3074.ie10以下-新版會員端-第一次登入的帳號更改完登錄帳號或密碼後,登入新版會員端沒有秀“您的瀏覽器版本太舊”頁面
+
+                if(now_site=="new" && chg_site()){
+                    window.location.href= protocol+"//"+document.domain+"/app/member/account/chg_passwd_safe.php?uid="+uid+"&username="+username+"&password="+passwd+"&langx="+langx+"&mtype="+mtype;
+                }else{
+                    window.location.href =protocol+"//"+document.domain+"/app/member/chg_site.php?uid="+uid+"&langx="+langx+"&outside=Y"+"&new_domain="+chgURL_domain+"&mtype="+mtype+"&code="+msg+"&username="+username+"&password="+passwd;
+                }
+            }else if(msg=="106"){
+                checking = false;
+                //window.location.href= protocol+"//"+document.domain+"/app/member/account/chg_passwd.php?uid="+uid+"&flag=3&langx="+langx;
+                // 2017-05-02 3074.ie10以下-新版會員端-第一次登入的帳號更改完登錄帳號或密碼後,登入新版會員端沒有秀“您的瀏覽器版本太舊”頁面
+                if(now_site=="new" && chg_site()){
+                    window.location.href= protocol+"//"+document.domain+"/app/member/account/chg_passwd.php?uid="+uid+"&flag=3&langx="+langx;
+                }else{
+                    window.location.href =protocol+"//"+document.domain+"/app/member/chg_site.php?uid="+uid+"&langx="+langx+"&outside=Y"+"&new_domain="+chgURL_domain+"&mtype="+mtype+"&code="+msg;
+                }
+            }
+
+        }else {
+            if(msg=="403"){
+                //alert(protocol+"//"+document.domain+"/tpl/forbidden.html");
+                top.location.href = protocol+"//"+document.domain+"/forbidden.php";
+            }else{
+                document.getElementById("hr_info").innerHTML=code_message;
+                document.getElementById("err_info").style.display = "";
+                document.getElementById("passwd").value = "";
+                document.getElementById("passwd").focus();
+                checking = false;
+            }
+        }
+    }
+    function chgSiteFinish(){
+        var h = document.getElementById("i_site").contentWindow.document.body.scrollHeight;
+    }
+    function go_old_domain(){
+        new_domain = chgURL_domain;
+        window.location.href =protocol+"//"+new_domain+"/app/member/FT_index.php?mtype="+mtype+"&uid="+uid+"&langx="+langx+"&news_mem=Y";
+
+    }
+    function topGoToUrl(url){
+        var out = "";
+        out+="<form id='newdomain' action='"+url+"' method='POST' target='_top'>";
+        out+="<input type='hidden' name='uid' value='"+top.uid+"'>";
+        out+="<input type='hidden' name='langx' value='"+top.langx+"'>";
+        out+="<input type='hidden' name='mtype' value='"+top.mtype+"'>";
+        out+="<input type='hidden' name='chghasLogin' value='login'>";
+        out+="</form>";
+        document.body.innerHTML = out;
+        document.getElementById("newdomain").submit();
+    }
+
+    function click_new(){
+        var protocol = document.location.protocol;
+        top.selLang="web_new";
+        document.getElementById("lang_tis").style.display = "none";
+        document.getElementById("lang_vi").style.display = "";
+        if(document.getElementById("langx").value=="th-tis"){
+            self.location.href=protocol+"//"+document.domain+"/app/member/translate.php?set=en-us&url=app/member/index.php";
+        }
+    }
+
+    function click_old(){
+        top.selLang="web_old";
+        document.getElementById("lang_tis").style.display = "";
+        document.getElementById("lang_vi").style.display = "none";
+    }
+
+    function scrollFun(){
+        //alert(document.body.scrollWidth);
+        window.scroll(document.body.scrollWidth,0);
+    }
+    function iframe_onError(iframe,errorfunc){
+        try{
+            check = iframe.contentWindow.document.body.onload;
+        }catch(e){
+            check = null;
+        }
+        //console.log(iframe.id+"|"+iframe.contentWindow.location);
+        if(check == null && iframe.loadsrc != undefined ){
+            iframe.times = iframe.times || 0;
+            errorfunc(iframe);
+        }else{
+            iframe.times = 0;
+            try{
+                iframe.loadsrc = ""+iframe.contentWindow.location;
+            }catch(e){}
+        }
+    }
+    function showerror(e){
+        e.times+=1;
+        if(e.times > 10)	return;
+        setTimeout(function(){e.contentWindow.location=e.loadsrc;},5000);
+    }
+
+    function chg_site(){
+
+        var ret = false;
+        var agent = navigator.userAgent;
+        var ie = "MSIE";
+        var pos = agent.indexOf(ie);
+        //Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C)
+
+        //Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+        //Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+        var brows = new Array("Chrome","Safari","Firefox","rv:11");
+        //alert(agent)
+
+        if(pos!=-1){
+            var tmp_agent = agent.substring(pos+ie.length,agent.length);
+            var str = tmp_agent.indexOf(".");
+            var version = tmp_agent.substring(0, str);
+            if(version*1>=11) ret = true;
+        }
+
+        for(var i=0;i<brows.length;i++){
+            if(agent.indexOf(brows[i]) != -1){
+                ret = true;
+                break;
+            }
+        }
+
+        return ret;
+    }
+
+    function forgot_pwd(){
+        var langx=document.getElementById("langx").value;
+        var protocol = document.location.protocol;
+        window.location.href= protocol+"//"+document.domain+"/app/member/account/forgot_pwd.php?langx="+langx;
+    }
+
+    /*
+     function set_img(){
+     strChk_Number = (""+Math.random()).substr(2,4);
+     intImg.innerHTML=strChk_Number;
+     intDa= (1*strChk_Number) % 3 + 1;
+     eval("document.getElementById('img_pic').background ='/images/member/chk_img0"+intDa+".gif'");
+     }
+     */
+    //-->
+</script>
+    <script language="javascript" src="/js/zh-tw.js"></script>
+    <script language="javascript" src="../../../js/HttpRequest.js"></script>
+    <script>
+    var now_site = "new";
+
+    function setDomainEvent(){
+        document.getElementById("newspan").onclick = clickHandler;
+        document.getElementById("newspan").onmouseover = overHandler;
+        document.getElementById("newspan").onmouseout = outHandler;
+        document.getElementById("oldspan").onclick = hgg010;
+        document.getElementById("oldspan").onmouseover = overHandler;
+        document.getElementById("oldspan").onmouseout = outHandler;
+    }
+
+    function hgg010(){
+        top.location.href = "http://pc.1198160.com";
+    }
+
+
+    //click
+    function clickHandler(e){
+        var obj = getTarget(e);
+        var domain_type = obj.id.substr(0,3);
+
+        setClassOut(document.getElementById(now_site+"span"), now_site);
+        setClassOn(document.getElementById(domain_type+"span"), domain_type);
+
+        now_site = domain_type;
+    }
+
+    //mouse over
+    function overHandler(e){
+
+        var obj = getTarget(e);
+        var _id = obj.id;
+        var site = _id.substr(0,3);
+
+        setClassOn(obj, site);
+
+    }
+
+    //mouse out
+    function outHandler(e){
+
+        var obj = getTarget(e);
+        var _id = obj.id;
+        var site = _id.substr(0,3);
+
+        if(site!=now_site){
+            setClassOut(obj, site);
+        }
+
+    }
+
+    function setClassOut(obj, site){
+        obj.className = "index_"+site+"_btn_out";
+    }
+
+    function setClassOn(obj, site){
+        obj.className = "index_"+site+"_btn";
+    }
+
+
+    function isIE10(){
+        var ret = false;
+        var agent = navigator.userAgent;
+        var ie = "MSIE";
+        var pos = agent.indexOf(ie);
+        //Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C)
+
+        if(pos!=-1){
+            var tmp_agent = agent.substring(pos+ie.length,agent.length);
+            var str = tmp_agent.indexOf(".");
+            var version = tmp_agent.substring(0, str);
+            if(version*1<=10) ret = true;
+        }
+        return ret;
+    }
+    function getTarget(evt){
+        var e = evt||window.event;
+        if(navigator.userAgent.indexOf("MSIE")!=-1) return e.srcElement;
+        return e.target;
+    }
+
+    function getProtocol(){
+        return document.location.protocol;
+    }
+</script>
+    <script>
+        top.hide_ad = '66.133.87.54,';
+    </script>
+
+
+</head>
+
+<body onLoad="show();">
+<div class="title">
+    <table class="language" cellpadding="0" cellspacing="0" border="0"><tr>
+        <td id="lang_cn" class="lang" width="106"><a  href='/app/member/translate.php?set=zh-cn&url=/app/member/index.php' >简体版</a></td>
+        <td id="lang_tw" class="lang2" width="106"><a >繁體版</a></td>
+        <td id="lang_en" class="lang" width="106"><a  href='/app/member/translate.php?set=en-us&url=/app/member/index.php' >English</a></td>
+        <!--<td id="lang_tis" class="lang"><a  href='/app/member/translate.php?set=th-tis&url=/app/member/index.php' >ภาษาไทย</a></td>-->
+    </tr>
+    </table>
+</div>
+<div class="mem"><!--<div class="img"></div>-->
+    <div class="index_top_pic"></div>
+    <div class="log">
+        <form id="LoginForm" name="LoginForm" action="" method="post">
+            <input type=HIDDEN id="uid" name="uid" value="">
+            <input type=HIDDEN id="langx" name="langx" value="zh-tw">
+            <input type=HIDDEN id="mac" name="mac" value="">
+            <input type=HIDDEN id="ver" name="ver" value="">
+            <input type="hidden" id="JE" name="JE" value="">
+            <div id="div_site" class="index_on_btn" ><span id="oldspan" class="index_old_btn_out">舊網站</span><span id="newspan" class="index_new_btn">新網站</span></div>
+            <table border="0" cellpadding="0" cellspacing="0" class="bord">
+                <!--tr>
+                    <td class="txt">需登入才能使用服務。</td>
+                </tr-->
+                <tr>
+                    <td width="6">&nbsp;</td>
+                    <td class="index_ID index_line"><img src="/images/member/index_ID.jpg"></td>
+                    <td class="index_line place_colorTD">
+                            <input type="text" id="username" name="username" size="15" class="place_colorBOX" maxlength="20" tabindex="1" onKeyDown="onKeydown('username')" onKeyUp="onKeyup('username')" onBlur="onBlur(this,'username');">
+                        <input type="text" id="username_def" size="15" class="place_color" maxlength="20" tabindex="1" value=" 登錄帳號">
+
+                    </td>
+                    <td width="6">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width="6">&nbsp;</td>
+                    <td class="index_ID"><img src="/images/member/index_pass.jpg"></td>
+                    <td class="place_colorTD">
+                         <input type="password" id="passwd" size="15" class="place_colorBOX" maxlength="20" tabindex="2"onKeyDown="onKeydown('passwd')" onKeyUp="onKeyup('passwd')" onBlur="onBlur(this,'passwd');">
+                        <input type="text" id="passwd_def" size="15" class="place_color" maxlength="20" tabindex="2" value=" 密碼">
+                    </td>
+                    <td width="6">&nbsp;</td>
+                </tr>
+            </table>
+               <div id="err_info" class="err_info" style="display:none;"><font id="hr_info">請輸入帳號.</font></div>
+            <div class="index_re"><span class="err_position"><label><input type="checkbox" id="remember" class="index_box"><span></span>記住我的帳號</label></span><span class="index_fot" onClick="forgot_pwd();">忘記密碼?</span><!--div class="index_try" >立即體驗!</div--></div>
+            <div class="btn"><div class="za_button" onClick="do_login();">登入</div></div>
+        </form>
+    </div>
+    <a {SHOW_BANNER} class="banner" href="javascript:top.window.location.href='/';"><span>pc.1198160.com</span></a>
+    <!--div class="banner_festival"></div--><!--節日專用-->
+</div>
+
+
+</body>
+
+</html>

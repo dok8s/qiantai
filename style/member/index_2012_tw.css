@@ -1,0 +1,90 @@
+body {	margin: 0px;}
+.sub {
+	font: 16px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.txt {	font: 12px Arial, Helvetica, sans-serif;}
+
+.mem {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 43px;
+}
+
+.mem .img{
+	margin-left: 93px;
+	background: url(../../images/member/index_2012_cn.jpg) no-repeat;
+	height: 263px;
+	width: 515px;
+}
+.bord {
+	background-color: #EBF4FB;
+	border: 2px double #C3D9FF;
+}
+
+.log {
+	position: absolute;
+	top: 80px;
+	left: 700px;
+}
+
+.foot {
+	background-color: #E4EBF6;
+	display: block;
+	height: 25px;
+	width: 1024px;
+	color: #666666;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+.foot2 {
+	position: absolute;
+	left: 300px;
+}
+li {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+}
+.title {background-image: url(../../../images/member/index_titlebg.jpg);
+	background-repeat: repeat-x;
+	width: 1024px;
+	margin-top: 2px;
+}
+.za_text {  font-family: "Arial"; font-size: 12px; height: 20px}
+.za_button {
+	font-family: "Arial";
+	font-size: 12px;
+	height: 28px;
+	width: 65px;
+	margin-left: 10px;
+}
+a:link, a:visited {
+	color: #0066CC;
+}
+a:hover, a:active {
+	color: #0000FF;
+}
+
+.virus {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #006;
+	text-decoration: none;
+	position: absolute;
+	top: 18px;
+}
+.virus a:link , .virus a:visited {	color: #009;	text-decoration: none;}
+.virus a:hover {	color: #F30;	text-decoration: none;}
+.lang2 {	font:12px  Arial, Helvetica, sans-serif;	color: #C00;	top: 18px;}
+.lang {	font: 12px Arial, Helvetica, sans-serif;	color: #00F;	top: 18px;}
+.lang a:link , .lang a:visited {color: #00F;text-decoration: underline;}
+.lang a:hover {color: #F63;text-decoration: none;}
+.table {position: absolute;left:700px;top: 25px;width: 260px;color: #00F;text-decoration: underline;}
+
+/*2012*/
+.mobile { width:250px; height:74px;border: 2px double #C3D9FF;background: #EBF4FB url(../../images/member/index_mx_phon.jpg) no-repeat 0 50%; font: 12px Arial, Helvetica, sans-serif;}
+.mobile span { font-weight:bold;color: #06C; text-decoration:underline;}

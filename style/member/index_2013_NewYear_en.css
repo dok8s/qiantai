@@ -1,0 +1,47 @@
+
+body {	margin: 0px;/* text-align:center;*/background:url(../../images/member/index_2013_NewYear_bg.jpg)  repeat-x 0 0;}
+
+form, table { margin:0; padding:0;}
+td { font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.title {	display: block; /*width: 948px;*/width: 1033px;margin-top: 56px;text-align:right;/*margin-left:auto; margin-right:auto;*/}
+.language {width: 235px; height:14px; margin-left:798px; margin-bottom:8px; color: #00F;}
+.sub {
+	font: 16px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.err_info { height:37px; padding-top:10px; color:#C00; font-size:12px;}/*en change*/
+.txt { padding-bottom:2px;font: 12px Arial, Helvetica, sans-serif !important; font-weight:bold;}/*en change*/
+
+/*春節*/
+.newYear_L { display:block; top:0; /*width:1488px; */ width:100%;height:600px; /*margin-left:auto; margin-right:auto; */text-align:left; overflow:hidden;
+background:url(../../images/member/index_2013_NY_Lantern_s.png) no-repeat 0 0;}
+.newYear_R {display:block; top:0; margin-top:0; /*width:1488px; */ width:100%; height:600px;  background:url(../../images/member/index_2013_NY_Lantern_m.png) no-repeat 902px 0 ; overflow:hidden;}
+.mem {  display: block; margin-left:223px; width:950px; margin-top:5px;text-align:left;}
+
+.mem .img{ z-index:100; position:absolute; display:block; float: left; width: 555px;height: 198px;background: url(../../images/member/index_2013_NewYear_en.jpg) no-repeat;}
+.mem .log {  z-index:100;position:absolute; display:block;float:left; text-align:center; margin-left:575px;width:235px; height:198px;border: 1px double #C8C8C8;}
+
+.bord { width:148px; margin-left:auto; margin-right:auto;}
+.bord td { font-size:11px;}/*en change*/
+
+.za_text { width:148px; height: 20px; margin-top:1px; margin-bottom:2px;  font-family: "Arial"; font-size: 12px; border:solid 1px #7F9DB9;}/*en change*/
+.za_button {	width:91px; height:29px; cursor:pointer; cursor:hand; border:none; background: url(../../images/member/en-us/index_login.gif) no-repeat;}
+a:link, a:visited {	color:#1066BB;text-decoration: none;}
+a:hover, a:active {	color: #0FF;}
+.lang2 {	font:12px  Arial, Helvetica, sans-serif;	color: #1066BB;top: 18px;text-decoration: underline; font-weight:bold;}
+.lang {	font: 12px Arial, Helvetica, sans-serif;	color: #313131;top: 18px;}
+.lang a:link , .lang a:visited {color: #313131;text-decoration: none;}
+.lang a:hover {color: #F63;text-decoration: underline;}
+.version { width:210px; margin-top:2px; margin-bottom:5px; margin-left:auto; margin-right:auto;}
+.version td { font-size:11px;}
+.chk_box { width:24px;}
+.btn { width:148px;text-align: right; margin-left:auto; margin-right:auto;}
+.vs_new { width:50%; font-weight:bold;}
+.vs_old { text-align:right;}
+
+.news { position:absolute;display: block; top:312px; margin-left:206px; clear:left; width:836px; height:186px;z-index:100;}
+.upgrade { float:left; display:block; margin-top:36px; width:228px; height:126px; background:url(../../images/member/en-us/index_upgrade.png) no-repeat;}
+.tv { float:left; display:block; margin-top:36px; margin-left:62px; width:276px; height:119px; background:url(../../images/member/en-us/index_tv.png) no-repeat;}
+.moblie { float:left; display:block; margin-top:36px; margin-left:13px; width:257px; height:113px; background:url(../../images/member/en-us/index_moblie.png) no-repeat;}
+
+.foot { clear:left;position:absolute; display:block; top:497px;  width:308px; height:76px; margin-top:15px; margin-left:471px; /*margin-left:auto; margin-right:auto;*/ background:url(../../images/member/en-us/index_browser.gif) no-repeat 0 0; }

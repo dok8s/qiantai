@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Robots" contect="none">
+<title>Sportsbook Rules</title>
+<link rel="stylesheet" href="/style/member/mem_qa.css" type="text/css">
+<link rel="stylesheet" href="/style/member/mem_qa_roul.css" type="text/css">
+
+<script language="javascript" src="/js/QA_sport.js"></script>
+</head>
+<body id="SPORT" onSelectStart="self.event.returnValue=false" oncontextmenu="self.event.returnValue=false;window.event.returnValue=false;">
+<div class="qa_head"><em>帮助</em><span class="close_box" onClick="window.close();">关闭</span></div>
+<div id="wrapper">
+	
+    <div id="qa_nav">
+      <ul>
+        <li class="sport"><a href="../QA_sport.html">体育规则</a></li>
+        <li class="rule"><a href="../QA_roul.html">规则与条款</a></li>
+        <li class="wap"><a href="../roul_mp.html" OnClick="window.open('/tpl/member/zh-tw/roul_mp.html','ROUL','location=no,status=no,width=680,height=500,toolbar=no,top=0,left=0,scrollbars=no,resizable=no,personalbar=yes');window.close();">Wap指南</a></li>
+        <li class="odd"><a href="../QA_way.html">赔率计算列表</a></li>
+        <li class="mail"><a href="../QA_conn.html">联系我们</a></li>
+      </ul>
+    </div>
+    
+    <div id="main">
+    <a name="top"></a>
+    	<h1>选择体育项目 : 
+    	  <label>
+    	    <select name="jumpMenu" id="jumpMenu" onchange="chg_roul(this.options[this.selectedIndex].value);">
+    	  	<option value="../QA_sport.html">一般体育说明</option>
+    	    <option value="outright.html">冠军</option>
+            <option value="parlays-multiples.html">连串过关 / 复式过关</option>
+            <option value="roul_nf.html">美式足球</option>
+            <option value="archery.html">射箭和射击</option>
+            <option value="athletic.html">田径</option>
+            <option value="aussie.html">澳式足球</option>
+            <option value="badminton.html">羽毛球</option>
+            <option value="baseball.html">棒球</option>
+            <option value="basketball.html" selected="selected">篮球</option>
+            <option value="beach-soccer.html">沙滩足球</option>
+            <option value="beach-volleyball.html">沙滩排球</option>
+            <option value="boxing.html">拳击 / 搏斗</option>
+            <option value="cricket.html">板球</option>
+            <option value="cycling.html">自行车</option>
+            <option value="darts.html">飞镖</option>
+            <option value="e-sports.html">电子竞技</option>
+            <option value="field-hockey.html">曲棍球</option>
+            <option value="financial-bets.html">金融投注</option>
+            <option value="football.html">足球</option>
+            <option value="futsal.html">室内足球</option>
+            <option value="golf.html">高尔夫</option>
+            <option value="gymnastics.html">体操</option>
+            <option value="handball.html">手球</option>
+            <option value="ice-hockey.html">冰球</option>
+            <option value="judo.html">柔道、摔交、跆拳道</option>
+            <!--<option value="major-league-lacrosse.html">袋棍球</option>-->            
+            <option value="lacrosse.html">长曲棍球</option>
+            <option value="medal-betting.html">体育/奖章投注</option>
+            <option value="motor-sports.html">赛车</option>
+            <option value="olympics.html">奥林匹克或相关事件投注</option>            
+            <option value="rowing.html">赛艇和皮划艇</option>
+            <option value="rugby-league.html">橄榄球联盟</option>
+            <option value="snooker.html">斯诺克/台球</option>            
+            <option value="softball.html">垒球</option>
+            <!--<option value="swimming.html">游泳</option>-->          
+            <option value="table-tennis.html">乒乓球</option>
+            <!--<option value="taekwondo.html">跆拳道</option>-->
+            <option value="tennis.html">网球</option>
+            <option value="tamp.html">三项全能和现代五项运</option>
+            <!--<option value="ultimate-fighting.html">终极格斗锦标赛（综合格斗大赛）</option>-->           
+            <option value="volleyball.html">排球</option>
+            <option value="water-polo.html">水球</option>
+            <option value="weightlifting.html">举重</option>
+            <!--<option value="wrestling.html">角力</option>-->            
+            <option value="wintersports-winterolympics.html">冬季运动 & 冬季奥运会 / 比赛</option>
+  	    </select>
+  	    </label>
+    	
+    	 
+  	          
+    	</h1>
+        <div id="info"><!--资料区-->
+    <p class="b sub">篮球</p>
+    <p class="b sub"><em>最后更新日期：9/25/2012</em></p>
+    <p class="b sub">1. 一般规则</p>
+    <ul style="list-style:decimal">
+      <li>如果比赛场地有变更，所有注单将被取消。 </li>
+      <li>NBA/NBL篮球赛事必须至少进行43分钟，投注的注单才被视为有效。任何其他的篮球联赛或比赛，至少要进行35分钟，投注的注单才被视为有效，除非另有注明。 </li>
+      <li>美国大学篮球联赛至少必须进行35分钟，投注的注单才被视为有效，除非另有注明。 </li>
+      <li>如赛事中断，暂停或者延后并不在官方开赛时间12小时内重新开始，除了潜在进球不影响注单最终结果以外，其他情况一律无效，除非声明或单独的体育规则。公司决定取消赛事所有的注单的结果被视为最终结果，不参考任何官方赛事裁判的决定或相关部门。连串投注将会按照剩余投注赛果结算。</li>
+      <li>如果赛事是在上半场中断，所有上半场的注单将被取消。如果赛事是在下半场中断所有上半场的投注保持有效，但所有下半场的注单将被取消，除非在个别玩法规则另有注明。 </li>
+      <li>如果赛事是在上半场中断，所有上半场的注单将被取消。如果赛事是在下半场中断所有上半场的投注保持有效，但所有下半场的注单将被取消，除非在个别玩法规则另有注明。 </li>
+      <li>单节/半场的投注，比赛必须完成赛节注单才被视为有效，除非在个别玩法规则另有注明。 </li>
+      <li>第四节投注不包括加时赛。 </li>
+      <li>美国大学篮球联赛场地规则：盘口指示的"主场"和"客场"信息仅供参考。无论原定场地是否更改为"主场"，"客场"或"中立场"，所有注单将保持有效。 </li>
+      <li>除非个别玩法规则另有注明，赛事完场时间将包括加时赛。 </li>
+      <li>如比赛在法定时间提前进行，在比赛开始前的投注依然有效，在比赛开始后的所有投注均视为无效(滚球投注另作别论)。 </li>
+    </ul>
+    <p class="b sub">2. 投注类型</p>
+    <p>以下列出篮球可提供的个别玩法规则。 </p>
+    <ul style="margin-left: 25px;">
+      <p class="b sub">2.1. 独赢盘</p>
+      <ul style="list-style:decimal">
+        <li>预测哪一支球队将在比赛胜出。盘口提供两支球队为投注选项。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.2. 让分盘</p>
+      <ul style="list-style:decimal">
+        <li>预测哪一支球队在盘口指定的让分球数在半场/全场/赛事单节赢得比赛。 </li>
+        <li>如果赛事在下半场取消或中断，所有上半场注单保持有效。 </li>
+        <li>如果赛事在下半场取消或中断，所有下半场注单将被取消。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.3. 滚球让分盘</p>
+      <ul style="list-style:decimal">
+        <li>预测哪一支球队在盘口指定的让分数里赢得半场/全场/赛事单节的比赛。 </li>
+        <li>结算是以0-0的比分在比赛/时节结束后按盘口开出的让分球数做裁决。投注当时的比分对结算没有影响。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.4. 大/小盘（总比分）</p>
+      <ul style="list-style:decimal">
+        <li>预测赛事总比分将大于或小于在盘口指定的大/小盘分数。 </li>
+        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大/小盘注单才会被结算。若遇到任何其他情况，注单将一律被取消。 </li>
+        <li>如果赛事在上半场中断，所有上半场注单将被取消，除非中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况注单才会被结算。 </li>
+        <li>如果赛事在下半场取消或中断，所有上半场注单保持有效。 </li>
+        <li>如果赛事在下半场取消或中断，所有下半场注单将被取消，除非中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况注单才会被结算。 </li>
+        <li>如果赛事中断, 所有时节的注单将被取消除非遇到以下其中一个情况：
+          <ul style="list-style:lower-alpha">
+            <li>投注的时节是在比赛中断前。 </li>
+            <li>比赛中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况。 </li>
+          </ul>
+        </li>
+      </ul>
+      <br />
+      <p class="b sub">2.5. 滚球大/小盘（总比分）</p>
+      <ul style="list-style:decimal">
+        <li>预测赛事总比分将大于或小于在盘口指定的大/小盘分数。 </li>
+        <li>结算是以0-0的比分在比赛/时节结束后按盘口开出的让分数做裁决。投注当时的比分对结算没有影响。 </li>
+        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大/小盘注单才会被结算。若遇到任何其他情况，注单将一律被取消。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.6. 单/双</p>
+      <ul style="list-style:decimal">
+        <li>预测赛事的总比分是单数或双数。加时赛将包括在内。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.7. 最先得分球队</p>
+      <ul style="list-style:decimal">
+        <li>预测最先得分的球队。 </li>
+        <li>如果赛事在有得分后中断，所有最先得分球队的注单将保持有效。 </li>
+        <li>如果赛事在没有球队得分前中断，所有最先得分球队的注单将被取消。 </li>
+        <li>如果赛事在4节完场时间以及加时赛内没有球队得分，所有最先得分球队的注单将被取消。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.8. 最后得分球队</p>
+      <ul style="list-style:decimal">
+        <li>预测最后得分的球队。 </li>
+        <li>如果赛事中断， 所有最后得分球队的注单将被取消。 </li>
+        <li>如果赛事在4节完场时间以及加时赛内没有球队得分，所有最后得分球队的注单将被取消。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.9. 单节最高得分球队</p>
+      <ul style="list-style:decimal">
+        <li>预测单节最高得分的球队。 </li>
+        <li>加时赛不计算在内。 </li>
+        <li>如果赛事中断，所有单节最高得分球队的注单将被取消。 </li>
+        <li>如果赛事在4节完场时间以及加时赛内没有球队得分，所有最后单节最高得分球队的注单将被取消。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.10. 每节最先获得20分的球队</p>
+      <ul style="list-style:decimal">
+        <li>预测每节最先得20分的球队。 </li>
+        <li>加时赛不计算在内。 </li>
+        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，注单才会被结算。若遇到任何其他情况，注单将一律被取消。 </li>
+        <li>如果每节都没有球队获得20分，所有注单将被取消。 </li>
+        <li>取决于赛事，玩法指定球队需最先获得的分数可能有变化，并且会清楚的显示在盘口。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.11. 篮球特别投注</p>
+      <ul style="list-style:decimal">
+        <li>预测比分，抢断，篮板，助攻，3分球等。 </li>
+        <li>注单的结算将根据赛事（包括加时赛）官方冠军赛果为准。 </li>
+        <li>双方球员/球队必须参与比赛，投注才被视为有效。 </li>
+        <li>如果一方或双方球员/球队没有参与比赛，所有注单将被取消。 </li>
+        <li>注单的结算将根据NBA或特别官方机构公布的结果为准，并且任何赛后更改的数据将被视为无效。 </li>
+      </ul>
+      <br />
+      <p class="b sub">2.12. 梦幻篮球游戏规则</p>
+      <ul style="list-style:decimal">
+        <li>梦幻篮球游戏将从同一天的赛事中任意选择两个球队（且原定不是在同一场赛事比赛的球队）进行投注。 </li>
+        <li>梦幻比赛赛果会根据球队真实的比分为准；梦幻比赛的让分数则以球队真实比分来计算。 </li>
+        <li>梦幻赛中的两支球队必须在同一天比赛，投注才被视为有效。 </li>
+        <li>如果球队的比赛日子和本公司网站显示的日子不在同一天，所有涉及此球队的梦幻赛注单将被取消。 </li>
+        <li>梦幻赛投注将不考虑赛事实际进行的场地。 </li>
+        <li>梦幻赛的举例如下:
+          <ul style="list-style:lower-alpha">
+            <li>波士顿凯尔特人101 – 98 芝加哥公牛，洛杉矶湖人118 – 101 奥兰多魔术</li>
+            <li>梦幻赛1： 波士顿凯尔特人vs 洛杉矶湖人</li>
+            <li>梦幻赛赛果：波士顿凯尔特人101 – 118洛杉矶湖人</li>
+            <li>梦幻赛的结算会根据各球队原定比赛的真实得分為準。 </li>
+          </ul>
+        </li>
+        <li>球队一定要实际完成原定比赛并且已在赛事的官方机构（例如：NBA）留下赛果记录，才能让涉及此球队的梦幻赛注单保持有效。如果球队没有完成原定比赛或最终赛果被官方否定，所有涉及此球队的梦幻赛注单将被取消。 </li>
+        <li>所有梦幻赛都将按照篮球个别玩法的规则和标准裁决。 </li>
+      </ul>
+      <br />
+    </ul>
+ <div class="to_top"><a href="#top"><span>回最上层</span></a></div>
+</div><!--资料区 End-->
+    </div>
+    
+</div>
+<div class="qa_foot"></div>
+</body>
+</html>

@@ -1,0 +1,279 @@
+/*Live TV 2011-08-01*/
+/*Reset*/
+body, div, ul,  li,
+h1, h2, h3, h4, h5, h6, p, table, td, select {
+	margin: 0;
+	padding: 0;
+	}
+address, em, strong {
+	font-style: inherit;
+	font-weight: inherit;
+	}
+li {	list-style: none;	}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+	}
+	
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background: #493721 url(/images/member/live_head_bg.gif) repeat-x;
+	 scrollbar-face-color: #DCD1C5;
+	 scrollbar-shadow-color: #B9A38B;
+	 scrollbar-highlight-color: #E6DED6;
+	 scrollbar-3dlight-color: #B9A38B;
+	 scrollbar-darkshadow-color: #33281C;
+	 scrollbar-track-color: #33281C;
+	 scrollbar-arrow-color: #413528;
+	overflow-x:hidden; 
+}
+form { margin:0; padding:0;}
+a { text-decoration: none; font-weight:bold;}
+a:link, a:visited {	color: #C00;}
+a:hover { color:#006;}
+
+/*======================================左======================================*/
+td {font-family: Arial, Helvetica, sans-serif;font-size:12px;/* border:solid 1px #6C0;*/}
+/*top*/
+.head { height:67px; width:484px; padding-top:10px; text-align: right; vertical-align:top; font:12px  Arial, Helvetica, sans-serif; color:#FFF; background: url(/images/member/live_head.gif) no-repeat 10px 13px; }
+html>body .head {height:57px;}
+.head a { font-weight:normal;}
+.head a:link, .head a:visited {color: #FFF;}
+.head a:hover {	color: #FF0;}
+	.demo {padding-right: 5px;}
+	.FQ {	padding-left: 6px; padding-right:11px;}
+/*樣圖*/
+.demoIMG {height: 500px; width:511px;/* border: 1px solid #331801;*/	background: url(../../images/member/demo.jpg) no-repeat 0 0;}
+/*Flash*/
+.FlahLayer { width:495px; vertical-align:top;}
+.league_name { margin-left:7px;}
+
+/*======================================右選單-日程表======================================*/
+#main, #main_bet {position:absolute; top:7px; left:511px;	width: 260px; height:560px;	margin:0; clear:both; font: 12px  Arial, Helvetica, sans-serif;}
+/* 標簽 */
+#menu, #menu_bet {/* position:absolute; left:511px;*/ top:7px;width: 260px;	*padding-bottom: 0px/*IE Hack*/;	font: 12px Arial, Helvetica, sans-serif;}
+/*html>body #menu { height:42px; }Mac Hack*/
+#menu .list_out,  #menu_bet .list_out {padding-top: 13px;	cursor: hand;	float: left; width:130px;	height: 32px;color: #E9B567;	font-weight:bold!important; text-align:center; background: url(../../images/member/live_list_out.gif) no-repeat left top;}
+#menu .bet_out, #menu_bet .bet_out {padding-top: 13px;	cursor: hand;float: right;width: 130px;	height: 32px;color: #E9B567; font-weight:bold!important; text-align:center; background: url(../../images/member/live_bet_out.gif) no-repeat right top;}
+/*Mac Hack*/
+html>body #menu .list_out,  html>body  #menu_bet .list_out , html>body #menu .bet_out, html>body  #menu_bet .bet_out { height: 19px; margin-bottom:-2px;}
+/* 標簽換底色 */
+/*-------Thie is for IE Hack notes ,Don't delete-----*/
+#menu .list_on, #menu_bet .list_on {padding-top: 11px;	cursor: hand;	float: left; width: 130px;	height: 32px;color: #3B2D1B;	font-weight:bold!important; text-align:center;  background: url(../../images/member/live_list_on.gif) no-repeat left top;}
+#menu .bet_on, #menu_bet .bet_on {padding-top: 11px;	cursor: hand;float: right;width: 130px;	height: 32px;color: #3B2D1B;font-weight:bold!important; text-align:center;  background: url(../../images/member/live_bet_on.gif) no-repeat right top;}
+/*Mac Hack*/
+html>body  #menu .list_on, html>body  #menu_bet .list_on, html>body  #menu .bet_on, html>body  #menu_bet .bet_on  { height: 19px; margin-bottom:-2px;}
+#sel_game { padding:10px 10px 9px; background-color:#FEF6E4; clear: both;}
+#sel_game select { width:99px; border:1px solid #B6ACAA; font-size:11px;}
+/*選擇日期*/
+select.se_date { margin-left:10px;}
+/*秒數更新*/
+.re_time { display:block; float:right; margin:-30px 10px 0 0; width:18px; height:18px; padding:2px 0 0 1px; color:#FFF; font: 11px  Arial, Helvetica, sans-serif; text-align:center; background: url(../../images/member/live_re_time.jpg) no-repeat;}
+html>body .re_time{ margin:0;}
+/*無賽事*/
+.even_none {/* height:528px;*/ text-align:center; padding-top:40px; margin-bottom:10px; font-weight:bold; background-color:#FEF6E4;}
+
+/*有賽事-外層*/
+.even_box {padding:0 10px 10px; height:489px; background-color:#FEF6E4;/* background:url(../../images/member/test_bg.gif) no-repeat;*/}
+html>body .even_box {height:483px;}
+/*出現拉霸層*/
+.even_list {  overflow-y:auto; width:100%; height: 481px; color:#2F312E; border: solid 1px #9F8559; background-color:#FDF8ED;}
+/*每日賽事細項--拉霸設定層*/
+.even_detail_1 { width:100%; margin:-1px 0 1px -1px; background-color:#ECE6D9;}
+.even_detail_2 { width:237px; margin-bottom:1px; background-color:#D5CFC4;}
+.even_date { height:19px; padding-left:6px; padding-top:2px; color:#FFF; font-weight:bold; background-color:#36322A;}
+.tv_icon { display:block; cursor:pointer; float:right; margin-top:0;*margin-top:-19px; width:14px; height:15px; background:url(../../images/member/live_tv_icon.gif) no-repeat;}
+/*隊伍資料最外框*/
+.even_info { padding: 4px 6px; border-bottom:solid 1px #FDF8ED;/*margin-bottom:1px;*/}
+.even_time { padding: 2px 0;font-weight:bold;}
+/*玩法*/
+.even_type { padding-left:4px;}
+/*聯盟*/
+.even_leag { padding:2px 0;}
+/*隊伍*/
+/*.even_team {}*/
+html>body .even_date { padding:6px 6px 2px;}
+html>body .even_time { padding:2px 6px;}
+html>body .even_leag { padding:2px 6px; margin-bottom:6px;}
+
+/*無下注*/
+.bet_none {width:260px; height:528px; text-align:center; padding-top:71px; padding-bottom:42px;  background-color:#FEF6E4;}
+html>body .bet_none {height:447px; }
+.bet_none  table { margin:0 auto;}
+.bet_none td { padding:0 5px; font: 12px  Arial, Helvetica, sans-serif; font-weight:bold; text-align:center;}
+/*盤面-外層*/
+.bet_box { padding:10px;width:259px; height:528px; background-color:#FEF6E4;/* background:url(../../images/member/test_bg.gif) no-repeat;*/}
+html>body .bet_box { width:240px; height:510px; clear:both;}
+/*備註*/
+.bet_ps { width:240px; height:62px;text-align:center; padding-top:20px; font: 12px  Arial, Helvetica, sans-serif;  font-weight:bold; text-align:center; background-color:#FEF6E4;}
+/*盤面-上層*/
+.bet_mem {  overflow-y:auto; width:240px; /*height: 448px; */color:#2F312E; /*border: solid 1px #9F8559; *//*background-color:#FDF8ED;*/}
+.top { height:19px; padding:5px 10px 0; background-color:#E1D6C4;}
+
+/*============================== 盤面 ==============================*/
+
+input, select { vertical-align: middle; height: 18px;font:1em Arial, Helvetica, sans-serif;}
+/*table--外框邊線*/
+.game {	width:100%;	background-color:#B9B9A3;	clear: both;	font-size:12px; border-top:1px solid #B9B9A3;border-left:1px solid #B9B9A3;}
+/*盤面表頭加線*/
+.game th {color:#000;	background-color:#C8A670;white-space:nowrap;	font-weight: normal;padding:2px 2px 1px; border-right:1px solid #B9B9A3; border-bottom:1px solid #B9B9A3;font-family: Arial, Helvetica, SimSun, sans-serif;}
+/*盤面表格加線*/
+.game td { padding:1px 4px; /*white-space:nowrap; */font-size:12px; border-right:1px solid #B9B9A3; border-bottom:1px solid #B9B9A3;font-family: Arial, Helvetica, SimSun, sans-serif;}
+
+/*取消第二層表格包表格線框*/
+.game td td { border: none;}
+/*td*/
+.mem .time { width:65px;}
+.mem .time_re { width:70px;}
+.mem .team { width:38%;}
+.mem .num { width:7%;}
+.h_1x2 { width:40px;white-space:nowrap;}
+.h_r { width:86px;white-space:nowrap!important;}
+/*.h_r_ft { width:80px;white-space:nowrap!important;}*/
+.h_ou { width:90px; white-space:nowrap;}
+.h_oe { width:50px; white-space:nowrap;}
+.h_pd { width:50px;white-space:nowrap;}
+.h_pd_ft  { width:30px;white-space:nowrap;}
+.h_t { width:65px;white-space:nowrap;}
+.h_f { width:45px;white-space:nowrap;}
+/*隊伍*//*和局*/
+.team_name { line-height:19px; background-color:#FFF; text-align:left; color:#493721; white-space:nowrap;}
+.none {border-bottom-color:#FFF!important;}/*取消有和局的底線*/
+.drawn_td  { background-color:#FFF; text-align:left; color:#493721;height:18px; padding:0!important;}
+
+.no { color:#C00; height: 20px;}
+.yes { height: 20px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~old style~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.b_cen { background-color: #FFF; text-align:center; white-space:nowrap;}/*table style*/
+.b_foot {font-size:11px; text-align:center;}
+.mem tr, .more tr {font-family:"Arial";}
+.b_rig {background-color:#FFF; text-align:right;white-space:nowrap;/*解決賠率斷行*/}
+.b_lef {background-color:#FFF; text-align:left;}
+/*============賠率間距==============*//**/
+.con { padding-right:0px;}
+.ratio { padding-left:3px; width:33px;}
+.con_oe {}/*單雙中文字*/
+
+/*R.B lst tr-color*/
+.b_1st {background-color: #f0f1b5;text-align: center;}
+.b_1stR {background-color: #f0f1b5; text-align: right;white-space:nowrap;/*解決賠率斷行*/}
+/*1x2 pr td-color*/
+.b_pradio {  color: #C00; background-color: #FFC; font-weight: bold;}/*D*/
+.b_radio { color: #060; background-color: #e4f0f3 ; font-weight: bold;}/*pr*/
+.za_dot {height:12px; width:12px; margin-bottom:2px;}
+/*Red card */
+b.card{position:relative; margin-top:-12px;}
+.R_card {color: #FF0000;font-size: 7px;font-style: oblique;}
+/*Red card Revision*/
+.right { text-align:right;}
+.left { text-align:left;}
+.center { text-align:center;}
+/*滾球頁時間欄位*//**/
+.rb_box {border-collapse: collapse; border:0; padding:0;  width:61px; height:34px;background: url(/images/member/mem_rb_bg.gif) no-repeat 0 0; }
+.rb_time { color:#F8C100; line-height:14px;text-align:center;}
+.rb_score { line-height:17px; color:#AF5F27; text-align:center; font-weight:bold; margin-top:-1px;}
+.rbsc_w {color:#AF5F27;}/*比分-弱隊*//**/
+.rbsc_s { color:#C00;}/*比分-強隊*//**/
+/*============隔行換色==============*/
+.color_bg1 { background-color:#E9DBC6;}
+.color_bg2 { background-color:#F2E9DD;}
+.color_bg3 { background-color:#F9C100;}
+
+/*============================== 注單 ==============================*/
+/*秒數更新*//**/
+.tiTimer {	float: right;	margin-top: -14px;	width: 14px; height:19px;	padding-right: 0px; padding-left:15px; text-align: left; *vertical-align:text-top; background:url(../../images/member/order_btn.gif) no-repeat 0 -125px;}
+.tiTimer { *cursor:hand; cursor:pointer;}
+
+
+
+
+
+/*.game {text-align: center;	background: url(../../images/member/live_Rbg.gif) repeat-y;}*/
+.QA {
+	height: 33px;
+	width: 120px;
+	position: relative;
+	border-style: none;
+	float: right;
+	top: 23px;
+	left: 1px;
+}
+input {
+	color: #FFF;
+	background-color: #FF6200;
+	height: 20px;
+	position: relative;
+	border: 2px groove #831808;
+}
+
+.help { display:block; margin-top:6px; padding-right: 24px; color:#FFF;}
+/*#top_div .head span {
+	position: relative;
+	right: 20px;
+	bottom: 20px;
+}*/
+
+.TVbut {
+	position: absolute;
+	width:259px;
+	/*top: 48px;
+	left: 584px;*/
+	top:7px;
+	left:511px;
+}
+
+.reload {	text-align: right;	padding-right: 10px;}
+.game_list {	margin-left: 1px;	margin-top: 0px;}
+.time {	padding-left: 10px;}
+/*.team , .team_2, {	display: block;	padding-left: 10px;}
+.time, .time_2 {	padding-left: 10px; font-weight: bold;	color: #ffc000;}*/
+.date {	color: #FFF;	font-weight: bold;}
+.team {	color: #c00000;}
+.team_2 {	color: #a6a6a6;}
+.gtype {color: #39F;}
+.gtype_2 {color: #999;}
+.hot {	display: block;	position: relative;	float: right;	top: -13px;}
+.w183 {	width: 200px;	float: left;	display: inline;}
+.timer {color: #FFF;padding-right: 10px;	padding-left: 15px;	background: url(/images/member/live_icon02.gif) no-repeat 1px 0;}
+.dome_L {	width: 490px;	padding-left:8px;}/*Demo photo*/
+.mag_league { font-size: 16px;color: #FFF; padding-top:22px; display:block;}/*demo font*/
+.mag_team {/*team name*/
+	font-size: 12px;
+	color: #FC3;
+	height: 25px;
+	padding:5px 5px 0 5px;
+
+}
+.mag_info {
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold;
+	display: block;
+	margin-top: 8px;
+}
+.mag_league, .mag_team,.mag_info{	font-family: Arial, Helvetica, sans-serif;}
+.Obut {
+	/*display: table;left: 218px;*/
+	position: relative;
+	
+	top: 6px;
+	/*margin-left:12px;*/
+}
+#team_img {	top: 8px;	position: relative;}
+.select{	width: 80px;}
+
+.Live_order {	position: relative;	top: 5px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~Comfirm window~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body#OFIN2, body#GRAY, body#BLUE, body#PINK { /*margin-top:39px;*/}
+body#GRAY div, body#BLUE div, body#PINK div {text-align:center; font: 12px  Arial, Helvetica, SimSun, sans-serif; border:5px solid; margin:6px; padding:6px;}
+body#GRAY {  background-color:#FC6;}
+body#GRAY div {	color: #000; border-color:#F90; background-color:#FFE39D;}
+body#BLUE { padding:10px 0; background:#FEF6E4 none; }
+body#BLUE div { width:240px; color: #000; border: none; margin:0; padding:15px 0; height:80px;border: solid 1px #9F8559; background-color:#E1D6C4; }
+body#BLUE p { margin:5px 0 0; padding:0;}
+body#PINK {  background-color:#EDAAAA;}
+body#PINK div {	color: #C00; border-color:#E78686; background-color:#EDC6C8;}
+body#BLUE .yes {*cursor:hand; cursor:pointer; margin:0; width:122px; height:26px; border:none; padding-top:2px; color:#F8C100; font-weight:bold; background: #3D3D3D url(/images/member/order_btn.gif) no-repeat 0 0; }
+iframe { border:none;}

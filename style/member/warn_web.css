@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/*字型*/
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);*/
+/*showMaintain.html 維護畫面*/
+.show_main{ padding-top:126px;}
+.show_top{ width:786px; height:195px; background:url(../../images/member/showMaintain_top.jpg) no-repeat; margin:auto}
+.show_bottom{ width:100%;background-color:#513f33; margin:73px auto auto}
+.show_txtG{ width:1020px;height:281px; margin:auto}
+.show_txt{ position:relative;float:left; width:340px; height:281px; padding:25px 0 0 28px; font-size:15px; text-align:left;  border-right:1px solid #423329}
+.show_noline{ border-right:0}
+.show_txt ul{ color:#dabf93;margin-bottom:6px;}
+ul.show_lightTxt{ color:#c8c4b0}
+.show_txt li{ line-height:23px;}
+.show_txt tt{ font-size:14px; font-weight:bold}
+.show_space{ margin-left:38px;}
+.show_mail{ position:absolute; color:#c8c4b0; left:26px; bottom:28px;}
+
+ul.US{ font-size:14px; margin-bottom:7px; }
+.US li{line-height:20px;}
+.US .show_space{ margin-left:50px}
+
+.show_copyright{ color:#ac956c; font-size:12px; text-align:center; margin-top:19px;}
+
+
+/*showCleanData.html 清資料畫面*/
+.clean_Main{ display:table; width:100%; height:100%; background: url(../../images/member/ord_DIV_Mask.png) repeat;}
+.clean_TD{ display:table-cell; vertical-align:middle}
+.cleanG{width:450px; height:234px; text-align:center; margin:auto}
+.cleanG h1{ height:40px;line-height:40px;background-color:#503f32;color:#fff1d6; font-size:15px;font-weight:bold}
+.cleanTxt{ display:block; background-color:#fff; padding:7px 0 10px;}
+.cleanG h2{color:#45403b; font-size:13px; line-height:16px;}
+.cleanG img{ margin:10px auto 7px;}
+.cleanG tt{ color:#539f09}
+
+
+/*瀏覽器轉換畫面*/
+.browserDIV{ width:100%;background:url(../../images/member/browserDIV.png); padding:34px 0}
+.browserG{ width:900px;background-color:#fff; padding:37px 58px 20px 60px; margin:auto}
+.browserG h1{ color:#705636; font-size:30px;}
+.browserG ul{ color:#705636; font-size:15px; margin-top:15px;}
+.browserG li{ line-height:25px;margin-bottom:2px;}
+.browserG li a{ color:#2ebc8c}
+.browserBTNG{ width:100%;margin:10px auto 20px auto;}
+.browser_ChromeBTN, .browser_FirefoxBTN, .browser_Safari{ position:relative;float:left;width:229px; height:244px;background: url(../../images/member/browser_ChromeBTN.png)  center 27px #faeee4 no-repeat; border:1px solid #e5cebc; margin-right:46px;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
+.browser_FirefoxBTN{ background:url(../../images/member/browser_FirefoxBTN.png) center 27px #faeee4 no-repeat}
+.browser_Safari{ background:url(../../images/member/browser_Safari.png) center 27px #faeee4 no-repeat; margin-right:0}
+.browser_ChromeBTN:hover{ background: url(../../images/member/browser_ChromeBTN.png) #fae3cb center -426px no-repeat;border:1px solid #efc4a3;}
+.browser_FirefoxBTN:hover{ background: url(../../images/member/browser_FirefoxBTN.png) #fae3cb center -426px no-repeat;border:1px solid #efc4a3;}
+.browser_Safari:hover{ background: url(../../images/member/browser_Safari.png) #fae3cb center -426px no-repeat;border:1px solid #efc4a3;}
+
+.browser_recommend{ display:block; position:absolute; width:43px; height:45px; background:url(../../images/member/browser_recommend.png) no-repeat; top:-6px; left:8px;}
+.browser_ChromeBTN tt, .browser_FirefoxBTN tt, .browser_Safari tt{ position:absolute; width:100%;color:#705636; font-size:14px; text-align:center; top:138px;}
+.browser_downloadBTN{ display:block; width:124px; height:40px; line-height:40px; background-color:#2ebc8c; border:1px solid #27a67b; color:#fff; font-size:13px; text-align:center; text-transform:uppercase; margin:169px auto auto;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.browser_downloadBTN:hover{ background-color:#33D09B;}
+.browserG h2{ color:#705636; font-size:18px; margin-bottom:20px;}
+.browserWordG{ width:100%}
+.browserWord_txt01, .browserWord_txt03,.browserWord_txt02, .browserWord_txt04{  float:left;width:371px; height:95px;margin-right:27px; background:url(../../images/member/browserWord_txt01.png) no-repeat left top; padding:4px 0 0 48px;}
+.browserWord_txt02{background:url(../../images/member/browserWord_txt02.png) no-repeat left top; margin-right:0;}
+.browserWord_txt03{ height:76px;background:url(../../images/member/browserWord_txt03.png) no-repeat left top;}
+.browserWord_txt04{height:76px; background:url(../../images/member/browserWord_txt04.png) no-repeat left top; margin-right:0;}
+.browserWordG h3{color:#705636; font-size:16px; font-weight:bold; margin-bottom:5px;text-transform:uppercase;}
+.browserWordG h4{color:#705636; font-size:14px; line-height:17px;}
+
+.browser_clickBTN{ line-height:40px; background-color:#2ebc8c; border:1px solid #27a67b; color:#fff!important; font-size:13px; text-align:center; text-transform:uppercase; margin:0 auto;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; padding:2px 7px;}
+.browser_clickBTN:hover{ background-color:#33D09B;}
+.browser_nextBTN{ display:block; width:124px; height:40px; line-height:40px; background-color:#2ebc8c; border:1px solid #27a67b; color:#fff; font-size:13px; text-align:center; text-transform:uppercase; margin:0 auto;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.browser_nextBTN:hover{ background-color:#33D09B;}
+
+/*FT_index.html*/
+.status_errDIV{ width:100%; height:211px; padding-top:88px; color:#323232; font-size:16px; text-align:center; line-height:38px; background:url(../../images/member/status_errDIV.jpg) repeat-x; border-bottom:1px solid #baa283;}
+.status_errDIV tt{ color:#705636; font-weight:bold; cursor:pointer;}
+
+
+
+/*危險球通告*/
+/*@font-face {
+    font-family: 'Roboto';
+    src:local(Roboto Regular),
+    url(Roboto-Regular.woff) format("woff"),
+    url(Roboto-Regular.ttf) format("truetype");
+  	font-style: normal;
+    font-variant: normal;}*/
+/*@font-face {
+    font-family: NotoTC;
+    src:local(NotoSansCJKtc Regular),
+    url(NotoSansCJKtc-Regular.woff) format("woff"),
+    url(NotoSansCJKtc-Regular.otf) format("opentype"),
+    url(NotoSansCJKtc-Regular.eot) format("embedded-opentype");
+  	font-style: normal;
+    font-variant: normal;}
+@font-face {
+    font-family: NotoSC;
+    src:local(NotoSansCJKsc Regular),
+    url(NotoSansCJKsc-Regular.woff) format("woff"),
+    url(NotoSansCJKsc-Regular.otf) format("opentype")
+    url(NotoSans-Regular.ttf) format("truetype"),;
+  	font-style: normal;
+    font-variant: normal;}
+*/
+.AL_BG{position: fixed;width: 100%;height: 100%; background-color: rgba(0, 0, 0, 0.7);}
+/*.AL_BG *{font-family:'Noto Sans SC','Noto Sans TC',Arial,SimSun}*/
+/*.AL_BG.EN *{font-family:'Roboto',Arial}*/
+.AL_dangerBOX{position: absolute;width: 300px;height: 420px;border-radius: 3px;background-color:#fff;box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5); margin: auto;left: 0;right: 0; top: 0; bottom: 0;}
+.AL_dangerIM{position: relative;width: 300px;    border-top-left-radius: 3px;border-top-right-radius: 3px;}
+.AL_dangerTitle{width: 300px;  height: 40px;line-height: 40px;background-color: rgba(255, 255, 255, 0.1); border-top-left-radius: 3px;border-top-right-radius: 3px;font-size: 16px;color: #fff;text-align: center;}
+.AL_dangerG{position: relative;height: calc(100% - 40px)}
+.AL_dangerIMG{position: absolute;border-radius:100px;}
+.AL_dangerLBTN,.AL_dangerRBTN{display: block;position: absolute;width: 24px;height: 24px;background: url(../../images/member/AL_dangerLBTN.png) no-repeat center; margin: auto; top: 0;bottom: 0;left: 16px;}
+.AL_dangerRBTN{ background-image:url(../../images/member/AL_dangerRBTN.png);  left:auto; right: 16px;}
+.AL_dangerLBTN:hover,.AL_dangerRBTN:hover,.AL_dangerLBTN.On,.AL_dangerRBTN.On{opacity: 0.4}
+.AL_dangerIMG{position: absolute;margin:auto;left: 0;right: 0;}
+.AL_dangerPageBTN{position: absolute;display: inline-block;width: 88px;margin:auto;left: 0;right: 0;bottom:7px}
+.AL_dangerPageBTN li{display: inline-block;width: 8px;height: 8px;border:1px solid #fff;margin: 0 3px;border-radius:100px; }
+/*.AL_dangerPageBTN li:hover,*/.AL_dangerPageBTN li.On{background-color: #fff}
+.AL_dangerTXTG{position: relative;height: 100%;padding: 21px 24px 0;}
+.AL_dangerTXT{line-height:20px;list-style: none; color: #4a4a4a;font-size: 14px;/*letter-spacing:-.2px*/}
+.EN .AL_dangerTXT{line-height:16px;}
+.AL_dangerTXT li{margin-bottom: 16px;}
+.AL_dangerNextBTN{position: absolute;width: 98px;  height: 40px;line-height: 38px;font-size: 18px;text-align: center;  border-radius: 3px; margin: auto;bottom: 16px;left: 0;right: 0 }
+.AL_dangerLIicon{position: relative;padding-left: 20px;}
+.AL_dangerLIicon:before{position: absolute;content:'';display: block;width: 12px;height: 12px;background:url(../../images/member/AL_dangerLIicon.jpg) no-repeat;top: 2px;left: 0; }
+.AL_dangerC_Title{padding-left: 94px;color: #4a4a4a;font-size: 18px;margin-bottom: 10px;letter-spacing: -0.1px;}
+
+
+/*危險球通告-各頁不同圖樣*/
+.AL_dangerP01 .AL_dangerIM{ height: 136px;background-color: #496ee3;}
+.AL_dangerP01 .AL_dangerIMG{width: 61px;height: 61px;background: url(../../images/member/AL_dangerIMG01.png) no-repeat center rgba(255, 255, 255, 0.1);top:7px;}
+.AL_dangerP01 .AL_dangerTXTG,.AL_dangerP05 .AL_dangerTXTG{padding: 20px 14px 0 24px;}
+.EN .AL_dangerP01 .AL_dangerTXTG{padding: 21px 10px 0 24px;letter-spacing: -0.1px;}
+.EN .AL_dangerP05 .AL_dangerTXTG{padding: 23px 5px 0 24px;}
+.AL_dangerP01 .AL_dangerNextBTN{border: solid 2px #496ee3;color: #496ee3;}
+.AL_dangerP01 .AL_dangerNextBTN:hover{background-color:#496ee3;color:#fff }
+
+.AL_dangerP02 .AL_dangerIM{ height: 208px;background-color: #ee8b2e;}
+.AL_dangerP02 .AL_dangerIMG{width: 130px;height: 130px;background: url(../../images/member/AL_dangerIMG02.png) no-repeat center rgba(255, 255, 255, 0.1);top: 10px;}
+.AL_dangerP02 .AL_dangerNextBTN{border: solid 2px #ee8b2f;color: #ee8b2f;}
+.AL_dangerP02 .AL_dangerNextBTN:hover{background-color:#ee8b2f;color:#fff }
+
+.AL_dangerP03 .AL_dangerIM{ height: 208px;background-color: #02a9aa;}
+.AL_dangerP03 .AL_dangerIMG{width: 130px;height: 130px;background: url(../../images/member/AL_dangerIMG03.png) no-repeat center rgba(255, 255, 255, 0.1);top: 10px;}
+.AL_dangerP03 .AL_dangerNextBTN{border: solid 2px #02a9aa;color: #02a9aa;}
+.AL_dangerP03 .AL_dangerNextBTN:hover{background-color:#02a9aa;color:#fff }
+
+.AL_dangerP04 .AL_dangerIM{ height: 208px;background-color: #ee6346;}
+.AL_dangerP04 .AL_dangerIMG{width: 130px;height: 130px;background: url(../../images/member/AL_dangerIMG04.png) no-repeat center rgba(255, 255, 255, 0.1);top: 10px;}
+.AL_dangerP04 .AL_dangerNextBTN{border: solid 2px #ee6346;color: #ee6346;}
+.AL_dangerP04 .AL_dangerNextBTN:hover{background-color:#ee6346;color:#fff }
+
+.AL_dangerP05 .AL_dangerIM{ height: 136px;background-color: #45b591;}
+.AL_dangerP05 .AL_dangerIMG{width: 61px;height: 61px;background: url(../../images/member/AL_dangerIMG05.png) no-repeat center rgba(255, 255, 255, 0.1);top: 10px;}
+.AL_dangerP05 .AL_dangerNextBTN{border: solid 2px #46b591;color: #46b591;}
+.AL_dangerP05 .AL_dangerNextBTN:hover{background-color:#46b591;color:#fff }
+
+
+
+
+/*all use*/
+.cleanG h1{text-transform:uppercase;}
+.FONT18{font-size: 18px;}
+.TXTR,td.TXTR,th.TXTR{text-align: right;padding-right: 10px;}
+.TXTL,td.TXTL,th.TXTL{text-align: left;padding-left: 10px;}
+.TXTC,td.TXTC,th.TXTC{text-align: center;}
+.coffee{background: #725945;}
+.wt{background: #FFF;}
+.Word_bold{font-weight: bold;}
+.BLUEword{color: #2980b9}
+.GREENword{color: #46b591}
+/*------BTN------*/
+.ord_viewBTN, .browserG li a, .browser_downloadBTN,.AL_dangerLBTN,.AL_dangerRBTN,.AL_dangerNextBTN{cursor: pointer;
+-o-transition: color .25s linear, background-color .25s linear, border-color .25s linear;
+-webkit-transition: color .25s linear, background-color .25s linear, border-color .25s linear;
+-moz-transition: color .25s linear, background-color .25s linear, border-color .25s linear;
+transition: color .25s linear, background-color .25s linear, border-color .25s linear;}

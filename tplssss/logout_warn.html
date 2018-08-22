@@ -1,0 +1,95 @@
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<!--link href="/style/member/index_new2.css" rel="stylesheet" type="text/css"-->
+	<link href="/style/member/index_2012_5_cn.css" rel="stylesheet" type="text/css">
+
+</head>
+<script>
+
+	function show(){
+		var out="";
+		out+="您已被强制登出。 请重新登入。\n";
+		out+="您可能因以下其一原因被登出：\n";
+		out+="1.       系統登出。\n";
+		out+="2.       您的帐户在多个地方登录。\n";
+		out+="请重新登入。如有任何疑问，请联系上线或客服中心。\n";
+		out+="\n";
+
+		out+="You have been logged out from this session. Please log in again.\n";
+		out+="You have been logged out for one of the following reasons:\n";
+		out+="1. Your session has timed-out.\n";
+		out+="2. You are logged in on another session.\n";
+		out+="\n";
+		out+="Please log in again. If you have questions or need assistance, please contact you upline or customer service.\n";
+		out+="\n";
+
+		//foot.innerHTML="<a href=http://"+document.domain+">http://"+document.domain+"</a>";
+		alert(out);
+		var protocol = document.location.protocol;
+		window.location.href = protocol+"//"+document.domain;
+	}
+	//function window.alert(s) {
+	//        divAlert.style.display = "block";
+	//}
+</script>
+<body onLoad="show();">
+<div class="title">
+	<table class="language" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td id="lang_tw" class="lang" width="106"><a {LANG_PIC_TW}>繁體版</a></td>
+			<td id="lang_cn" class="lang2" width="106"><a {LANG_PIC_CH}>简体版</a></td>
+			<td id="lang_en" class="lang" width="106"><a {LANG_PIC_US}>English</a></td>
+			<td id="lang_tis" class="lang" style="display:none;"><a {LANG_PIC_TH}>ภาษาไทย</a></td>
+		</tr>
+	</table>
+</div>
+<div class="mem"><!--<div class="img"></div>-->
+	<div class="index_top_pic"></div>
+
+	<div class="log">
+		<form action="./login.php" method="post" name="LoginForm" onSubmit="return chk_acc();" >
+			<input type=HIDDEN name="uid" value="{UID}">
+			<input type=HIDDEN name="langx" value="{LANGX}">
+			<input type=HIDDEN name="mac" value="">
+			<input type=HIDDEN name="ver" value="">
+			<input type="hidden" name="JE" value="">
+			<table border="0" cellpadding="0" cellspacing="0" class="bord">
+				<!--tr>
+                    <td class="err_info"><font id="hr_info"></font></td>
+                </tr-->
+				<!--tr>
+                    <td class="txt">需登入才能使用服务。</td>
+                </tr-->
+				<tr>
+					<td width="6">&nbsp;</td>
+					<td class="index_ID index_line"><img src="/images/member/index_ID.jpg"></td>
+					<td class="index_line"><input type="text" id="username" name="username" size="15" class="index_input" maxlength="20" tabindex="1" onFocus="inputFocus(this,'username');" onBlur="inputBlur(this,'username');" placeholder="登錄帳號"></td>
+					<td width="6">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="6">&nbsp;</td>
+					<td class="index_ID"><img src="/images/member/index_pass.jpg"></td>
+					<td><input type="password" id="passwd" name="passwd" size="15" class="index_input" maxlength="20" tabindex="2" onFocus="inputFocus(this,'passwd');" onBlur="inputBlur(this,'passwd');" placeholder="密碼"> </td>
+					<td width="6">&nbsp;</td>
+				</tr>
+			</table>
+			<div id="err_info" class="err_info" style="display:none;"><font id="hr_info">請輸入帳號.</font></div>
+			<div class="index_re"><span class="err_position"><label><input type="checkbox" id="remember" class="index_box" checked><span></span>記住我的帳號</label></span></div>
+			<div class="btn"><input class="za_button" type="button" onClick="do_login();" value="登入"></div>
+		</form>
+	</div>
+	<!-- <div class="banner"></div> -->
+</div>
+
+
+<div class="news">
+	<span class="upgrade"></span>
+	<span class="tv"></span>
+	<span class="moblie"></span>
+</div>
+
+<!--div class="foot"></div-->
+</body>
+</html>

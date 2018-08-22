@@ -1,0 +1,105 @@
+tr {
+	font-family: "Arial";
+	font-size: 12px;
+}
+.ab- {
+	background-image: url(../../images/member/index_ph21.jpg);
+	background-repeat: repeat-x;
+	height: 37px;
+}
+.about {
+	background-image: url(../../images/member/index_dot.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	height: 30px;
+
+
+}
+.co {
+	margin: 3px;
+	padding: 1px;
+
+}
+.ser- {
+	background-image: url(../../images/member/index_ph42.jpg);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-size: 11px;
+	line-height: 14px;
+	padding-left: 5px;
+	padding-top: 22px;
+}
+.ser- img {
+	margin-right: 6px;
+	margin-left: 10px;
+}
+.lg {
+	background-image: url(../../images/member/index_lg.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.rg {
+	background-image: url(../../images/member/index_rg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.za_text {  font-family: "Arial"; font-size: 12px; height: 20px}
+.za_button {  font-family: "Arial"; font-size: 12px; height: 18px}
+.all {  position: absolute; left: 0px; top: 15%; clip:   rect(   ); width: 100%}
+a {
+	color:#FFFF00;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{ color:#CC9900; text-decoration:none}
+a:visited{ color:#FFFF00; text-decoration:none}
+a:visited:hover{ color:#CC9900; text-decoration:none}
+.number {
+	font-size: 16px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.login {
+	font-size: 13px;
+	color: #333333;
+	background-image: url(../../images/member/index_log_top.gif);
+	background-repeat: no-repeat;
+	height: 36px;
+	width: 278px;
+	text-align: center;
+	line-height: 13px;
+	padding-top: 5px;
+}
+.vir .ie {
+	text-decoration:none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+span.vir {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: -8px;
+}
+span.ie {
+	position: absolute;
+	margin-left: 110px;
+	background-image: url(../../images/member/ie_but.gif);
+	height: 30px;
+	width: 140px;
+	text-indent: 40px;
+	margin-top: -8px;
+	white-space: nowrap;
+	background-repeat: no-repeat;
+	padding-top: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.ie a:hover{ color: #000; text-decoration:none}
+.ie a:visited{ color:#FFFFFF; text-decoration:none}
+.ie a:visited:hover{ color: #000; text-decoration:none}
+.ie a {color:#FFFFFF;text-decoration:none;font-family: Arial, Helvetica, sans-serif;}

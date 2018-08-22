@@ -1,0 +1,73 @@
+
+<html>
+<head>
+    <meta name="Robots" contect="none">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>帮助</title>
+
+    <script>
+        function chg_language(langx) {
+            var homepage = "";
+            if (langx != "zh-tw" && langx != "zh-cn") {
+                homepage = "/tpl/member/en-us/QA.html";
+            } else {
+                homepage = "/tpl/member/"+langx+"/QA.html";
+            }
+            self.location = homepage;
+        }
+        function OnMouseOverPIC(langx) {
+            document.getElementById("OverQA_"+langx).style.display = "block";
+            document.getElementById("OutQA_"+langx).style.display = "none";
+        }
+        function OnMouseOutPIC(langx) {
+            document.getElementById("OverQA_"+langx).style.display = "none";
+            document.getElementById("OutQA_"+langx).style.display = "block";
+        }
+    </script>
+
+    <link href="/style/member/mem_pass.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="gui_div">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="3"><div class="gui_title">帮助</div></td>
+        </tr>
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_1.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">1. 使用"会员帐号"登入.</td>
+        </tr>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_2.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">2. 请在"登录帐号"栏位输入您所要设置的名字或代号.系统会显示讯息确认您
+                输入的登入帐号是否已有人使用.设置完成后必须重新登入.</td>
+        </tr>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_3.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w"></td>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_4.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w"></td>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-cn/help_5.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">3. 使用新设置"登录帐号"登入.</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+top.str_input_pwd = "密碼請務必輸入!!";
+top.str_input_repwd = "確認密碼請務必輸入!!";
+top.str_err_pwd = "密碼確認錯誤,請重新輸入!!";
+top.str_pwd_limit = "您的密碼必須至少6個字元長，最多12個字元長，並只能是數字，英文字母等符號，其他的符號都不能使用!!";
+top.str_pwd_limit2 = "您的密碼需使用字母加上數字!!";
+top.str_pwd_NoChg = "您的密碼未做任何變更!!";
+top.str_o="單";
+top.str_e="雙";
+top.str_checknum="驗證碼錯誤,請重新輸入";

@@ -1,0 +1,31 @@
+/*----------------------------------------*/
+/*2012-03-22-For NewSI2 EURO*/
+/*----------------------------------------*/
+/*@charset "UTF-8";*/
+
+#euro_close { margin-top:10px;margin-left:2px;cursor: hand; cursor:pointer; color:#FFF; width:216px; height:35px; background:url(../../images/member/euro_title_out_cn.gif)}
+#euro_open { margin-top:10px;margin-bottom:-35px;margin-left:2px;}
+
+
+/*¼ÐÃ±*/
+#euro_menu { padding-top:37px; width: 215px;*padding-bottom: 0px/*IE Hack*/;	background:url(../../images/member/euro_title_in_cn.gif) no-repeat;	}
+html>body #euro_menu { height:42px; }/*Mac Hack*/
+
+
+/*¤@¯ëª¬ºAout*/
+#euro_menu .today_btn {cursor: hand;	float: left; width:108px;	height: 35px; background: url(../../images/member/euro_today_out_cn.gif) no-repeat 0 0;}
+#euro_menu .early_btn {cursor: hand;float: right;width: 107px;	height: 35px; background: url(../../images/member/euro_early_out_cn.gif) no-repeat 0 0;}
+html>body #euro_menu .today_btn { padding-top: 12px;	height: 30px;}/*Mac Hack*/
+html>body #euro_menu .early_btn { padding-top: 12px;	height: 30px;}/*Mac Hack*/
+
+/*over*/
+#euro_menu .today_over {cursor: hand;	float: left; width:108px;	height: 35px; background: url(../../images/member/euro_today_out_cn.gif) no-repeat 0 -35px;}
+#euro_menu .early_over {cursor: hand;float: right;width: 107px;	height: 35px; background: url(../../images/member/euro_early_out_cn.gif) no-repeat 0 -35px;}
+
+
+/*-------Thie is for IE Hack notes ,Don't delete-----*/
+#euro_menu .today_up {cursor: hand;	float: left; width: 108px;	height: 35px; background: url(../../images/member/euro_today_up_cn.gif) no-repeat left top;}
+#euro_menu .early_up {cursor: hand;float: right;width: 107px;	height: 35px; background: url(../../images/member/euro_early_up_cn.gif) no-repeat right top;}
+#euro_menu .today_btn, #euro_menu .early_btn , #euro_menu .today_up , #euro_menu .early_up { cursor:pointer;}
+html>body #euro_menu .today_up { /*padding-top: 10px;*/	height: 35px;}/*Mac Hack*/
+html>body #euro_menu .early_up { /*padding-top: 10px;*/	height: 35px;}/*Mac Hack*/

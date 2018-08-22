@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*Reset*/
+body, div,html, ul,  li, dl, dt, dd,
+h1, h2, h3, h4, h5, h6, p, table, form {
+    margin: 0;
+    padding: 0;
+}
+address, em, strong {
+    font-style: normal;
+    font-weight: inherit;
+}
+li {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+body, html { height: 100%; background: #493721 url(/images/member/live_head_bg.gif) repeat-x;behavior:url(/style/member/csshover.htc);
+    color: #FFF;
+    scrollbar-face-color: #DCD1C5;
+    scrollbar-shadow-color: #B9A38B;
+    scrollbar-highlight-color: #E6DED6;
+    scrollbar-3dlight-color: #B9A38B;
+    scrollbar-darkshadow-color: #33281C;
+    scrollbar-track-color: #33281C;
+    scrollbar-arrow-color: #413528;
+}
+body , td {font-family: Arial, Helvetica, SimSun, sans-serif; font-size:12px;}
+a { text-decoration: none;}
+a:link, a:visited { color: #FFF;}
+a:hover {color: #FF0;}
+.main { width:763px; padding-top:10px; vertical-align:top; font:12px  Arial, Helvetica, sans-serif; color:#FFF; background: url(/images/member/live_faq.gif) no-repeat 22px 10px;
+
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -25px;
+
+}
+/*top*/
+.header {height:67px;}
+
+#divT {padding: 20px 30px 20px; font: 12px Arial, Helvetica, sans-serif;}
+/*Q收*/
+#divT dt.Q_close{	padding: 3px 3px 3px 24px; font-weight:bold;	background: url(/images/member/QA_icon01.gif) no-repeat 0 3px;}
+/*Q開*/
+#divT dt.Q_up {padding: 3px 3px 3px 24px; font-weight:bold;	background: url(/images/member/QA_icon01.gif) no-repeat 0 -37px;}
+#divT dt.Q_up a:link, #divT dt.Q_up a:visited { color: #FFD443;}
+
+#divT dd.A{	width: 703px;	padding: 9px 9px 23px 24px;	line-height: 18px; color:#FFD443;}
+.foot {width: 100%;height: 25px;	/*background-color: #281D11;*/}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~back to top~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.to_top {	display: block;	text-align: right;	margin-bottom: 1em;}
+.to_top a {display: block; margin-right:20px;width: 5em;white-space: nowrap;	background: url(/images/member/ind_arr.gif) no-repeat left 0;	}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ For Mac/Safari Fix ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+html > body .to_top { padding-top:0px;}
+html > body .to_top a { float: right; margin-bottom:5px;}
+html > body#RCHK .to_top span {margin-left:auto;margin-right:auto;}
+
+
+
+/*qa link*/
+/*back*/
+div#back { width:112px;	position: absolute;float: left;top:0px; margin-left: 638px;font-family: Arial, Helvetica, SimSun, sans-serif;z-index:1000;}
+div#back ul {z-index:990;	font-size:12px;}
+div#back ul li {
+    position:relative;
+    float:left;
+    width:112px;
+    height:26px;
+    line-height:26px;
+}
+
+/* ~~~~~~~~~~主圖寬度~~~~~~~~~~ */
+div#back ul li.lang_top {background:url(../../images/member/QA_lang_cn.gif) no-repeat; text-align:left;}
+
+div#back a {
+    display:block;
+    width:112px;
+    height:26px;
+    text-decoration:none;
+    color:#FFF;
+}
+div#back li.lang_top li a {height:26px;/*子層高度*/}
+/* ~~~~~~~~~~Menu Top img~~~~~~~~~~ */
+div#back .lang_top a:link, div#back .lang_top a:visited { color:#FFF;}
+div#back .lang_top a {padding-left:35px!important;}
+
+/*Menu Level2*/
+ul.pd { top:0;}
+div#back ul ul.pd {
+    display:none;
+    font-size:100%;
+    padding:0;
+}
+div#back ul li:hover ul.pd {
+    display:block;
+    position:absolute;
+    z-index:10;
+}
+div#back ul ul.pd li {	float:none;	}
+
+/*IE6 Hack*//**/
+div#back ul li a:hover ul.pd {
+    display:block;
+    position:absolute;
+    top:0px;
+    z-index:1000; margin-top:0; margin-left:-1px;
+}
+
+/* 語系下拉圖片設定 */
+div#back ul ul.pd a:link, div#back ul ul.pd a:visited { color:#303030;}
+div#back ul ul.pd a:hover {color:#CC6600;}
+div#back ul ul.pd li.cn a { background: url(../../images/member/QA_lang_cn.gif) no-repeat 0 -26;}
+div#back ul ul.pd li.cn a:hover {  background-position: 0 -26px;}
+
+div#back ul ul.pd li.tw a { background: url(../../images/member/QA_lang.gif) no-repeat 0 0;}
+div#back ul ul.pd li.tw a:hover {background-position: 0 -26px;}
+
+div#back ul ul.pd li.us a { background: url(../../images/member/QA_lang.gif) no-repeat 0 -210px; /*height:21px;*/}
+div#back ul ul.pd li.us a:hover {  background-position: 0 -236px;}

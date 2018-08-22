@@ -1,0 +1,130 @@
+/* 由 F12 开发人员工具生成。这可能不是原始源文件的准确表示形式。*/
+a:link {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:visited {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:hover {
+	color: rgb(161, 0, 0); text-decoration: underline;
+}
+#Login {
+	margin: 0px; border: 1px solid rgb(220, 223, 229); width: 978px; color: rgb(102, 102, 102); padding-top: 36px; font-size: 12px;
+}
+#Login h1 {
+	margin: 0px 0px 25px; padding: 0px; width: 889px; border-bottom-color: rgb(86, 86, 98); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#Login input {
+	border: 1px solid rgb(165, 175, 195); width: 217px; height: 19px;
+}
+#Login .inputSty01 {
+	border: 1px solid rgb(165, 175, 195); width: 106px; height: 19px;
+}
+#Login .lineJL {
+	margin: 0 0 10px 0;
+}
+.sty01 {
+	padding-bottom: 2px;
+}
+.sty02 {
+	text-align: left; padding-bottom: 2px;
+}
+.sty03 {
+	padding-top: 5px;
+}
+.sty04 {
+	color: rgb(153, 153, 153);
+}
+.sty05 {
+	color: rgb(51, 51, 51);
+}
+#dl {
+	margin: 15px 0px 0px; width: 800px; color: rgb(153, 153, 153); font-size: 12px;
+}
+#dl h1 {
+	font: 100 12px/normal "宋体"; margin: 0px; padding-bottom: 15px; font-size-adjust: none; font-stretch: normal;
+}
+#dl .dl {
+	border: 1px solid rgb(220, 223, 229); width: 383px !important; height: 353px; _height: 370px;
+}
+.zc {
+	border: 1px solid rgb(220, 223, 229); width: 383px !important; height: 353px; _height: 370px;
+}
+#dl .dl {
+	clear: left; float: left;
+}
+#dl .zc {
+	float: right;
+}
+#dl h2 {
+	margin: 0px 0px 5px; width: 343px; padding-top: 20px; border-bottom-color: rgb(86, 86, 98); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#dl input {
+	border: 1px solid rgb(165, 175, 195); width: 200px; height: 19px; line-height: 19px;
+}
+.dlC {
+	width: 343px;
+}
+.dlC p {
+	margin: 0px; padding-left: 65px;
+}
+.dlC .sty01 {
+	color: rgb(153, 153, 153); padding-top: 20px; padding-bottom: 5px;
+}
+.dlC .sty02 {
+	color: rgb(102, 102, 102); padding-bottom: 20px;
+}
+.dlC .sty03 {
+	color: rgb(102, 102, 102); padding-bottom: 8px;
+}
+.dlC .sty04 {
+	color: rgb(51, 51, 51); padding-bottom: 23px; padding-left: 113px;
+}
+.dlC .sty05 {
+	padding-left: 113px; clear: left;
+}
+.dlC .sty06 {
+	width: 280px; clear: left; margin-top: 70px; _margin-top: 85px;
+}
+.dlC .sty07 {
+	color: rgb(51, 51, 51);
+}
+.dlC ul {
+	margin: 0px; padding: 0px;
+}
+.dlC li {
+	list-style: none; margin: 0px; padding: 0px 0px 10px; width: 340px;
+}
+.dlC .sty08 {
+	color: rgb(102, 102, 102); padding-top: 0px;
+}
+.dlC .sty088 {
+	color: rgb(102, 102, 102); padding-top: 0px;
+}
+.dlC .sty09 {
+	text-align: left !important; line-height: 18px; text-indent: 0px; padding-left: 140px !important; margin-left: 0px;
+}
+.dlC .sty10 {
+	padding-top: 6px;
+}
+.dlC .sty10 input {
+	padding-right: 122px;
+}
+.dlC .pwdli span {
+	margin: 0px; line-height: 17px; padding-left: 137px; float: left;
+}
+.dlC .emailli {
+	height: 45px;
+}
+.Reginput {
+	width: 220px; height: 16px; text-align: center; line-height: 140%; margin-top: 2px; vertical-align: middle; display: block;
+}
+.Error {
+	border: 1px solid rgb(161, 0, 0); background-color: rgb(245, 245, 245);
+}
+.errorword {
+	margin: 0px 0px 5px 114px; width: 200px; height: 16px; text-align: center; line-height: 140%; clear: both; display: block;
+}
+.rihtReg {
+	border: 1px solid rgb(8, 166, 58); color: rgb(8, 166, 58); background-color: rgb(245, 245, 245);
+}

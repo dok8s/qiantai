@@ -1,0 +1,68 @@
+
+@charset "UTF-8";
+/*锟斤拷锟斤拷*/
+*{font-family:Arial, Helvetica, SimSun, sans-serif;; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1; height:100%; zoom:1;}
+ol, ul {list-style: none;}
+blockquote, q {    quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+h1, h2, h3, h4, h5, h6{ font-weight:normal}
+a{text-decoration:none;color: inherit;}
+/* remember to define focus styles! */
+:focus {outline: 0;}
+input::-ms-clear{display: none;}/** IE10锟侥憋拷锟斤拷锟斤拷锟斤拷 X  **/
+input::-ms-reveal{display: none;}/** IE10锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷 X  **/
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {    text-decoration: line-through;}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {    border-collapse: collapse;border-spacing: 0;}
+
+html{ width:100%;height:100%;}
+input, select, textarea{ outline:none;font-family:Arial, Helvetica, SimSun, sans-serif;}
+tt, em{font-family:Arial, Helvetica, SimSun, sans-serif; font-style:normal}
+
+body{width:100%; height:100%;}
+th.topTD, td.topTD{ vertical-align:top}
+.noFloat:after{ content:''; display:table; clear:both}
+.img100{ display:block; width:100%}
+.None{ display:none}
+
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟紽T_index.html锟斤拷锟斤拷*/
+.index_MDIV, .index_loadDIV, .index_noDIV{position:absolute;width:100%;height:100%; background: url(../../images/member/load_s.gif) no-repeat center center  #261d18; top:0; left:0; z-index:9}
+.index_MDIV{ z-index:11}
+
+
+
+/* Microsoft Edge Browser 12+ (All) - @supports method */
+@supports (-ms-accelerator:true) {
+    .index_loadDIV{ background-color: #261d18; background-image:none}
+    .index_loadDIV_edge{position:absolute; width:100%; height:900px; background: url(../../images/member/load_s.gif) no-repeat center center  #261d18; top:0; left:0;}
+}
+
+.indexMain_DIV{position: absolute;height:100%;height:100%; background:#fff;margin:auto;top: 0;bottom: 0;left: 0;right: 0;}
+.indexW_min{ width:1020px;}
+.indexW_mid{ width:1355px}
+.indexW_max{ width:1524px}
+.indexMain_TB{ width:100%; height:100%;}
+.index_headTD{ height:40px;}
+.index_leftTD, .index_midTD, .index_rightTD{ position:relative; vertical-align:top;height:100%;}
+.index_leftTD{ width:215px;}
+@media \0screen\,screen\9 {.indexW_min .index_leftTD{ width:120px;}} /*IE678锟斤拷锟斤拷*/
+@media \0screen\,screen\9 {.indexW_mid .index_leftTD, .indexW_max .index_leftTD{ width:215px;}} /*IE678锟斤拷锟斤拷*/
+.indexW_mid .index_rightTD{width:335px}
+.indexW_max .index_rightTD{width:504px}
+
+.noticeIF{position: absolute;}
+
+/*锟斤拷锟絊*/
+::-webkit-scrollbar{ width:15px; background-color:#32271e} /*锟絃锟接條锟斤拷锟絯锟斤拷锟斤拷*/
+::-webkit-scrollbar-thumb {background: url(../../images/member/scrollbar_thumbBGX.png) center repeat-x; border-radius:100px;cursor:pointer;} /*锟较動條*/
+*:hover::-webkit-scrollbar-thumb{background: url(../../images/member/scrollbar_thumb_overBGX.png) center repeat-x;}
+::-webkit-scrollbar-corner { background-color:#32271e}/*锟斤拷邊锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟紹锟斤拷處*/
+
+
+/*锟斤拷锟斤拷*/
+.index_body {  position:fixed; background:#725945;}

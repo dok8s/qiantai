@@ -1,0 +1,120 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../../images/member1/index_bg.png); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x
+}
+.sub {
+	MARGIN-TOP: 10px; FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ffff00; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.sub2 {
+	FONT-SIZE: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.txt {
+	FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.mem {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: right top; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../../images/member1/index_rigbg.png); PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 850px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat
+}
+.bord {
+	BORDER-RIGHT: #900 5px groove; BORDER-TOP: #900 5px groove; BORDER-LEFT: #900 5px groove; BORDER-BOTTOM: #900 5px groove
+}
+.log {
+	LEFT: 600px; POSITION: absolute; TOP: 250px
+}
+.foot {
+	DISPLAY: block; FONT-SIZE: 12px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 5px; WIDTH: 100%; COLOR: #666666; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 25px; BACKGROUND-COLOR: #000; TEXT-ALIGN: center
+}
+.foot2 {
+	LEFT: 300px; POSITION: absolute
+}
+LI {
+	FONT-SIZE: 12px; COLOR: #000; LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+.title {
+	MARGIN-TOP: 0px; WIDTH: 850px
+}
+.za_text {
+	FONT-SIZE: 12px; FONT-FAMILY: "Arial"; HEIGHT: 20px
+}
+.za_button {
+	FONT-SIZE: 12px; MARGIN-LEFT: 10px; WIDTH: 65px; FONT-FAMILY: "Arial"; HEIGHT: 28px
+}
+A:link {
+	COLOR: #ff0
+}
+A:visited {
+	COLOR: #ff0
+}
+A:hover {
+	COLOR: #ff9
+}
+A:active {
+	COLOR: #ff9
+}
+.table {
+	LEFT: 500px; WIDTH: 260px; POSITION: absolute; TOP: 0px
+}
+.virus {
+	FONT-SIZE: 12px; COLOR: #fc0; FONT-FAMILY: Arial, Helvetica, sans-serif; POSITION: absolute; TOP: 18px; TEXT-DECORATION: none
+}
+.virus A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.virus A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.virus A:hover {
+	COLOR: #ff0; TEXT-DECORATION: none
+}
+LI {
+	FONT-SIZE: 12px; LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+.title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.za_text {
+	FONT-SIZE: 12px; FONT-FAMILY: "Arial"; HEIGHT: 20px
+}
+.za_button {
+	FONT-SIZE: 12px; MARGIN-LEFT: 10px; WIDTH: 65px; FONT-FAMILY: "Arial"; HEIGHT: 28px
+}
+A:link {
+	COLOR: #0066cc
+}
+A:visited {
+	COLOR: #0066cc
+}
+A:hover {
+	COLOR: #0000ff
+}
+A:active {
+	COLOR: #0000ff
+}
+.table {
+	LEFT: 573px; WIDTH: 260px; COLOR: #00f; POSITION: absolute; TOP: 20px; TEXT-DECORATION: underline
+}
+.virus {
+	FONT-SIZE: 12px; COLOR: #000066; FONT-FAMILY: Arial, Helvetica, sans-serif; POSITION: absolute; TOP: 10px; TEXT-DECORATION: none
+}
+.virus A:link {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+.virus A:visited {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+.virus A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: none
+}
+.lang2 {
+	FONT-SIZE: 12px; COLOR: #c00; FONT-FAMILY: Arial, Helvetica, sans-serif; TOP: 10px
+}
+.lang {
+	FONT-SIZE: 12px; COLOR: #00f; FONT-FAMILY: Arial, Helvetica, sans-serif; TOP: 10px
+}
+.lang A:link {
+	COLOR: #00f; TEXT-DECORATION: underline
+}
+.lang A:visited {
+	COLOR: #00f; TEXT-DECORATION: underline
+}
+.lang A:hover {
+	COLOR: #f63; TEXT-DECORATION: none
+}

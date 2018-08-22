@@ -1,0 +1,331 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~New style~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+html, body {	text-align: center;margin: 0px;	padding: 0px; background: url(/images/member/inda_bg.gif);}
+/*~~~~~~               Type selection               ~~~~~~~*/
+#RRR {}#RFT {}#RBK {}#RTN {}#RVB {}#RF1 {}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Main content ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#container {
+	text-align: left;
+	position: relative;
+	width: 90%;
+	margin-right: auto;	margin-left: auto;
+	border: 1px solid #000;
+}
+#header {
+	background: url(/images/member/inda_head_b.jpg) repeat-x 709px top;/*nn chuang*/
+	margin: 0px;	padding: 0px;
+	border-bottom:1px solid #371703;/*nn chuang*/
+}
+#header h1 {/*nn chuang*/
+	/*behavior: url(png-opacity.htc);*/
+	margin: 0px;
+	display: block;
+	height: 84px;/*nn chuang*/
+	padding: 0px;
+}
+#header span {
+	background: transparent url(/images/member/inda_head_l.jpg) no-repeat left top;/*nn chuang*/
+	display: block;
+	height: 84px;/*nn chuang*/
+	width: 100%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~According to ball games replacement~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+table {	border: 2px solid #C33;}
+th {	background-color: #C00; color:#FFF;}/*nn chuang*/
+th, td {	border: 1px solid #F5B4AC;}
+/*~~~ League  ~~~*/
+.subHead {	background-color: #DADADA;}
+#RBK table {border: 2px solid #3458A5}
+#RBK th {	background-color: #3458A5; color:#FFF;}
+#RBK th, #RBK td {	border: 1px solid #64A4D7;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~Sharing~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+a {}
+a:link, a:visited {	color: #0E78CF;}/*nn chuang*/
+a:hover {	color:#C00;	text-decoration: none;}
+p {	margin: 0px;	line-height: 1.3;}
+/*~~~~~~               Red font               ~~~~~~~*/
+strong {	color: #C00; font-weight: normal; }
+/*~~~~~~               Blue font               ~~~~~~~*/
+em, td.em {	color: #00F;	font-style: normal;}
+/*~~~~~~               bgcolor font               ~~~~~~~*/
+s { background-color:#F00; color:#FFF; text-decoration: none; padding:2px;}
+/*~~~~~~               Table               ~~~~~~~*/
+table {
+	border-collapse:collapse;
+	background-color: #FFFFFF;
+	font: 0.75em Verdana, Arial, Helvetica, sans-serif;
+}
+th {font-weight: normal;}
+table th, table td {
+	white-space: nowrap;
+	text-align: center;
+	padding: 2px 0.3em 1px;
+}
+/*~~~~~~               Abbreviation               ~~~~~~~*/
+acronym {}
+/*~~~~~~               Company name               ~~~~~~~*/
+tt {
+	font-weight: bold;
+	color: #993300;
+	font: 1em Arial, Helvetica, sans-serif;/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+	margin-right: 2px;
+	margin-left: 2px;
+}
+ul, ol { margin: 0px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~data~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#info {
+	background-color: #FFFFFF;
+	padding: 1.4em 2.5em;
+	font: 0.75em Arial, Helvetica, sans-serif;
+	border-left: 230px solid #FFE7A9;/*nn chuang*//*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~Ball games synopsis~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#intro {	margin-bottom: 2.2em;}
+#intro h2 {	margin: 0px;	font-size: 1.2em;	color: #230042;}/*nn chuang*/
+#intro ul {
+	line-height: 1.3;
+	padding: 0px;
+	margin: 12px 0 0 15px;
+}
+#intro li {	margin-bottom: 0.7em; text-align:justify;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~Fast menu~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#summary {	margin-bottom: 4em;}
+#summary h3 {	margin: 0px;	font-size: 1em;	color: #C30;}/*nn chuang*/
+#summary ul {	list-style-type: none;	margin-top: 1em;}
+#summary li {	display: inline;}
+#summary a{
+	white-space: nowrap;
+	background: url(/images/member/ind_arr.gif) no-repeat left 1px;/*nn chuang*/
+	margin-bottom: 0.6em;
+	padding-right: 10px;
+	padding-left: 15px;/*nn chuang*/
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~Vice- content~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#rule {}
+/*~~~~~~~~~~~~~~~~~~~~~~~~Game~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.play {	margin-bottom: 3em;}
+.play table { margin-top:1em; margin-bottom:0.6em;}
+.play ul, .play ol {	margin-left: 15px;}
+#rule h4 {
+	margin: 0px 0px 0.6em -5px;
+	color: #000;/*nn chuang*/
+	font-size: 1em;
+	background: url(/images/member/inda_h4.jpg) no-repeat left bottom;/*nn chuang*/
+	height: 23px;
+	padding: 2px 6px 0.2em 22px;/*nn chuang*//*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+	/*font-weight: normal;~~~~~~~~~~~~~~~~~EN chuang~~~~~~~~~~~~~~~~~*/
+}
+#rule h4 em {	color: #084EAA;	margin-left: 4px;	margin-right: 4px; }/*nn chuang*/
+#rule p.p4 {	margin: 0px 0px 1.5em;	line-height: 1.6em; text-align:justify;}/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+/*~~~~~~~~~~~~~~~  Table set  ~~~~~~~~~~~~~~~*/
+
+/*~~~  Team  ~~~*/
+td.team {	text-align: left;	padding-left: 0.4em;}
+td.drawn {	color: #C00;	text-align: right;}
+.rig {text-align: right;}
+/*~~~  Bold red font - Table  ~~~*/
+.bb {	color: #C00;	font-weight: bold;}
+/*~~~  Handicap bgcolor - Table - 1x2~~~*/
+.htd {
+	font-weight: bold;
+	color: #060;
+	background: #E4F0F3 url(/images/member/inda_BS_r.gif) no-repeat 3;
+	padding-left: 18px;
+}
+.htd2 {font-weight: bold;	color: #C00;
+	background: #FFC url(/images/member/inda_BS_r.gif) no-repeat 3;
+	padding-left: 17px;
+}
+/*Handicap Parlay*/
+td.hp3 {
+	background: url(/images/member/inda_BS_r.gif) no-repeat 98% center;
+	padding-right: 17px;
+	text-align: right;
+	margin: 0px; border-top:0 none; border-bottom:0 none;
+}
+td.hp3 strong {	margin-left: 2px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~None border~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Blue font*/
+table em {	margin-right: 0.5em;}
+/*Red font*/
+table strong {	font-weight: bold;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~Category~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.type {}
+.type h5 {
+	background: url(/images/member/point.gif) no-repeat left top;
+	margin: 0.5em 0;
+	padding-left: 22px;
+	height: 20px;
+	color: #C00;
+	line-height: 1.2em;
+}
+.type h5 em {	color: #666; margin-right:1px;margin-left: 1px;}
+.type p.p5, #rule p.p5 {	margin-left: 22px;}
+.type h6 {
+	color: #33C;
+	margin: 1em 0 0.8em 22px;
+	font-size: 1.1em;
+}
+/*~~old .type p.p6~~*/
+.type .tex {
+	margin-left: 22px; margin-right:22px;
+	background-color: #FFFFCC;
+	padding: 0.5em 1.3em;
+	width:100%;
+}
+.type .tex p {	margin: 0.7em 18px 0.5em auto;}
+.type .tex strong {	margin-right: 0.3em;	margin-left: 0.3em;}
+/*First line of selection - transaction model*/
+.type .tex p:first-line {color: #009;}
+/*First line of selection - Result*/
+.type .tex span {display: block;color: #666;}
+.type ul, .type ol {
+	line-height: 1.2;
+	margin-left: 35px;
+	margin-bottom: 0.8em;
+}
+.type li {
+	line-height: 1.3;
+	margin-bottom: 0.7em;
+	text-align: justify;
+}/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+/*Table Head*/
+.type table {	margin: 0.6em auto 0.6em 22px;}
+.play caption, .type caption {	text-align: left;	color: #33C;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~back to top~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.top {
+	display: block;
+	text-align: right;
+	margin-bottom: 1em;
+	text-transform: uppercase;/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+}
+.top a {	
+	background: url(/images/member/ind_arr.gif) no-repeat left 1px;/*nn chuang*/
+	display: block;
+	width: 8em;/*nn chuang*//*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+	white-space: nowrap;
+	font-size:95%;/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+	}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~Link~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#nav {
+	width: 230px;/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+	position: absolute;
+	top: 84px;/*nn chuang*/
+	left: 0px;
+	font: 0.75em Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 1px;
+}
+#nav ul {
+	list-style-type: none;
+	margin: 0px 0px 0px 10px;/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+	padding: 15px 0px 0px;
+}
+#nav li {
+	display: block;
+	padding: 8px 10px 8px 5px;
+	border-bottom: 1px solid #937520;
+	width: 210px;/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+}
+#nav a {
+	text-decoration: none;
+	display: block;
+	padding-left: 15px;
+}
+#nav a:link, #nav a:visited {	background: url(/images/member/ind_arr.gif) no-repeat left -112px; color: #351E04;}/*nn chuang*/
+#nav a:hover {	background: url(/images/member/ind_arr.gif) no-repeat left -225px; color: #C00;}/*nn chuang*/
+#nav .mail {}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~Game Selection~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body#RRR li.rr a:link, body#RRR li.rr a:visited,
+body#RFT li.ft a:link, body#RFT li.ft a:visited,
+body#RBK li.bk a:link, body#RBK li.bk a:visited,
+body#RTN li.tn a:link, body#RTN li.tn a:visited,
+body#RVB li.vb a:link, body#RVB li.vb a:visited,
+body#RF1 li.f1 a:link, body#RF1 li.f1 a:visited,
+body#RBM li.bm a:link, body#RBM li.bm a:visited,
+body#RNF li.nf a:link, body#RNF li.nf a:visited,
+body#RIH li.ih a:link, body#RIH li.ih a:visited,
+body#RSK li.sk a:link, body#RSK li.sk a:visited,
+body#RPD li.pd a:link, body#RPD li.pd a:visited,
+body#RHB li.hb a:link, body#RHB li.hb a:visited,
+body#RBS li.bs a:link, body#RBS li.bs a:visited,
+body#RPP li.pp a:link, body#RPP li.pp a:visited
+ {	background: url(/images/member/ind_arr.gif) no-repeat left -337px; color: #900;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#foot {
+	background-color: #BF440B;/*nn chuang*/
+	height: 28px;
+	color: #FFF;
+	text-align: center;
+	font-size: 0.75em;
+	bottom: 0px;
+	width: 90%;
+	padding-top: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #000;
+	border-top:0;
+}
+#foot tt {color: #FFF;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Only - Mobile phone ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#RMP h2 { margin-top:1em; margin-bottom:-0.5em;height:1em;}/*ie bug fix*/
+#RMP strong {	margin-right: 0.2em;	margin-left: 0.2em;}
+#RMP span.img {
+	background: url(/images/member/ind_mp_bg.jpg) no-repeat left top;
+	width: 178px; height: 309px;
+	display: block;
+	padding-top: 66px;	padding-left: 28px;
+	margin-right: 1.5em;	margin-bottom: 0.1em;
+}
+#RMP span.fl {	float: left;}
+#RMP br.clear, h5, .top {	clear: left;}
+#RMP h5 {	border-bottom: 1px dotted #666; margin-bottom:0.5em}
+#RMP .type ol, #RMP .type ul { margin-top:1em}
+#RMP #foot span {	display: none;}
+/*~~~~~~Mobile & chk_rule~~~~~~*/
+#RMP #info, #RCHK #info {	border-left:0;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Only - chk_rule.html ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#RCHK h2 { margin-top:1.5em; margin-bottom:-0.5em;}
+#RCHK #container, #RCHK #foot {	width: 800px;}
+/*Telephone*/
+#RCHK .type h5 { margin-top:1.8em;}
+#RCHK .type span {	text-align: right;	display:block;	margin-bottom: -25px;}/*nn chuang*/
+#RCHK br.clear {	clear: both;}
+/*Agreement*/
+#RCHK .top {	text-align: center;	margin-bottom: 1em;	border-top: 1px dotted #666;	padding-top: 0.7em;	clear: both;}
+#RCHK .top span {		background: url(/images/member/ind_arr.gif) no-repeat left 1px;/*nn chuang*/	display: block;	width: 41em;	white-space: nowrap;}/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+/*button*/
+#RCHK .chk {	text-align: center;	clear: both;}
+#RCHK .chk form {display: inline;}
+#RCHK .chk input { margin-left:1em; margin-right:1em;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ For Mac/Safari Fix ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+html > body h2 tt { font-size:1.2em;}
+html > body #rule h4 {padding-top: 1em; background-position: left center;}/*nn chuang*/
+html > body .play ul, html > body .play ol {	margin-left: -2px;}
+html > body table { font-size:12px;}
+html > body #nav li { width:88%;}/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EN chuang~*/
+html > body h5, html > body tt {font-size:12px;}
+html > body #summary ul { margin-left:-2.5em;}
+html > body .top { padding-top:1px;}
+html > body .top a { float: right;}
+html > body#RCHK .top span {margin-left:auto;margin-right:auto;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Hideaway link ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#nav li.mail { display:none;}
+#RCHK .type h5 { display:none;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Table High ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#RRR #info, #RBM #info, #RIH #info, #RSK #info, #RHB #info, #RPP #info { height:550px;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ ball_pic ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*#RFT h2,#RPD h2,#RBK h2,#RBS  h2,#RTN  h2,#RVB h2,#RF1 h2,#RBM h2,#RNF h2,#RIH  h2,#RSK h2,#RHB h2,#RPP h2 {
+	background-repeat: no-repeat;padding-left: 36px;padding-top: 10px;height: 30px;}
+#RFT h2{background-image: url(/images/member/ball_ft.gif);}
+#RPD h2{background-image: url(/images/member/ball_rb.gif);}
+#RBK h2{background-image: url(/images/member/ball_bk.gif);}
+#RBS  h2{background-image: url(/images/member/ball_bs.gif);} 
+#RTN  h2{background-image: url(/images/member/ball_tn.gif);}
+#RVB h2{background-image: url(/images/member/ball_vb.gif);}
+#RF1 h2{background-image: url(/images/member/ball_f1.gif);} 
+#RBM h2{background-image: url(/images/member/ball_bm.gif);}
+#RNF h2{background-image: url(/images/member/ball_nf.gif);} 
+#RIH  h2{background-image: url(/images/member/ball_ih.gif);}
+#RSK h2{background-image: url(/images/member/ball_sk.gif);}
+#RHB h2{background-image: url(/images/member/ball_hb.gif);}
+#RPP h2{background-image: url(/images/member/ball_pp.gif);}*/

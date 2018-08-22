@@ -1,0 +1,1023 @@
+body { padding:0; margin:0; /*font-family: Arial, Helvetica, sans-serif;*/}
+
+.legView { position:absolute; left:0px; /*top:0px;*/ z-index:7;}
+.more_iframe_w { width:100%; height:100%; position:absolute; left:0px; z-index:7;}
+
+/*固定head*/
+.fixhead_layer { position:absolute; width:100%; z-index:6;}
+.showtable_tall { position:absolute;top:75px; width:100%;}
+.showtable_normal { position:absolute;top:39px; width:100%;}
+
+/*body-css*/
+.bet_r_FT, .bet_f_FT, .bet_f_FTF, .bet_hpd_FTF, .bet_pd_FTF, .bet_r_FTF, .bet_hpd_FT, .bet_hr_FT, .bet_p3_FT, .bet_pd_FT, .bet_t_FT, .bet_t_FTF, .bet_re_FT, .bet_rmax_FS, 
+.bet_r_BK, .bet_re_BK, .bet_p3_BK, .bet_r_BKF, 
+.bet_pd_TNF, .bet_pd_TN, .bet_re_TN, .bet_r_TNF, .bet_p3_TN, .bet_r_TN,
+.bet_pd_VB, .bet_pd_VBF, .bet_t_VBF, .bet_p3_VB, .bet_r_VB, .bet_re_VB,
+.bet_pd_TT, .bet_pd_TTF, .bet_r_TTF, .bet_p3_TT, .bet_r_TT, .bet_re_TT,
+.bet_pd_BM, .bet_pd_BMF, .bet_r_BMF, .bet_p3_BM, .bet_r_BM, .bet_re_BM,
+.bet_p3_BS, .bet_r_BS, .bet_re_BS, .bet_r_BSF,
+.bet_p3_OP, .bet_r_OP, .bet_re_OP, .bet_r_OPF,
+.bet_p3_SK, .bet_r_SK, .bet_re_SK, .bet_r_SKF { overflow-y:scroll; overflow-x: hidden;}
+
+/**/
+.bet_star_btn_out, .bet_star_btn_on, .bet_star_btn_all, .bet_league_btn, .bet_view_btn, .bet_sort_btn, .bet_sort_time_btn, .bet_odds_btn, .bet_time_btn, .bet_more_btn, .bet_TV_btn_on, .bet_right_ul li, .bet_select_time_btn, .bet_select_close, .bet_bg_color, .bet_Comp_btn, .bet_game_btn, .bet_text_btn, .bet_more_small_btn, .bet_all_odds_btn, .bet_all_mark_out, .bet_all_pop_out, .bet_all_hdp_out, .bet_all_1st_out, .bet_all_score_out, .bet_all_special_out, .bet_all_special_on, .bet_all_player_btn, .bet_all_title_bg, .bet_bg_color_bet, .bet_bg_color_chg, .bet_select_TV, .bet_cen, .bet_page_btn, .bet_all_game_star_out, .bet_all_game_star_on, .bet_page_contant:hover, .bet_sort_time:hover, .bet_sort_comp:hover, .bet_odds_contant:hover, .bet_all_time_btn, .bet_select_submit, .bet_game_star_out, .bet_game_star_on, .bet_right_top, .bet_page_contant_choose, .bet_top_bg, .bet_all_mark_on, .bet_all_pop_on, .bet_all_hdp_on, .bet_all_1st_on, .bet_all_score_on, .bet_all_bg_bet, .bet_all_bg_bet:hover, .bet_all_bg_bet_bl, .bet_all_bg_bet_bl:hover, .bet_view_small_btn, .bet_text_color, .bet_game_league, .bet_game_league_down, .bet_Apply_btn, .bet_game_more_i, .bet_game_more_btn, .bet_game_more_i_time, .bet_no_game_btn, .bet_Special_btn, .bet_game_head_i, .bet_page_Lleft, .bet_page_left, .bet_page_right { cursor:pointer;}
+
+.bet_all_two, .bet_all_two_left, .bet_all_three_left, .bet_all_three_middle, .bet_all_three, .bet_all_five_left, .bet_all_five, .bet_all_five_last, .bet_all_four_left, .bet_all_four, .bet_all_three_left_2, .bet_all_three_2, .bet_all_one, .bet_all_six_left, .bet_all_six_middle, .bet_all_six { /*cursor:pointer;*/}
+
+/*allbet_手指*/
+.bet_cursor_no { cursor:auto!important;}
+.bet_cursor { cursor:pointer;}
+/**/
+
+.bet_head { font-size:13px; color:#f9f0e5; background:#4F3F31; width:100%; height:40px; line-height:40px; padding:8px 4px 7px 10px; text-align:center;}
+.bet_head span { margin-right:6px;}
+.bet_left { float:left; height:25px;}
+.bet_right { float:right; height:25px;}
+.bet_yellow { color:#ffd796;}
+
+/*title-btn*/
+.bet_star_btn_out { display:inline-block; background:url(../../images/member/bet_star_btn.png) 0 0 no-repeat; width:47px; height:25px;}
+.bet_star_btn_out:hover { background:url(../../images/member/bet_star_btn.png) 0 -50px no-repeat;}
+.bet_star_btn_on { display:inline-block; background:url(../../images/member/bet_star_btn.png) 0 -25px no-repeat; width:47px; height:25px;}
+.bet_star_btn_on:hover { background:url(../../images/member/bet_star_btn.png) 0 -50px no-repeat;}
+.bet_star_btn_all { display:inline-block; background:#776455; border-radius:2px; padding:0 8px; height:25px;}
+.bet_star_btn_all:hover { background:#B48F65;}
+.bet_star_All { position:relative; top:-7px; left:-2px;}
+.bet_star_text { position:relative; top:-7px; left:12px;}
+.bet_star_btn_all .bet_star_text { position:relative; top:-7px; left:0px; color:#ffd796;}
+.bet_normal_text { position:relative; top:-7px;}
+
+.bet_league_btn { display:inline-block; background:#776455; padding:0 10px; border-radius:2px; height:25px;}
+.bet_league_btn:hover { background:#B48F65;}
+
+.bet_Comp_btn { display:inline-block; background:#776455; padding:0 10px; border-radius:2px; height:25px;}
+.bet_Comp_btn:hover { background:#B48F65;}
+
+.bet_game_btn { display:inline-block; background:#776455; padding:0 10px; border-radius:2px; height:25px;}
+.bet_game_btn:hover { background:#B48F65;}
+
+.bet_view_btn { display:inline-block; background:#776455; padding:0 10px; border-radius:2px; /*width:99px;*/ height:25px; text-align:center; position:relative;}
+.bet_view_btn:hover { background:#B48F65;}
+
+.bet_Special_btn { display:inline-block; background:#776455; padding:0 10px; border-radius:2px; /*width:99px;*/ height:25px; text-align:center; position:relative; margin-right:18px!important;}
+.bet_Special_btn:hover { background:#B48F65;}
+
+.bet_btn_rednew { display:inline-block; /*width:26px;*/ height:13px; line-height: 13px; position: absolute; top:-3px; right:-15px; background: #ff4545; padding: 0px 4px; color: #fff; font-size: 11px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; border-radius: 2px; /*background:url(../../images/member/bet_rednew_tw.png) 0 0 no-repeat;*/ margin-right:0px!important;}
+
+.bet_view_small_btn { display:inline-block; background:#776455; padding:0 10px; border-radius:2px; /*width:99px;*/ height:25px; text-align:center;}
+.bet_view_small_btn:hover { background:#B48F65;}
+
+.bet_sort_btn { display:inline-block; background:url(../../images/member/bet_sort_btn.png) 0 0 no-repeat; width:62px; height:25px;}
+.bet_sort_btn:hover { background:url(../../images/member/bet_sort_btn.png) 0 -25px;}
+
+.bet_sort_time_btn { display:inline-block; background:url(../../images/member/bet_sort_time_btn.png) 0 0 no-repeat; width:62px; height:25px;}
+.bet_sort_time_btn:hover { background:url(../../images/member/bet_sort_time_btn.png) 0 -25px;}
+
+.bet_odds_btn { display:inline-block; background:#776455; padding:0 10px; border-radius:1px; /*width:72px;*/ height:25px; text-align:center;}
+.bet_odds_btn:hover { background:#B48F65;}
+.bet_sort_text { position:relative; top:-7px; left:11px;}
+
+.bet_time_btn { display:inline-block; background:url(../../images/member/bet_time_btn.png) 0 0 no-repeat; width:58px; height:25px;}
+.bet_time_btn:hover { background:url(../../images/member/bet_time_btn.png) 0 -25px;}
+.bet_time_text {position:relative; top:-7px; left:11px;}
+
+.bet_sort_bg { width:188px; /*height:115px;*/ background:#302214; position: absolute; right:170px; top:40px; text-align:left; padding:0px 4px 4px 4px; cursor:default;z-index: 10}
+.bet_arrow { display:block; background:url(../../images/member/bet_arrow.png) 0 0 no-repeat; width:12px; height:7px; position: absolute; top:-7px; left:165px;}
+.bet_arrow_text { height:40px; line-height:40px; font-size:14px; font-family:arial; font-weight:bold; padding-left:10px; text-transform:uppercase;}
+.bet_sort_bg li, .bet_odds_bg li, .bet_all_odds_bg li { text-align:left; padding-left:10px;}
+/*過關排序位置*/
+.bet_p3_FT .bet_sort_bg, .bet_p3_BK .bet_sort_bg, .bet_p3_TN .bet_sort_bg, .bet_p3_VB .bet_sort_bg, .bet_p3_BM .bet_sort_bg, .bet_p3_TT .bet_sort_bg, .bet_p3_BS .bet_sort_bg, .bet_p3_OP .bet_sort_bg, .bet_pd_FT .bet_sort_bg, .bet_hpd_FT .bet_sort_bg, .bet_pd_FTF .bet_sort_bg, .bet_hpd_FTF .bet_sort_bg, .bet_pd_TN .bet_sort_bg, .bet_pd_TNF .bet_sort_bg, .bet_pd_VB .bet_sort_bg, .bet_pd_VBF .bet_sort_bg, .bet_pd_BM .bet_sort_bg, .bet_pd_BMF .bet_sort_bg, .bet_pd_TT .bet_sort_bg, .bet_pd_TTF .bet_sort_bg, .bet_f_FT .bet_sort_bg, .bet_f_FTF .bet_sort_bg, .bet_t_FT .bet_sort_bg, .bet_t_FTF .bet_sort_bg { position:absolute; right:90px;}
+/**/
+.bet_sort_time { background:url(../../images/member/bet_sort_time_pic.jpg) 0 -35px no-repeat; width:180px;height:35px; line-height:35px; position:relative; top:-1px; color:#c3b294;}
+.bet_sort_time:hover { background:url(../../images/member/bet_sort_time_pic.jpg) 0 0 no-repeat; color:#ffd796;}
+.bet_sort_time_choose { background:url(../../images/member/bet_sort_time_pic.jpg) 0 0 no-repeat; color:#ffd796; height:35px;}
+.bet_sort_comp { background:url(../../images/member/bet_sort_comp_pic.jpg) 0 -35px no-repeat; width:180px; height:35px; position:relative; top:1px; color:#c3b294;}
+.bet_sort_comp:hover { background:url(../../images/member/bet_sort_comp_pic.jpg) 0 0 no-repeat; color:#ffd796;}
+.bet_sort_comp_choose { background:url(../../images/member/bet_sort_comp_pic.jpg) 0 0 no-repeat; color:#ffd796; height:35px;}
+
+.bet_odds_bg { width:188px; background:#302214; position: absolute; right:95px; top:40px; text-align:left; padding:0px 4px 2px 4px; cursor:default;z-index: 10}
+.bet_odds_contant { background:#513f33; width:180px;height:35px; margin-bottom:1px; position:relative; top:0px; line-height:35px; color:#c3b294;}
+.bet_odds_contant:hover { background:#776455; color:#ffd796;}
+.bet_odds_contant_choose { background:#776455; color:#ffd796; height:35px; line-height:35px; margin-bottom:1px;}
+.bet_text_btn { display:inline-block; /*background:url(../../images/member/bet_text_btn.png) 0 0 no-repeat; width:94px;*/background:#776455; padding:0 10px; border-radius:1px; height:25px;}
+.bet_text_btn:hover { display:inline-block; /*background:url(../../images/member/bet_text_btn.png) 0 -25px no-repeat;*/background:#B48F65;}
+
+.bet_page_btn { display:inline-block; /*background:url(../../images/member/bet_page_btn.png) 0 0 no-repeat; width:51px;*/background:#776455; padding:0 10px; border-radius:1px; height:25px;}
+.bet_page_btn:hover { display:inline-block;/*background:url(../../images/member/bet_page_btn.png) 0 -25px;*/ background:#B48F65;}
+.bet_page_bg { width:51px; background:#302214; position: absolute; /*right:231px;*/ top:40px; text-align:right; padding:0px 4px 2px 4px; cursor:default;}
+.bet_page_contant { background:#3F2F22; height:35px; margin-bottom:1px; position:relative; top:-1px; color:#c3b294;}
+.bet_page_contant:hover { background:#725F50; color:#ffd796;}
+.bet_page_contant_choose { background:#725F50; color:#ffd796;}
+.bet_page_bg li { text-align:center;}
+.bet_page_btn .bet_arrow { display:block; background:url(../../images/member/bet_arrow.png) 0 0 no-repeat; width:12px; height:7px; position: absolute; top:-7px; left:19px;}
+.bet_page_btn .bet_arrow_text { height:40px; line-height:40px; font-size:14px; font-family:arial; font-weight:bold; padding:0 2px; text-transform:uppercase;}
+
+/**/
+
+.bet_game_table { width:100%; text-align:center; border-bottom:1px solid #BBA082; /*margin-bottom:35px;*/}
+.bet_game_table_nomargin { width:100%; text-align:center; border-bottom:1px solid #BBA082;}
+
+.bet_game_table td { /*padding:1px 10px;*/}
+
+.bet_game_title { background:#503f32;height:40px; color:#ffd796; font-size:12px; line-height:18px; border-bottom:1px solid #503f32;}
+.bet_game_title td span{ float:right; white-space:nowrap;}
+.bet_game_title td { padding:0 10px; white-space:nowrap;}
+.bet_title_pad { padding:0 2px!important;}
+
+.bet_game_name { width:27%; color:#fff; text-align:left; font-size:18px; text-transform:uppercase; line-height:16px; position:relative; top:1px;}
+/*edge*/
+_:-ms-lang(x), _:-webkit-full-screen, .bet_game_name { line-height: normal;}
+/**/
+
+.bet_name_long { /*width:230px; overflow:hidden; text-overflow:ellipsis;*/ float:left!important;}
+.bet_game { color:#ffd796!important; font-size:14.67px; text-transform:uppercase;}
+
+/*edge*/
+_:-ms-lang(x), _:-webkit-full-screen, .bet_name_long { float:none!important; width:100%;}
+/**/
+
+/*總入球寬度*/
+.bet_t_FT .bet_game_name { width:44%;}
+.bet_t_FTF .bet_game_name { width:44%;}
+
+.bet_t_FT .bet_game_correct_top td { width:45px;}
+.bet_t_FTF .bet_game_correct_top td { width:45px;}
+
+.bet_t_FT .bet_team { width:240px; height:30px; /*background:none;*/}
+.bet_t_FTF .bet_team { width:240px; height:30px; /*background:none;*/}
+
+/*safari only*/
+::i-block-chrome,.bet_t_FT .bet_team {
+  width:240px; height:24px;
+}
+
+::i-block-chrome,.bet_t_FTF .bet_team {
+  width:240px; height:24px;
+}
+
+/**/
+.bet_TV_btn_out { float:right;display: inline-block; background:url(../../images/member/bet_TV_btn.png) 0 0 no-repeat; width:25px; height:25px; margin:0 10px;}
+.bet_TV_btn_on { float:right; display: inline-block; background:url(../../images/member/bet_TV_btn.png) 0 -25px no-repeat; width:25px; height:25px; margin:0 10px;}
+.bet_TV_btn_on:hover { display: inline-block; background:url(../../images/member/bet_TV_btn.png) 0 -50px no-repeat; width:25px; height:25px; }
+
+
+/*滾球計分板高度*/
+.bet_re_BM .bet_team { height:20px; line-height:14px;}
+.bet_re_TN .bet_team { height:20px; line-height:14px;}
+
+.bet_title_hdp { width:12%;}
+.bet_title_dp { width:11%;}
+.bet_title_ou { width:14%;}
+.bet_title_hou { width:12%;}
+.bet_title_1X2 { width:6%;}
+.bet_title_oe { border-right:1px solid #52402a; width:9%;}
+.bet_title_point {}
+.bet_title_tp { width:30%; white-space:nowrap;}
+.bet_all_small_w { width:12%; white-space:nowrap; text-align:left; padding-left:5px; padding-right:8px; background: url(../../images/member/bet_left_line.png) left 0 repeat-y;}
+.bet_all_small_w .bet_TV_btn_on { float:none; margin:0px;}
+.bet_all_small_w .bet_TV_btn_out { float:none; margin:0px;}
+
+.bet_r_OP .bet_all_small_w { background:none;}
+.bet_r_OPF .bet_all_small_w { background:none;}
+.bet_p3_OP .bet_all_small_w { background:none;}
+.bet_re_OP .bet_all_small_w { background:none;}
+
+.bet_r_SK .bet_all_small_w { background:none;}
+.bet_r_SKF .bet_all_small_w { background:none;}
+.bet_p3_SK .bet_all_small_w { background:none;}
+.bet_re_SK .bet_all_small_w { background:none;}
+
+/*波膽寬*/
+.bet_pd_FT .bet_title_point, .bet_pd_FTF .bet_title_point { width:4%;}
+.bet_hpd_FT .bet_title_point, .bet_hpd_FTF .bet_title_point { width:6%;}
+.bet_pd_TN .bet_title_point, .bet_pd_TNF .bet_title_point, .bet_pd_VB .bet_title_point, .bet_pd_VBF .bet_title_point, .bet_pd_BM .bet_title_point, .bet_pd_BMF .bet_title_point { width:10%;}
+.bet_pd_TT .bet_title_point, .bet_pd_TTF .bet_title_point { width:9%;}
+/**/
+
+.bet_game_title tt { color:#c3b294;}
+.bet_game_league { background:#776455 url(../../images/member/bet_title_arrow_up.png) 10px 10px no-repeat; color:#fff; height:29px; line-height:29px; text-align:left; font-size:14px; border-bottom:1px solid #776455; text-transform:uppercase;}
+.bet_game_league_down { background:#776455 url(../../images/member/bet_title_arrow_down.png) 10px 10px no-repeat; color:#fff; height:29px; line-height:29px; text-align:left; font-size:14px; border-bottom:1px solid #776455; text-transform:uppercase;}
+
+.bet_game_league td { padding:0 10px 0 32px; position:relative; top:1px;}
+.bet_game_league_down td { padding:0 10px 0 32px; position:relative; top:1px;}
+
+.bet_game_tr_top { background:#fff; height:28px; font-size:14px; border-top:1px solid #baa283; color:#323232; text-align:center;}
+.bet_game_tr_top_bg { background:#f5f0e7; height:28px; font-size:14px; border-top:1px solid #baa283; color:#323232; text-align:center;}
+.bet_game_tr_other { background:#fff; height:28px; font-size:14px; color:#323232; text-align:center;}
+.bet_game_tr_other_bg { background:#f5f0e7; height:28px; font-size:14px; color:#323232; text-align:center;}
+/*子盤線顏色*/
+.bet_game_tr_top_color { background:#fff; height:35px; font-size:14px; border-top:1px solid #efe5d9; color:#323232; text-align:center;}
+
+/*桌球高度*/
+.bet_r_TT .bet_game_tr_top, .bet_r_TTF .bet_game_tr_top, .bet_p3_TT .bet_game_tr_top, .bet_re_TT .bet_game_tr_top { height:35px;}
+.bet_r_TT .bet_game_tr_top_bg, .bet_r_TTF .bet_game_tr_top_bg, .bet_p3_TT .bet_game_tr_top_bg, .bet_re_TT .bet_game_tr_top_bg { height:35px;}
+.bet_r_TT .bet_game_tr_other, .bet_r_TTF .bet_game_tr_other, .bet_p3_TT .bet_game_tr_other, .bet_re_TT .bet_game_tr_other { height:35px;}
+.bet_r_TT .bet_game_tr_other_bg, .bet_r_TTF .bet_game_tr_other_bg, .bet_p3_TT .bet_game_tr_other_bg, .bet_re_TT .bet_game_tr_other_bg { height:35px;}
+/*排球高度*/
+.bet_r_VB .bet_game_tr_top, .bet_r_VBF .bet_game_tr_top, .bet_p3_VB .bet_game_tr_top, .bet_re_VB .bet_game_tr_top { height:35px;}
+.bet_r_VB .bet_game_tr_top_bg, .bet_r_VBF .bet_game_tr_top_bg, .bet_p3_VB .bet_game_tr_top_bg, .bet_re_VB .bet_game_tr_top_bg { height:35px;}
+.bet_r_VB .bet_game_tr_other, .bet_r_VBF .bet_game_tr_other, .bet_p3_VB .bet_game_tr_other, .bet_re_VB .bet_game_tr_other { height:35px;}
+.bet_r_VB .bet_game_tr_other_bg, .bet_r_VBF .bet_game_tr_other_bg, .bet_p3_VB .bet_game_tr_other_bg, .bet_re_VB .bet_game_tr_other_bg { height:35px;}
+/*籃球高度*/
+.bet_r_BK .bet_game_tr_top, .bet_r_BKF .bet_game_tr_top, .bet_p3_BK .bet_game_tr_top, .bet_re_BK .bet_game_tr_top { height:35px;}
+.bet_r_BK .bet_game_tr_top_bg, .bet_r_BKF .bet_game_tr_top_bg, .bet_p3_BK .bet_game_tr_top_bg, .bet_re_BK .bet_game_tr_top_bg { height:35px;}
+.bet_r_BK .bet_game_tr_other, .bet_r_BKF .bet_game_tr_other, .bet_p3_BK .bet_game_tr_other, .bet_re_BK .bet_game_tr_other { height:35px;}
+.bet_r_BK .bet_game_tr_other_bg, .bet_r_BKF .bet_game_tr_other_bg, .bet_p3_BK .bet_game_tr_other_bg, .bet_re_BK .bet_game_tr_other_bg { height:35px;}
+/*網球高度*/
+.bet_r_TN .bet_game_tr_top, .bet_r_TNF .bet_game_tr_top, .bet_p3_TN .bet_game_tr_top, .bet_re_TN .bet_game_tr_top { height:35px;}
+.bet_r_TN .bet_game_tr_top_bg, .bet_r_TNF .bet_game_tr_top_bg, .bet_p3_TN .bet_game_tr_top_bg, .bet_re_TN .bet_game_tr_top_bg { height:35px;}
+.bet_r_TN .bet_game_tr_other, .bet_r_TNF .bet_game_tr_other, .bet_p3_TN .bet_game_tr_other, .bet_re_TN .bet_game_tr_other { height:35px;}
+.bet_r_TN .bet_game_tr_other_bg, .bet_r_TNF .bet_game_tr_other_bg, .bet_p3_TN .bet_game_tr_other_bg, .bet_re_TN .bet_game_tr_other_bg { height:35px;}
+/*羽球高度*/
+.bet_r_BM .bet_game_tr_top, .bet_r_BMF .bet_game_tr_top, .bet_p3_BM .bet_game_tr_top, .bet_re_BM .bet_game_tr_top { height:35px;}
+.bet_r_BM .bet_game_tr_top_bg, .bet_r_BMF .bet_game_tr_top_bg, .bet_p3_BM .bet_game_tr_top_bg, .bet_re_BM .bet_game_tr_top_bg { height:35px;}
+.bet_r_BM .bet_game_tr_other, .bet_r_BMF .bet_game_tr_other, .bet_p3_BM .bet_game_tr_other, .bet_re_BM .bet_game_tr_other { height:35px;}
+.bet_r_BM .bet_game_tr_other_bg, .bet_r_BMF .bet_game_tr_other_bg, .bet_p3_BM .bet_game_tr_other_bg, .bet_re_BM .bet_game_tr_other_bg { height:35px;}
+
+/*滑過底色*/
+.bet_game_bg { background:#F6F4EE!important;}
+.bet_game_rbg { background:#F5F0E7!important;}
+.bet_game_rbg_l { background:#F5F0E7 url(../../images/member/bet_left_line.png) left 0 repeat-y!important;}
+/**/
+
+/*game-time*/
+.bet_r_SK .bet_game_time { width:11%; padding-bottom:5px;}
+.bet_r_SKF .bet_game_time { width:11%; padding-bottom:5px;}
+.bet_p3_SK .bet_game_time { width:11%; padding-bottom:5px;}
+.bet_re_SK .bet_game_time { width:11%; padding-bottom:5px;}
+
+.bet_game_time { width:5%; font-size:13px; color:#323232; /*border-right:1px solid #eee2d2;*/ text-align:center; white-space:nowrap; /*padding:1px 1px;*/ padding-top:3px; /*background:#FFF!important;*/}
+.bet_time_live { color:#e76121; /*line-height:20px;*/ font-weight:normal; margin-top:3px;}
+
+/*edge*/
+_:-ms-lang(x), _:-webkit-full-screen, .bet_game_tr_top .bet_game_time { border-top:1px solid #776455;}
+/**/
+
+.bet_team { text-align:left; border-bottom: none!important; padding:3px 10px; font-size:13px; height:27px; line-height:15px; /*border-left:1px solid #eee2d2;*/ background:url(../../images/member/bet_left_line.png) left 0 repeat-y;}
+
+.bet_r_BK .bet_team, .bet_r_BKF .bet_team, .bet_p3_BK .bet_team, .bet_re_BK .bet_team { line-height:18px; height:36px;}
+/*safari only*/
+::i-block-chrome,.bet_r_BK .bet_team, .bet_r_BKF .bet_team, .bet_p3_BK .bet_team, .bet_re_BK .bet_team {
+ line-height:18px; height:28px;
+}
+
+.bet_re_BM .bet_team, .bet_re_TN .bet_team, .bet_re_TT .bet_team, .bet_re_VB .bet_team, .bet_re_BS .bet_team { border-left:none; background:none;}
+.bet_pd_FT .bet_team, .bet_pd_FTF .bet_team, .bet_f_FT .bet_team, .bet_f_FTF .bet_team { border-left:none!important;}
+
+.bet_team_div_ft { width:100%; display:table;}
+.bet_team_div_ftpd { width:60px;}
+.bet_team_div_or { width:130px;}
+.bet_team_div_or_200 { width:200px;}
+.bet_game_n { display: block; background:url(../../images/member/bet_game_n_new.png) 0 0 no-repeat; width:20px; height:20px; margin:5px auto 0 auto;}
+
+.bet_base_text { color:#51ae2c;}
+.bet_base_top { display:inline-block; background:url(../../images/member/bet_base_arrow_pic.png) 0 0 no-repeat; width:9px; height:9px; margin-left:3px;}
+.bet_base_bottom { display:inline-block; background:url(../../images/member/bet_base_arrow_pic.png) 0 -9px no-repeat; width:9px; height:9px; margin-left:3px;}
+
+.bet_allbase_top { display:inline-block; background:url(../../images/member/bet_base_allarrow_pic.png) 0 0 no-repeat; width:9px; height:9px; margin-left:3px;}
+.bet_allbase_bottom { display:inline-block; background:url(../../images/member/bet_base_allarrow_pic.png) 0 -9px no-repeat; width:9px; height:9px; margin-left:3px;}
+
+.bet_time_brown { color:#71553e;}
+.bet_time_red { color:#e76121; font-weight:bold;}
+.bet_best_brown { color:#ac956c; margin-top:5px; font-size:12px;}
+/**/
+
+/*紅卡*/
+.bet_red_card { background:#ec4343; padding:2px 4px; border-radius:2px; color:#fff; font-weight:bold; float:right;}
+/**/
+
+.bet_game_star_out { float:right; display:inline-block; background:url(../../images/member/bet_game_star.png) 0 0 no-repeat; width:15px; height:14px;}
+.bet_game_star_out:hover { background:url(../../images/member/bet_game_star.png) 0 -14px no-repeat;}
+.bet_game_star_on { float:right; display:inline-block; background:url(../../images/member/bet_game_star.png) 0 -14px no-repeat; width:15px; height:14px;}
+.bet_game_star_none { float:right; display:inline-block; width:15px; height:14px;}
+
+.bet_text { /*width:100%;*/ font-weight:bold; padding:1px 2px!important; text-align:center; /*letter-spacing:-0.5px; white-space:nowrap;*/}
+/*.bet_text:hover { background:#dc9602; color:#FFF; border-radius:2px;}*/
+.bet_text_thin { color:#705636; padding:1px 1px!important; font-weight:normal; letter-spacing:-1px;}
+.bet_text_oue { color:#ac956c; padding:0 2px 0 5px!important; font-weight:normal; letter-spacing:-1px;}
+.bet_text_right { font-weight:bold; padding:0 10px 0 5px!important; letter-spacing:-1px;}
+
+/*球頭斷行+星星斷行*/
+.bet_text_table { display:table; width:100%; /*width:88px;*/ margin-bottom:5px; margin-top:5px;}
+.bet_text_table_draw { display:table; width:100%; /*width:88px;*/ margin-bottom:5px;}
+.bet_text_table_star { display:table; width:100%; /*width:88px;*/ margin-bottom:5px; margin-top:5px;}
+
+.bet_text_tdl { display:table-cell; text-align:right;}
+.bet_text_tdr { display:table-cell; vertical-align:middle; width:38px;}
+.bet_text_tdred { display:table-cell; vertical-align:middle;}
+
+.bet_text_tdstar { display:table-cell; vertical-align:bottom;}
+.bet_team .bet_text_tdl { text-align:left;}
+/**/
+
+.bet_more_btn { text-align:center; display:block; width:102px; height:25px; line-height:25px; margin:auto; background:url(../../images/member/bet_more_btn.png) 0 0 no-repeat; color:#27a67b; font-size:13px; position:relative; top:-1px;}
+/*safari only*/
+::i-block-chrome,.bet_more_btn {
+ position:relative; top:1px; top:1px\9;
+}}
+/* Firefox */
+@-moz-document url-prefix()
+{html>body .bet_more_btn { position:relative; top:-2px;}}
+
+.bet_more_btn:hover { background:url(../../images/member/bet_more_btn.png) 0 -25px no-repeat; color:#fff;}
+
+.bet_more_small_btn { text-align:center; display: inline-block; background:url(../../images/member/bet_more_small_btn.png) 0 0 no-repeat; color:#27a67b; width:60px; height:47px; line-height:18px; margin:auto; font-size:13px; padding-top:5px; margin-right:5px; margin-left:4px; font-size:13px;}
+.bet_more_small_btn:hover { background:url(../../images/member/bet_more_small_btn.png) 0 -47px no-repeat; color:#fff;}
+
+/*桌球按鈕*/
+.bet_r_TT .bet_more_small_btn { padding-left:3px;}
+/*排球按鈕*/
+.bet_r_VB .bet_more_small_btn { padding-left:3px;}
+/*網球按鈕*/
+.bet_r_TN .bet_more_small_btn { padding-left:3px;}
+
+/*改變賠率變色*/
+.bet_text_color { padding:3px 5px; background:#fff0b4; color:#c8250a; border-radius:2px; white-space:nowrap;
+ background-color:rgba(255,240,180,0);
+    -webkit-animation-name: change; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: change;
+    animation-duration: 5s;}
+	/* Chrome, Safari, Opera */
+@-webkit-keyframes change {
+   	0%   {background-color:rgba(255,240,180,1)}
+    100% {background-color: rgba(255,240,180,0); }
+}
+
+/* Standard syntax */
+@keyframes change {
+   	0%   {background-color:rgba(255,240,180,1);}
+    100% {background-color:rgba(255,240,180,0) }
+}
+
+.bet_text_color:hover { padding:3px 5px; background:#dc9602; color:#FFF; border-radius:2px;}
+
+/**/
+.bet_bg_color { padding:3px 5px; color:#c8250a; white-space:nowrap;}
+.bet_bg_color:hover { padding:3px 5px; background:#dc9602; color:#FFF; border-radius:2px;}
+.bet_bg_color_bet { padding:3px 5px; background:#dc9601; border-radius:2px; color:#fff;}
+.bet_bg_color_chg { padding:3px 5px; background:#fff0b4; border:1px solid #fbebaa; border-radius:2px;}
+
+.bet_cen { padding:3px 5px; color:#c8250a;}
+.bet_cen:hover { padding:3px 5px; background:#dc9602; color:#FFF; border-radius:2px;}
+.pr_cen { padding:3px 5px; background:#dc9601; border-radius:2px;}
+
+/*有底色*/
+.bet_text_bg { font-weight:bold; background:#fcf7ed; /*white-space:nowrap;*/ padding:1px 2px!important; /*letter-spacing:-0.5px;*/}
+.bet_text_left_bg { font-weight:bold; background:#fcf7ed url(../../images/member/bet_left_line.png) left 0 repeat-y; /*border-left:1px solid #eee2d2;*/ padding:1px 5px 1px 5px!important; /*letter-spacing:-0.5px;*/}
+.bet_text_thin_bg { color:#705636; padding:1px 2px!important; /*background:#fcf7ed;*/ font-weight:normal; letter-spacing:-1px;}
+.bet_text_right_bg { font-weight:bold; padding:0 1px 0 0!important; background:#fcf7ed; /*white-space:nowrap; letter-spacing:-0.5px;*/ width:13%;}
+.bet_td_bg { background:#fcf7ed;}
+
+.bet_textbor_bg { font-weight:bold; background: url(../../images/member/bet_left_line.png) left 0 repeat-y; /*border-left:1px solid #eee2d2;*/ border-bottom:1px dashed #efe5d9; /*white-space:nowrap; letter-spacing:-0.5px;*/ text-align:center;}
+.bet_textbor_color_bg { font-weight:bold; background:#fcf7ed url(../../images/member/bet_left_line.png) left 0 repeat-y; /*border-left:1px solid #eee2e2; white-space:nowrap; letter-spacing:-0.5px;*/ text-align:center;}
+.bet_textbor_bg_2 { font-weight:bold; background: url(../../images/member/bet_left_line.png) left 0 repeat-y; /*border-left:1px solid #efe5d9;*/ border-bottom:1px dashed #efe5d9; /*border-right:1px solid #eee2d2; white-space:nowrap; letter-spacing:-0.5px;*/ text-align:center;}
+.bet_textbor_color_bg_2 { font-weight:bold; background:#FCF7ED url(../../images/member/bet_left_line.png) left 0 repeat-y; /*border-left:1px solid #efe5d9; border-right:1px solid #eee2d2; white-space:nowrap; letter-spacing:-0.5px;*/ text-align:center;}
+/*置中*/
+.bet_textbor_bg .bet_text_tdl { width:55%; text-align:right;}
+.bet_textbor_color_bg .bet_text_tdl { width:55%; text-align:right;}
+.bet_textbor_bg_2 .bet_text_tdl { width:55%; text-align:right;}
+.bet_textbor_color_bg_2 .bet_text_tdl { width:55%; text-align:right;}
+
+.bet_textbor_bg .bet_text_tdr { width:45%; text-align:center;}
+.bet_textbor_color_bg .bet_text_tdr { width:45%; text-align:center;}
+.bet_textbor_bg_2 .bet_text_tdr { width:45%; text-align:center;}
+.bet_textbor_color_bg_2 .bet_text_tdr { width:45%; text-align:center;}
+/**/
+
+
+.bet_time_score { /*font-weight:bold;*/ line-height:20px; position:relative; top:2px;}
+.bet_score { color:#935120;}
+.bet_score_og { color:#e76121;}
+.bet_point_og { color:#e87d2e;}
+
+/*返回按鈕*/
+.bet_top_bg { position:absolute; right:10px; bottom:5px; background:url(../../images/member/bet_top_bg.png) 0 0 no-repeat; width:25px; height:25px;}
+
+/*選擇聯賽+allbet*/
+.bet_select_bg { position:relative; width:100%; height:100%; background:#31271E; overflow-x: hidden; background:url(../../images/member/bet_opacity_bg.png) 0 0 repeat;}
+
+.bet_right_btn { position: absolute; width:88px;}
+.bet_right_ul { position:absolute; left:683px; top:50px; line-height:42px; width:88px; color:#f9f0e5; font-size:13px;}
+.bet_right_ul li { margin-bottom:15px; padding-left:32px;}
+.bet_right_ul tt { position:relative; top:5px;}
+.bet_right_refresh { background:url(../../images/member/bet_three_btn.png) 0 0 no-repeat; width:88px; height:42px;}
+.bet_right_refresh:hover { background:url(../../images/member/bet_three_btn.png) -88px 0 no-repeat; width:88px; height:42px;}
+.bet_right_close { background:url(../../images/member/bet_three_btn.png) 0 -42px no-repeat; width:88px; height:42px;}
+.bet_right_close:hover { background:url(../../images/member/bet_three_btn.png) -88px -42px no-repeat; width:88px; height:42px;}
+.bet_right_top { display:inline-block; background:url(../../images/member/bet_three_btn.png) 0 -84px no-repeat; width:88px; height:42px; line-height:42px;}
+.bet_right_top:hover { display:inline-block; background:url(../../images/member/bet_three_btn.png) -88px -84px no-repeat; width:88px; height:42px; line-height:42px;}
+
+/*.bet_select_content { width:635px; height:100%; overflow:auto; background:#FFF; margin-left:30px; padding:10px;}*/
+.bet_select_content { position:absolute; width:635px; height:100%; overflow-y:auto; overflow-x:hidden; background:#FFF; margin-left:30px; /*padding:10px;*/ border:10px solid #fff; /*padding-bottom:37px;*/}
+.bet_more_div { height:100%; position:absolute; top:0px;}
+
+.bet_select_table { width:600px;}
+.bet_select_table td { padding: 0 10px;}
+.bet_select_title { background:#503F32; height:40px; line-height:40px; color:#f9f0e5; font-size:16px;}
+
+.bet_select_left { /*float:left;*/ width:360px; height:40px; /*white-space:nowrap; overflow:hidden; text-overflow:ellipsis;*/ display:table-cell; vertical-align:middle;}
+.bet_select_right { /*float:right;*/ font-size:13px; display:table-cell; text-align:right; width:235px;}
+.bet_select_right span { margin-left:5px;}
+
+.bet_checkbox { display: inline-block; background:url(../../images/member/bet_checkbox.png) 0 0 no-repeat; width:20px; height:20px; position:relative; top:5px;}
+.bet_select_time_btn { display:inline-block; background:url(../../images/member/bet_time_btn.png) 0 0 no-repeat; width:58px; height:25px; position:relative; top:7px; text-align:center;}
+.bet_select_time_btn:hover { background:url(../../images/member/bet_time_btn.png) 0 -25px;}
+.bet_select_time_btn tt { padding-left:30px; position:relative; top:-6px;}
+.bet_select_close { display:inline-block; background:url(../../images/member/bet_close_btn.png) 0 0 no-repeat; width:32px; height:25px; position:relative; top:8px;}
+.bet_select_close:hover { background:url(../../images/member/bet_close_btn.png) 0 -25px no-repeat;}
+.bet_select_TV { display:inline-block; background:url(../../images/member/bet_allTV_btn.png) 0 0 no-repeat; width:25px; height:25px; position:relative; top:8px;}
+.bet_select_TV:hover { background:url(../../images/member/bet_allTV_btn.png) 0 -25px no-repeat;}
+.bet_select_TV_close { display:inline-block; background:url(../../images/member/bet_allTV_btn.png) 0 -50px no-repeat; width:25px; height:25px; position: relative; top:8px;}
+
+.bet_select_text { background:#6b5444; height:30px; color:#f2dfd2; font-size:14px;}
+.bet_select_all { height:35px; vertical-align:middle; font-size:14px;}
+
+.bet_box_w { width:5%; padding-right:0px!important;}
+.bet_team_w { width:40%;}
+.bet_num_w { width:5%;}
+
+.bet_select_toph { height:9px;}
+.bet_select_bottomh { height:6px;}
+
+/*checkbox-勾勾顏色*/
+.bet_selsect_box { display: inline-block; background:url(../../images/member/bet_checkbox.png) 0 0 no-repeat; width:20px; height:20px;}
+
+input[type="checkbox"] {display:none; }
+label input[type="checkbox"] + span{display:inline-block;width:20px;height:20px;margin:0px 0px 0 0;
+vertical-align:middle;background: url(../../images/member/bet_checkbox.png) top center no-repeat;cursor:pointer; position:relative; top:-1px;}
+label input[type="checkbox"]:checked + span{background: url(../../images/member/bet_checkbox.png) bottom center no-repeat;}
+/**/
+
+.bet_select_team { color:#323232; word-break:normal;}
+.bet_select_number { display:inline-block; background:url(../../images/member/bet_select_number.png) 0 0 no-repeat; width:28px; height:25px; line-height:25px; text-align:center; color:#fff; position:relative; top:-1px;}
+.bet_select_number_none { display:inline-block; width:28px; height:25px; line-height:25px;}
+
+.bet_select_submit { text-align:center; display:inline-block; background:url(../../images/member/bet_select_submit.png) 0 0 no-repeat; width:135px; height:25px; line-height:25px; font-size:13px; color:#fff;}
+.bet_select_center { text-align:center; height:25px; /*width:700px;*/ position: absolute; bottom:10px; left:283px;}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.bet_select_center { bottom:10px;}} /*IE10*/
+
+.bet_title_date { font-size:12px; background:#34281f; height:35px; line-height:35px; color:#a58e73; padding:0 5px}
+.bet_title_date span { margin: 0 5px; cursor:pointer;}
+.bet_title_date span:hover { color:#FFBE55;}
+.bet_date_color { color:#ffbe55; cursor:default!important;}
+.bet_early_date_live { color:#323232; /*line-height:21px;*/}
+.bet_early_time_live { color:#323232; margin-top:5px;}
+
+.bet_in_bg { float:right; display:inline-block; /*background:url(../../images/member/bet_in_bg.png) 0 0 no-repeat;*/ width:50px; height:18px; text-align:center; line-height:18px; color:#fff1d6; font-size:13px; position:relative; top:4px; text-transform:none; border-radius:3px; border:1px solid #fff1d6;}
+
+.bet_game_correct_top { background:#fff; height:28px; font-size:14px; border-top:1px solid #baa283; color:#323232; text-align:center;}
+.bet_game_correct_top .bet_text { background:url(../../images/member/bet_correct_bg_left_pic.jpg) 0 bottom repeat-y;}
+.bet_game_correct_other { background:#fff; height:28px; font-size:14px; color:#323232; text-align:center;}
+.bet_game_correct_other td { background:url(../../images/member/bet_correct_bg_left_pic.jpg) 0 bottom repeat-y;}
+
+.bet_bor_none { border-top:none;}
+.bet_game_correct_more { background:#fff; height:28px; font-size:14px; border-top:1px solid #baa283; color:#323232; text-align:center;}
+.bet_game_correct_more .bet_text { background:url(../../images/member/bet_correct_bg_left_pic.jpg) 0 bottom repeat-y;}
+
+.bet_pd_FT .bet_game_correct_top .bet_text, .bet_pd_FTF .bet_game_correct_top .bet_text, .bet_hpd_FT .bet_game_correct_top .bet_text, .bet_hpd_FTF .bet_game_correct_top .bet_text { border-bottom:1px dashed #efe5d9;}
+.bet_pd_TN .bet_game_correct_top .bet_text, .bet_pd_TNF .bet_game_correct_top .bet_text { border-bottom:1px dashed #efe5d9;}
+.bet_pd_VB .bet_game_correct_top .bet_text, .bet_pd_VBF .bet_game_correct_top .bet_text { border-bottom:1px dashed #efe5d9;}
+.bet_pd_BM .bet_game_correct_top .bet_text, .bet_pd_BMF .bet_game_correct_top .bet_text { border-bottom:1px dashed #efe5d9;}
+.bet_pd_TT .bet_game_correct_top .bet_text, .bet_pd_TTF .bet_game_correct_top .bet_text { border-bottom:1px dashed #efe5d9;}
+
+.bet_correct_bg { background:#fbf7ec url(../../images/member/bet_left_line.png) left 0 repeat-y; font-weight:bold;}
+.bet_correct_bg_left { /*background:#fbf7ec;*/ background:url(../../images/member/bet_correct_bg_left_pic.jpg) 0 bottom repeat-y; font-weight:bold; border-left:none!important; /*border-left:1px solid #baa283!important;*/}
+.bet_correct_title { background:#cecbb4; color:#52402a; height:30px; text-align:left; font-size:14px;}
+.bet_correct_title td { padding:0 10px;}
+
+.bet_corr_number { float:right;}
+
+.bet_game_tr_one { background:#fff; height:28px; font-size:14px; border-top:1px solid #baa283; color:#323232; text-align:center;}
+
+/*TotalGoals-title*/
+.bet_game_two_title { background:#503F32;height:20px; color:#ffd796; font-size:12px; line-height:18px; border-bottom:1px solid #503F32;}
+.bet_game_two_title td span{ float:right;}
+.bet_game_two_title td { padding:0 10px;}
+.bet_game_two_title tt { color:#c3b294;}
+.bet_two_td { font-size:13px; color:#c3b294; width:55px;}
+.bet_two_td_left { font-size:13px; color:#c3b294; border-left:1px solid #52402a; width:55px;}
+.bet_two_title_border { border-left:1px solid #52402a;}
+/**/
+
+/*Outright*/
+.bet_date_small_title { background:#cecbb4; color:#52402a; height:29px; text-align:left; font-size:13px; /*border-bottom:1px solid #e4e2dd;*/}
+.bet_date_small_title td { padding:0 10px;}
+.bet_date_small_left { border-right:1px solid #baa283; width:50%;}
+/*.bet_date_small_left:hover { background:#EFE5D9;}*/
+.bet_date_small_right { width:50%;}
+/*.bet_date_small_right:hover { background:#EFE5D9;}*/
+.bet_small_table { display:table; width:100%;}
+.bet_game_small_top { background:#fff; height:28px; font-size:13px; border-top:1px solid #efe5d9; color:#323232; text-align:right;}
+.bet_game_small_top td { padding:0 10px;}
+.bet_small_left { text-align:left; display:table-cell;}
+.bet_small_right { text-align: right; font-size:14px; font-weight:bold;  display:table-cell; vertical-align:middle; padding-left:10px;}
+/**/
+
+/*TN-inplay_point*/
+.bet_point_td { white-space:nowrap; /*border-right:1px solid #f7efe7;*/ padding:0px!important; color:#935120; font-weight:bold; text-align:center; width:5%; /*background:#FFF!important;*/}
+.bet_point_table { display:inline-table; height:100%; width:100%; padding:1px 5px 0px 5px;}
+.bet_point_line_table { display:inline-table; height:100%; width:100%;}
+.bet_point_line { border-right:1px solid #f7efe7; width:30px; line-height:34px;}
+.bet_point_rew { width:30px; line-height:34px;}
+.bet_point_left { padding:0 5px!important;}
+.bet_point_other { padding:0 5px;}
+.bet_point_red { color:#e76121;}
+.bet_point_right { padding:0 5px; font-weight:normal;}
+.bet_line { padding:0 0 0 5px!important; /*border-left:1px solid #F7EFE7;*/background: url(../../images/member/bet_left_line.png) left 0 repeat-y; width:19px;}
+.bet_line_none { padding:0 0 0 5px!important; /*border-left:1px solid #F7EFE7;*/background: url(../../images/member/bet_left_line.png) left 0 repeat-y; width:19px; position:relative; top:-1px;}
+/* Firefox */
+@-moz-document url-prefix()
+{html>body .bet_line_none { position:relative; top:0px;}}
+
+.bet_line_on { display:inline-block; background:url(../../images/member/bet_line_pic.png) 0 0 no-repeat; width:14px; height:13px; position:relative; top:1px;}
+.bet_line_out { display:inline-block; background:url(../../images/member/bet_line_pic.png) 0 -13px no-repeat; width:14px; height:13px;}
+.bet_title_red { color:#cf5650;}
+.bet_round_td { padding:0 0px!important; /*border-right:1px solid #f7efe7;*/ color:#776455; text-align:center; width:5%; /*background:#FFF!important;*/ border-collapse: inherit;}
+.bet_round_bg { display:inline-block; /*background:url(../../images/member/bet_round_bg.png) 0 0 no-repeat;*/ border:1px solid #80623d; border-radius:25px; width:45px; height:45px; line-height:15px; text-align:center; font-size:13px;}
+.bet_round_game { /*position:relative; top:14px;*/ display:table-cell; vertical-align:middle; width:45px; height:45px;}
+
+/*BS-inplay_point*/
+.bet_re_BS .bet_team { width:19%;}
+.bet_re_BS .bet_game_time { width:6%; font-size:13px; color:#323232; /*border-right:1px solid #eee2d2;*/ text-align:center; white-space:nowrap; /*padding:1px 1px;*/ padding-top:3px; /*background:#FFF!important;*/}
+.bet_re_BS .bet_line { padding:0 0 0 5px!important; /*border-left:1px solid #F7EFE7;*/background: url(../../images/member/bet_left_line.png) left 0 repeat-y; width:1%;}
+.bet_re_BS .bet_line_on { display:inline-block; background:url(../../images/member/bet_line_pic.png) 0 0 no-repeat; width:14px; height:13px; position:relative; top:1px;}
+.bet_re_BS .bet_line_out { display:inline-block; background:url(../../images/member/bet_line_pic.png) 0 -13px no-repeat; width:14px; height:13px; position:relative; top:1px;}
+
+/*weather-delay*/
+.bet_weather_tr_top { background:#FEEFEB; height:28px; font-size:14px; border-top:1px solid #baa283; color:#323232; text-align:right;}
+.bet_weather_tr_other { background:#FEEFEB; height:28px; font-size:14px; color:#323232; text-align:right;}
+
+.bet_weather_tr_other .bet_textbor_color_bg { background:#FEEBE2;}
+.bet_weather_tr_other .bet_textbor_color_bg_2 { background:#FEEBE2;}
+
+.bet_weather_small_title { background:#cecbb4; color:#52402a; height:29px; font-size:13px; border-bottom:1px solid #e4e2dd;}
+.bet_weather_small_title td { padding:1px 10px;}
+.bet_weather_left { float:left;}
+.bet_weather_text { color:#e33030;}
+
+.bet_weather_small_title .bet_corr_number tt { color:#cf5650;}
+
+/*BS-base*/
+.bet_base_title { background:#cecbb4; color:#52402a; height:25px; line-height:25px; text-align:left; font-size:13px;}
+.bet_base_title td { padding:0 10px;}
+.bet_base_pic { float:left; display: inline-block; background:url(../../images/member/bet_base_pic.png) 0 0 no-repeat; width:22px; height:16px; position:relative; top:5px;}
+.bet_base_pic_all { float:left; display: inline-block; background:url(../../images/member/bet_base_pic.png) 0 0 no-repeat; width:22px; height:16px; position:relative; top:7px;}
+.bet_title_yellow { color:#ffce39;}
+.bet_B0 { background-position:0 0px;}
+.bet_B1 { background-position:0 -16px;}
+.bet_B2 { background-position:0 -32px;}
+.bet_B3 { background-position:0 -48px;}
+.bet_B12 { background-position:0 -64px;}
+.bet_B23 { background-position:0 -80px;}
+.bet_B13 { background-position:0 -96px;}
+.bet_B123 { background-position:0 -112px;}
+
+/*VB-inplay_point*/
+.bet_point_right_bold { padding:0 8px;} 
+.bet_point_left_w { padding:0 8px;}
+.bet_point_other_w { padding:0 8px;}
+
+/*allbet*/
+.bet_all_select_title { background:#503F32; height:40px; line-height:39px; color:#f9f0e5; font-size:16px; padding:0 10px; line-height:19px; /*overflow: hidden;*/}
+
+.bet_all_odds_btn { display:inline-block; /*background:url(../../images/member/bet_odds_btn.png) 0 0 no-repeat;*/ background:#776455; padding:0 10px; border-radius:1px; /*width:72px;*/ height:25px; text-align:center; position: relative; top:-3px;}
+.bet_all_odds_btn:hover { /*background:url(../../images/member/bet_odds_btn.png) 0 -25px;*/ background:#B48F65;}
+.bet_all_odds_btn tt { position:relative; top:3px;}
+.bet_all_odds_bg { width:188px; background:#302214; position: absolute; right:25px; top:32px; text-align:left; padding:0px 4px 2px 4px; cursor:default; z-index:999;}
+
+.bet_all_time_btn { display:inline-block; background:url(../../images/member/bet_time_btn.png) 0 0 no-repeat; width:58px; height:25px; position:relative; top:-3px; text-align:center;}
+.bet_all_time_btn:hover { background:url(../../images/member/bet_time_btn.png) 0 -25px;}
+.bet_all_time_btn tt { padding-left:25px; position:relative; top:3px;}
+
+.bet_all_title_w { width:600px;}
+/*.bet_all_title_w table { border-collapse:inherit;}*/
+.bet_all_no_table { width:100%; text-align:center;}
+.bet_all_no_text { text-align:center; font-size:14px; height:30px;}
+/*all-ball-bg*/
+.bet_all_table { text-align:center; background:url(../../images/member/bet_all_ft_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_bk { text-align:center; background:url(../../images/member/bet_all_BK_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_bkr { text-align:center; background:url(../../images/member/bet_all_BK_bg.jpg) repeat 0 0; width:100%; height:84px; padding:8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_bkr td { padding:0 10px;}
+.bet_all_table_tn { text-align:center; background:url(../../images/member/bet_all_TN_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_tnr { text-align:center; background:url(../../images/member/bet_all_TN_bg.jpg) repeat 0 0; width:100%; height:84px; padding:8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_tnr td { padding:0 10px;}
+.bet_all_table_tt { text-align:center; background:url(../../images/member/bet_all_TT_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_ttr { text-align:center; background:url(../../images/member/bet_all_TT_bg.jpg) repeat 0 0; width:100%; height:84px; padding:8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_ttr td { padding:0 10px;}
+.bet_all_table_bm { text-align:center; background:url(../../images/member/bet_all_BM_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_bmr { text-align:center; background:url(../../images/member/bet_all_BM_bg.jpg) repeat 0 0; width:100%; height:84px; padding:8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_bmr td { padding:0 10px;}
+.bet_all_table_vb { text-align:center; background:url(../../images/member/bet_all_VB_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_vbr { text-align:center; background:url(../../images/member/bet_all_VB_bg.jpg) repeat 0 0; width:100%; height:84px; padding:8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_vbr td { padding:0 10px;}
+.bet_all_table_op { text-align:center; background:url(../../images/member/bet_all_OP_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_opr { text-align:center; background:url(../../images/member/bet_all_OP_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_opr td { padding:0 10px;}
+.bet_all_table_bs { text-align:center; background:url(../../images/member/bet_all_BS_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_bsr { text-align:center; background:url(../../images/member/bet_all_BSR_bg.jpg) repeat 0 0; width:100%; height:126px; padding:8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_bsr td { padding:0 10px;}
+.bet_all_table_sk { text-align:center; background:url(../../images/member/bet_all_SK_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+.bet_all_table_skr { text-align:center; background:url(../../images/member/bet_all_SK_bg.jpg) repeat 0 0; width:100%; height:84px; padding:0 8px 8px 8px; font-size:13px; border-collapse:inherit;}
+
+
+.bet_all_table, .bet_all_table_bk, .bet_all_table_bkr, .bet_all_table_tn, .bet_all_table_tnr, .bet_all_table_tt, .bet_all_table_ttr, .bet_all_table_bm, .bet_all_table_bmr, .bet_all_table_vb, .bet_all_table_vbr, .bet_all_table_op, .bet_all_table_opr, .bet_all_table_bs, .bet_all_table_bsr, .bet_all_table_sk, .bet_all_table_skr { position:relative;}
+/**/
+.bet_all_markets { position:relative; background:#fff;}
+
+.bet_all_tr_title { height:26px; line-height:26px;}
+.bet_all_live { text-align:left; color:#ffe788; font-size:13px;}
+.bet_all_live_r { margin-right:10px;}
+.bet_all_game_n { display: inline-block; background:url(../../images/member/bet_game_n.png) 0 0 no-repeat; width:20px; height:20px; vertical-align:sub; position:relative; top:3px;}
+.bet_all_date { text-align:right; font-size:13px; color:#fff;}
+.bet_all_date_text { color:#ffe788; margin-right:10px;}
+.bet_all_best_text { color:#f5e1be;}
+.bet_all_best_time { margin-left:10px;}
+.bet_all_tr_point { color:#fff; font-size:15px; vertical-align: middle; width:100%; height:50px; line-height:18px; background:url(../../images/member/bet_all_alpha.png) repeat 0 0;}
+.bet_all_point_1 { width:45%; text-align:right; padding-left:5px;}
+.bet_all_point_v { width:10%; color:#ffe788;}
+.bet_all_point_text { width:10%; color:#ffd796;}
+.bet_point_bold { font-weight:bold; color:#ffe788;}
+.bet_point_colot { color:#c3b294;}
+.bet_all_point_2 { width:45%; text-align:left; padding-right:5px;}
+.bet_all_red { background:#ec4343; color:#FFF; padding:0 4px; font-weight:bold; font-size:13px;}
+
+.bet_all_title_btn { text-align:center; padding:10px; height:45px; line-height:25px; color:#f9f0e5; font-size:13px; position:relative; background:#fff;}
+.bet_all_title_btn span { margin:0 3px;}
+
+.bet_all_mark_out { display:inline-block; background:url(../../images/member/bet_all_mark_btn.png) 0 0 no-repeat; width:84px; height:25px;}
+.bet_all_mark_out:hover { background:url(../../images/member/bet_all_mark_btn.png) 0 -25px no-repeat;}
+.bet_all_mark_on { display:inline-block; background:url(../../images/member/bet_all_mark_btn.png) 0 -25px no-repeat; width:84px; height:25px;}
+.bet_all_mark_none { display:inline-block; background:url(../../images/member/bet_all_mark_btn.png) 0 0 no-repeat; width:84px; height:25px; color:#a69a95;}
+
+.bet_all_pop_out { display:inline-block; background:url(../../images/member/bet_all_pop_btn.png) 0 0 no-repeat; width:65px; height:25px;}
+.bet_all_pop_out:hover { background:url(../../images/member/bet_all_pop_btn.png) 0 -25px no-repeat;}
+.bet_all_pop_on { display:inline-block; background:url(../../images/member/bet_all_pop_btn.png) 0 -25px no-repeat; width:65px; height:25px;}
+.bet_all_pop_none { display:inline-block; background:url(../../images/member/bet_all_pop_btn.png) 0 0 no-repeat; width:65px; height:25px; color:#a69a95;}
+
+.bet_all_hdp_out { display:inline-block; background:url(../../images/member/bet_all_hdp_btn.png) 0 0 no-repeat; width:86px; height:25px;}
+.bet_all_hdp_out:hover { background:url(../../images/member/bet_all_hdp_btn.png) 0 -25px no-repeat;}
+.bet_all_hdp_on { display:inline-block; background:url(../../images/member/bet_all_hdp_btn.png) 0 -25px no-repeat; width:86px; height:25px;}
+.bet_all_hdp_none { display:inline-block; background:url(../../images/member/bet_all_hdp_btn.png) 0 0 no-repeat; width:86px; height:25px; color:#a69a95;}
+
+.bet_all_1st_out { display:inline-block; background:url(../../images/member/bet_all_1st_btn.png) 0 0 no-repeat; width:65px; height:25px;}
+.bet_all_1st_out:hover { background:url(../../images/member/bet_all_1st_btn.png) 0 -25px no-repeat;}
+.bet_all_1st_on { display:inline-block; background:url(../../images/member/bet_all_1st_btn.png) 0 -25px no-repeat; width:65px; height:25px;}
+.bet_all_1st_none { display:inline-block; background:url(../../images/member/bet_all_1st_btn.png) 0 0 no-repeat; width:65px; height:25px; color:#a69a95;}
+
+.bet_all_score_out { display:inline-block; background:url(../../images/member/bet_all_score_btn.png) 0 0 no-repeat; width:104px; height:25px;}
+.bet_all_score_out:hover { background:url(../../images/member/bet_all_score_btn.png) 0 -25px no-repeat;}
+.bet_all_score_on { display:inline-block; background:url(../../images/member/bet_all_score_btn.png) 0 -25px no-repeat; width:104px; height:25px;}
+.bet_all_score_none { display:inline-block; background:url(../../images/member/bet_all_score_btn.png) 0 0 no-repeat; width:104px; height:25px; color:#a69a95;}
+
+.bet_all_special_out { display:inline-block; background:url(../../images/member/btn_all_special_btn.png) 0 0 no-repeat; width:69px; height:25px;}
+.bet_all_special_out:hover { background:url(../../images/member/btn_all_special_btn.png) 0 -25px no-repeat;}
+.bet_all_special_on { display:inline-block; background:url(../../images/member/btn_all_special_btn.png) 0 -25px no-repeat; width:69px; height:25px;}
+.bet_all_special_none { display:inline-block; background:url(../../images/member/btn_all_special_btn.png) 0 0 no-repeat; width:69px; height:25px; color:#a69a95;}
+
+.bet_all_title_bg { height:30px; background:#533E33; line-height:31px; padding:0 10px; font-size:16px; color:#f9f0e5;}
+.bet_all_arrow_up { background:url(../../images/member/bet_all_arrow.png) 0 0 no-repeat; width:13px; height:9px; display:inline-block; margin-right:5px; position:relative; top:-1px;}
+.bet_all_arrow_down { background:url(../../images/member/bet_all_arrow.png) 0 -10px no-repeat; width:13px; height:9px; display:inline-block; margin-right:5px; position:relative; top:-1px;}
+
+.bet_all_click { background:#33261d; height:50px; line-height:50px; text-align:center; font-weight:bold; color:#f9f0e5; font-size:12px;}
+.bet_all_click_star { background:url(../../images/member/bet_all_star.png) 0 0 no-repeat; width:16px; height:16px; display:inline-block; position:relative; top:3px;}
+
+.bet_all_game { width:600px; font-size:14px;}
+.bet_all_game_table { height:30px; line-height:30px; width:100%; /*border-collapse:inherit;*/}
+.bet_all_game_table td { padding:0 5px 0 10px;}
+.bet_all_game_tr { background:#6b5444; color:#f2dfd2; font-size:14px; border-bottom:1px solid #6B5444;}
+.bet_all_name { float:left; width:560px; display:table;}
+.bet_all_name_CT { float:left; width:300px; display:table;}
+.bet_all_name_CT_R { float:right; margin-right:5px; color:#fff;}
+.bet_name_color { color:#ffd796;}
+.bet_all_game_star_out { float:right; display:inline-block; background:url(../../images/member/bet_all_star.png) 0 0 no-repeat; width:16px; height:16px; margin:7px 5px 7px 0px;}
+.bet_all_game_star_out:hover { background:url(../../images/member/bet_all_star.png) 0 -16px no-repeat;}
+.bet_all_game_star_on { float:right; display:inline-block; background:url(../../images/member/bet_all_star.png) 0 -16px no-repeat; width:16px; height:16px; margin:7px 5px 7px 0px;}
+/*15分鐘系列title*/
+.bet_all_15left { display:table-cell; vertical-align:middle;}
+.bet_all_15right { float:right; text-align:right; display:table-cell; margin-left:20px; margin-right:5px; color:#fff;}
+/**/
+.bet_all_game_h { height:38px; line-height:20px; border-top:1px solid #efe5d9;}
+.bet_all_game_h td { /*letter-spacing:-0.5px*/ line-height:18px;}
+.bet_all_game_h_line { height:38px; line-height:20px; border-top:1px solid #BAA58A;}
+.bet_all_game_h_line td { line-height:18px;}
+
+.bet_all_two_left { width:50%; /*border-right:1px solid #baa283;*/ background:url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+.bet_all_two { width:50%;}
+.bet_all_div { display:table; width:100%;}
+.bet_all_team { display:table-cell; font-size:13px; word-break:normal; white-space:pre-wrap; width:140px; /*letter-spacing:1px;*/}
+.bet_all_team_sf { display:table-cell; font-size:13px; word-break:normal; white-space:pre-wrap; width:102px;}
+.bet_all_middle { display:table-cell; width:66px; text-align:right; color:#705636; padding:0 5px; vertical-align:middle; white-space:nowrap; font-size:14px;}
+.bet_all_bet { display:table-cell; width:41px; text-align:right; color:#323232; font-weight:bold; vertical-align:middle; font-size:14px;}
+.bet_all_bet span { margin-left:5px;}
+.bet_all_3way { color:#705636; padding:0 5px; font-size:14px; font-weight:bold;}
+
+
+.bet_all_bet_player { display:table-cell; /*width:40px;*/ text-align:right; color:#323232; font-weight:bold; vertical-align:middle; white-space:nowrap;}
+.bet_all_bet_player span { /*margin:0 5px;*/}
+.bet_all_sfs_w { width:60px; text-align: center; float:left;}
+.bet_all_player_btn { height:30px; line-height:30px; color:#f9f0e5; background:#b48f65; text-align:center; font-size:14px;}
+
+/*.bet_all_bg { padding:3px 5px; color:#c8250a; font-size:14px;}
+.bet_all_bg:hover { padding:3px 5px; background:#dc9602; color:#fff; border-radius:2px;}*/
+
+.bet_all_bg_bet { padding:3px 5px; color:#c8250a; font-size:14px;}
+.bet_all_bg_bet:hover { padding:3px 5px; background:#dc9602; color:#fff; border-radius:2px;}
+.bet_all_bg_nobet { padding:3px 5px; color:#c8250a; font-size:14px;}
+
+.bet_all_bg_bet_bl { padding:3px 5px; color:#1f497d; font-size:14px;}
+.bet_all_bg_bet_bl:hover { padding:3px 5px; background:#dc9602; color:#fff; border-radius:2px;}
+
+.bet_all_bg_other { padding:3px 5px;}
+
+
+.bet_all_two:hover, 
+.bet_all_three:hover, 
+.bet_all_five:hover, 
+.bet_all_five_last:hover, 
+.bet_all_four:hover , 
+.bet_all_three_2:hover, 
+.bet_all_one:hover, 
+.bet_all_six:hover { background:#F6F4EE;}
+
+.bet_all_two_left:hover, 
+.bet_all_three_left:hover, 
+.bet_all_three_middle:hover, 
+.bet_all_five_left:hover, 
+.bet_all_four_left:hover , 
+.bet_all_three_left_2:hover, 
+.bet_all_six_left:hover, 
+.bet_all_six_middle:hover { background: #F6F4EE url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+
+.bet_all_select_bg { /*background:#EFE5D9;*/}
+
+.bet_all_three_left { width:33%; /*border-right:1px solid #baa283;*/ background:url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+.bet_all_three_middle { width:33%; /*border-right:1px solid #baa283;*/ background:url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+.bet_all_three { width:33%;}
+
+.bet_all_team_title { height:30px; line-height:15px; background:#cecbb4; text-align:center; color:#5a5a5a; font-size:14px; border-bottom:1px solid #cecbb4;}
+.bet_all_team_title td { padding:2px 5px 2px 10px}
+/*灰色title寬*/
+.bet_all_col2_w { width:150px; line-height:22px;}
+.bet_all_col5_w { width:240px;}
+.bet_all_coldraw_w { width:119px;}
+.bet_all_col3_w { width:199px;}
+/**/
+.bet_all_player { height:30px; background:#e4e2dd; text-align: right; color:#5a5a5a; font-size:14px;}
+.bet_all_player_title { width:50%; padding-right:3px!important;}
+.bet_all_player_title span { float:left;}
+.bet_all_player_First { margin-right:5px;}
+.bet_all_player_Last { margin-right:5px;}
+.bet_all_player_right { margin-right:4px;}
+.bet_all_any_text { float:left; font-size:14px; width:30px; letter-spacing:-1px;}
+.bet_all_any_text_or{ float:left; font-size:14px; /*width:32px; letter-spacing:-1px;*/}
+.bet_all_any_text_long { float:left; font-size:14px; width:50px; letter-spacing:-1px;}
+.bet_all_text_small { font-size:13px;}
+.bet_all_any_bold { float:right; font-weight:bold; font-size:14px; width:50px; text-align:right;}
+.bet_all_five_left { width:20%; /*border-right:1px solid #baa283;*/ background:url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+.bet_all_five { width:20%;}
+.bet_all_five_last { text-align:right;}
+.bet_all_five_other { margin-right:15px; font-size:13px;}
+
+.bet_all_four_left { width:25%; /*border-right:1px solid #baa283;*/ background:url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+.bet_all_four { width:25%;}
+
+.bet_all_three_left_2 { width:33%; /*border-right:1px solid #baa283;*/ background:url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+.bet_all_three_2 { width:33%;}
+
+.bet_all_one { width:100%;}
+
+.bet_all_six_left { width:17%; /*border-right:1px solid #baa283;*/ background:url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+.bet_all_six_middle { width:16%; /*border-right:1px solid #baa283;*/ background:url(../../images/member/bet_all_right_line.png) right 0 repeat-y;}
+.bet_all_six { width:18%;}
+
+/*allbet-bk*/
+.bet_all_ball_bg { font-size:11px; height:30px; line-height:30px; background:url(../../images/member/bet_all_ball_bg.png) repeat 0 0; color:#aa9b81; white-space:nowrap;}
+.bet_all_ball_title { font-size:13px; text-align:left; width:50%; line-height:30px;}
+.bet_all_ball_titlew { font-size:13px; text-align:left; width:74%; line-height:30px;}
+.bet_all_title_yw { color:#ffe788; padding-right:8px;}
+.bet_all_title_wh { color:#fff; padding-right:8px;}
+.bet_all_ball_light_bg { font-size:13px; height:25px; line-height:25px; background:url(../../images/member/bet_all_ball_light_bg.png) repeat 0 0; color:#fff;}
+.bet_all_ball_team { font-size:14px; text-align:left; color:#f9f0e5; line-height:15px;}
+.bet_ball_point_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; font-weight:bold; border-right:1px solid #5E3D23;}
+.bet_ball_point2_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; font-weight:bold; border-right:1px solid #5E3D23; color:#ffe788;}
+.bet_ball_total_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; font-weight:bold; color:#ffce39;}
+.bet_ball_point3_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; font-weight:bold; color:#ffe788;}
+.bet_ball_point4_bg { font-weight:bold; color:#ffe788;}
+.bet_ball_ot_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; border-right:1px solid #3D4627; font-weight:bold; color:#ffe788;}
+
+.bet_ball_po_bold { font-weight:bold;}
+.bet_ball_po_yw { color:#ffe788;}
+.bet_ball_po_ywbold { font-weight:bold; color:#ffe788;}
+
+/*allbet-tn*/
+.bet_all_line_w { width:5%; padding-right:0px!important;}
+.bet_all_line_on { display:inline-block; background:url(../../images/member/bet_line_pic.png) 0 0 no-repeat; width:14px; height:13px; position:relative; top:1px;}
+.bet_all_line_out { display:inline-block; background:url(../../images/member/bet_line_pic.png) 0 -13px no-repeat; width:14px; height:13px; position:relative; top:1px;}
+.bet_all_table_tnr .bet_all_ball_title { width:61%;}
+.bet_all_table_tnr .bet_all_ball_titlew { width:50%;}
+
+.bet_ball_point_tn_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; font-weight:bold; border-right:1px solid #415024; color:#ffe788;}
+.bet_all_weather { color:#ff3c3c;}
+
+/*all計分板寬*/
+.bet_re_point_w { width:48px;}
+.bet_re_set_w { width:38px;}
+.bet_re_tg_w { width:48px; padding:0 8px!important;}
+.bet_re_h_w { width:38px; padding:0 3px!important;}
+.bet_re_total_w { width:40px; padding:0 8px!important;}
+.bet_re_small_w { width:48px; padding:0px!important;}
+/**/
+
+/*allbet-tt*/
+.bet_all_table_ttr .bet_all_ball_title { width:56%;}
+.bet_all_table_ttr .bet_all_ball_titlew { width:41%;}
+.bet_ball_point_tt_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; font-weight:bold; border-right:1px solid #5A2320; color:#ffe788;}
+
+/*allbet-bm*/
+.bet_all_table_bmr .bet_all_ball_title { width:67%;}
+.bet_all_table_bmr .bet_all_ball_titlew { width:52%;}
+.bet_ball_point_bm_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; font-weight:bold; border-right:1px solid #193538; color:#ffe788;}
+
+/*allbet-vb*/
+/*allbet-bm*/
+.bet_all_table_vbr .bet_all_ball_title { width:64%;}
+.bet_all_table_vbr .bet_all_ball_titlew { width:52%;}
+.bet_ball_point_vb_bg { background:url(../../images/member/bet_all_ball_point_bg.png) repeat 0 0; font-weight:bold; border-right:1px solid #513927; color:#ffe788;}
+
+/*all_re_change*/
+.bet_more_td { padding:0px!important;}
+.bet_more_rew { width:100%;}
+
+
+.bet_no_game { height:50px; font-size:13px; padding:10px 0; line-height:25px;}
+.bet_no_game_lid { height:50px; font-size:13px; text-align:center; border-bottom:1px solid #BBA082;}
+.bet_no_game_btn { display:inline-block; width:102px; height:20px; line-height:20px; background:#27A67B; border-radius:2px; color:#fff; margin-left:10px; font-size:12px;}
+.bet_no_game_btn:hover { background:#45BE95;}
+
+.bet_display { display:none;}
+
+
+/*20160420-OBT*/
+.bet_game_more_div { background:#f7f7f7; border-top:1px solid #CBE5DB;}
+.bet_game_more_title { width:100%; text-align:left; background:#e9f0ee; color:#046699;}
+.bet_game_more_div .bet_team { background:none;}
+
+.bet_game_tr_top_obt { height:28px; font-size:14px; border-top:1px solid #ebe6e2; color:#705636; text-align:center;}
+.bet_game_tr_top_obt_pt { height:28px; font-size:14px; color:#705636; text-align:center;}
+.bet_game_tr_other_obt { height:28px; font-size:14px; color:#323232; text-align:center;}
+.bet_game_table_obt { width:100%; text-align:center; background:#f7f7f7;}
+.bet_game_table_obt:hover { background:#f7f4ef;}
+.bet_game_table_obt .bet_bg_color { padding:3px 1px;}
+.bet_game_table_obt .bet_bg_color:hover { padding:3px 1px;}
+.bet_game_table_obt .bet_bg_color_bet { padding:3px 1px;}
+.bet_obt_pdw { width:43px; font-size:13px;}
+.bet_game_table_obt .bet_text { padding:1px 0px!important; border-top:1px solid #ebe6e2; border-right:1px solid #ebe6e2; font-size:13px;}
+
+.bet_game_table_obt_h { width:100%; text-align:center; background:#f7f7f7;}
+.bet_game_table_obt_h:hover { background:#f7f4ef;}
+.bet_game_table_obt_h .bet_game_tr_top_obt { height:52px;}
+.bet_game_table_obt_h .bet_game_tr_top_obt_pt { height:52px;}
+
+.bet_game_table_obt_hpt { width:100%; text-align:center; background:#f7f7f7;}
+.bet_game_table_obt_hpt .bet_game_tr_top_obt { height:52px;}
+.bet_game_table_obt_hpt .bet_game_tr_top_obt:hover { background:#f7f4ef;}
+.bet_game_table_obt_hpt .bet_game_tr_top_obt_pt { height:52px;}
+.bet_game_table_obt_hpt .bet_game_tr_top_obt_pt:hover { background:#f7f4ef;}
+
+.bet_more_w { width:12%; white-space:nowrap;}
+.bet_more_con_w { width:9%; text-align:center; white-space:nowrap;}
+.bet_more_title_text { width:12%; white-space:nowrap; text-align:left; padding-left:15px; color:#046699; font-size:13px;}
+.bet_more_title_text2 { width:8%; white-space:nowrap; text-align:left; padding-left:15px; color:#046699; font-size:13px;}
+.bet_more_lineh { line-height:20px; width:7%;}
+.bet_more_lineh_right { line-height:20px; text-align:right;}
+.bet_lineh_right { text-align:center; float:right;}
+.bet_obt_point { width:45px; text-align:right;}
+.bet_obt_right { text-align:right;}
+.bet_more_f { font-weight:normal; font-size:13px;}
+.bet_more_brown_line { background:url(../../images/member/bet_more_brown_line.png) right no-repeat; width:20px;}
+.bet_topline_none { border-top:none;}
+.bet_more_text_w { width:30px; text-align:right; white-space:nowrap;}
+.bet_more_lon_w { width:15%; text-align:right;}
+.bet_game_tr_top_more { background:#f3f8fb; height:28px; font-size:13px; border-top:1px solid #c6dce8; color:#046699; text-align:center;}
+.bet_game_tr_top_more .bet_game_tr_top_bg { background:#f5f0e7; height:28px; font-size:13px; border-top:1px solid #c6dce8; color:#046699; text-align:center;}
+.bet_game_tr_other_more { background:#f3f8fb; height:28px; font-size:14px; color:#323232; text-align:center;}
+.bet_game_tr_other_more .bet_game_tr_other_bg { background:#f5f0e7; height:28px; font-size:14px; color:#323232; text-align:center;}
+.bet_more_lineh2 { line-height:25px; text-align:right;}
+.bet_more_lineh2 .bet_text_tdr { width:58px;}
+
+.bet_game_more_i { display: inline-block; background:url(../../images/member/bet_game_more_i.png) 0 0 no-repeat; width:15px; height:15px; position:relative; top:3px; left:5px;}
+.bet_more_i_bg { display:none; background:#302214; position: absolute; left:-2px; top:22px; text-align:left; padding:10px; z-index:999;}
+.bet_more_iarrow { display:block; background:url(../../images/member/bet_game_more_arrow.png) 0 0 no-repeat; width:9px; height:5px; position: absolute; top:-5px; left:5px;}
+.bet_more_iarrow_text { font-size:13px; font-family:arial; font-weight:normal; color:#C2B193;}
+.bet_game_more_i:hover .bet_more_i_bg { display:block;}
+
+.bet_game_more_i_time { display: block; background:url(../../images/member/bet_game_more_i.png) 0 0 no-repeat; width:15px; height:15px; position:relative; top:0px; left:0px; margin:0px auto 0 auto;}
+.bet_game_more_i_time:hover .bet_more_i_bg { display:block;}
+
+.bet_game_head_i { display: inline-block; background:url(../../images/member/bet_game_head_i.png) 0 0 no-repeat; width:15px; height:15px; position:relative; top:-4px; left:0px;}
+.bet_game_head_i:hover .bet_head_i_bg { display:block;}
+.bet_head_i_bg { display:none; background:#e4e2dd; position: absolute; left:0px; top:19px; text-align:left; padding:10px; z-index:999; border:1px solid #bba898; border-radius:4px; white-space:nowrap; margin-right:0px!important; line-height:16px;}
+.bet_head_iarrow_text { font-size:13px; font-family:arial; font-weight:normal; color:#52402a; margin-right:0px!important;}
+
+.bet_game_more_btn { height:28px; line-height:28px; border-top:1px solid #CCE5DC; border-bottom:1px solid #25A479; background:#E9F0EE; color:#27a67b; font-size:13px; text-align:center; position:relative; top:1px;}
+.bet_game_more_btn:hover { background:#cbdad5;}
+
+.bet_more_blue_line { background:url(../../images/member/bet_more_blue_line.png) 0 center no-repeat; height:30px;}
+.bet_more_right_bg_line { color:#046699; background:#e5ebef url(../../images/member/bet_more_blue_line.png) left 0 repeat-y; white-space:nowrap; padding-left:3px; letter-spacing:-1px;}
+.bet_more_right_bg { background:#e5ebef;}
+.bet_more_right_text { background:#e5ebef; font-weight:bold; padding:1px 2px!important; text-align:center;}
+
+.bet_game_tr_top_more .bet_team { text-align:left; border-bottom: none!important; padding:3px 10px; font-size:13px; height:27px; line-height:15px; background:url(../../images/member/bet_more_blue_line.png) left 0 repeat-y;}
+.bet_game_tr_other_more .bet_team { text-align:left; border-bottom: none!important; padding:3px 10px; font-size:13px; height:27px; line-height:15px; background:url(../../images/member/bet_more_blue_line.png) left 0 repeat-y;}
+
+/*有底色*/
+.bet_game_tr_top_more .bet_text_bg { font-weight:bold; background:#e5ebef; padding:1px 2px!important;}
+.bet_game_tr_top_more .bet_text_left_bg { font-weight:bold; background:#e5ebef url(../../images/member/bet_more_blue_line.png) left 0 repeat-y; padding:1px 5px 1px 5px!important;}
+.bet_game_tr_top_more .bet_text_thin_bg { color:#705636; padding:1px 2px!important;  font-weight:normal; letter-spacing:-1px;}
+.bet_game_tr_top_more .bet_text_right_bg { font-weight:bold; padding:0 3px 0 0!important; background:#e5ebef;}
+.bet_game_tr_top_more .bet_td_bg { background:#e5ebef;}
+
+.bet_game_tr_other_more .bet_text_bg { font-weight:bold; background:#e5ebef; padding:1px 2px!important;}
+.bet_game_tr_other_more .bet_text_left_bg { font-weight:bold; background:#e5ebef url(../../images/member/bet_more_blue_line.png) left 0 repeat-y; padding:1px 5px 1px 5px!important;}
+.bet_game_tr_other_more .bet_text_thin_bg { color:#705636; padding:1px 2px!important;  font-weight:normal; letter-spacing:-1px;}
+.bet_game_tr_other_more .bet_text_right_bg { font-weight:bold; padding:0 3px 0 0!important; background:#e5ebef;}
+.bet_game_tr_other_more .bet_td_bg { background:#e5ebef;}
+/**/
+
+/*滑過底色*/
+.bet_game_bg_more { background:#e6eff6!important;}
+.bet_game_tr_top_more .bet_game_rbg { background:#dfe6ec!important;}
+.bet_game_tr_top_more .bet_game_rbg_l { background:#dfe6ec url(../../images/member/bet_more_blue_line.png) left 0 repeat-y!important;}
+
+.bet_game_tr_other_more .bet_game_rbg { background:#dfe6ec!important;}
+.bet_game_tr_other_more .bet_game_rbg_l { background:#dfe6ec url(../../images/member/bet_more_blue_line.png) left 0 repeat-y!important;}
+/**/
+
+.bet_more_text { color:#046699; white-space:nowrap;}
+
+.bet_head_more { position:absolute; font-size:13px; color:#a68e74; /*background:#352820;*/ background-color:rgba(53,40,32,0.8); width:100%; height:40px; line-height:40px; padding:0 10px; text-align:center;}
+.bet_head_more span { margin-right:10px;}
+
+/*checkbox-勾勾顏色*/
+.bet_head_more .bet_selsect_box { display: inline-block; background:url(../../images/member/bet_checkbox_more.png) 0 0 no-repeat; width:20px; height:20px;}
+
+.bet_head_more input[type="checkbox"] {display:none; }
+.bet_head_more label input[type="checkbox"] + span{display:inline-block;width:20px;height:20px;margin:0px 0px 0 0;
+vertical-align:middle;background: url(../../images/member/bet_checkbox_more.png) top center no-repeat;cursor:pointer; position:relative; top:-1px;}
+.bet_head_more label input[type="checkbox"]:checked + span{background: url(../../images/member/bet_checkbox_more.png) bottom center no-repeat;}
+/**/
+
+.bet_r_FTF .bet_head_more { height:35px; line-height:35px;}
+.bet_r_FTF .bet_Apply_btn { position:relative; top:5px;}
+
+.bet_p3_FT .bet_head_more { height:35px; line-height:35px;}
+.bet_p3_FT .bet_Apply_btn { position:relative; top:5px;}
+
+.bet_Apply_btn { display:inline-block; background:#776455; padding:0 10px; border-radius:2px; height:25px; text-align:center; position:relative; top:8px; margin:0px 7px!important; color:#f9f0e5;}
+.bet_Apply_btn:hover { background:#B48F65;}
+
+.bet_left_more { float:left;}
+.bet_right_more { float:right;}
+.bet_more_chk { margin-left:10px;}
+
+.bet_more_pena_w { width:10%; padding-right:0px; white-space:nowrap;}
+.bet_more_pena_text { color:#046699; width:14%; padding-left:0px;}
+.bet_more_pena_con { white-space:nowrap; text-align:right; width:13%;}
+.bet_more_pena_line { background:url(../../images/member/bet_more_brown_line.png) center no-repeat; width:35px;}
+
+.bet_text_table_obt { display: inline; width:100%;}
+.bet_text_table_obt .bet_text_tdl { text-align:left;}
+
+.bet_obt_color { padding:3px 5px; color:#c8250a;}
+
+
+.bet_paging { position:relative; top:-7px; margin-right:0px!important;}
+
+/*head分頁checkbox-勾勾顏色*/
+.bet_left .bet_selsect_box { display: inline-block; background:url(../../images/member/bet_checkbox_head.png) 0 0 no-repeat; width:16px; height:16px;}
+
+.bet_left input[type="checkbox"] {display:none; }
+.bet_left label input[type="checkbox"] + span{display:inline-block;width:16px;height:16px;margin:0px 0px 0 0;
+vertical-align:middle;background: url(../../images/member/bet_checkbox_head.png) top center no-repeat;cursor:pointer; position:relative; top:-1px;}
+.bet_left label input[type="checkbox"]:checked + span{background: url(../../images/member/bet_checkbox_head.png) bottom center no-repeat;}
+.bet_left .bet_more_chk { margin-left:3px; margin-right:0px;}
+/**/
+
+/*分頁-底*/
+.bet_page_bot { height:35px; line-height:35px; width:100%; text-align:right; padding-right:10px;}
+.bet_page_bot span { position:relative; top:5px;}
+
+.bet_page_bot_rt { height:35px; line-height:35px; width:100%; text-align:right; padding-right:45px;}
+.bet_page_bot_rt span { position:relative; top:5px;}
+
+.bet_page_Lleft { display:inline-block; background:url(/images/member/bet_page_arrow.png) 0 0 no-repeat; width:25px; height:25px; margin-right:10px;}
+.bet_page_Lleft_out { display:inline-block; background:url(/images/member/bet_page_arrow.png) 0 -25px no-repeat; width:25px; height:25px; margin-right:10px;}
+
+.bet_page_left { display:inline-block; background:url(/images/member/bet_page_arrow.png) -25px 0 no-repeat; width:25px; height:25px;}
+.bet_page_left_out { display:inline-block; background:url(/images/member/bet_page_arrow.png) -25px -25px no-repeat; width:25px; height:25px;}
+
+.bet_page_text { padding:0 10px; font-size:13px; color:#6F5535; position:relative; top:-2px;}
+
+.bet_page_right { display:inline-block; background:url(/images/member/bet_page_arrow.png) -50px 0 no-repeat; width:25px; height:25px;}
+.bet_page_right_out { display:inline-block; background:url(/images/member/bet_page_arrow.png) -50px -25px no-repeat; width:25px; height:25px;}

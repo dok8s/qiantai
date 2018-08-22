@@ -1,0 +1,298 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<link href="../../../style/member/index_2012_5_en.css" rel="stylesheet" type="text/css">
+<script>
+top.game_alert='';
+today=new Date();
+top.today_gmt=today.getYear()+"-"+(today.getMonth()+1)+"-"+today.getDate();
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8 "><script>
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+var strChk_Number="";
+if ((""+top.nametop)=="undefined") top.nametop="";
+if ((""+top.selLang)=="undefined") top.selLang="web_old";
+function show(){
+	//document.all.show_flash.style.position='absolute';
+	//document.all.show_flash.style.visibility='visible';
+	//window.setTimeout("close_flash()", 9000);
+	//document.all.username.focus();
+	//set_img();
+	//alert(top.nametop);
+	//йw]bb
+	//alert(document.referrer)
+	document.forms.LoginForm.username.focus(); 
+	document.forms.LoginForm.username.value=top.nametop;
+		var ratio_obj=document.all.vs_change;
+	//alert(ratio_obj.length);
+	//document.forms['fm1'].country[i].checked
+	if(top.selLang=="web_old"){
+		document.getElementById("lang_tis").style.display = "";	
+	}else{
+		document.getElementById("lang_tis").style.display = "none";	
+	}
+	for(var i=0; i < ratio_obj.length; i++){
+		if(ratio_obj[i].value==top.selLang){
+			ratio_obj[i].checked=true;
+			
+			break;	
+		}	
+	}
+}
+
+function close_flash(){
+	document.all.show_flash.style.visibility='hidden';
+}
+
+
+function chk_acc(){
+	top.nametop=document.all.username.value;
+	
+	document.all.JE.value = navigator.javaEnabled();
+	if(document.all.username.value==""){
+		hr_info.innerHTML=top.account;
+		document.all.username.focus();
+		return false;
+	}
+	if(document.all.passwd.value==""){
+		hr_info.innerHTML=top.password;
+		document.all.passwd.focus();
+		return false;
+	}
+	
+	
+	
+	//document.all.mac.value=top.aps.mac;
+	//document.all.ver.value=top.aps.ver;
+	return true;
+			
+}
+
+function click_new(){
+	top.selLang="web_new";
+	document.getElementById("lang_tis").style.display = "none";
+		if(document.all.langx.value=="th-tis"){
+		self.location.href="/app/member/translate.php?set=en-us&url=index.php";
+	}
+}
+
+function click_old(){
+	top.selLang="web_old";
+	document.getElementById("lang_tis").style.display = "";
+}
+
+/*
+function set_img(){
+	strChk_Number = (""+Math.random()).substr(2,4);
+	intImg.innerHTML=strChk_Number;
+	intDa= (1*strChk_Number) % 3 + 1;
+	eval("document.getElementById('img_pic').background ='/images/member/chk_img0"+intDa+".gif'");
+}
+*/
+//--></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8 "><script>
+top.str_input_pwd = "Please key in you password!!";	//密碼請務必輸入
+top.str_input_repwd = "Please key in your confirm password!!";	//確認密碼請務必輸入
+top.str_err_pwd = "password confirm error!! please key in again";	//密碼確認錯誤,請重新輸入
+top.str_pwd_limit = "Password must include 6 - 12 words and involve numbers (0-9) and letters (a-z)!!";	//您的密碼只能是數字,英文字母等符號,其他的符號都不能使用
+top.str_pwd_limit2 = "Password must involve numbers and letters!!";	//您的密碼需使用字母加上數字
+top.str_pwd_NoChg = "Please chage your new password.";	//您的密碼未做任何變更!!
+top.str_input_longin_id = "Please key in your Login Account!!";
+top.str_longin_limit1 = "The Login Account must have (6~12 alphanumeric) with at least 2 capital or lowercase letter and digit (0~9)";
+top.str_longin_limit2 = "Login Account must involve numbers and letters!!";
+
+top.str_o="o";
+top.str_e="e";
+top.str_checknum="Wrong check number, please enter again.";
+top.str_irish_kiss="Draw";
+top.dPrivate="Private";
+top.dPublic="Public";
+top.grep="Group";
+top.grepIP="GroupIP";
+top.IP_list="IP list";
+top.Group="Group";
+top.choice="Choice";
+top.account="Please enter your username!";
+top.password="Please enter your password!";
+top.S_EM="S-EM";
+top.alldata="ALL";
+top.webset="Information";
+//top.str_renew="เปลี่ยนใหม่";
+top.str_renew="Refresh";
+top.outright="Outright";
+top.financial="Index";
+top.str_HCN = new Array("Home","Away","No");
+
+//====== Live TV
+top.str_FT = "Soccer";
+top.str_BK = "B.K / NFL";
+top.str_TN = "Tennis";
+top.str_VB = "Volleyball";
+top.str_BS = "Baseball";
+top.str_OP = "Other sports";
+
+top.str_fs_FT = "Soccer : ";
+top.str_fs_BK = "B.K / NFL : ";
+top.str_fs_TN = "Tennis : ";
+top.str_fs_VB = "Volleyball : ";
+top.str_fs_BS = "Baseball : ";
+top.str_fs_OP = "Other sports : ";
+
+top.str_game_list = "All";
+top.str_second = "sec";
+top.str_demo = "Demo";
+top.str_alone = "Stand alone player";
+top.str_back = "Main player";
+top.str_RB = "Running Ball";
+
+top.str_ShowMyFavorite="My Favorite";
+top.str_ShowAllGame="Show All";
+top.str_delShowLoveI="Remove";
+
+
+top.strRtypeSP = new Array();
+top.strRtypeSP["PGF"]= "First team to score";                
+top.strRtypeSP["OSF"]= "First offside";                      
+top.strRtypeSP["STF"]= "First substitution";                 
+top.strRtypeSP["CNF"]= "First corner";                       
+top.strRtypeSP["CDF"]= "First card";                         
+top.strRtypeSP["RCF"]= "To Score";                           
+top.strRtypeSP["YCF"]= "First yellow card";                  
+top.strRtypeSP["GAF"]= "No clean sheet ";                    
+top.strRtypeSP["PGL"]= "Last team to score";                 
+top.strRtypeSP["OSL"]= "Last offside";                       
+top.strRtypeSP["STL"]= "Last substitution";                  
+top.strRtypeSP["CNL"]= "Last corner";                        
+top.strRtypeSP["CDL"]= "Last card";                          
+top.strRtypeSP["RCL"]= "Not To Score";                       
+top.strRtypeSP["YCL"]= "Last yellow card";                   
+top.strRtypeSP["GAL"]= "Clean sheet";                        
+top.strRtypeSP["PG"]= "First/Last team to score";            
+top.strRtypeSP["OS"]= "First offside/Last offside";          
+top.strRtypeSP["ST"]= "First substitution/Last substitution";
+top.strRtypeSP["CN"]= "First corner/Last corner";            
+top.strRtypeSP["CD"]= "First card/Last card";                
+top.strRtypeSP["RC"]= "To Score / Not To Score";             
+top.strRtypeSP["YC"]= "First yellow card/Last yellow card";  
+top.strRtypeSP["GA"]= "No clean sheet /Clean sheet"; 
+
+top.strOver="Over";
+top.strUnder="Under";
+top.strOdd="Odd";
+top.strEven="Even";
+
+
+//下注警語
+top.message001=" please key in wager amount!!";
+top.message002=" only numbers acceptable!!";
+top.message003=" Your wager amount cannot be under the minimum wager amount!!";
+top.message004=" Sorry,you have exceeded your maximum wager limit ";
+top.message005=" !!Please key your wager again!!";
+top.message006=" You are not allowed to place wager more than your maximum wager limitation!!";
+top.message007=" Exceeded your maximum wager limitation!!";
+top.message008=" The total of your wager on this game: ";
+top.message009=" \n has exceeded your maximum wager limitation!!";
+top.message010=" You are not allowed to place wager more than your credit limit!!";
+top.message011=" To Estimated: ";
+top.message012=" <br> confirm your wager?";
+top.message013=" confirm your wager?<br>";
+top.message014=' Please key in the Amount!!!';
+top.message015=" only accept numbers on wager amount!!";
+top.message016=" \n\n confirm your wager?";
+top.message017=" parlay 1";
+top.message018=" team reverse";
+top.message019=" You have to select at least ";
+top.message020=" teams,otherwise the system cannot accept your wager!!";
+top.message021=" Not accept ";
+top.message022=" parlay bet!!";
+top.message023=" please key in wager amount!!";
+top.message024=" The total of your parlay wager on this game has exceeded your parlay maximum wager limitation!!";
+top.message025=" You are not allowed to place wager more than your credit limit!!";
+top.message026=" please select teams!!";
+top.message027=" Single wager please goto Single Wage Page for betting!!";
+top.message028=" please make sure you select at ";
+top.message029=" different matches!!";
+
+
+top.str_RB ="R.B";
+top.Half1st="1st Half";
+top.Half2nd="2nd Half";
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+
+<body bgcolor="#FFFFFF" text="#000000" vlink="#000000" alink="#000000" onLoad="show();">
+<div class="title">
+  <table class="language" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td id="lang_tw" class="lang" width="72"><a  href='http://www.hg3088.com/app/member/translate.php?set=zh-tw&url=http://www.hg3088.com/app/member/index.php' >繁體版</a></td>
+      <td id="lang_cn" class="lang" width="72"><a  href='http://www.hg3088.com/app/member/translate.php?set=zh-cn&url=http://www.hg3088.com/app/member/index.php' >简体版</a></td>
+      <td id="lang_en" class="lang" width="72"><a  href='http://www.hg3088.com/app/member/translate.php?set=en-us&url=http://www.hg3088.com/app/member/index.php' >English</a></td>
+	  <td id="lang_tis" class="lang2" style=" display:none;"><a >ภาษาไทย</a></td>
+    </tr>
+</table>
+</div>
+<div class="mem"><div class="img"></div>
+
+    <div class="log">
+    <form action="./login.php" method="post" name="LoginForm" onSubmit="return chk_acc();" >
+        <input type=HIDDEN name="uid" value="">
+        <input type=HIDDEN name="langx" value="th-tis">
+        <input type=HIDDEN name="mac" value="">
+        <input type=HIDDEN name="ver" value="">
+        <input type="hidden" name="JE" value="">
+            <table border="0" cellpadding="0" cellspacing="0" class="bord">
+                <tr>
+                    <td class="err_info"><font id="hr_info"></font></td>
+                </tr>
+               
+                <tr>
+                    <td align="left">ชื่อ:<br><input type="text" name="username" size="15" class="za_text"></td>
+                </tr>
+                <tr>
+                    <td align="left">รหัสผ่าน:<br><input type="password" name="passwd" size="15" class="za_text"> </td>
+                </tr>
+            </table>
+            
+            <table border="0" cellspacing="0" cellpadding="0" class="version">
+              <tr>
+                <td id="vs_new" class="vs_new" onClick="click_new()"><input type="radio" name="radio" id="vs_change" value="web_new" checked>New Website</td>
+                <td id="vs_old" class="vs_old" onClick="click_old()"><input type="radio" name="radio" id="vs_change" value="web_old">Old Website</td>
+              </tr>
+            </table>
+        <div class="btn"><input type="submit" value="" class="za_button" ></div>
+     </form>
+    </div>
+</div>
+<div class="news">
+    <span class="upgrade"></span>
+    <span class="tv"></span>
+    <span class="moblie"></span>
+</div>
+
+<div class="foot"></div>
+</body>
+</html>

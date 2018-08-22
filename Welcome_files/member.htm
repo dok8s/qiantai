@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0032)http://180.94.224.38/app/member/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META name="Robots" contect="none"> 
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<SCRIPT>
+var maintain_time='2016-05-06 01:00 PM to 03:00 PM(GMT 8)';
+</SCRIPT>
+ 
+<SCRIPT>
+function init(){
+	refreshData();
+	refreshPage();
+	
+}
+
+function refreshData(msg){
+	var mt_cn=document.getElementById('MaintainTimeCN');
+	var mt_en=document.getElementById('MaintainTimeEN');
+	//var mt_vi=document.getElementById('MaintainTimeVI');
+	var mt_tw=document.getElementById('MaintainTimeTW');
+	if( (msg != undefined) && (msg !="" ) ){
+		var msg_arr = msg.split(",");
+		
+		if(msg_arr[1] == "N"){
+			window.location="/app/member/index.php";
+		}else{
+			var date = msg_arr[0];
+			if(mt_cn!=null) mt_cn.innerHTML=date;
+			if(mt_en!=null) mt_en.innerHTML=date;
+			if(mt_tw!=null) mt_tw.innerHTML=date;
+			
+		}
+		
+	}
+	
+}
+
+function refreshPage(){
+	setTimeout('refreshPage()',60000);	
+	
+	var req;
+	req = new HttpRequest();
+	req.addEventListener("LoadComplete", refreshData);	
+	req.loadURL("/app/member/showMaintain.php","GET", "");
+	
+}</SCRIPT>
+ 
+<SCRIPT>
+function HttpRequest(){
+		var self=this;
+		var req;
+		var eventHandler=new Array();
+		var parentClass;
+		self.init=function(){
+				self.addEventListener("LoadComplete",self.cmd_proc);
+				//self.removeEventListener("LoadComplete");
+				//alert("onload");
+				}
+		self.help=function(){
+				var str="";
+				str+="EventName:LoadComplete Method:function(html)\n";
+				str+="Method:loadURL(url,post/get,pamam)\n";
+				return str;
+		}
+		
+		self.setParentclass=function(parentclass){
+				parentClass=parentclass;
+				//util=parentClass.util;
+		}
+		
+		self.getThis=function(varible){
+				return eval(varible);
+		}
+	
+		
+		
+		self.loadURL=function(url,method,params) {
+				req = false;
+		    // branch for native XMLHttpRequest object
+		   
+		    if(window.XMLHttpRequest && !(window.ActiveXObject)) {
+			    	try{
+								req = new XMLHttpRequest();
+			      }catch(e){
+								req = false;
+			      }
+			    // branch for IE/Windows ActiveX version
+		    }else if(window.ActiveXObject){
+		       	try{
+		        		req = new ActiveXObject("Msxml2.XMLHTTP");
+		      	}catch(e){
+			        	try{
+			          		req = new ActiveXObject("Microsoft.XMLHTTP");
+			        	}catch(e){
+			          		req = false;
+			        	}
+						}
+		    }
+		    
+		 
+				if(req){
+				
+						req.onreadystatechange = self.processReqChange;
+						if(method==undefined) method="POST";
+						if(method.toUpperCase()=="POST"){
+								req.open("POST", url, true);
+								  //req.setRequestHeader("Content-Type","text/xml;charset=utf8");
+								// xmlHttp.setRequestHeader("Content-Type","text/xml;charset="+charset);
+								// params = "lorem=ipsum&name=binny";
+					  		req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+								//php:·í½s½X¤£¬°utf-8®É­n¥[¦bphp  header('Content-Type:text/html;charset=big5');
+								//	req.setRequestHeader("Content-length", params.length);
+								//	if (params!="" && params!=undefined)
+								req.send(params);
+				
+						}else{
+								req.open("GET", url+"?"+params, true);
+								req.send("");
+						}
+				}
+		}
+		
+		self.processReqChange=function() {
+				// only if req shows "loaded"
+		 		//   alert(req.status);
+		    if(req.readyState == 4){
+		        // only if "OK"
+		        //alert("req.status="+req.status);
+		        if(req.status == 200){
+		            // ...processing statements go here...
+		            //self.cmd_proc(req.responseText);
+		          	self.eventhandler("LoadComplete",req.responseText);
+		            //self.eventhandler("LoadComplete",req.responseXML);
+		        }else{
+		           self.connectFail(req.statusText);
+		        }
+		    }
+		}
+		self.connectFail=function(state){
+			 try{
+			 	console.log("There was a problem retrieving the XML data:\n" +state);
+			 }catch(e){}
+		}
+		
+		self.addEventListener=function(eventname,eventFunction){
+				eventHandler[eventname]=eventFunction;
+		}
+		
+		self.removeEventListener=function(eventname){
+				EventHandler[eventname]=undefined;
+		}
+		
+		self.eventhandler=function(eventname,param){
+				if(eventHandler[eventname]!=undefined){
+						eventHandler[eventname](param);
+				}
+		}
+		
+		self.cmd_proc=function(html){
+				alert(html);
+				//return html;
+		}
+		//self.addEventLisition("LoadComplete",self.cmd_proc);
+		self.init();
+}
+</SCRIPT>
+ 
+<SCRIPT>
+top.hide_ad = 'N';
+</SCRIPT>
+ <TITLE>System Maintenance</TITLE>		 <LINK href="member_files/reset.css" rel="stylesheet" 
+type="text/css">         <LINK href="member_files/warn_web.css" rel="stylesheet" 
+type="text/css"> 
+<META name="GENERATOR" content="MSHTML 11.00.10586.212"></HEAD> 
+<BODY class="show_main" onload="init();">
+<DIV class="show_top"></DIV>
+<DIV class="show_bottom">
+<DIV class="show_txtG">
+<DIV class="show_txt">
+<UL>
+  <LI>非常抱歉，造成您的不便.</LI>
+  <LI>如有疑問, 請致電客服熱線諮詢.</LI></UL>
+<UL>
+  <LI>服務中斷期間- <SPAN id="MaintainTimeTW"></SPAN></LI></UL>
+<UL class="show_lightTxt">
+  <LI>電話: <TT>+852 5808 0023</TT></LI>
+  <LI><TT class="show_space">+852 5808 0699</TT></LI>
+  <LI><TT class="show_space">+63 915 195 0913</TT></LI>
+  <LI><TT class="show_space">+63 915 195 5533</TT></LI></UL><SPAN class="show_mail">電子郵件: 
+<TT>royal888crown@hotmail.com</TT></SPAN>                	 </DIV>
+<DIV class="show_txt">
+<UL>
+  <LI>非常抱歉，造成您的不便.</LI>
+  <LI>如有疑问, 请致电客服热线谘询.</LI></UL>
+<UL>
+  <LI>服务中断期间- <SPAN id="MaintainTimeCN"></SPAN></LI></UL>
+<UL class="show_lightTxt">
+  <LI>电话: <TT>+852 5808 0023</TT></LI>
+  <LI><TT class="show_space">+852 5808 0699</TT></LI>
+  <LI><TT class="show_space">+63 915 195 0913</TT></LI>
+  <LI><TT class="show_space">+63 915 195 5533</TT></LI></UL><SPAN class="show_mail">电子邮件: 
+<TT>royal888crown@hotmail.com</TT></SPAN>                	 </DIV>
+<DIV class="show_txt show_noline">
+<UL class="US">
+  <LI>We apologize for the inconvenience<BR>which this may cause.</LI>
+  <LI>If you have any question, you may<BR>contact us.</LI></UL>
+<UL class="US">
+  <LI>Service Disruption Period - <SPAN id="MaintainTimeEN"></SPAN></LI></UL>
+<UL class="US show_lightTxt">
+  <LI>Phone: <TT>+852 5808 0023</TT></LI>
+  <LI><TT class="show_space">+852 5808 0699</TT></LI>
+  <LI><TT class="show_space">+63 915 195 0913</TT></LI>
+  <LI><TT class="show_space">+63 915 195 5533</TT></LI></UL><SPAN class="show_mail">Email: 
+<TT>royal888crown@hotmail.com</TT></SPAN>                	 </DIV></DIV></DIV>
+<DIV class="show_copyright">© Copyright 2006 - 2016</DIV></BODY></HTML>

@@ -1,0 +1,72 @@
+
+<html>
+<head>
+    <meta name="Robots" contect="none">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Help</title>
+
+    <script>
+        function chg_language(langx) {
+            var homepage = "";
+            if (langx != "zh-tw" && langx != "zh-cn") {
+                homepage = "/tpl/member/en-us/QA.html";
+            } else {
+                homepage = "/tpl/member/"+langx+"/QA.html";
+            }
+            self.location = homepage;
+        }
+        function OnMouseOverPIC(langx) {
+            document.getElementById("OverQA_"+langx).style.display = "block";
+            document.getElementById("OutQA_"+langx).style.display = "none";
+        }
+        function OnMouseOutPIC(langx) {
+            document.getElementById("OverQA_"+langx).style.display = "none";
+            document.getElementById("OutQA_"+langx).style.display = "block";
+        }
+    </script>
+
+    <link href="/style/member/mem_pass_en.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="gui_div">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="3"><div class="gui_title">Help</div></td>
+        </tr>
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/en-us/help_1.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">1. Please use the member user code on your initial login.</td>
+        </tr>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/en-us/help_2.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">2. You will be prompted to create a new login ID.  Please enter your preferred login ID on the "Login ID" field. There will be a message confirming that the login ID you entered is available or not available.  After successfully creating your login ID, you will be required to login again.</td>
+        </tr>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/en-us/help_3.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w"></td>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/en-us/help_4.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w"></td>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/en-us/help_5.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">3. Please use the newly created login ID on your next login.</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

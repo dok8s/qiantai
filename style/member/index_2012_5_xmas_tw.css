@@ -1,0 +1,39 @@
+
+body {	margin: 0px; text-align:center; background:url(../../images/member/index_bg_xmas.gif) repeat-x center 419px; behavior:url(/style/member/csshover.htc);}
+form, table { margin:0; padding:0;}
+td { font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.title {	display: block; width: 948px;margin-top: 56px;text-align:right;margin-left:auto; margin-right:auto;}
+.language {width: 270px; height:14px; margin-left:670px; margin-bottom:8px; color: #00F;}
+.sub {
+	font: 16px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.err_info { height:37px; padding-top:10px; color:#C00;}
+.txt { padding-bottom:2px;font: 12px Arial, Helvetica, sans-serif; font-weight:bold;}
+.mem { 	display: block; width:950px; margin-left:auto; margin-right:auto;text-align:left;	}
+/*.mem .img{ float:left;	width: 652px;height: 232px;background: url(../../images/member/index_2012_tw.jpg) no-repeat;}*/
+.mem .img{ float:left;	width: 652px;height: 254px;background: url(../../images/member/index_2012_xmas_tw.jpg) no-repeat;}
+.log {	 float:left; text-align:center; margin-left:20px; width:276px; height:254px;background: url(../../images/member/index_2012_xmas_log.gif) no-repeat;}
+.bord { width:136px; margin-left:auto; margin-right:auto;}
+
+.za_text { width:136px; height: 20px; margin-top:1px; margin-bottom:2px;  font-family: "Arial"; font-size: 12px; border:solid 1px #7F9DB9;}
+.za_button {	width:91px; height:29px; cursor:pointer; cursor:hand; border:none; background: url(../../images/member/zh-tw/index_login.gif) no-repeat;}
+a:link, a:visited {	color:#1066BB;text-decoration: none;}
+a:hover, a:active {	color: #0FF;}
+.lang2 {	font:12px  Arial, Helvetica, sans-serif;	color: #1066BB;top: 18px;text-decoration: underline; font-weight:bold;}
+.lang {	font: 12px Arial, Helvetica, sans-serif;	color: #313131;top: 18px;}
+.lang a:link , .lang a:visited {color: #313131;text-decoration: none;}
+.lang a:hover {color: #F63;text-decoration: underline;}
+.version { width:136px; margin-top:2px; margin-bottom:5px; margin-left:auto; margin-right:auto;}
+.chk_box { width:24px;}
+.btn { width:136px;text-align: right; margin-left:auto; margin-right:auto;}
+.vs_new { width:50%; font-weight:bold;}
+.vs_old { text-align:right;}
+
+.news {display: block; width:948px; height:164px; clear:left; margin-left:auto; margin-right:auto;}
+.upgrade { float:left; display:block; margin-top:14px; width:228px; height:104px; background:url(../../images/member/zh-tw/index_upgrade.png) no-repeat;}
+.tv { float:left; display:block; margin-top:14px; margin-left:102px; width:276px; height:119px; background:url(../../images/member/zh-tw/index_tv.png) no-repeat;}
+.moblie { float:left; display:block; margin-top:14px; margin-left:53px; width:257px; height:113px; background:url(../../images/member/zh-tw/index_moblie.png) no-repeat;}
+
+.foot { clear:left; display:block; width:948px; height:76px; margin-top:15px; margin-left:auto; margin-right:auto; background:url(../../images/member/zh-tw/index_browser.gif) no-repeat 345px 0;
+}

@@ -1,0 +1,1260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Robots" contect="none">
+<title>Sportsbook Rules</title>
+<link rel="stylesheet" href="../../../../style/member/mem_qa.css" type="text/css">
+<link rel="stylesheet" href="../../../../style/member/mem_qa_roul.css" type="text/css">
+
+<script language="javascript" src="/js/QA_sport.js"></script>
+</head>
+<body id="SPORT" onSelectStart="self.event.returnValue=false" oncontextmenu="self.event.returnValue=false;window.event.returnValue=false;">
+<div class="qa_head"><em>幫助</em><span class="close_box" onClick="window.close();">關閉</span></div>
+<div id="wrapper">
+	
+    <div id="qa_nav">
+      <ul>
+        <li class="sport"><a href="../QA_sport.html">體育規則</a></li>
+        <li class="rule"><a href="../QA_roul.html">規則與條款</a></li>
+        <li class="wap"><a href="../roul_mp.html" OnClick="window.open('/tpl/member/zh-tw/roul_mp.html','ROUL','location=no,status=no,width=680,height=500,toolbar=no,top=0,left=0,scrollbars=no,resizable=no,personalbar=yes');window.close();">Wap指南</a></li>
+        <li class="odd"><a href="../QA_way.html">賠率計算列表</a></li>
+        <li class="mail"><a href="../QA_conn.html">聯繫我們</a></li>
+      </ul>
+    </div>
+    
+    <div id="main">
+    <a name="top"></a>
+    	<h1>選擇體育項目 : 
+    	  <label>
+    	    <select name="jumpMenu" id="jumpMenu" onchange="chg_roul(this.options[this.selectedIndex].value);">
+    	  	<option value="../QA_sport.html">一般體育說明</option>
+    	    <option value="outright.html">冠軍</option>
+            <option value="parlays-multiples.html">連串過關 / 複式過關</option>
+            <option value="roul_nf.html">美式足球</option>
+            <option value="archery.html">射箭和射擊</option>
+            <option value="athletic.html">田徑</option>
+            <option value="aussie.html">澳式足球</option>
+            <option value="badminton.html">羽毛球</option>
+            <option value="baseball.html">棒球</option>
+            <option value="basketball.html">籃球</option>
+            <option value="beach-soccer.html">沙灘足球</option>
+            <option value="beach-volleyball.html">沙灘排球</option>
+            <option value="boxing.html">拳擊 / 搏鬥</option>
+            <option value="cricket.html">板球</option>
+            <option value="cycling.html">自行車</option>
+            <option value="darts.html">飛鏢</option>
+            <option value="e-sports.html">電子競技</option>
+            <option value="field-hockey.html">曲棍球</option>
+            <option value="financial-bets.html">金融投注</option>
+            <option value="football.html" selected="selected">足球</option>
+            <option value="futsal.html">室內足球</option>
+            <option value="golf.html">高爾夫</option>
+            <option value="gymnastics.html">體操</option>
+            <option value="handball.html">手球</option>
+            <option value="ice-hockey.html">冰球</option>
+            <option value="judo.html">柔道、摔跤、跆拳道</option>
+            <!--<option value="major-league-lacrosse.html">袋棍球</option>-->            
+            <option value="lacrosse.html">長曲棍球</option>
+            <option value="medal-betting.html">體育/獎章投注</option>
+            <option value="motor-sports.html">賽車</option>
+            <option value="olympics.html">奧林匹克或相關事件投注</option>            
+            <option value="rowing.html">賽艇和皮划艇</option>
+            <option value="rugby-league.html">橄欖球聯盟</option>
+            <option value="snooker.html">斯諾克/台球</option>            
+            <option value="softball.html">壘球</option>
+            <!--<option value="swimming.html">游泳</option>-->          
+            <option value="table-tennis.html">乒乓球</option>
+            <!--<option value="taekwondo.html">跆拳道</option>-->
+            <option value="tennis.html">網球</option>
+            <option value="tamp.html">三項全能和現代五項運</option>
+            <!--<option value="ultimate-fighting.html">終極格鬥錦標賽（綜合格斗大賽）</option>-->           
+            <option value="volleyball.html">排球</option>
+            <option value="water-polo.html">水球</option>
+            <option value="weightlifting.html">舉重</option>
+            <!--<option value="wrestling.html">角力</option>-->            
+            <option value="wintersports-winterolympics.html">冬季運動 & 冬季奧運會 / 比賽</option>
+  	    </select>
+  	    </label>
+    	
+    	 
+  	          
+    	</h1>
+                 <div id="info"><!--資料區-->
+            <p class="b sub">足球</p>
+            <p class="b sub"><em>最後更新日期：05/21/2013</em></p>
+            <p class="b sub">1. 一般規則</p>
+            <ul style="list-style:decimal;">
+              <li>除非另有註明，所有足球投注的結算皆以球賽所規定的完場時間90分鐘為準。 </li>
+              <li>完場時間90分鐘包括球員傷停補時。加時賽、淘汰賽、點球，以及賽事後如果裁判或相關管理機構更改任何賽果則不計算在內。 </li>
+              <li>除非在個別玩法規則另有註明，所有滾球投注的結算將以90分鐘的賽果為準。 </li>
+              <li>對於某些以全場完場時間為80分鐘（2x40分鐘）的特定賽事或者友誼賽，所有投注的結算皆以完場時間為準。 </li>
+              <li>若少年賽、友誼賽的完場時間為70分鐘（2x35分鐘）或更少，本公司將在開賽前作出公佈，否則該場賽事的注單一律作廢。 </li>
+              <li>除非在個別玩法規則另有註明， 否則如果賽事在法定比賽90分鐘內的任何時間中斷，所有註單將被取消。 </li>
+              <li>如果賽事是在上半場中斷，所有上半場的注單將被取消。如果賽事是在下半場中斷所有上半場的投注保持有效，但所有下半場的注單將被取消，除非在個別玩法規則另有註明。 </li>
+              <li>除非在個別玩法規則另有註明，烏龍球將予以計算在內。 </li>
+              <li>如果比賽場地有變更（主客隊調換），所有此註單將被取消。 </li>
+              <li>對於國際賽事，只要變更的場地仍在同一個國家內，所有註單將保持有效。 </li>
+              <li>對於國際聯賽，只要變更的場地仍在聯賽原定舉辦的國家內，所有註單將保持有效。 </li>
+              <li>本公司保留權利取消任何因更換場地而可能對賽事結果有影響的注單。 </li>
+            </ul>
+            <p class="b sub">2. 投注類型</p>
+            <p>以下列出足球可提供的個別玩法規則，您可以使用下面的快速鏈接查看相關信息。</p>
+            <p>
+            <table border="0" cellspacing="5" cellpadding="6" class="menu">
+              <tr bgcolor="#333333" style="color:#FFFFFF;">
+                <td><a href="#PopularMarkets" style="color:#FFFFFF;">常見投注</a></td>
+                <td><a href="#GoalMarkets" style="color:#FFFFFF;">進球</a></td>
+                <td><a href="#PlayersMarkets" style="color:#FFFFFF;">球員</a></td>
+              </tr>
+              <tr bgcolor="#333333" style="color:#FFFFFF;">
+                <td><a href="#Specials" style="color:#FFFFFF;">特別</a></td>
+                <td><a href="#Corners" style="color:#FFFFFF;">角球</a></td>
+                <td><a href="#BookingsCards" style="color:#FFFFFF;">牌/卡</a></td>
+              </tr>
+              <tr bgcolor="#333333" style="color:#FFFFFF;">
+                <td><a href="#FreeKicks" style="color:#FFFFFF;">任意球</a></td>
+                <td><a href="#GoalKicks" style="color:#FFFFFF;">射門</a></td>
+                <td><a href="#ThrowIns" style="color:#FFFFFF;">界外球</a></td>
+              </tr>
+              <tr bgcolor="#333333" style="color:#FFFFFF;">
+                <td><a href="#Substitutions" style="color:#FFFFFF;">替換</a></td>
+                <td><a href="#Offsides" style="color:#FFFFFF;">越位</a></td>
+                <td><a href="#PenaltyMarkets" style="color:#FFFFFF;">點球</a></td>
+              </tr>
+              <tr bgcolor="#333333" style="color:#FFFFFF;">
+                <td><a href="#Competitions" style="color:#FFFFFF;">比賽</a></td>
+                <td><a href="#OtherMarkets" style="color:#FFFFFF;">其他</a></td>
+              </tr>
+            </table>
+            </p>
+            <a name="PopularMarkets"></a>
+            <p>
+            <div class="quick_link">常見投注</div >
+            </p>
+            <ul style="margin-left: 25px;">
+              <p class="b sub">2.1. 讓球盤（亞洲讓球盤）</p>
+              <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                <tr class="tabletit">
+                  <th>主/客</th>
+                  <th colspan="2" "center">（讓球盤）</th>
+                </tr>
+                <tr class="tabledetail">
+                  <td class="center">阿森（主）</td>
+                  <td class="center">0.5/1</td>
+                  <td class="center">0.97</td>
+                </tr>
+                <tr class="tabledetail">
+                  <td class="center">曼聯</td>
+                  <td class="center">&nbsp;</td>
+                  <td class="center">0.98</td>
+                </tr>
+              </table>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.1.1. 一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>預測那一支球隊在盤口指定的讓球數在全場/半場/賽事某個時節贏得比賽。 </li>
+                  <li>"讓球盤"則定義為在比賽正式開始前， 一方球隊已得到另一方讓的虛擬分數， 以領先的情況下開始比賽。 </li>
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                  <li>讓球隊（優勢球隊）將給出讓球，讓球數將顯示在賠率的左側，讓球隊在盤面上也會以粗型字體顯示。 </li>
+                  <li>讓球盤的玩法分為以下幾種：</li>
+                  <ul style="list-style:lower-alpha">
+                    <li>整數讓球也或稱為讓'一球'（如：-1，-2，-3，等）</li>
+                    <li>非整數讓球也或稱為讓'半球'（如：-0.5，-1.5，-2.5，等）</li>
+                    <li>混合以上讓'半球/一球'的方式（如：-0/0.5, -0.5/1, -1/1.5,等）</li>
+                </ul>
+                <p class="b sub">2.1.2. 半場讓球盤（亞洲讓球盤）</p>
+                <ul style="list-style:decimal;">
+                  <li>所有上半場的投注將以上半場45分鐘加上任何傷停補時後的賽果結算。 </li>
+                  <li>如果賽事在上半場時節因任何理由取消或中斷，所有上半場注單將被取消。 </li>
+                  <li>如果賽事在下半場或加時時段因任何理由取消或中斷，所有上半場注單保持有效。 </li>
+                </ul>
+                <p class="b sub">2.1.3. 滾球讓球盤 </p>
+                <ul style="list-style:decimal;">
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                  <li>結算是以投注時到比賽/時節結束後的賽果做裁決。即是以賽事完場比分減去投注當時的比分。上半場的滾球讓球投注將以上半場結束後的賽果結算。 </li>
+                </ul>
+              </ul>
+              <p class="b sub">2.2. 大小盤</p>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.2.1. 一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>預測賽事總入球數將大於或小於在盤口指定的大/小盤球數。 </li>
+                  <li>如果賽事的總入球數多於盤口的大/小盤球數，則為大盤。如果少於盤口的大/小盤球數，則為小盤。 </li>
+                  <li>所有註單將按盤口開出的大/小盤球數在玩法的時節結束後結算。 </li>
+                  <li>大/小盤的玩法分為以下幾種：</li>
+                  <ul style="list-style:lower-alpha">
+                    <li>大/小於'一球'（如：2，3，4，等</li>
+                    <li>大/小於'半球'（如：1.5，2.5，3.5，等）</li>
+                    <li>混合以上'半球/一球'的方式（如：1.5/2, 2.5/3, 3.5/4, 等）</li>
+                  </ul>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響賽事結果的情況，大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。請參考以下範例：
+                    <ul style="list-style:lower-alpha">
+                      <li>範例1：會員投注大於2.5球：
+                        <ul style="list-style:lower-roman">
+                          <li>賽事在比分2-1時中斷。 </li>
+                          <li>儘管賽事中斷，但因結果已經明確並且若之後有任何潛在進球將對盤口結算裁決沒有影響，所以此會員注單結算為贏。 </li>
+                        </ul>
+                      </li>
+                      <li>範例2：會員投注小於2.5球：
+                        <ul style="list-style:lower-roman">
+                          <li>賽事在比分2-1時中斷。 </li>
+                          <li>儘管賽事中斷，但因結果已經明確並且若之後有任何潛在進球將對盤口結算裁決沒有影響，所以此會員注單結算為輸。 </li>
+                        </ul>
+                      </li>
+                      <li>範例3：會員投注大於3.5球：
+                        <ul style="list-style:lower-roman">
+                          <li>賽事在比分2-1時中斷。 </li>
+                          <li>由於賽事在未有明確的結果能裁決會員的注單前中斷，此會員的注單將被取消</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="b sub">2.2.2. 半場大小球</p>
+                <ul style="list-style:decimal;">
+                  <li>所有上半場的投注將以上半場45分鐘加上任何傷停補時後的賽果結算。 </li>
+                  <li>如果賽事在上半場時節因任何理由取消或中斷，所有上半場注單將被取消。除非在賽事取消或中斷前，結果已經明確。 </li>
+                  <li>如果賽事在下半場或加時時段因任何理由取消或中斷，所有上半場注單保持有效。 </li>
+                </ul>
+                <p class="b sub">2.2.3. 滾球大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>結算是以比賽/時節結束後的總入球數做裁決。投注當時，賽事的比分將視為0-0來計算。 </li>
+                </ul>
+                <p class="b sub">2.2.4. 單一球隊大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測其中一支球隊的總入球數將大於或小於在盤口指定的大/小盤球數。 </li>
+                  <li>如果賽事的總入球數多於盤口的大/小盤球數，則為大盤。如果少於盤口的大/小盤球數，則為小盤。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響賽事結果的情況，注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+              </ul>
+              <p class="b sub">2.3. 1 X 2 （獨贏盤）</p>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.3.1. 一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>預測哪一支球隊將在比賽勝出。盤口提供兩支球隊和平局為投注選項。 </li>
+                  <li>投注將以0-0的比分作為計算基礎（讓球並不計算在內）。 </li>
+                </ul>
+                <p class="b sub">2.3.2. 半場獨贏盤</p>
+                <ul style="list-style:decimal;">
+                  <li>所有上半場的投注將以上半場45分鐘加上任何傷停補時後的賽果結算。 </li>
+                </ul>
+                <p class="b sub">2.3.3. 滾球獨贏盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測滾球時，哪一支球隊勝出。 </li>
+                  <li>投注的結算將以90分鐘完場賽果為準。 </li>
+                  <li>以下為滾球獨贏盤範例：</li>
+                  <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                    <tr class="tabletit">
+                      <th "center">&nbsp;</th>
+                      <th "center">目前得分</th>
+                      <th "center">賠率</th>
+                    </tr>
+                    <tr class="tabledetail">
+                      <td class="center">阿森納（主）</td>
+                      <td class="center">1</td>
+                      <td class="center">1.61</td>
+                    </tr>
+                    <tr class="tabledetail">
+                      <td class="center">曼聯</td>
+                      <td class="center">0</td>
+                      <td class="center">6.0</td>
+                    </tr>
+                    <tr class="tabledetail">
+                      <td class="center">和局</td>
+                      <td class="center">&nbsp;</td>
+                      <td class="center">3.8</td>
+                    </tr>
+                  </table>
+                  <ul style="list-style:lower-alpha">
+                    <li>範例1：在賽事比分為<u>阿森納1-0曼聯</u>時，會員投注滾球獨贏盤– 阿森納贏:
+                      <ul style="list-style:lower-roman">
+                        <li>完場賽果為阿森納2-1曼​​聯。 </li>
+                        <li>因阿森納在完場時勝出，所有投注阿森納的注單結算為贏。 </li>
+                        <li>所有在比分1-0時投注曼聯或平局的注單將結算為輸。 </li>
+                      </ul>
+                    </li>
+                    <li>範例2：在賽事比分為阿森納1-0曼聯時，會員投注滾球獨贏盤–曼聯贏:
+                      <ul style="list-style:lower-roman">
+                        <li>完場賽果為阿森納1-1曼聯。 </li>
+                        <li>因完場賽果為平局，所有投注曼聯以及阿森納的注單將結算為輸。 </li>
+                        <li>所有投注平局的注單將結算為贏。 </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <li>加時賽則視為一場新的賽事並且會開出加時賽盤口。投注將按加時賽時節的結果做結算。 </li>
+                </ul>
+              </ul>
+              <p class="b sub">2.4. 單/雙</p>
+              <ul style="list-style:decimal;">
+                <li>預測賽事的總入球數是單數或雙數。 </li>
+              </ul>
+              <p class="b sub">2.5. 半場/全場</p>
+              <ul style="list-style:decimal;">
+                <li>預測賽事的半全場結果。 </li>
+              </ul>
+              <p class="b sub">2.6. 雙贏盤</p>
+              <ul style="list-style:decimal;">
+                <li>在三種可能出現的賽果中選擇兩種進行投注; 主場贏或打平（1和X）, 客場贏或打平（2和X）或主場或客場贏（1和2）。 </li>
+                <li>共有三種選擇: 1 X, X 2, 1 2
+                  <ul style="list-style:lower-alpha">
+                    <li>"1" 代表: 主場贏</li>
+                    <li>"X" 代表: 平手 </li>
+                    <li>"2" 代表: 客場贏</li>
+                  </ul>
+                </li>
+                <li>如果比賽在中立場進行﹐列在盤面的上方球隊則被視為主隊。 </li>
+              </ul>
+              <p class="b sub">2.7. 平局退單</p>
+              <ul style="list-style:decimal;">
+                <li>預測哪一支球隊將在比賽勝出。但若比賽結果為平局，所有投注將被取消。 </li>
+              </ul>
+              <a name="GoalMarkets"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">進球</div>
+              </p>
+              <p class="b sub">2.8. 總入球數</p>
+              <ul style="list-style:decimal;">
+                <ul style="margin-left: 25px;">
+                  <p class="b sub">2.8.1. 總入球數 – 全場</p>
+                  <ul style="list-style:decimal;">
+                    <li>預測兩隊的總入球數。 </li>
+                <li>如果賽事中斷前，注單已得到明確結果並且之後沒有任何顯著會影響賽事結果的情況注單會有被結算 。若遇到任何其他情況，注單將一律被取消。 </li>
+                  </ul>
+                  <p class="b sub">2.8.2. 總入球數 – 半場</p>
+                  <ul style="list-style:decimal;">
+                    <li>預測半場兩隊的總入球數。</li>
+                    <li>如果賽事中斷前，注單已得到明確結果並且之後沒有任何顯著會影響賽事結果的情況注單會有被結算。</li>
+                  </ul>
+                </ul>
+              </ul>
+              <p class="b sub">2.9. 單一球隊總入球數</p>
+              <ul style="list-style:decimal;">
+                <li>預測其中一支球隊的總入球數。 </li>
+                <li>如果賽事中斷前，注單已得到明確結果並且之後沒有任何顯著會影響賽事結果的情況注單會有被結算 。若遇到任何其他情況，注單將一律被取消。</li>
+              </ul>
+              <p class="b sub">2.10. 波膽</p>
+              <ul style="list-style:decimal;">
+                <li>預測一場特定賽事中相關時間段的準確比分。 </li>
+                <li>"任何其他比分"是指任何的比分，而不是一個市場選項列表類型。 </li>
+                <ul style="margin-left: 25px;">
+                  <p class="b sub">2.10.1. 波膽—全場</p>
+                  <ul style="list-style:decimal;">
+                    <li>預測一場特定賽事的全場準確比分。 </li>
+                    <li>全場波膽投注的結算根據90分鐘（不包括加時賽或點球賽）完場比分做出裁決。
+                    <li>如賽事中斷，暫停或者延後，潛在進球並不影響最終結果的注單依然視為有效。潛在進球並不影響最終結果的注單依然視為有效。 </li>
+                  </ul>
+                  <p class="b sub">2.10.2. 波膽—半場</p>
+                  <ul style="list-style:decimal;">
+                    <li>預測一場特定賽事半場的準確比分。 </li>
+                    <li>半場波膽投注是指投注上半場的比賽，投注的結算根據半場"45分鐘"結束後的比分做出裁決，包括傷停補時。 </li>
+                    <li>如果賽事在上半場取消，潛在進球並不影響最終結果的注單依然視為有效。</li>
+                    <li>如果賽事在下半場取消，所有半場波膽的投注被視為有效。 </li>
+                  </ul>
+                </ul>
+                </li>
+              </ul>
+              <p class="b sub">2.11. 淨勝球</p>
+              <ul style="list-style:decimal;">
+                <li>投注的結算根據90分鐘（不包括加時賽以及點球賽）完場賽事比分的差別做裁決。 </li>
+                <li>如果賽事在法定比賽90分鐘內的任何時間中斷，所有註單將被取消。 </li>
+              </ul>
+              <p class="b sub">2.12. 最先/最後進球球隊</p>
+              <ul style="list-style:decimal;">
+                <li>在法定比賽90分鐘內，預測最先或最後進球的球隊。 </li>
+                <li>烏龍球將予以計算為得分那方入球。比如: A隊VS B隊，B 隊踢進一個烏龍球造成比分1-0，此球計為A隊先進球。 </li>
+                <li>如果賽事在有進球後中斷，所有最先進球球隊注單保持有效。 </li>
+                <li>如果賽事中斷，所有最後進球球隊注單將被取消。 </li>
+              </ul>
+              <p class="b sub">2.13. 雙方/一方/沒有球隊進球</p>
+              <ul style="list-style:decimal;">
+                <li>預測雙方還是一方球隊在90分鐘完場時間內（不包括加時賽及點球賽）是否進球。或任何一方都沒有進球。 </li>
+                <li>如果賽事在雙方球隊都有進球後中斷，所有註單保持有效。 </li>
+                <li>如果賽事在沒有進球前中斷或延後，所有註單將被取消。 </li>
+                <li>烏龍球將予以計算為得分那方入球。 </li>
+              </ul>
+              <p class="b sub">2.14. 雙半場進球</p>
+              <ul style="list-style:decimal;">
+                <li>預測主隊/客隊在90分鐘完場時間內（不包括加時賽及點球賽）是否在上半場或下半場都至少進一球。 </li>
+                <li>如果投注的球隊只在其中一個半場進球或沒有進球，注單將結算為輸。 </li>
+                <li>如果賽事在所投注的球隊已在兩個半場都進球後中斷，所有投注此球隊的注單將結算為贏。 </li>
+                <li>如果賽事在下半場中斷，並且所投注的球隊並未在上半場進球，所有投注此球隊的注單將結算為輸。 </li>
+              </ul>
+              <p class="b sub">2.15. 無失球</p>
+              <ul style="list-style:decimal;">
+                <li>預測您投注的球隊在90分鐘完場時間內（不包括加時賽及點球賽）沒有失球及沒讓敵方攻入任何一球。 </li>
+                <li>'無失球'是指球隊在賽事中沒讓敵方攻入任何一球，爭取完美防守。 </li>
+              </ul>
+              <p class="b sub">2.16. 滾球-下一支進球球隊</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽進行時，哪一支球隊會進下一個球。 </li>
+                <li>投注將以90分鐘（不包括加時賽以及點球賽）滾球時間為準。 </li>
+                <li>加時賽則視為一場新的賽事並且會開出加時賽盤口。 </li>
+                <li>如果投注之後沒有進球，注單將被取消。 </li>
+                <li>烏龍球將予以計算為得分那方入球。 </li>
+              </ul>
+              <p class="b sub">2.17. 哪個半場最多進球</p>
+              <ul style="list-style:decimal;">
+                <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪個半場將會進最多球。 </li>
+                <li>選項可列為：
+                  <ul style="list-style:lower-alpha">
+                    <li>上半場</li>
+                    <li>下半場</li>
+                    <li>平局</li>
+                  </ul>
+                </li>
+              </ul>
+              <p class="b sub">2.18. 先進2球/3球的一方</p>
+              <ul style="list-style:decimal;">
+                <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪個球隊先進2/3球。 </li>
+                <li>如果賽事在一方球隊已經進2/3球後中斷，所有註單將保持有效。 </li>
+              </ul>
+              <p class="b sub">2.19. 首個進球方式</p>
+              <ul style="list-style:decimal;">
+                <li>預測首個進球的方式。 </li>
+                <li>如果賽事在首個進球後中斷，所有首個進球方式的注單將保持有效。 </li>
+                <li>
+                選項可列為：
+                <ul style="list-style:lower-alpha">
+                  <li><strong>任意球：</strong>球必須是直接踢進的方式。間接行的任意球如果最後是罰球者本人踢進則計算在內。 </li>
+                  <li><strong>點球：</strong>球必須是由罰球者本人直接踢進的方式。若遇到補射的情況，即使是罰球者本人踢進也將不計算在內。 </li>
+                  <li><strong>烏龍球：</strong>球必須授予為烏龍球。
+                  </li>
+                  <li><strong>頭球：</strong>進球者必須明確的用頭進球。 </li>
+                  <li><strong>射門：</strong>所有其他的進球方式。除了以上所列出的方式，所有其他進球的方式都包含在此方式。 </li>
+                  <li><strong>沒有進球：</strong>賽事沒有進球。 </li>
+                </ul>
+                </li>
+              </ul>
+              <p class="b sub">2.20. 首個進球時間</p>
+              <ul style="list-style:decimal;">
+                <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）首個進球時間。 </li>
+                <li>選項可列為：
+                  <ul style="list-style:lower-alpha">
+                    <li>賽事的第26分鐘或之前</li>
+                    <li>第27分鐘後</li>
+                    <li>沒有進球</li>
+                  </ul>
+                </li>
+                <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 </li>
+                <li>範例：如果投注首個進球時間的選項是'賽事的第26分鐘或之前'，而確實進球的時間為26分鐘49秒，進球的範圍屬於'第27分鐘後'，因此投注將結算為輸。 </li>
+                <li>如果賽事在首個進球後中斷，所有首個進球時間的注單將保持有效。 </li>
+                <li>如果賽事在沒有進球前中斷，所有首個進球時間的注單將被取消。 </li>
+                <li>烏龍球將予以計算在內。裁判判定無效的進球是將不予以計算在內。 </li>
+              </ul>
+              <a name="PlayersMarkets"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">球員</div>
+              </p>
+              <p class="b sub">2.21. 最先/最後進球球員</p>
+              <ul style="list-style:decimal;">
+                <li>按盤口提供的球員出場名單中，預測在90分鐘完場時間內最先或最後入球的球員。 </li>
+                <li>烏龍球不計於最先或最後進的球。如果出現烏龍球，下一個或之前的進球才被視為有效。 </li>
+                <li>如果賽事唯一的進球是烏龍球，盤口上"其他"的選項將結算為贏。 </li>
+                <li>如果投注的最先進球球員沒有參與該場賽事或在第一個進球後才進場，注單將被取消。 </li>
+                <li>如果投注的最先進球球員在沒有射入第一個球就被罰下場或被其他球員替代，注單將結算為輸。 </li>
+                <li>任何參賽並且上場的球員都可能是最後進球球員。 </li>
+                <li>如果賽事在射入第一個球後中斷，所有投注最先進球球員的注單將保持有效。投注最後進球球員的注單將被取消。 </li>
+                <li>如果賽事在沒有進球前中斷，所有投注最先進球球員的注單將被取消。 </li>
+              </ul>
+              <p class="b sub">2.22. 進球球員</p>
+              <ul style="list-style:decimal;">
+                <li>按盤口提供的球員出場名單中，預測在90分鐘完場時間內哪位球員會進球。 </li>
+                <li>如果投注的球員沒有參與該場賽事，注單將被取消。 </li>
+                <li>只要球員在比賽的90分鐘完場時間內有上場參與比賽，注單則視為有效。 </li>
+                <li>如果賽事在已有球員進球後中斷，所有投注進球球員的注單將保持有效。 </li>
+                <li>烏龍球，加時賽進球和點球都不計於此玩法。 </li>
+              </ul>
+              <p class="b sub">2.23. 球員進球數</p>
+              <ul style="list-style:decimal;">
+                <li>預測當選的兩位球員裡，哪一位球員在90分鐘完場時間內（不包括加時賽及點球賽）進最多球。 </li>
+                <li>雙方球員都必須是比賽先發的1​​1名球員當中註單才視為有效。 </li>
+                <li>提供的盤口僅限於球員將參與的指定比賽以及比賽日期。 </li>
+                <li>烏龍球將不計算在內。 </li>
+                <li>個別玩法投注規則：
+                  <ul style="list-style:lower-alpha">
+                    <li>獨贏1X2：預測當選的兩位球員裡，哪位進最多球。如果雙方球員進球數一致，投注平局選項的注單將結算為贏。以平局勝出也包括雙方球員均無進球的情況。 </li>
+                    <li>讓球：預測在計算讓球數後，哪位球員進最多球。 </li>
+                    <li>大/小球：預測兩位球員的總進球數是否大於或小於大/小盤球數。 </li>
+                  </ul>
+                </li>
+              </ul>
+              <a name="Specials"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">特別</div>
+              </p>
+              <p class="b sub">2.24. 先開球球隊</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽先開球的球隊。 </li>
+                <li>如果賽事在開踢後中斷，所有投注先開球球隊的注單將保持有效。 </li>
+              </ul>
+              <p class="b sub">2.25. 勝出方式</p>
+              <ul style="list-style:decimal;">
+                <li>投注的結算按賽事最終（90分鐘完場時間，加時賽或點球賽後）獲勝者做裁決。 </li>
+                <li>該盤口只限於錦標賽賽事。 </li>
+              </ul>
+              <p class="b sub">2.26. 晉級方式</p>
+              <ul style="list-style:decimal;">
+                <li>投注的結算按兩場賽事的總比分做裁決。此玩法的結算也會顧及客場進球規則。 </li>
+                <li>結算準則包括加時賽以及點球賽。 </li>
+                <li>該盤口只限於主客場兩場賽制的比賽。 </li>
+              </ul>
+              <p class="b sub">2.27. 上下半場均勝出</p>
+              <ul style="list-style:decimal;">
+                <li>預測選擇的球隊在90分鐘完場時間內（不包括加時賽及點球賽）是否在上半場和下半場的進球數多於對手。 </li>
+                <li>如果賽事中斷，所有註單將被取消。 </li>
+                <li>如果任何一個半場或上/下半場的結果是平局或沒有進球，所有註單將結算為輸。 </li>
+              </ul>
+              <p class="b sub">2.28. 任何一個半場勝出</p>
+              <ul style="list-style:decimal;">
+                <li>預測選擇的球隊在90分鐘完場時間內（不包括加時賽及點球賽）是否在上/下半場的其中一個半場進球數多於對手。 </li>
+                <li>如果賽事在下半場中斷，並且已經有一球隊在上半場獲勝，注單將視為有效，如果雙方球隊在上半場平局，注單將視為無效。如果賽事在下半場中斷，但在上半場其中一方球隊已經獲勝，注單將保持有效。如果兩支球隊在上半場平局，注單將被取消。 </li>
+                <li>如賽事出現平局或上下半場均無進球，所有註單將視為輸，然而如雙方球隊各贏半場，則投注兩個球隊注單為贏。如果上/下半場的結果是平局或沒有進球，所有註單將結算為輸。如果兩個球隊都在其中一個半場獲勝， 注單將結算為贏。 </li>
+              </ul>
+              
+              <p class="b sub">2.29. 反敗為勝</p>
+              <ul style="list-style:decimal;">
+                  <li>預測您所選球隊是否能在賽事過程中任何階段為輸但最終為贏（90分鐘完場加任何加時）。</li>
+                  <li>所選球隊必須在賽事過程中的任何階段為輸但在90分鐘完場加任何傷停補時後贏得比賽。</li>
+                  <li>若賽事取消，所有注單將視為無效。</li>
+              </ul>
+              
+              <p class="b sub">2.30. 往目標射正的總次數</p>
+              <ul style="list-style:decimal;">
+                <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）兩個球隊往目標射正的總次數。 </li>
+                <li>注單的結算將根據官方賽果或賽事權威機構判定的結果為準。 </li>
+              </ul>
+              <p class="b sub">2.31. 半場傷停補時時間預測</p>
+              <ul style="list-style:decimal;">
+                <li>預測半場結束傷停補時具體時間。 </li>
+                <li>所有註單結算將會按照半場結束後第四裁判舉牌補時的時間為準。 </li>
+                <li>預測傷停補時時間，只計算在官方正常90分鐘賽事內的補時，加時賽將不包含在內。
+                  <!--ul-->
+                    <p class="b sub">2.31.1. 上半場傷停補時大小盤</p>
+                    <ul style="list-style:decimal;">
+                      <li>預測上半場官方時間45分鐘後的傷停補時時間。 </li>
+                      <li>如果補時總時間，多於盤口的大/小盤時間，則為大盤。如果少於盤口的大/小盤時間，則為小盤。 </li>
+                      <li>所有註單結算將會按照第四裁判舉牌補時時間為準，在賽事正常45分鐘結束後確定的補時時間。 </li>
+                      <li>如果賽事在官方時間45分鐘之內中斷，所有投注上半場傷停補時注單將會取消。 </li>
+                      <li>如果賽事是在上半場比賽確認結束後取消，所有投注上半場傷停補時將會被視為有效的。 </li>
+                    </ul>
+                    <p class="b sub">2.31.2. 下半場傷停補時大小盤</p>
+                    <ul style="list-style:decimal;">
+                      <li>預測下半場的傷停補時時間。 </li>
+                      <li>如果補時總時間，多於盤口的大/小盤時間，則為大盤。如果少於盤口的大/小盤時間，則為小盤。 </li>
+                      <li>所有註單結算將會按照第四裁判舉牌補時時間為準，在賽事正常90分鐘結束後確定的補時時間。 </li>
+                      <li>如果賽事在官方時間90分鐘之內中斷，所有投注下半場傷停補時注單將會取消。 </li>
+                    </ul>
+                    <p class="b sub">2.31.3. 雙半場總傷停補時—大/小盤</p>
+                    <ul style="list-style:decimal;">
+                      <li>預測上半場和下半場的傷停補時時間。 </li>
+                      <li>一旦賽事在官方時間90分鐘完成，總傷停補時將會以上半場和下半場傷停補時之和為結果</li>
+                      <li>如果傷停補時時間多於盤口的大/小盤時間，則為大盤；如果少於盤口的大/小盤時間，則為小盤。 </li>
+                      <li>如果賽事在官方時間90分鐘之內取消，所有投注雙半場總傷停補時的注單將會取消。 </li>
+                    </ul>
+                </ul>
+                </li>
+              </ul>
+              <p class="b sub">2.32. 特殊的15分鐘大/小盤</p>
+              <ul style="list-style:decimal;">
+                <li>預測總進球數在指定的15分鐘時節內將大於或小於在盤口指定的大/小盤牌數。 </li>
+                <li>如果總進球數多於盤口的大/小盤牌數，則為大盤。如果少於盤口的大/小盤牌數，則為小盤。 </li>
+                <li>特殊的15分鐘大小盤，是按賽事每15分鐘時節內所進得球數為準，不包括賽事的第45分鐘（視為半場時節）或第90分鐘。 </li>
+                <li>注單的結算是以實際進球時間為準。 </li>
+                <li>如果賽事在某個15分鐘的時節內中斷，所有投注在此15分鐘時節的注單將被取消。 </li>
+                <li>所有註單將按盤口開出的大小球數在玩法的時節結束後結算。 </li>
+                <li>大/小盤的玩法分為以下幾種：</li>
+                <ul style="list-style:lower-alpha">
+                  <li>大/小於'一球'（如：2，3，4，等）</li>
+                  <li>大/小於'半球'（如：1.5，2.5，3.5，等）</li>
+                  <li>混合以上'半球/一球'的方式（如：1.5/2, 2.5/3, 3.5/4, 等）</li>
+                </ul>
+                <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 <br />
+                  例如：
+                  <ul style="margin-left: 25px;">
+                    投注賽事開始到第15分鐘的時節
+                    <ul style="list-style:square">
+                      <li>開始 – 比賽開踢時</li>
+                      <li>結束 - 第14分鐘59秒</li>
+                    </ul>
+                    投注第15分鐘到第30分鐘的時節
+                    <ul style="list-style:square">
+                      <li>開始 – 15分鐘01秒</li>
+                      <li>結束 - 第29分鐘59秒</li>
+                    </ul>
+                  </ul>
+                </li>
+              </ul>
+              <p class="b sub">2.33. 特殊的10分鐘大/小盤</p>
+              <ul style="list-style:decimal;">
+                <li>預測總進球數在指定的10分鐘時節內將大於或小於在盤口指定的大/小盤牌數。 </li>
+                <li>如果總進球數多於盤口的大/小盤牌數，則為大盤。如果少於盤口的大/小盤牌數，則為小盤。 </li>
+                <li>特殊的10分鐘大小盤，是按賽事每10分鐘時節內所進得球數為準，</li>
+                <li>注單的結算是以實際進球時間為準。 </li>
+                <li>如果賽事在某個10分鐘的時節內中斷，所有投注在此10分鐘時節的注單將被取消。 </li>
+                <li>所有註單將按盤口開出的大小球數在玩法的時節結束後結算。 </li>
+                <li>大/小盤的玩法分為以下幾種：</li>
+                <ul style="list-style:lower-alpha">
+                  <li>大/小於'一球'（如：2，3，4，等）</li>
+                  <li>大/小於'半球'（如：1.5，2.5，3.5，等）</li>
+                  <li>混合以上'半球/一球'的方式（如：1.5/2, 2.5/3, 3.5/4, 等）</li>
+                </ul>
+                <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 <br />
+                  例如：
+                  <ul style="margin-left: 25px;">
+                    投注賽事開始到第10分鐘的時節
+                    <ul style="list-style:square">
+                      <li>開始 – 比賽開踢時</li>
+                      <li>結束 - 第9分鐘59秒</li>
+                    </ul>
+                    投注第10分鐘到第20分鐘的時節
+                    <ul style="list-style:square">
+                      <li>開始 – 10分鐘01秒</li>
+                      <li>結束 - 第19分鐘59秒</li>
+                    </ul>
+                  </ul>
+                </li>
+              </ul>
+              <a name="Corners"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">角球</div>
+              </p>
+              <p class="b sub">2.34. 角球</p>
+              以下列出所提供的個別角球玩法規則。
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.34.1. 角球：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>被裁定但並未實際執行的角球將不予以計算在內。 </li>
+                  <li>注單的結算將根據官方賽果或賽事權威機構判定的結果為準。 </li>
+                  <li>如果角球需重新進行(例如，在禁區內犯規)，重新進行的角球仍計為同一個角球。 </li>
+                </ul>
+                <p class="b sub">2.34.2. 角球：讓球盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪一支球隊在盤口指定的讓球數獲得最多角球。 </li>
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                </ul>
+                <p class="b sub">2.34.3. 角球：大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測總獲得的角球將大於或小於在盤口指定的大/小盤球數。 </li>
+                  <li>如果賽事獲得的總角球數多於盤口的大/小盤球數，則為大盤。如果少於盤口的大/小盤球數，則為小盤。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響投注結果的情況，角球的大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+                <p class="b sub">2.34.4. 第一/最後一個角球</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內，第一或最後獲得角球的球隊。 </li>
+                  <li>如果賽事在獲得第一個角球後中斷，所有第一個角球的注單將保持有效。 </li>
+                  <li>如果賽事中斷，所有最後一個角球的注單將被取消。 </li>
+                  <li>如果在投注的玩法時節內並未獲得角球，所有第一和最後一個角球的注單將被取消。 </li>
+                </ul>
+                <p class="b sub">2.34.5. 哪個半場角球數最多</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪個半場將會獲得最多角球。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響賽事結果的情況，注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+                <p class="b sub">2.34.6. 首個角球時間</p>
+                <ul style="list-style:decimal;">
+                  <li>預測獲得首個角球的時間。 </li>
+                  <li>選項可列為：
+                    <ul style="list-style:lower-alpha">
+                      <li>賽事的第8分鐘或之前</li>
+                      <li>第9分鐘後</li>
+                    </ul>
+                  </li>
+                  <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 </li>
+                  <li>範例：如果投注首個角球時間的選項是'賽事的第8分鐘或之前'，而確實踢角球的時間為8分鐘49秒，踢角球時間的範圍屬於'第9分鐘後'，因此投注將結算為輸。 </li>
+                  <li>如果賽事在獲得第一個角球後中斷，所有首個角球時間的注單將保持有效。 </li>
+                  <li>如果賽事在沒有獲得角球前中斷，所有首個角球時間的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未獲得角球，所有首個角球時間的注單將被取消。 </li>
+                  <li>如果首個角球需重新進行，那首個角球時間將以重新進行的角球時間為準。 </li>
+                </ul>
+              </ul>
+              <a name="BookingsCards"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">牌/卡</div>
+              </p>
+              <p class="b sub">2.35. 罰牌</p>
+              以下列出所提供的個別罰牌玩法規則。
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.35.1. 罰牌：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>針對非球員（例如：教練，沒有比賽中替補出場的替補球員，管理人員等等）出示的任何罰牌將不計算在內。 </li>
+                  <li>黃卡將佔1分，紅卡佔2分。如果球員獲發兩張黃卡，此球員所獲發的總罰球數將計算為黃卡佔1分以及紅卡佔2分，總分三分。 （單場賽事每個球員最高可計3分）</li>
+                  <li>注單的結算將根據官方賽果或賽事權威機構判定的結果為準。 </li>
+                </ul>
+                <p class="b sub">2.35.2. 罰牌:讓分盤（亞洲讓分）</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪一支球隊在盤口指定的讓球數獲發最多罰牌。 </li>
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                </ul>
+                <p class="b sub">2.35.3. 總罰牌: 大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測總出示的罰牌將大於或小於在盤口指定的大/小盤牌數。 </li>
+                  <li>如果出示的總罰牌數多於盤口的大/小盤牌數，則為大盤。如果少於盤口的大/小盤牌數，則為小盤。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響投注結果的情況，總罰牌的大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+                <p class="b sub">2.35.4. 首個罰牌/最後一個罰牌</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）主隊或客隊裡的球員是否會收到首個或最後一個罰牌（黃卡或紅卡）。 </li>
+                  <li>如果兩位或以上球員因一個事件獲發罰牌，首先被裁判員出示黃卡或紅卡的球員，將被視為"優勝者"為註單進行結算</li>
+                  <li>針對非球員（例如：教練，沒有比賽中替補出場的替補球員，管理人員等等）出示的任何罰牌將不計算在內。 </li>
+                  <li>如果賽事在出示首個罰牌後中斷，所有首個罰牌的注單將保持有效。 </li>
+                  <li>如果賽事在出示首個罰牌後中斷，所有最後一個罰牌的注單將被取消。 </li>
+                  <li>如果賽事在沒有出示任何罰牌前中斷，所有首個和最後一個罰牌的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未出示任何罰牌，所有首個和最後一個罰牌的注單將被取消。 </li>
+                </ul>
+                <p class="b sub">2.35.5. 罰牌最多的球隊</p>
+                <ul style="list-style:decimal;">
+                  <li>預測哪一支球隊將由獲收的罰牌累積最多分數。 </li>
+                  <li>注單將按照90分鐘完場賽事時間內（不包括加時賽及點球賽）所獲收的黃卡和紅卡累積最高分數的球隊做結算</li>
+                  <li>選項可列為：
+                    <ul style="list-style:lower-alpha">
+                      <li>球隊A</li>
+                      <li>球隊B</li>
+                      <li>平局</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="b sub">2.35.6. 第一張罰牌時間</p>
+                <ul style="list-style:decimal;">
+                  <li>預測出示首個罰牌的時間。 </li>
+                  <li>選項可列為:</li>
+                  <ul style="list-style:lower-alpha">
+                    <li>賽事的第8分鐘或之前</li>
+                    <li>第9分鐘後</li>
+                  </ul>
+                  <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 </li>
+                  <li>範例：如果投注第一張罰牌時間的選項是'賽事的第8分鐘或之前'，而確實出示罰牌的時間為8分鐘49秒，罰牌出示時間的範圍屬於'第9分鐘後'，因此投注將結算為輸。 </li>
+                  <li>針對非球員（例如：教練，沒有比賽中替補出場的替補球員，管理人員等等）出示的任何罰牌將不計算在內。 </li>
+                  <li>如果賽事在出示首個罰牌後中斷，所有第一張罰牌時間的注單將保持有效。 </li>
+                  <li>如果賽事在沒有出示任何罰牌前中斷，所有第一張罰牌時間的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未出示任何罰牌，所有第一張罰牌時間的注單將被取消。 </li>
+                </ul>
+                <p class="b sub">2.35.7. 是否出示紅卡</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）是否會出示紅卡。 </li>
+                  <li>針對非球員（例如：教練，沒有比賽中替補出場的替補球員，管理人員等等）出示的任何罰牌將不計算在內。 </li>
+                  <li>如果賽事在出示一個紅卡後中斷, 所有是否出示紅卡的注單將保持有效。 </li>
+                  <li>如果賽事在沒有紅卡出示前中斷， 所有是否出示紅卡的注單將被取消。 </li>
+                </ul>
+              </ul>
+              <a name="FreeKicks"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">任意球</div>
+              </p>
+              <p class="b sub">2.36. 任意球</p>
+              以下列出所提供的個別任意球玩法規則。
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.36.1. 任意球：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>出於結算的用意，任意球只有在實際發出後才計算在內。 </li>
+                  <li>任意球指的是直接任意球和間接性任意球。任意球不包括點球，球門球或爭球。 </li>
+                  <li>如果任意球需重新進行，重新進行的任意球仍計為一個任意球而不算兩個。 </li>
+                  <li>注單的結算將根據官方賽果或賽事權威機構判定的結果為準。 </li>
+                </ul>
+                <p class="b sub">2.36.2. 任意球：讓球盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪一支球隊在盤口指定的讓球數發出最多任意球。 </li>
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                </ul>
+                <p class="b sub">2.36.3. 總任意球：大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測總發出的任意球數將大於或小於在盤口指定的大/小盤牌數。 </li>
+                  <li>如果發出的總任意球數多於盤口的大/小盤牌數，則為大盤。如果少於盤口的大/小盤牌數，則為小盤。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響投注結果的情況，總任意球的大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+                <p class="b sub">2.36.4. 第一/最後一個任意球</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪個球隊會發出第一或最後一個任意球。 </li>
+                  <li>如果賽事在發出第一個任意球後中斷，所有第一個任意球的注單將保持有效。 </li>
+                  <li>如果賽事在發出第一個任意球後中斷，所有最後一個任意球的注單將被取消。 </li>
+                  <li>如果賽事在沒有發出任何任意球前中斷，所有第一個和最後一個任意球的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未發出任何任意球，所有第一個和最後一個任意球的注單將被取消。 </li>
+                </ul>
+                <p class="b sub">2.36.5. 最多任意球球隊</p>
+                <ul style="list-style:decimal;">
+                  <li>預測哪一支球隊將發出最多任意球。 </li>
+                  <li>注單將按照90分鐘完場賽事時間內（不包括加時賽及點球賽）發出最多任意球的球隊做結算。 </li>
+                  <li>選項可列為：
+                    <ul style="list-style:lower-alpha">
+                      <li>球隊A</li>
+                      <li>球隊B</li>
+                      <li>平局</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="b sub">2.36.6. 首個任意球時間</p>
+                <ul style="list-style:decimal;">
+                  <li>預測發出首個任意球的時間。 </li>
+                  <li>選項可列為:
+                    <ul style="list-style:lower-alpha">
+                      <li>賽事的第8分鐘或之前</li>
+                      <li>第9分鐘後</li>
+                    </ul>
+                  </li>
+                  <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 </li>
+                  <li>範例：如果投注首個任意球時間的選項是'賽事的第8分鐘或之前'，而確實發出任意球的時間為8分鐘49秒，任意球發出時間的範圍屬於'第9分鐘後'，因此投注將結算為輸。 </li>
+                  <li>如果賽事在發出第一個任意球後中斷，所有首個任意球時間的注單將保持有效。 </li>
+                  <li>如果賽事在發出第一個任意球前中斷，所有首個任意球時間的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未發出任何任意球，所有首個任意球時間的注單將被取消。 </li>
+                </ul>
+              </ul>
+              <a name="GoalKicks"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">射門</div>
+              </p>
+              <p class="b sub">2.37. 球門球</p>
+              <p>以下列出所提供的個別球門球玩法規則。 </p>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.37.1. 球門球：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>出於結算的用意，球門球只有在實際發出後才計算在內。 </li>
+                  <li>球門球是在進攻方的球員接觸到球後導致球越過球門線的情況下判給防守方的。守門員成功防守後重新開賽所踢的球門球將不計算在內。 </li>
+                  <li>例如：A隊球員進攻B隊球門，球沒能射入球門並且在B隊球員未接觸到球的情況下越過了球門線。就此情況，球門球將判給B隊。 </li>
+                  <li>如果球門球需重新進行，重新進行的球門球仍計為一個球門球而不算兩個。 </li>
+                  <li>注單的結算將根據官方賽果或賽事權威機構判定的結果為準。 </li>
+                </ul>
+                <p class="b sub">2.37.2. 球門球：讓球盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪一支球隊在盤口指定的讓球數發出最多球門球。 </li>
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                </ul>
+                <p class="b sub">2.37.3. 總球門球：大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測總發出的球門球數將大於或小於在盤口指定的大/小盤牌數。 </li>
+                  <li>如果發出的總球門球數多於盤口的大/小盤牌數，則為大盤。如果少於盤口的大/小盤牌數，則為小盤。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響投注結果的情況，總球門球的大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+                <p class="b sub">2.37.4. 第一/最後一個球門球</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪個球隊會發出第一或最後一個球門球。 </li>
+                  <li>如果賽事在發出第一個球門球後中斷，所有第一個球門球的注單將保持有效。 </li>
+                  <li>如果賽事在發出第一個球門球後中斷，所有最後一個球門球的注單將被取消。 </li>
+                  <li>如果賽事在沒有發出任何球門球前中斷，所有第一個和最後一個球門球的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未發出任何球門球，所有第一個和最後一個球門球的注單將被取消。 </li>
+                </ul>
+                <p class="b sub">2.37.5. 最多球門球球隊</p>
+                <ul style="list-style:decimal;">
+                  <li>預測哪一支球隊將發出最多球門球。 </li>
+                  <li>注單將按照90分鐘完場賽事時間內（不包括加時賽及點球賽）發出最多球門球的球隊做結算。 </li>
+                  <li>選項可列為：
+                    <ul style="list-style:lower-alpha">
+                      <li>球隊A</li>
+                      <li>球隊B</li>
+                      <li>平局</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="b sub">2.37.6. 首個球門球時間</p>
+                <ul style="list-style:decimal;">
+                  <li>預測發出首個球門球的時間。 </li>
+                  <li>選項可列為:
+                    <ul style="list-style:lower-alpha">
+                      <li>賽事的第8分鐘或之前</li>
+                      <li>第9分鐘後</li>
+                    </ul>
+                  </li>
+                  <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 </li>
+                  <li>範例：如果投注首個球門球時間的選項是'賽事的第8分鐘或之前'，而確實發出球門球的時間為8分鐘49秒，球門球發出時間的範圍屬於'第9分鐘後'，因此投注將結算為輸。 </li>
+                  <li>如果賽事在發出第一個球門球後中斷，所有首個球門球時間的注單將保持有效。 </li>
+                  <li>如果賽事在發出第一個球門球前中斷，所有首個球門球時間的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未發出任何球門球，所有首個球門球時間的注單將被取消。 </li>
+                </ul>
+              </ul>
+              <a name="ThrowIns"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">界外球</div>
+              </p>
+              <p class="b sub">2.38. 界外球</p>
+              <p>以下列出所提供的個別界外球玩法規則。 </p>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.38.1. 界外球：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>出於結算的用意，界外球只有在實際發出後才計算在內。 </li>
+                  <li>界外球是在球員接觸到球後導致球越過足球場邊線的情況下判給對手的。 </li>
+                  <li>如果界外球需重新進行，重新進行的界外球仍計為一個界外球而不算兩個。 </li>
+                  <li>注單的結算將根據官方賽果或賽事權威機構判定的結果為準。 </li>
+                </ul>
+                <p class="b sub">2.38.2. 界外球：讓球盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪一支球隊在盤口指定的讓球數發出最多界外球。 </li>
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                </ul>
+                <p class="b sub">2.38.3. 總界外球：大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測總發出的界外球數將大於或小於在盤口指定的大/小盤牌數。 </li>
+                  <li>如果發出的總界外球數多於盤口的大/小盤牌數，則為大盤。如果少於盤口的大/小盤牌數，則為小盤。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響投注結果的情況，總界外球的大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+                <p class="b sub">2.38.4. 第一/最後一個界外球</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪個球隊會發出第一或最後一個界外球。 </li>
+                  <li>如果賽事在發出第一個界外球後中斷，所有第一個界外球的注單將保持有效。 </li>
+                  <li>如果賽事在發出第一個界外球後中斷，所有最後一個界外球的注單將被取消。 </li>
+                  <li>如果賽事在沒有發出任何界外球前中斷，所有第一個和最後一個界外球的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未發出任何界外球，所有第一個和最後一個界外球的注單將被取消。 </li>
+                </ul>
+                <p class="b sub">2.38.5. 最多界外球球隊</p>
+                <ul style="list-style:decimal;">
+                  <li>預測哪一支球隊將發出最多界外球。 </li>
+                  <li>注單將按照90分鐘完場賽事時間內（不包括加時賽及點球賽）發出最多界外球的球隊做結算。 </li>
+                  <li>選項可列為：
+                    <ul style="list-style:lower-alpha">
+                      <li>球隊A</li>
+                      <li>球隊B</li>
+                      <li>平局</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="b sub">2.38.6. 首個界外球時間</p>
+                <ul style="list-style:decimal;">
+                  <li>預測發出首個界外球的時間。 </li>
+                  <li>選項可列為:
+                    <ul style="list-style:lower-alpha">
+                      <li>賽事的第8分鐘或之前</li>
+                      <li>第9分鐘後</li>
+                    </ul>
+                  </li>
+                  <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 </li>
+                  <li>範例：如果投注首個界外球時間的選項是'賽事的第8分鐘或之前'，而確實發出界外球的時間為8分鐘49秒，界外球發出時間的範圍屬於'第9分鐘後'，因此投注將結算為輸。 </li>
+                  <li>如果賽事在發出第一個界外球後中斷，所有首個界外球時間的注單將保持有效。 </li>
+                  <li>如果賽事在發出第一個界外球前中斷，所有首個界外球時間的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未發出任何界外球，所有首個界外球時間的注單將被取消。 </li>
+                </ul>
+              </ul>
+              <a name="Substitutions"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">替換</div>
+              </p>
+              <p class="b sub">2.39. 替補</p>
+              <p>以下列出所提供的個別替補玩法規則。 </p>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.39.1. 替補：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>替補是指在賽事進行期間，一個球員替換另一個正在賽場上的球員。 </li>
+                  <li>注單的結算將根據官方賽果或賽事權威機構判定的結果為準。 </li>
+                </ul>
+                <p class="b sub">2.39.2. 替補：讓球盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪一支球隊在盤口指定的讓球數替補最多球員。 </li>
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                </ul>
+                <p class="b sub">2.39.3. 總替補：大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測總替補的球員數將大於或小於在盤口指定的大/小盤牌數。 </li>
+                  <li>如果替補的球員數多於盤口的大/小盤牌數，則為大盤。如果少於盤口的大/小盤牌數，則為小盤。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響投注結果的情況，總替補的大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+                <p class="b sub">2.39.4. 第一/最後一個替補</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪個球隊會最先或最後替補球員。 </li>
+                  <li>如果兩位或以上球員同時被替補，首先被裁判員出示替補的球員，將被視為"優勝者"為註單進行結算。 </li>
+                  <li>如果賽事在替補第一個球員後中斷，所有第一個替補的注單將保持有效。 </li>
+                  <li>如果賽事在替補第一個球員後中斷，所有最後一個替補的注單將被取消，除非在賽事中斷前，結果已經明確並且若之後有任何潛在替補將對盤口結算裁決沒有影響。此情況只有當雙方球隊都將已分配好的替補機會用完。若遇到任何其他情況，注單將一律被取消。 </li>
+                  <li>如果賽事在沒有任何替補前中斷，所有第一個和最後一個替補的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未任何替補，所有第一個和最後一個替補的注單將被取消。 </li>
+                </ul>
+                <p class="b sub">2.39.5. 首個替補時間</p>
+                <ul style="list-style:decimal;">
+                  <li>預測首個替補的時間。 </li>
+                  <li>選項可列為:</li>
+                  <ul style="list-style:lower-alpha">
+                    <li>賽事的第58分鐘或之前</li>
+                    <li>第59分鐘後</li>
+                  </ul>
+                  <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 </li>
+                  <li>範例：如果投注首個替補時間的選項是'賽事的第58分鐘或之前'，而確實替補的時間為58分鐘49秒，替補時間的範圍屬於'第59分鐘後'，因此投注將結算為輸。 </li>
+                  <li>如果賽事在第一個替補後中斷，所有首個替補時間的注單將保持有效。 </li>
+                  <li>如果賽事在第一個替補前中斷，所有首個替補時間的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未任何替補，所有首個替補時間的注單將被取消。 </li>
+                </ul>
+              </ul>
+              <a name="Offsides"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">越位</div>
+              </p>
+              <p class="b sub">2.40. 越位</p>
+              <p>以下列出所提供的個別越位玩法規則。 </p>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.40.1. 越位：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>注單的結算將根據官方賽果或賽事權威機構判定的結果為準。 </li>
+                </ul>
+                <p class="b sub">2.40.2. 越位：讓球盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪一支球隊在盤口指定的讓球數越位最多次。 </li>
+                  <li>所有註單將按盤口開出的讓球數在玩法的時節結束後結算。 </li>
+                </ul>
+                <p class="b sub">2.40.3. 總越位：大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測總越位次數將大於或小於在盤口指定的大/小盤牌數。 </li>
+                  <li>如果越位次數多於盤口的大/小盤牌數，則為大盤。如果少於盤口的大/小盤牌數，則為小盤。 </li>
+                  <li>如果賽事中斷前已有明確結果並且之後沒有任何顯著會影響投注結果的情況，總越位次數的大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+                <p class="b sub">2.40.4. 第一/最後一個越位</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪個球隊的球員會最先或最後越位。 </li>
+                  <li>如果賽事在第一個球員越位後中斷，所有第一個越位的注單將保持有效。 </li>
+                  <li>如果賽事在第一個球員越位後中斷，所有最後一個越位的注單將被取消。 </li>
+                  <li>如果賽事在沒有任何球員越位前中斷，所有第一個和最後一個越位的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未任何球員越位，所有第一個和最後一個越位的注單將被取消。 </li>
+                </ul>
+                <p class="b sub">2.40.5. 首個越位時間</p>
+                <ul style="list-style:decimal;">
+                  <li>預測首個越位的時間。 </li>
+                  <li>選項可列為:
+                    <ul style="list-style:lower-alpha">
+                      <li>賽事的第8分鐘或之前</li>
+                      <li>第9分鐘後</li>
+                    </ul>
+                  </li>
+                  <li>出於結算的用意，賽事的第一分鐘是從1秒計算到59秒。第二分鐘則是從1分鐘計算到1分59秒，以此類推。 </li>
+                  <li>範例：如果投注首個越位時間的選項是'賽事的第8分鐘或之前'，而確實球員越位的時間為8分鐘49秒，球員越位時間的範圍屬於'第9分鐘後'，因此投注將結算為輸。 </li>
+                  <li>如果賽事在第一個球員越位後中斷，所有首個越位時間的注單將保持有效。 </li>
+                  <li>如果賽事在第一個球員越位前中斷，所有首個越位時間的注單將被取消。 </li>
+                  <li>如果在90分鐘完場時間內並未任何球員越位，所有首個越位時間的注單將被取消。 </li>
+                </ul>
+              </ul>
+              <a name="PenaltyMarkets"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">點球</div>
+              </p>
+              <p class="b sub">2.41. 點球玩法種類</p>
+              以下列出所提供的個別點球玩法規則。
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.41.1.點球懲罰</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）是否會有點球懲罰。 </li>
+                </ul>
+                <p class="b sub">2.41.2. 點球：讓球盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測哪一支球隊在盤口指定的讓球數在點球賽裡獲勝。 </li>
+                  <li>驟死賽得分也包括在點球讓球盤。 </li>
+                  <li>如果賽事並未進行點球，所有註單將被取消。 </li>
+                  <li>在90分鐘完場時間內以及加時賽踢進的點球將不計算在內。 </li>
+                </ul>
+                <p class="b sub">2.41.3. 點球：大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測點球賽總入球數將大於或小於在盤口指定的大/小盤球數。 </li>
+                  <li>點球大小盤只以10個點球為準（每隊5球）。驟死賽得分不包括在點球大小盤。 </li>
+                  <li>範例:
+                    <ul style="list-style:lower-alpha">
+                      <li>利物浦4-1托特納姆熱刺– 大小球以5球結算。 </li>
+                      <li>利物浦6-5托特納姆熱刺（每隊踢5個點球後的結果為：利物浦4-4托特納姆熱刺）-大小盤在每隊踢5個點球後的8球得分結算。 </li>
+                    </ul>
+                  </li>
+                  <li>如果賽事並未進行點球，所有註單將被取消。 </li>
+                  <li>在90分鐘完場時間內以及加時賽踢進的點球將不計算在內。 </li>
+                  <li>如果賽事在點球賽時中斷，而在賽事中斷前已有明確結果並且之後沒有任何顯著會影響投注結果的情況，大/小盤注單才會被結算。若遇到任何其他情況，注單將一律被取消。 </li>
+                </ul>
+              </ul>
+              <a name="Competitions"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">比賽</div>
+              </p>
+              <p class="b sub">2.42. 聯賽</p>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.42.1. 聯賽：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>賽果確認完成後將進行派彩。 </li>
+                  <li>聯賽的派彩將以官方來源或相關體育權威機構判定的結果為準。 </li>
+                  <li>所有聯賽的積分扣除都予以計算。 </li>
+                  <li>冠軍比賽規則適用。 </li>
+                </ul>
+                <p class="b sub">2.42.2. 小組賽</p>
+                <ul style="list-style:decimal;">
+                  <li>預測整個賽季中排名最高的球隊。 </li>
+                </ul>
+                <p class="b sub">2.41.3. 排名前4、6、10等</p>
+                <ul style="list-style:decimal;">
+                  <li>預測整個賽季中排名在前4、6、10等的球隊。 </li>
+                </ul>
+                <p class="b sub">2.42.4. 沒有球隊X的聯賽冠軍</p>
+                <ul style="list-style:decimal;">
+                  <li>預測整個賽季中，當所列出的球隊或某球隊從聯賽表中移除後，哪一支球隊將獲得冠軍。 </li>
+                </ul>
+                <p class="b sub">2.42.5. 聯賽：最後一名球隊</p>
+                <ul style="list-style:decimal;">
+                  <li>預測整個賽季中哪一支球隊會成為最後一名。 </li>
+                  <li>此類投注也被稱為最低分。 </li>
+                </ul>
+                <p class="b sub">2.42.6. 聯賽：被降級的球隊</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在比賽中哪一支球隊會被降級。 </li>
+                  <li>所有被降級球隊將以全贏作為計算標準，比如：勝負不分的規則不適用。 </li>
+                  <li>如果一支球隊從聯賽中被移除或清除，投注在此球隊的注單將被視為無效。如果在賽季開始之前出現此情況，所有的投注都無效，將會另外開設盤口。 </li>
+                </ul>
+                <p class="b sub">2.42.7. 聯賽：球隊保持原位</p>
+                <ul style="list-style:decimal;">
+                  <li>預測比賽中哪一支球隊不會被降級。 </li>
+                  <li>所有沒有被降級的球隊將以全贏作為計算標準，比如：勝負不分的規則不適用。 </li>
+                  <li>如果一支球隊從聯賽中被移除或清除，投注在此球隊的注單將被視為無效。如果在賽季開始之前出現此情況，所有的投注都無效，將會另外開設盤口。 </li>
+                </ul>
+                <p class="b sub">2.42.8. 聯賽：球隊晉級</p>
+                <ul style="list-style:decimal;">
+                  <li>預測比賽中哪一支球隊會晉級。 </li>
+                  <li>投注包括自動晉級以及在特定比賽中通過加賽後的晉級。 </li>
+                  <li>所有晉級的球隊將以全贏作為計算標準，比如：勝負不分的規則不適用。 </li>
+                  <li>如果一支球隊從聯賽中被移除或清除，投注在此球隊的注單將被視為無效。如果在賽季開始之前出現此情況，所有的投注都無效，將會另外開設盤口。 </li>
+                </ul>
+                <p class="b sub">2.42.9. 聯賽：最佳新秀</p>
+                <ul style="list-style:decimal;">
+                  <li>預測哪一支最新晉級的球隊將在賽季中獲得最高排名。 </li>
+                </ul>
+              </ul>
+              <p class="b sub">2.43. 最佳射手</p>
+              <ul style="list-style:decimal;">
+                <li>預測在一場特定比賽中進球最多的球員。 </li>
+                <li>如果產生超過一個冠軍數量, 請以並列第一規則參考結算方式。 </li>
+                <li>投注在被列出的該球隊球員將被視為有效，無論他們是否受傷、暫停、不參與比賽或其它任何原因。 </li>
+                <li>如果聯賽中途有球員轉到另一個球隊, 球員在轉到另一個球隊前所進得球數將繼續計算在內。如果球員是轉到不同聯賽的球隊，在轉之前進得球數將不會繼續帶到新聯賽去。兩種情況下，投注此球員的注單將保持有效。 </li>
+                <li>烏龍球將不予計算在內。 </li>
+                <li>按照單純的聯賽比賽玩法，只有在聯賽中進得球才計算在內。在季後賽進得球將不予計算在內。 </li>
+              </ul>
+              <p class="b sub">2.44. 最佳射手球隊</p>
+              <ul style="list-style:decimal;">
+                <li>預測比賽中哪一個球員在所屬球隊中進球最多。 </li>
+                <li>所有的投注以官方時間90分鐘為準，包括加時、傷停補時。 </li>
+                <li>進球數不包括點球。 </li>
+                <li>投注適用於所有比賽的球隊。 </li>
+                <li>勝負不分規則使用；任何用於決定和局的方法不可作為結算依據，比如：計數協助。 </li>
+              </ul>
+              <p class="b sub">2.45. 最佳射手/比賽雙贏</p>
+              <ul style="list-style:decimal;">
+                <li>預測比賽中哪一個球員進球最多和哪一支球隊獲勝。 </li>
+                <li>所有的投注以官方時間90分鐘為準，包括加時、傷停補時。 </li>
+                <li>進球數不包括點球。 </li>
+                <li>如果多於一個球員和最佳射手打平，勝負不分規則使用；任何用於決定和局的方法不可作為結算依據，比如：計數協助。 </li>
+              </ul>
+              <p class="b sub">2.46. 進球最多的小組</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中哪一組進球最多。 </li>
+                <li>只計算在小組階段的進球。 </li>
+                <li>所有的投注以賽事官方單位90分鐘為完場時間，包括球員傷停補時。 </li>
+                <li>如果賽事中斷，將以官方單位公佈的最後賽果為準，其中包括賽事重新開始或指定的分數。 </li>
+              </ul>
+              <p class="b sub">2.47. 比賽- 進球最多的球隊</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中哪一個球隊進球最多。 </li>
+                <li>所有的投注以賽事官方90分鐘為完場時間，包括加時、傷停補時。 </li>
+                <li>進球數不包括點球。 </li>
+                <li>如果賽事中斷，將以官方單位公佈的最後賽果為準，其中包括賽事重新開始或指定的分數。 </li>
+              </ul>
+              <p class="b sub">2.48. 比賽- 失球最多的球隊</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中哪一個球隊失球最多。 </li>
+                <li>所有的投注以賽事官方90分鐘為完場時間，包括加時、傷停補時。 </li>
+                <li>在點球中的失球不予計算。 </li>
+                <li>如果賽事中斷，將以官方單位公佈的最後賽果為準，其中包括賽事重新開始或指定的分數。 </li>
+              </ul>
+              <p class="b sub">2.49. 比賽– 總進球數</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中進球的數量。 </li>
+                <li>所有的投注以賽事官方90分鐘為完場時間，包括加時、傷停補時。 </li>
+                <li>在比賽中點球的進球不予計算。 </li>
+                <li>如果賽事中斷，將以官方單位公佈的最後賽果為準，其中包括賽事重新開始或指定的分數。 </li>
+              </ul>
+              <p class="b sub">2.50. 比賽 - 帽子戲法</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中任何一位球員進3個或以上的球。 </li>
+                <li>所有的投注以賽事官方90分鐘為完場時間，包括加時、傷停補時。 </li>
+                <li>帽子戲法不包含點球中的進球。 </li>
+                <li>在一場比賽中如果一個球員連續進球3個或更多，即為帽子戲法。 </li>
+                <li>如果賽事中斷，將以官方單位公佈的最後賽果為準，其中包括賽事重新開始或指定的得分。如果帽子戲法是在賽事中斷前，且賽事在0-0的情況下或者其它官方單位分配的比分下重新開始，將不予計算。 </li>
+              </ul>
+              <p class="b sub">2.51. 比賽- 總帽子戲法</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中獲得了多少帽子戲法。 </li>
+                <li>所有的投注以賽事官方90分鐘為完場時間，包括加時、傷停補時。 </li>
+                <li>帽子戲法不包含點球中的進球。 </li>
+                <li>在一場比賽中如果一個球員連續進球3個或更多，即為帽子戲法。 </li>
+                <li>如果賽事中斷，將以官方單位公佈的最後賽果為準，其中包括賽事重新開始或指定的分數。如果帽子戲法是在賽事中斷前，且賽事在0-0的情況下或者其它官方單位分配的比分下重新開始，將不予計算。 </li>
+              </ul>
+              <p class="b sub">2.52. 比賽– 總紅卡數</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中紅卡的數量。 </li>
+                <li>所有的投注以賽事官方90分鐘為完場時間，包括加時、傷停補時。 </li>
+                <li>任何非球員的紅卡（例如.經理、教練或替補）不予計算</li>
+                <li>點球中的紅卡不予計算</li>
+                <li>如果賽事在出現紅卡之後中斷，紅卡仍然計算在總紅卡數中。 </li>
+              </ul>
+              <p class="b sub">2.53. 比賽– 進球最多的城市</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中哪一個城市將會進球最多。 </li>
+                <li>所有的投注以官方時間90分鐘為準，包括加時、傷停補時。 </li>
+                <li>點球中的進球不予計算。 </li>
+                <li>如果賽事中斷，將以官方單位公佈的最後賽果為準，其中包括賽事重新開始或指定的分數。 </li>
+              </ul>
+              <p class="b sub">2.54. 比賽– 直接預測排名</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中哪兩個球隊獲得第1名和第2名的順序排名。 </li>
+                <li>所有的投注以官方時間90分鐘為準，包括加時、傷停補時。 </li>
+                <li>點球中的進球不予計算。 </li>
+                <li>如果賽事中斷，將以官方單位公佈的最後賽果為準，其中包括賽事重新開始或指定的分數。 </li>
+              </ul>
+              <p class="b sub">2.55. 比賽– 獲勝小組</p>
+              <ul style="list-style:decimal;">
+                <li>預測在比賽中哪一個小組將會獲勝。 </li>
+                <li>冠軍比賽規則適用。 </li>
+              </ul>
+              <p class="b sub">2.56. 錦標賽– 小組最後一名球隊</p>
+              <ul style="list-style:decimal;">
+                <li>預測哪一個球隊為最後一名.</li>
+                <li>冠軍比賽規則適用.</li>
+              </ul>
+              <p class="b sub">2.57. 冠軍所屬地</p>
+              <ul style="list-style:decimal;">
+                <li>預測比賽的冠軍來自哪裡。 </li>
+                <li>來源地可以是冠軍球隊的所屬地區、國家或洲。 </li>
+                <li>冠軍比賽規則使用。 </li>
+              </ul>
+              <p class="b sub">2.58. 比賽 - 階段淘汰</p>
+              <ul style="list-style:decimal;">
+                <li>預測比賽中該球隊會在哪一個階段被淘汰。 </li>
+                <li>冠軍比賽規則使用。 </li>
+              </ul>
+              <p class="b sub">2.59. 比賽 - 提名入圍</p>
+              <ul style="list-style:decimal;">
+                <li>預測哪一支球隊會進入決賽。 </li>
+                <li>冠軍比賽規則適用.</li>
+              </ul>
+              <p class="b sub">2.60. 比賽– 最終裁判員</p>
+              <ul style="list-style:decimal;">
+                <li>預測決賽中的裁判員是哪一位。 </li>
+                <li>無論此前是否有任何公告，將根據決賽開始後的裁判為派彩依據。 </li>
+                <li>冠軍比賽規則適用.</li>
+              </ul>
+              <a name="OtherMarkets"></a>
+              <p style="margin-left:-60px;">
+              <div class="quick_link">其他</div>
+              </p>
+              <p class="b sub">2.61. 特定聯賽裡主客隊的總進球數</p>
+              <p>本公司在某些聯賽裡會提供某種結合性賽事結果的投注。盤口的玩法將結合主場與客場球隊在整個聯賽裡的賽果之後分出勝負。中立場的比賽，第一個球隊被視為這一場賽事的主隊。以下列出所提供的個別替補玩法規則。 </p>
+              <ul style="margin-left: 25px;">
+                <p class="b sub">2.61.1. 特定聯賽裡主客隊的總進球數：一般規則</p>
+                <ul style="list-style:decimal;">
+                  <li>如聯賽中有一場賽事中斷，暫停或者延後，所有的特定聯賽的注單將被取消，除非在賽事取消或中斷前，結果已經明確並且之後沒有任何顯著會影響賽事結果的情況，大/小盤注單才會被結算。 </li>
+                  <li>比賽日程以及賽事場次將會明確的在盤口顯示。例如：
+                    <ul style="list-style:lower-alpha">
+                      <li>主隊-週五-3場賽事</li>
+                      <li>客隊-週五-3場賽事</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="b sub">2.61.2. 特定聯賽裡主客隊的進球數：讓球盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測在90分鐘完場時間內（不包括加時賽及點球賽）哪一支球隊在結合整個聯賽裡的賽果後在盤口指定的讓球數勝出。 </li>
+                </ul>
+                <p class="b sub">2.61.3. 特定聯賽裡主客隊的進球數：大小盤</p>
+                <ul style="list-style:decimal;">
+                  <li>預測主客隊的總進球數將大於或小於在盤口指定的大/小盤牌數。 </li>
+                </ul>
+              </ul>
+            </ul>
+            <div class="to_top"><a href="#top"><span>回最上層</span></a></div>
+          </div><!--資料區 End-->
+    </div>
+    
+</div>
+<div class="qa_foot"></div>
+</body>
+</html>

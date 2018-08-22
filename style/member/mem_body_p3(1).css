@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~過關 old style 改背景色~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.pr_cen {	background-color: #EEDF68; text-align:center;white-space:nowrap;}/*table style*/
+.pr_rig {background-color:#EEDF68; text-align:right;white-space:nowrap;/*解決賠率斷行*/}
+.pr_lef {background-color:#EEDF68; text-align:left;white-space:nowrap;}
+.pr_1st {background-color:#EEDF68;text-align: center; /*width:14%;*/white-space:nowrap;}
+.pr_1stR {background-color:#EEDF68;text-align: right;/* width:14%;*/white-space:nowrap;}

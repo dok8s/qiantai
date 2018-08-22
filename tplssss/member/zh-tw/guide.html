@@ -1,0 +1,73 @@
+
+<html>
+<head>
+    <meta name="Robots" contect="none">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>幫助</title>
+
+    <script>
+        function chg_language(langx) {
+            var homepage = "";
+            if (langx != "zh-tw" && langx != "zh-cn") {
+                homepage = "/tpl/member/en-us/QA.html";
+            } else {
+                homepage = "/tpl/member/"+langx+"/QA.html";
+            }
+            self.location = homepage;
+        }
+        function OnMouseOverPIC(langx) {
+            document.getElementById("OverQA_"+langx).style.display = "block";
+            document.getElementById("OutQA_"+langx).style.display = "none";
+        }
+        function OnMouseOutPIC(langx) {
+            document.getElementById("OverQA_"+langx).style.display = "none";
+            document.getElementById("OutQA_"+langx).style.display = "block";
+        }
+    </script>
+
+    <link href="/style/member/mem_pass.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="gui_div">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="3"><div class="gui_title">幫助</div></td>
+        </tr>
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-tw/help_1.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">1. 使用"會員帳號"登入.</td>
+        </tr>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-tw/help_2.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">2. 請在"登錄帳號"欄位輸入您所要設置的名字或代號.系統會顯示訊息確認您
+                輸入的登入帳號是否已有人使用.設置完成後必須重新登入.</td>
+        </tr>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-tw/help_3.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w"></td>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-tw/help_4.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w"></td>
+
+        <tr class="gui_h"><td colspan="3">&nbsp;</td></tr>
+        <tr>
+            <td class="gui_pic_w"><img src="/images/member/zh-tw/help_5.jpg"></td>
+            <td class="gui_w"></td>
+            <td class="gui_txt_w">3. 使用新設置"登錄帳號"登入.</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

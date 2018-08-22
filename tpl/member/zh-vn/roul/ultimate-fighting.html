@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Robots" contect="none">
+<title>Sportsbook Rules</title>
+<link rel="stylesheet" href="/style/member/mem_qa.css" type="text/css">
+<link rel="stylesheet" href="/style/member/mem_qa_roul.css" type="text/css">
+
+<script language="javascript" src="/js/QA_sport.js"></script>
+</head>
+<body id="SPORT" onSelectStart="self.event.returnValue=false" oncontextmenu="self.event.returnValue=false;window.event.returnValue=false;">
+<div class="qa_head"><em>帮助</em><span class="close_box" onClick="window.close();">关闭</span></div>
+<div id="wrapper">
+	
+    <div id="qa_nav">
+      <ul>
+        <li class="sport"><a href="../QA_sport.html">体育规则</a></li>
+        <li class="rule"><a href="../QA_roul.html">规则与条款</a></li>
+        <li class="wap"><a href="../roul_mp.html" OnClick="window.open('/tpl/member/zh-tw/roul_mp.html','ROUL','location=no,status=no,width=680,height=500,toolbar=no,top=0,left=0,scrollbars=no,resizable=no,personalbar=yes');window.close();">Wap指南</a></li>
+        <li class="odd"><a href="../QA_way.html">赔率计算列表</a></li>
+        <li class="mail"><a href="../QA_conn.html">联系我们</a></li>
+      </ul>
+    </div>
+    
+    <div id="main">
+    <a name="top"></a>
+    	<h1>选择体育项目 : 
+    	  <label>
+    	    <select name="jumpMenu" id="jumpMenu" onchange="chg_roul(this.options[this.selectedIndex].value);">
+    	  	<option value="../QA_sport.html">一般体育说明</option>
+    	    <option value="outright.html">冠军</option>
+            <option value="parlays-multiples.html">综合过关</option>
+            <option value="roul_nf.html">美式足球</option>
+            <option value="archery.html">射箭和射击</option>
+            <option value="athletic.html">田径</option>
+            <option value="aussie.html">澳式足球</option>
+            <option value="badminton.html">羽毛球</option>
+            <option value="baseball.html">棒球</option>
+            <option value="basketball.html">篮球</option>
+            <option value="beach-soccer.html">沙滩足球</option>
+            <option value="beach-volleyball.html">沙滩排球</option>
+            <option value="boxing.html">拳击</option>
+            <option value="cricket.html">板球</option>
+            <option value="cycling.html">自行车</option>
+            <option value="darts.html">飞镖</option>
+            <option value="e-sports.html">电子竞技</option>
+            <option value="field-hockey.html">曲棍球</option>
+            <option value="financial-bets.html">金融投注</option>
+            <option value="futsal.html">室内足球</option>
+            <option value="golf.html">高尔夫</option>
+            <option value="gymnastics.html">体操</option>
+            <option value="handball.html">手球</option>
+            <option value="ice-hockey.html">冰球</option>
+            <option value="judo.html">柔道</option>
+            <option value="major-league-lacrosse.html">袋棍球</option>
+            <option value="medal-betting.html">奖牌投注</option>
+            <option value="motor-sports.html">赛车</option>
+            <option value="olympics.html">奥林匹克或相关事件投注</option>
+            <option value="rowing.html">赛艇和皮划艇</option>
+            <option value="rugby-league.html">橄榄球</option>
+            <option value="snooker.html">桌球/9号球巡回赛</option>
+            <option value="football.html">足球</option>
+            <option value="softball.html">垒球</option>
+            <option value="swimming.html">游泳</option>
+            <option value="table-tennis.html">乒乓球</option>
+            <option value="taekwondo.html">跆拳道</option>
+            <option value="tennis.html">网球</option>
+            <option value="tamp.html">三项全能和现代五项运</option>
+            <option value="ultimate-fighting.html" selected="selected">终极格斗锦标赛（综合格斗大赛）</option>
+            <option value="volleyball.html">排球</option>
+            <option value="water-polo.html">水球</option>
+            <option value="weightlifting.html">举重</option>
+            <option value="wrestling.html">角力</option>
+  	    </select>
+  	    </label>
+    	
+    	 
+  	          
+    	</h1>
+        <div id="info"><!--资料区-->
+        
+            <p class="b">终极格斗锦标赛(综合格斗大赛)</p>
+            <ul>
+                <li>一旦裁判员宣布第一回合赛事开始,所有注单即为有效。 </li>
+                <li>终极格斗锦标赛(综合格斗大赛)每回合为五分钟。 </li>
+                <li>冠军赛事将进行五回合,非冠军赛事将进行三回合。每轮回合结束有一分钟休息。 </li>
+                <li>注单的计算将依据裁判员的官方决定,包括:点数,制服,技术性击倒,击倒或取消资格。
+                    <ul>
+                        <li>制服:参赛一方以敲击台垫方式明确表示,或以口头方式明确表示屈服。 </li>
+                        <li>技术性击倒:如果参赛一方无法继续比赛,赛事将以技术性击倒结束。 </li>
+                        <li>平局将包括技术性平局。 </li>
+                    </ul>
+                </li>
+                <li>赛事结束时的结果将被认定为最终赛果。此赛果已包括重新统计裁判的记分牌或任何权威机构对赛事结果的赛后变更, 将不会更改注单的输赢。 </li>
+                <li>如该赛事缓期、取消或放弃时，而赛事在原官方定义的时间之12小时内继续进行时，投注此赛事之所有注单仍有效。 </li>
+                <li>如该赛事缓期、取消或放弃时，而赛事在原官方定义的时间之12小时内未能继续进行时，投注此赛事之所有注单将视为无效，投注彩金返还原帐户。 </li>
+            </ul>
+            <p class="b">一对一的投注</p>
+            <ul>
+                <li style="list-style:none;"> 在一对一的投注中, 如果赛事出现下述结果时，所有投注双方队员的注单将被视为无效,注金返还:</li>
+                <li>当赛事以平局结束,而我公司未给出平局的投注时。 </li>
+                <li>当参赛一方退出或更换时。 </li>
+            </ul>
+        
+       	<div class="to_top"><a href="#top"><span>回最上层</span></a></div>
+            
+        </div><!--资料区 End-->
+    </div>
+    
+</div>
+<div class="qa_foot"></div>
+</body>
+</html>

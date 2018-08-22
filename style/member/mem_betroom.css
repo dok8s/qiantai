@@ -1,0 +1,134 @@
+/*Reset*/
+/*test*/
+body, div, ul,  li,
+h1, h2, h3, h4, h5, h6, p, table, td, select, form {
+	margin: 0;
+	padding: 0;
+	}
+address, em, strong {
+	font-style: inherit;
+	font-weight: inherit;
+	}
+li {	list-style: none;	}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+	}
+
+body {	background-color: #FDF8ED;	}
+a { text-decoration: none; font-weight:bold;}
+a:link, a:visited {	color: #C00;}
+a:hover { color:#006;}
+.box {overflow-y:auto; /*width:239px; */ /*height: 448px; */color:#2F312E; border: solid 1px #9F8559; background-color:#FDF8ED;}
+/*全場--table*/
+.mem_bg, .mem_1st {background-color: #CCC;width: 238px;}
+th {color:#000;	background-color:#C8A670;white-space:nowrap;	font-weight: normal;padding:2px 2px 1px; border-right:1px solid #B9B9A3; border-bottom:1px solid #B9B9A3;font:12px  Arial, Helvetica, SimSun, sans-serif;}
+/*/*全場--table    盤面表格加線*/
+.mem_bg td, .mem_1st td { padding:1px 4px; font-size:12px; border-right:1px solid #B9B9A3; border-bottom:1px solid #B9B9A3;font-family: Arial, Helvetica, SimSun, sans-serif;}
+/*球類標頭 */
+.top { width:238px; height:19px; padding:5px 10px 0; font:12px  Arial, Helvetica, SimSun, sans-serif; color:#2F312E; text-align:left; background-color:#E1D6C4;}
+html>body .top { width:218px;}
+/*刷新*/
+.tiTimer {	float: right;	margin-top: -15px;	width: 14px; height:19px;	padding-right: 0px; padding-left:15px; text-align: left; *vertical-align:text-top; *cursor:hand; cursor:pointer;background:url(../../images/member/order_btn.gif) no-repeat 0 -125px;}
+.refresh { }
+.h_1x2 { width:40px;white-space:nowrap;}
+.h_r { width:86px;white-space:nowrap!important;}
+/*.h_r_ft { width:80px;white-space:nowrap!important;}*/
+.h_ou { width:90px; white-space:nowrap;}
+.h_oe { width:50px; white-space:nowrap;}
+.h_pd { width:50px;white-space:nowrap;}
+.h_pd_ft  { width:30px;white-space:nowrap;}
+.h_t { width:65px;white-space:nowrap;}
+.h_f { width:45px;white-space:nowrap;}
+/*============賠率間距==============*//**/
+.con { padding-right:0px;}
+.ratio { padding-left:3px; width:33px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~old style~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*全場--獨贏*/
+.mem_bg .b_cen { background-color: #FFF; text-align:center; white-space:nowrap;}/*table style*/
+/*全場--讓球大小*/
+.mem_bg .b_rig {background-color:#FFF; text-align:right;white-space:nowrap;/*解決賠率斷行*/}
+.b_lef {background-color:#FFF; text-align:left;}
+/*半場--獨贏*/
+.mem_1st .b_cen{background-color: #f0f1b5;text-align: center;}
+/*半場--讓球大小*/
+.b_rig {background-color: #f0f1b5; text-align: right;white-space:nowrap;}
+
+.b_1st {background-color: #f0f1b5;text-align: center;}
+.b_1stR {background-color: #f0f1b5; text-align: right;white-space:nowrap;/*解決賠率斷行*/}
+
+#FT .mem_colspan {background-color: #FAFDC6;text-align: center;}
+#BK .mem_colspan {background-color: #FAFDC6;text-align: center;}
+#VB .mem_colspan {background-color: #FAFDC6;text-align: center;}
+#TN .mem_colspan {background-color: #FAFDC6;text-align: center;}
+#OP .mem_colspan {background-color: #FAFDC6;text-align: center;}
+
+/*#FT .mem_Head_all {background-color: #CDA476;text-align: center;}
+#FT .mem_Head_half {color: #FFFFFF;background-color: #5E3201;text-align: center;}
+#BK .mem_colspan {background-color: #DCDDC1;text-align: center;}
+#BK  .mem_Head_all {background-color: #57593A;color: #FFFFFF;text-align: center;}
+#BK  .mem_Head_half {color: #FFFFFF;background-color: #2F3421;text-align: center;}
+#BS .mem_colspan {background-color: #E4FFA3;text-align: center;}
+#BS  .mem_Head_all {background-color: #83B420;text-align: center;}
+#BS  .mem_Head_half {color: #FFFFFF;background-color: #314108;text-align: center;}
+#TN .mem_colspan {background-color: #FFD9E0;text-align: center;}
+#TN  .mem_Head_all {background-color: #E68383;text-align: center;}
+#TN  .mem_Head_half {color: #FFFFFF;background-color: #9C3131;text-align: center;}
+#VB .mem_colspan {background-color: #DAE4FF;text-align: center;}
+#VB  .mem_Head_all {background-color: #838BDE;text-align: center;}
+#VB  .mem_Head_half {color: #FFFFFF;background-color: #240D73;text-align: center;}
+#FS .mem_colspan {background-color: #DEE6F6;text-align: center;}
+#FS  .mem_Head_all {background-color: #62BDE6;text-align: center;}
+#FS  .mem_Head_half {color: #FFFFFF;background-color: #204173;text-align: center;}
+#OP .mem_colspan {background-color: #FFFFCD;text-align: center;}
+#OP  .mem_Head_all {background-color: #FF9C18;text-align: center;}
+#OP  .mem_Head_half {color: #FFFFFF;background-color: #A45200;text-align: center;}
+*/
+.mem_league {
+	color: #3B2E1D;
+	padding-left: 10px; background-color:#E1D6C2;
+}
+.mem_team {
+	color: #FFFF99;
+	padding-left: 10px; background-color:#E1D6C2;
+}
+.mem_ratio {
+	text-align:left;
+	padding-left: 10px;
+}
+
+.mem_ior {
+	text-align:right;
+	font-weight: bold;
+	color: #FF0000;
+}
+.select2 {
+	background-color: #99CC00;
+	text-align: right;
+	margin-right: 20px;
+}
+.game { width:238px; margin:0;
+	/*background-image: url(../../images/member/live_Rbg.gif);
+	background-repeat: repeat-y;*/
+	text-align: center;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.timer {
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: 1px;
+	width: 50%;
+	margin-left: 20px;
+}
+/*test*/
+/*無提供交易*/
+/*div#td_nogame,
+#td_none
+{ line-height:80px; background-color:#F90;}
+.game div { border:dotted 1px #C00;}
+html>body .game { padding-top:10px;background-color:#F9F;}
+html>body #td_nogame { margin-top:10px;background-color:#FC0;}*/
