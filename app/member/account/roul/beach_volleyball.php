@@ -1,36 +1,36 @@
-<span class="acc_rules_date">最后更新日期: 19/07/2016</span>
-<h1>沙滩排球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 19/07/2016 </span>
+<h1> Bóng chuyền bãi biển </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果比赛没有完成，所有的投注将被视为无效，除非另有特别说明。 </li>
-    <li>如果开赛前球员的名字有更改，公司保留取消注单的权利。 </li>
-    <li>投注将会根据球队三局两胜制结算。 </li>
-    <li>如果比赛预定时间缩短，或者赛事获胜要求比分提高，所有注单将被取消。 </li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将为视为有效投注。在开赛后投注的注单将被视为无效， 滚球玩法除外。 </li>
+    <li> Nếu trận đấu không được hoàn thành, tất cả mọi phiên cược sẽ bị coi là vô hiệu trừ khi có quy định khác. </li>
+    <li> Công ty có quyền hủy đặt cược nếu tên của người chơi thay đổi trước khi bắt đầu cuộc thi. </li>
+    <li> Cược sẽ được giải quyết theo hệ thống hai trận thắng hai đội của đội. </li>
+    <li> Nếu thời gian dự kiến ​​cho trận đấu bị rút ngắn hoặc nếu trận đấu thắng điểm, tất cả các phiên cược sẽ bị hủy. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ bị coi là vô hiệu, ngoại trừ trận đấu. </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>独赢</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng một mình </h3>
     <ul>
-        <li>预测哪一方赢得比赛。 </li>
+        <li> Dự đoán bên nào thắng trò chơi. </li>
     </ul>
-    <h3>让局</h3>
+    <h3> Tư vấn </h3>
     <ul>
-        <li>预测哪一方在指定的让分情况下赢得比赛。 </li>
+        <li> Dự đoán bên nào thắng trò chơi với tỷ lệ chấp được chỉ định. </li>
     </ul>
-    <h3>让分</h3>
+    <h3> Tặng điểm </h3>
     <ul>
-        <li>预测哪一方在指定的让分局数中可以获得更高的分数（例如：第一局，第二局）。 </li>
+        <li> Dự đoán bên nào có thể nhận điểm cao hơn trong số nhánh cụ thể (ví dụ: trò chơi đầu tiên, trò chơi thứ hai). </li>
     </ul>
-    <h3>总分: 大 / 小</h3>
+    <h3> Tổng số điểm: Lớn / Nhỏ </h3>
     <ul>
-        <li>预测在指定的局数中的总得分是大还是小，盘口中会有大小的分割线。 （例如：第一局，第二局）。 </li>
+        <li> Dự đoán tổng số điểm trong số trò chơi được chỉ định lớn hay nhỏ, và sẽ có một đường phân chia trong tỷ lệ chấp. (Ví dụ: game đầu tiên, game thứ hai). </li>
 
     </ul>
-    <h3>单/双</h3>
+    <h3> Đơn / Đôi </h3>
     <ul>
-        <li>预测在指定的局数中的总得分是单还是双。 （例如：第一局，第二局）</li>
+        <li> Dự đoán tổng số điểm trong số vị trí được chỉ định là đơn hay đôi. (Ví dụ: trò chơi đầu tiên, trò chơi thứ hai) </li>
     </ul>
 
 </ul>

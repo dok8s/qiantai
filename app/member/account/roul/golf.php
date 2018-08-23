@@ -1,69 +1,69 @@
-<span class="acc_rules_date">最后更新日期: 12/06/2017</span>
-<h1>高尔夫球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 12/06/2017 </span>
+<h1> Sân gôn </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果比赛场地有更改，所有注单将被视为无效。</li>
-    <li>如果出现并列名次的情况，并列第一规则将运用于结算方式内。</li>
-    <li>如果锦标赛在法定比赛时间前结束并且已经颁奖，所有注单将视为有效。在比赛结束后投注的注单将被视为无效，除非之后继续进行比赛并且对锦标赛的最终结果产生影响(淘汰赛/附加赛除外)。</li>
+    <li> Nếu địa điểm thay đổi, tất cả mọi phiên cược sẽ được coi là không hợp lệ. </li>
+    <li> Nếu xảy ra tie-up, quy tắc đầu tiên của tie-in sẽ được áp dụng cho phương thức thanh toán. </li>
+    <li> Nếu giải đấu kết thúc trước thời gian luật định và đã được trao, tất cả mọi phiên cược sẽ được coi là hợp lệ. Một đặt cược được đặt sau khi kết thúc trận đấu sẽ bị coi là vô hiệu lực trừ khi trận đấu tiếp tục và kết quả cuối cùng của giải đấu bị ảnh hưởng (ngoại trừ cuộc đua loại trực tiếp). </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>冠军投注</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Cá cược vô địch </h3>
     <ul>
-        <li>预测哪位选手将会赢得锦标赛。</li>
-        <li>如果投注的选手在开始第一球前退出比赛，这位选手所有注单将会被视为无效,这位选手所有注单将被取消和返还。</li>
-        <li>投注的选手在比赛开始后失去资格或退出比赛，这位选手所有注单将会保持有效。</li>
-        <li>"任何不在名单中的选手"指的是所有不在冠军盘口列出的选手。</li>
-        <li>所有冠军盘投注的结算将以锦标赛的获胜者为准，任何淘汰赛/附加赛也包括在内。 </li>
+        <li> Dự đoán người chơi nào sẽ thắng giải đấu. </li>
+        <li> Nếu người chơi cược rút khỏi trận đấu trước khi bắt đầu quả bóng đầu tiên, tất cả đặt cược của người chơi sẽ bị coi là không hợp lệ và tất cả đặt cược sẽ bị hủy và trả lại. </li>
+        <li> Người chơi đặt cược sẽ mất tư cách hoặc rút khỏi trận đấu sau khi trận đấu bắt đầu. Tất cả các cược của người chơi này sẽ vẫn hợp lệ. </li>
+        <li> "Bất kỳ người chơi nào không có trong danh sách" đều đề cập đến tất cả người chơi không được liệt kê trong chức vô địch. </li>
+        <li> Việc giải quyết tất cả cá cược Champions sẽ được dựa trên người chiến thắng của giải đấu và mọi giải đấu loại trực tiếp / bổ sung sẽ được tính vào. </li>
     </ul>
-    <h3>配对赛 /2球/3球(18洞)</h3>
+    <h3> Trận đấu khớp / 2 quả bóng / 3 bóng (18 lỗ) </h3>
     <ul>
-        <li>预测哪一位球员将以最少的杆数完成回合。 </li>
-        <li>盘口将两名球员配对在一起作为投注选项，但球员在实际比赛中未必是同组击球。 </li>
-        <li>优胜者则是以最少杆数打完18个洞的球​​员。 </li>
-        <li>如果投注的球员没有开始比赛，所有注单将被取消。 </li>
-        <li>双方球员都必须完成18个洞。如果球员中有协议或因受伤理由让另一位球员提前结束比赛，所有的注单将被取消。 </li>
-        <li>2球赛事，盘口将提供平局为投注选项。 </li>
-        <li>3球赛事，盘口不提供平局为投注选项，若遇到打平的情况，并列第一规则的结算方式将运用于此。 </li>
+        <li> Dự đoán người chơi nào sẽ hoàn thành vòng thi với số điểm ít nhất. </li>
+        <li> Điểm chấp kết hợp hai người chơi với nhau như một lựa chọn đặt cược, nhưng người chơi có thể không phải là cùng một nhóm trong trò chơi thực tế. </li>
+        <li> Người chiến thắng là người chơi đã hoàn thành 18 lỗ với số lần chụp tối thiểu. </li>
+        <li> Nếu người chơi cá cược không bắt đầu trò chơi, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Cả hai người chơi phải hoàn thành 18 lỗ. Nếu có một thỏa thuận trong cầu thủ hoặc cầu thủ khác được phép kết thúc trận đấu trước thời hạn do chấn thương, tất cả mọi phiên cược sẽ bị hủy bỏ. </li>
+        <li> Hai sự kiện bóng, điểm chấp sẽ cung cấp một trận hòa như một lựa chọn đặt cược. </li>
+        <li> 3 sự kiện bóng, tỷ lệ chấp không được rút ra như một lựa chọn đặt cược. Nếu có sự ràng buộc, phương thức thanh toán của quy tắc đầu tiên sẽ được sử dụng ở đây. </li>
     </ul>
-    <h3>配对赛 /2球/3球(72洞/锦标赛配对投注)</h3>
+    <h3> Trận đấu khớp / 2 quả bóng / 3 quả bóng (đặt cược 72 lỗ / cặp đấu) </h3>
     <ul>
-        <li>预测哪一位球员将以最少的杆数完成锦标赛。 </li>
-        <li>盘口将两名球员配对在一起作为投注选项，但球员在实际比赛中未必是同组击球。 </li>
-        <li>优胜者是以最少杆数打完72个洞（淘汰赛/附加赛也包括在内）的选手。</li>
-        <li>如果投注的选手没有从第一回合参与比赛，所有注单将被视为无效。</li>
-        <li>锦标赛配对投注两方选手必须完成72个洞。如果球员中有协议或因受伤理由让另一位球员提前结束比赛，所有的注单将会被视为无效。</li>
-        <li>2球赛事，盘口将提供平局投注选项。</li>
-        <li>3球赛事，盘口不提供平局为投注选项，若遇到打平的情况，并列第一规则的结算方式将运用于此。 </li>
+        <li> Dự đoán người chơi nào sẽ hoàn thành giải đấu với số lượng ảnh ít nhất. </li>
+        <li> Điểm chấp kết hợp hai người chơi với nhau như một lựa chọn đặt cược, nhưng người chơi có thể không phải là cùng một nhóm trong trò chơi thực tế. </li>
+        <li> Người chiến thắng là người chơi đã hoàn thành 72 lỗ trong số lượng ảnh tối thiểu (giải đấu loại trực tiếp / bổ sung cũng được bao gồm). </li>
+        <li> Nếu người chơi cá cược không tham gia vòng đầu tiên, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Một cuộc thi đấu kết hợp Hai người chơi phải hoàn thành 72 lỗ. Nếu có thỏa thuận trong cầu thủ hoặc cầu thủ khác được phép kết thúc trận đấu sớm do chấn thương, tất cả mọi phiên cược sẽ bị coi là không hợp lệ. </li>
+        <li> Hai sự kiện bóng, trận hòa sẽ cung cấp tùy chọn đặt cược hòa. </li>
+        <li> 3 sự kiện bóng, tỷ lệ chấp không được rút ra như một lựa chọn đặt cược. Nếu có sự ràng buộc, phương thức thanh toán của quy tắc đầu tiên sẽ được sử dụng ở đây. </li>
     </ul>
-    <h3>下一个洞的分数-单个选手市场</h3>
+    <h3> Điểm số của lỗ tiếp theo - thị trường người chơi cá nhân </h3>
     <ul>
-        <li>预测选手在下一个洞可以获得的分数。（ 小鸟球或更好/ 标准杆/柏忌或更差 ）柏忌是指多标准杆数一杆。</li>
-        <li>如果投注的选手没有参与投注球洞的击球，所有的注单将会被视为无效。</li>
-        <li>一旦选手在规定的洞口开球，注单将被视为有效。如果玩家无法完成指定洞口（例如受伤离场），那么将会获取"超过标准杆数"奖励。</li>
-        <li>投注的结算将依据相关机构（欧洲职业高尔夫球手协会）公布的赛果为准。</li>
+        <li> Dự đoán số điểm người chơi có thể nhận được trong lỗ tiếp theo. (Chim hoặc tốt hơn / par / bogey hoặc tệ hơn) Bogey đề cập đến một đa mệnh. </li>
+        <li> Nếu người chơi cá cược không tham gia vào lỗ cược, tất cả mọi phiên cược sẽ được coi là không hợp lệ. </li>
+        <li> Khi người chơi đá bóng vào lỗ được chỉ định, cược sẽ được coi là hợp lệ. Nếu người chơi không thể hoàn thành lỗ được chỉ định (ví dụ, một lối ra chấn thương), thì phần thưởng "Exceeded Pars" sẽ được trao. </li>
+        <li> Việc thanh toán các cược sẽ được dựa trên kết quả được công bố bởi các tổ chức có liên quan (Hiệp hội gôn thủ chuyên nghiệp châu Âu). </li>
     </ul>
-    <h3>让分盘</h3>
+    <h3> Hãy để đơn đặt hàng </h3>
     <ul>
-        <li>预测哪位选手将以最少的杆数完成回合或比赛。在比赛正式开始前， 一方选手已得到另一方让的虚拟分数，在领先的情况下开始比赛。如果在考量盘口指定的让分数后，双方球员获得同样的分数，比赛结果将视为打平，所有注单将被返还。</li>
+        <li> Dự đoán người chơi nào sẽ hoàn thành vòng hoặc khớp với số lượng ảnh ít nhất. Trước khi trò chơi chính thức bắt đầu, một người chơi đã nhận được điểm số ảo từ bên kia và bắt đầu trò chơi dẫn đầu. Nếu cả hai cầu thủ nhận được số điểm tương tự sau khi xem xét số điểm được chỉ định, kết quả của trận đấu sẽ được coi là bằng phẳng và tất cả các phiên cược sẽ được trả lại. </li>
     </ul>
-    <h3>大/小盘（总比分）</h3>
+    <h3> Lớn / Nhỏ (tổng điểm) </h3>
     <ul>
-        <li>预测双方球员获得的总比分将大于或小于在盘口指定的大/小盘分数。 </li>
-        <li>如果赛事中断，大/小盘将仅会结算任何将来的得分不会影响到赛果的注单。若遇到任何其它情况，注单将一律被视为无效。</li>
+        <li> Tổng số điểm thu được của cả hai người chơi được dự kiến ​​là lớn hơn hoặc nhỏ hơn kích thước của bộ lớn / nhỏ ở điểm chấp. </li>
+        <li> Nếu trận đấu bị gián đoạn, cược lớn / nhỏ sẽ chỉ giải quyết mọi cược mà sẽ không ảnh hưởng đến kết quả của tương lai. Trong trường hợp xảy ra bất kỳ tình huống nào khác, đặt cược sẽ được coi là không hợp lệ. </li>
     </ul>
-    <h3>前5名/前10名</h3>
+    <h3> Top 5 / Top 10 </h3>
     <ul>
-        <li>预测投注的球员是否会列入比赛的前5/10名优胜者。 </li>
-        <li>并列第一规则的结算方式将运用于此盘口的注单。 </li>
-        <li>投注的结算皆以法定比赛结束后的最终赛果为准。 </li>
+        <li> Liệu người chơi đã dự đoán đặt cược sẽ được bao gồm trong 5/10 người thắng cuộc hàng đầu của cuộc thi hay không. </li>
+        <li> Phương thức thanh toán cho quy tắc đầu tiên song song sẽ áp dụng cho đặt cược trên cược chấp này. </li>
+        <li> Việc thanh toán các cược sẽ được dựa trên kết quả cuối cùng sau khi kết thúc cuộc thi luật định. </li>
     </ul>
-    <h3>净胜分数</h3>
+    <h3> Điểm thắng ròng </h3>
     <ul>
-        <li>预测冠军和第二名优胜者在比赛结束后的杆数差别。 </li>
-        <li>投注的结算皆以法定比赛结束后的最终赛果为准。 </li>
-        <li>如果出现附加赛，附加赛的杆数将不计算为比赛的最终结果。 </li>
+        <li> Sự khác biệt giữa nhà vô địch dự đoán và người chiến thắng thứ hai sau trận đấu. </li>
+        <li> Việc thanh toán các cược sẽ được dựa trên kết quả cuối cùng sau khi kết thúc cuộc thi luật định. </li>
+        <li> Nếu có một trận play-off, số trận đấu sẽ không được tính là kết quả cuối cùng của trận đấu. </li>
     </ul>
 
 </ul>

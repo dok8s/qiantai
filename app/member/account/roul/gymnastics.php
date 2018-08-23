@@ -1,11 +1,11 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>体操</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Thể dục dụng cụ </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>参赛者获得金，银，铜牌将被视为第一，第二和第三名获奖者。 </li>
-    <li>每场赛事的结果均以奖台上排名为最终结果。如之后发生丧失资格或结果修正将不予以计算。 </li>
-    <li>如投注的该选手有参与第一轮资格赛，所有注单都将视为有效。 </li>
-    <li>如投注的该选择无参与第一轮资格赛，所有注单都将视为无效。</li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将为视为有效投注。在开赛后投注的注单将被视为无效， 滚球玩法除外。 </li>
-    <li>即使该场赛事没有举行颁奖仪式，注单结果将依据F.I.G（国际体联，或其他相应的权威机构）公布的正式赛果而定。 </li>
+    <li> Những người tham gia sẽ nhận được huy chương vàng, bạc và đồng như người chiến thắng đầu tiên, thứ hai và thứ ba. </li>
+    <li> Kết quả của mỗi sự kiện được xếp hạng trên bục giảng là kết quả cuối cùng. Nếu sự không đủ tiêu chuẩn hoặc hiệu chỉnh kết quả xảy ra sau đó, nó sẽ không được tính toán. </li>
+    <li> Nếu người chơi đặt cược tham gia vòng loại đầu tiên, tất cả mọi phiên cược sẽ được coi là hợp lệ. </li>
+    <li> Nếu việc lựa chọn cược không tham gia vòng loại đầu tiên, tất cả các cược sẽ được coi là không hợp lệ. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ bị coi là vô hiệu, ngoại trừ trận đấu. </li>
+    <li> Ngay cả khi lễ trao giải không được tổ chức tại sự kiện, kết quả đặt cược sẽ dựa trên kết quả chính thức được công bố bởi F.I.G (Liên đoàn Quốc tế hoặc cơ quan thích hợp khác). </li>
 </ul>

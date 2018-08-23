@@ -1,10 +1,10 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>三项全能和现代五项运动</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Triathlon và môn phối hợp hiện đại </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>选手在颁奖仪式上所授予的金牌，银牌及铜牌分别认定为第一名，第二名及第三名。 </li>
-    <li>颁奖台上的位次将视为官方赛果，赛后的惩处或修正都不会更改注单的输赢结果</li>
-    <li>在投注二选一赛事时，只有双方参赛者均参与比赛时，注单才视为有效。 </li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将为视为有效投注。在开赛后投注的注单将被视为无效， 滚球玩法除外。 </li>
-    <li>即使该场赛事没有举行颁奖仪式，注单结果将依据 I.T.U 及 U.I.P.M（国际铁人三项联合会、国际现代五项联盟，或其他相应的权威机构）公布的正式赛果为准。 </li>
+    <li> Huy chương vàng, bạc và đồng được trao bởi các thí sinh tại lễ trao giải được công nhận là lần đầu tiên, thứ hai và thứ ba tương ứng. </li>
+    <li> Số trên bục sẽ được coi là kết quả chính thức, và hình phạt hoặc chỉnh sửa sau trận đấu sẽ không thay đổi kết quả thắng hoặc thua của cược </li>
+    <li> Khi đặt cược vào hai trận đấu, đặt cược chỉ được coi là hợp lệ nếu cả hai bên tham gia cuộc thi. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ bị coi là vô hiệu, ngoại trừ trận đấu. </li>
+    <li> Ngay cả khi lễ trao giải không được tổ chức trong sự kiện, kết quả của đặt cược sẽ dựa trên kết quả chính thức được công bố bởi I.T.U và U.I.P.M (Liên đoàn Triathlon Quốc tế, Liên minh Pentathlon Quốc tế Hiện đại hoặc các cơ quan liên quan khác). </li>
 </ul>

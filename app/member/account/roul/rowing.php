@@ -1,8 +1,8 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>赛艇和皮划艇</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Đua xe và chèo thuyền kayak </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>每场赛事的结果均以奖台上排名为最终结果。如之后发生丧失资格或结果修正将不予以计算。 </li>
-    <li>如赛事中断，取消，暂停或者延期，同时直到官方开赛时间12小时后还没有重新开始，赛果将被视为无效，并且所有的注单将被取消。公司最终决定取消所有的投注是不会参考官方裁判或相关管理机构的任何判决。 </li>
-    <li>如果该场赛事没有举行颁奖仪式，投注的输赢将依据 F.??I.S.A（国际体联，赛艇）和 I.C.F（国际体联，皮划艇）公布的正式赛果而定。 </li>
+    <li> Kết quả của mỗi sự kiện được xếp hạng trên bục giảng là kết quả cuối cùng. Nếu sự không đủ tiêu chuẩn hoặc hiệu chỉnh kết quả xảy ra sau đó, nó sẽ không được tính toán. </li>
+    <li> Nếu trận đấu bị gián đoạn, bị hủy, tạm ngưng hoặc trì hoãn và không tiếp tục cho đến 12 giờ sau thời gian bắt đầu chính thức, kết quả sẽ bị coi là không hợp lệ và tất cả các phiên cược sẽ bị hủy. Quyết định cuối cùng của công ty để hủy bỏ tất cả các cược không phải là để tham khảo bất kỳ phán đoán nào của trọng tài chính thức hoặc cơ quan quản lý có liên quan. </li>
+    <li> Nếu lễ trao giải không được tổ chức trong sự kiện, thắng hoặc thua cược sẽ được dựa trên kết quả chính thức được công bố bởi F.?I.S.A (Liên đoàn Quốc tế, Chèo thuyền) và I.C.F (Liên đoàn Quốc tế, Kayaking). </li>
 </ul>

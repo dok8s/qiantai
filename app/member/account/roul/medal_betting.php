@@ -1,19 +1,19 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>体育/奖章投注</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Cá cược thể thao / huy chương </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>参赛者获得金，银，铜牌将被视为第一，第二和第三名获奖者。</li>
-    <li>每场赛事的结果均以奖台上排名为最终结果。如之后发生丧失资格或结果修正将不予以计算。 </li>
-    <li>无论是团队或个人是否参加比赛，所有的注单将一律被视为有效。 </li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将被视为有效投注。在开赛之后投注的注单将被视为无效投注，滚球投注类型不包括在内。 </li>
+    <li> Những người tham gia sẽ nhận được huy chương vàng, bạc và đồng như người chiến thắng đầu tiên, thứ hai và thứ ba. </li>
+    <li> Kết quả của mỗi sự kiện được xếp hạng trên bục giảng là kết quả cuối cùng. Nếu sự không đủ tiêu chuẩn hoặc hiệu chỉnh kết quả xảy ra sau đó, nó sẽ không được tính toán. </li>
+    <li> Tất cả mọi phiên cược sẽ được coi là hợp lệ bất kể đội hoặc cá nhân tham gia cuộc thi hay không. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ được coi là đặt cược không hợp lệ và loại đặt cược sẽ không được bao gồm. </li>
 </ul>
 
-<h2>奖章投注</h2>
+<h2> Đặt cược huy chương </h2>
 
 <ul>
-    <li>所有投注将会在赛事结束后，依据官方公布的奖牌榜数量结果进行结算（例如：奥运会，世界锦标赛等等。）</li>
-    <li>如裁判或权威机构在赛事结束之后有更改赛果的，所有的注单都被视为无效。 </li>
-    <li>由团体或国家所赢得的奖牌，无论团队成员数量，将仅算一枚。 </li>
+    <Li> Tất cả cược sẽ được vào cuối cuộc đua, giải quyết theo số lượng huy chương bảng xếp hạng kết quả chính thức (ví dụ: Thế vận hội Olympic, vô địch thế giới và vân vân.) </li>
+    <li> Nếu trọng tài hoặc thẩm quyền thay đổi kết quả sau sự kiện, tất cả mọi phiên cược được coi là không hợp lệ. </li>
+    <li> Huy chương giành được bởi một nhóm hoặc quốc gia, bất kể số lượng thành viên trong nhóm, sẽ chỉ tính một huy chương. </li>
 </ul>
 
-<p>注: 在所有奥运赛事或国际性赛事中，香港特别行政区的选手及澳门特别行政区的选手将视为独立的地方性代表，不隶属于中国。除非另有特别说明。 </p>
+<P> Lưu ý: Trong tất cả các Thế vận hội Olympic hoặc thi quốc tế, các cầu thủ của Hồng Kông và khu hành chính Macao đặc biệt của các cầu thủ sẽ được coi như đại diện địa phương độc lập, không liên kết với Trung Quốc. Trừ khi có quy định khác. </p>

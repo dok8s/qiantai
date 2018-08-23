@@ -1,86 +1,86 @@
-<span class="acc_rules_date">最后更新日期: 18/07/2016</span>
-<h1>美式足球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 18/07/2016 </span>
+<h1> Bóng đá Mỹ </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>除非另有注明, 所有比赛至少要进行55分钟，投注的注单才被视为有效。 </li>
-    <li>最终赛果是以全场四节的比分为准（包括加时赛）。 </li>
-    <li>单节/半场的投注，必须在比赛赛节完成后注单才被视为有效。 </li>
-    <li>第四节投注不包括加时赛。 </li>
-    <li>美国大学美式足球联赛场地规则：盘口指示的"主场"和"客场"信息仅供参考。无论原定场地是否更改为"主场"，"客场"或"中立场"，所有注单将保持有效。 </li>
-    <li>除非个别玩法规则另有注明，赛事完场时间将包括加时赛。 </li>
-    <li>如比赛在法定时间提前进行，在比赛开始前的投注依然有效，在比赛开始后的所有投注均视为无效(滚球投注另作别论)。 </li>
+    <li> Trừ khi có quy định khác, tất cả các trận đấu phải được thi đấu ít nhất 55 phút và đặt cược được coi là hợp lệ. </li>
+    <li> Kết quả cuối cùng dựa trên điểm số bốn điểm (bao gồm cả làm thêm giờ). </li>
+    <li> Các cược đơn / nửa phải được coi là hợp lệ sau khi kết thúc cuộc thi. </li>
+    <li> Đặt cược quý 4 không bao gồm làm thêm giờ. </li>
+    <li> Quy tắc địa điểm của Liên đoàn Bóng đá Đại học Hoa Kỳ: Thông tin "nhà riêng" và "đường nhỏ" được chỉ ra bởi điểm chấp là chỉ để tham khảo. Tất cả mọi phiên cược sẽ vẫn hợp lệ bất kể địa điểm ban đầu đã được đổi thành "Nhà", "Đi" hay "Trung bình". </li>
+    <li> Trừ khi có quy định khác trong quy tắc chơi cá nhân, thời gian của sự kiện sẽ bao gồm thêm giờ. </li>
+    <Li> như cạnh tranh trong trước theo luật định về thời gian, trước khi bắt đầu cá cược đua vẫn còn hiệu lực, tất cả cược đặt sau khi bắt đầu cuộc đua được coi là không hợp lệ (Live Cược vấn đề riêng biệt). </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>独赢</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng một mình </h3>
     <ul>
-        <li>预测哪一支球队将在比赛胜出。盘口提供两支球队为投注选项。 </li>
+        <li> Dự đoán đội nào sẽ thắng trong trò chơi. Hai đội được cung cấp như là lựa chọn cá cược tại handicap. </li>
     </ul>
 
-    <h3>让球</h3>
+    <h3> Hãy để bóng </h3>
     <ul>
-        <li>预测哪一支球队在盘口指定的让分数赢得某个时节或全场比赛。 </li>
+        <li> Dự đoán đội nào được phép giành một mùa hoặc trận đấu nhất định trong tỷ lệ chấp. </li>
     </ul>
 
-    <h3>滚球让球</h3>
+    <h3> Bóng ròng rọc vào bóng </h3>
     <ul>
-        <li>预测哪一支球队在盘口指定的让分数赢得某个时节或全场比赛。 </li>
-        <li>结算是以0-0的比分在比赛结束后按盘口开出的让分数做裁决。投注当时的比分对结算没有影响。 </li>
+        <li> Dự đoán đội nào được phép giành một mùa hoặc trận đấu nhất định trong tỷ lệ chấp. </li>
+        <li> Dàn xếp dựa trên tỷ số 0-0 vào cuối trận đấu. Việc đặt cược vào thời điểm đó không ảnh hưởng đến việc giải quyết. </li>
     </ul>
 
-    <h3>大/小（总比分）</h3>
+    <h3> Lớn / nhỏ (tổng điểm) </h3>
     <ul>
-        <li>预测赛事总比分将大于或小于在盘口指定的大/小盘分数。 </li>
+        <li> Tổng số điểm của sự kiện được dự đoán sẽ lớn hơn hoặc nhỏ hơn số điểm tối đa / nhỏ được chỉ định tại điểm chấp. </li>
     </ul>
 
-    <h3>滚球大/小（总比分）</h3>
+    <h3> Lăn bóng lớn / nhỏ (tổng điểm) </h3>
     <ul>
-        <li>预测赛事总比分将大于或小于在盘口指定的大/小盘分数。 </li>
-        <li>结算是以0-0的比分在比赛结束后按盘口开出的让分数做裁决。投注当时的比分对结算没有影响。 </li>
+        <li> Tổng số điểm của sự kiện được dự đoán sẽ lớn hơn hoặc nhỏ hơn số điểm tối đa / nhỏ được chỉ định tại điểm chấp. </li>
+        <li> Dàn xếp dựa trên tỷ số 0-0 vào cuối trận đấu. Việc đặt cược vào thời điểm đó không ảnh hưởng đến việc giải quyết. </li>
     </ul>
 
-    <h3>单/双</h3>
+    <h3> Đơn / Đôi </h3>
     <ul>
-        <li>预测赛事的总比分是单数或双数。加时赛将包括在内。 </li>
+        <li> Tổng số điểm cho sự kiện được dự đoán là số ít hoặc gấp đôi. Sẽ có thêm thời gian. </li>
     </ul>
 
-    <h3>半场/全场</h3>
+    <h3> Trường một nửa / toàn bộ </h3>
     <ul>
-        <li>预测在全场四节的半全场优胜球队。加时赛将包括在内。 </li>
-        <li>此盘口也被称为'双重结果'。 </li>
+        <li> Dự đoán một đội chiến thắng nửa tòa trong bốn phần tư. Sẽ có thêm thời gian. </li>
+        <li> Điểm chấp này còn được gọi là 'kết quả kép'. </li>
     </ul>
-    <h3>净胜分数</h3>
+    <h3> Điểm thắng ròng </h3>
     <ul>
-        <li>投注的结算根据全场四节两支球队比分的差别做裁决。加时赛将包括在内。 </li>
-        <li>如果比赛在任何时间中断，所有注单将被取消。 </li>
+        <li> Việc thanh toán các cược được dựa trên sự khác biệt giữa điểm số của hai đội trong bốn quý. Sẽ có thêm thời gian. </li>
+        <li> Nếu trận đấu bị gián đoạn bất kỳ lúc nào, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
-    <h3>最先得分球队</h3>
+    <h3> Đội ghi bàn đầu tiên </h3>
     <ul>
-        <li>预测最先得分的球队。 </li>
-        <li>如果赛事在有得分后中断，所有最先得分球队的注单将保持有效。 </li>
-        <li>如果赛事在没有球队得分前中断，所有最先得分球队的注单将被取消。 </li>
-        <li>如果赛事在4节完场时间以及加时赛内没有球队得分，所有最先得分球队的注单将被取消。 </li>
+        <li> Dự đoán đội đã ghi bàn thắng đầu tiên. </li>
+        <li> Nếu sự kiện bị gián đoạn sau một điểm, tất cả các cược của các đội ghi bàn đầu tiên sẽ vẫn hợp lệ. </li>
+        <li> Nếu trận đấu bị gián đoạn trước khi điểm số của đội, tất cả các cược vào đội ghi bàn đầu tiên sẽ bị hủy. </li>
+        <li> Nếu không có điểm đội nào trong 4 quý và ngoài giờ, tất cả các đội ghi bàn đầu tiên sẽ bị hủy. </li>
     </ul>
-    <h3>最后得分球队</h3>
+    <h3> Đội điểm số cuối cùng </h3>
     <ul>
-        <li>预测最后得分的球队。 </li>
-        <li>如果赛事中断， 所有最后得分球队的注单将被取消。 </li>
-        <li>如果赛事在4节完场时间以及加时赛内没有球队得分，所有最后得分球队的注单将被取消。 </li>
+        <li> Dự đoán đội đã ghi bàn cuối cùng. </li>
+        <li> Nếu trận đấu bị gián đoạn, tất cả các cược từ đội ghi bàn cuối cùng sẽ bị hủy. </li>
+        <li> Nếu trận đấu không ghi bàn trong quý 4 và làm thêm giờ, tất cả các cược từ đội ghi bàn cuối cùng sẽ bị hủy. </li>
     </ul>
-    <h3>单节最高得分球队</h3>
+    <h3> Nhóm điểm số cao nhất duy nhất </h3>
     <ul>
-        <li>预测单节最高得分的球队。 </li>
-        <li>加时赛不计算在内。 </li>
-        <li>如果赛事中断，所有单节最高得分球队的注单将被取消。 </li>
-        <li>如果赛事在4节完场时间内没有球队得分，所有单节最高得分球队的注单将被取消。 </li>
+        <li> Dự đoán đội có số điểm cao nhất trong một quý. </li>
+        <li> Làm thêm giờ không được tính. </li>
+        <li> Nếu trận đấu bị gián đoạn, đặt cược vào tất cả các đội ghi bàn đơn sẽ bị hủy. </li>
+        <li> Nếu trận đấu không ghi bàn trong quý 4, tất cả các đội hưởng lợi có số điểm cao nhất sẽ bị hủy. </li>
     </ul>
-    <h3>每节最先获得10分的球队</h3>
+    <h3> Đội đã ghi được 10 điểm trong mỗi phần </h3>
     <ul>
-        <li>预测每节最先得10分的球队。 </li>
-        <li>加时赛不计算在内。 </li>
-        <li>如果赛事中断，所有每节最先获得10分的球队的注单将被取消.</li>
-        <li>如果每节都没有球队获得10分，所有注单将被取消。 </li>
-        <li>取决于赛事，玩法指定球队需最先获得的分数可能有变化，并且会清楚的显示在盘口。 </li>
+        <li> Dự đoán nhóm nhận được 10 điểm đầu tiên trong mỗi phần. </li>
+        <li> Làm thêm giờ không được tính. </li>
+        <li> Nếu sự kiện bị gián đoạn, tất cả các cược cho các đội ghi được 10 điểm mỗi phiên sẽ bị hủy. </li>
+        <li> Nếu không có đội nào nhận được 10 điểm mỗi quý, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Tùy thuộc vào sự kiện, điểm số mà đội trò chơi trước tiên phải nhận được có thể thay đổi và sẽ được hiển thị rõ ràng trên điểm chấp. </li>
     </ul>
 </ul>

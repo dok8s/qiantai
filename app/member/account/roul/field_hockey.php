@@ -1,51 +1,47 @@
-<span class="acc_rules_date">最后更新日期: 05/03/2015</span>
-<h1>曲棍球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 05/03/2015 </span>
+<h1> Khúc côn cầu </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>户外曲棍球投注皆以完场4节 X 15 分钟为准。</li>
-    <li>上半场投注将会根据前2节的赛果结算（例如：30分钟包含伤停补时）投注上半场所有种类注单，均以上半场球赛结果为准（30 分钟, 包括伤停时间）。</li>
-    <li>室内曲棍球投注皆以2半场 X 20 分钟为准。</li>
-    <li>上半场投注将会根据第一半场的结果结算（例如：20分钟包含伤停补时）</li>
-    <li>单节/半场的投注，必须在比赛赛节完成后注单才被视为有效</li>
-    <li>如果提前开赛，只有在开赛之前投注的注单将为视为有效投注。 在开赛后投注的注单将被视为无效，这里不包括滚球投注类型。</li>
-    <li>除了在有特别说明的情况下,加时赛并不计算在内。</li>
+    <li> Cá cược khúc côn cầu ngoài trời dựa trên 4 phút X 15 phút. </li>
+    <Li> Một nửa dòng Kết quả thanh toán sẽ dựa trên hai mặt trận (ví dụ .: 30 phút chứa thời gian ngừng) Half-đặt cược tất cả các loại cược, kết quả trận đấu này tùy thuộc vào nửa đầu (30 phút, bao gồm Thời gian chấn thương). </li>
+    <li> Cá cược khúc côn cầu trong nhà dựa trên 2 trò chơi nửa X 20 phút. </li>
+    <li> Nửa trận đấu đầu tiên sẽ được giải quyết dựa trên kết quả của hiệp một (ví dụ: 20 phút bao gồm cả thời gian bù giờ) </li>
+    <li> Các cược đơn / nửa phải được coi là hợp lệ sau khi trò chơi kết thúc </li>
+    <li> Nếu bạn bắt đầu sớm, chỉ những cược đặt trước khi bắt đầu giải đấu mới được coi là cược hợp lệ. Cược đặt sau khi trận đấu bắt đầu sẽ bị hủy và không bao gồm loại cược. </li>
+    <li> Ngoài các hướng dẫn đặc biệt, giờ làm thêm không được tính. </li>
 
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>独赢</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng một mình </h3>
     <ul>
-        <li>预测哪一队将赢取比赛事/赛节的胜利，此投注包含双方球队以及平局。 </li>
+        <li> Dự đoán đội nào sẽ thắng trong trận đấu / trận đấu thể thao. Đặt cược này bao gồm cả đội và trận hòa. </li>
     </ul>
 
-    <h3>让球</h3>
+    <h3> Hãy để bóng </h3>
     <ul>
-        <li>预测哪一方将获得让球比赛/赛节的胜利。 </li>
+        <li> Dự đoán bên nào sẽ giành chiến thắng trong trận đấu thể thao / khuyết tật. </li>
     </ul>
 
-    <h3>滚球让球</h3>
+    <h3> Bóng ròng rọc vào bóng </h3>
     <ul>
-        <li>预测哪一方将在让球盘比赛/赛节的胜利。 </li>
+        <li> Cải thiện bên nào sẽ tham gia trò chơi / trò chơi thể thao. </li>
     </ul>
 
-    <h3>大/小(球)</h3>
+    <h3> Lớn / nhỏ (bóng) </h3>
     <ul>
-        <li>预测赛事总进球数将大于或小于指定的赛事/赛节盘口。 </li>
-        <li>如果赛事取消，大小球投注会赛事已经确认任何潜在因素并不会影响最总注单结果情况下结算。其他情况下，注单将一律取消。 </li>
+        <li> Tổng số mục tiêu được dự đoán cho sự kiện sẽ lớn hơn hoặc ít hơn so với sự kiện / kết quả được chỉ định. </li>
+        <li> Nếu sự kiện bị hủy, cá cược lớn và nhỏ sẽ xác nhận rằng bất kỳ yếu tố tiềm năng nào cũng sẽ không ảnh hưởng đến việc giải quyết tổng số kết quả đặt cược nhiều nhất. Trong các trường hợp khác, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>滚球大/小（球）</h3>
+    <h3> Lăn bóng lớn / nhỏ (bóng) </h3>
     <ul>
-        <li>预测总进球数将大于或小于指定的赛事/赛节盘口。 </li>
+        <li> Tổng số mục tiêu được dự đoán sẽ lớn hơn hoặc ít hơn sự kiện / phân đoạn được chỉ định. </li>
     </ul>
 
-    <h3>单/双</h3>
+    <h3> Đơn / Đôi </h3>
     <ul>
-        <li>预测赛事的总进球数是单数或双数。 </li>
+        <li> Tổng số mục tiêu được dự đoán cho sự kiện là số ít hoặc đôi. </li>
     </ul>
-
-
-
-
 </ul>

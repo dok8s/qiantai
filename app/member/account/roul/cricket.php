@@ -1,326 +1,330 @@
-<span class="acc_rules_date">最后更新日期: 05/07/2017</span>
-<h1>板球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 05/07/2017 </span>
+<h1> Cricket </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果比赛场地有变更，所有注单将被取消。</li>
-    <li>如果比赛或赛事取消，中断或延迟并且没有在官方指定开球时间的12小时内重新开始，所有该场赛事的投注即被视为无效且取消，除非在个别投注类型规则里另有指定注明。公司取消该赛事所有注单的结果被视为最终决定，无需参考官方赛事裁判或相关部门的决定。</li>
-    <li>所有击球手投注都会在该名击球手得分跑后结算。当击球手在击球时，额外的记录将不会归入当局的跑垒次数。</li>
+    <li> Nếu địa điểm thay đổi, tất cả mọi phiên cược sẽ bị hủy. </li>
+    <Li> Nếu các trò chơi hoặc sự kiện hủy, gián đoạn hoặc chậm trễ và không xác định tiếp tục trong vòng 12 giờ sau khi thời gian trận đấu bắt đầu chính thức, tất cả các cược đua sẽ được coi là không hợp lệ và bị hủy bỏ, trừ trường hợp quy định loại cược cá nhân trong Được chỉ định. Kết quả của công ty hủy bỏ tất cả các phiên cược trong sự kiện được coi là cuối cùng và không cần phải tham khảo trọng tài chính thức hoặc quyết định của bộ phận liên quan. </li>
+    <li> Tất cả các cược đặt cược sẽ được giải quyết sau điểm số của gậy. Khi đập đánh bóng, kỷ lục phụ sẽ không được tính vào số lần chạy của các cơ quan chức năng. </li>
 </ul>
 
-<h3>对抗赛& 郡级锦标赛</h3>
+<h3> Cuộc thi & Giải vô địch hạt </h3>
 <ul>
-    <li>如果比赛有至少一球击杀，注单将被视为有效并且根据官方赛果结算。若是出现平手，投注‘和局’的注单将按并列第一规则结算为输。</li>
-    <li>如果赛事受到外来因素干扰而中断，所有注单将被取消。</li>
-    <li>如果比赛结果为平局，但此赛事的盘口并未提供‘和局’为投注选项，所有的投注将被取消。</li>
+    <li> Nếu trận đấu có ít nhất một quả bóng, cược sẽ được coi là hợp lệ và được thanh toán theo kết quả chính thức. Trong trường hợp hòa, cược đặt trên 'Cách của Hội đồng quản trị' sẽ được giải quyết như một sự ràng buộc theo quy tắc đầu tiên. </li>
+    <li> Nếu sự kiện bị gián đoạn bởi các yếu tố bên ngoài, tất cả các phiên cược sẽ bị hủy. </li>
+    <li> Nếu kết quả của trận đấu là trận hòa, nhưng trận đấu không được cung cấp với 'trận đấu' làm tùy chọn đặt cược, tất cả các cược sẽ bị hủy. </li>
 
 </ul>
 
-<h3>单日赛</h3>
+<h3> Kết hợp một ngày </h3>
 <ul>
-    <li>在单日赛中，如果比赛时间缩短或因外来因素干扰而中断，所有注单将按照官方板球比赛规则结算。如果比赛的最终结果是以投杀出局，super-over或掷币的方式裁决，所有注单将被取消。</li>
-    <li>如果比赛以平手结束，并且官方或比赛规则没有宣判获胜者，所有注单将被取消。</li>
-    <li>如是采用达-路方法(Duckworth Lewis Method - DL)计算，所有投注在"最多轮数"，"最高配对选手开场得分"，”击球手赛事”及”投球手赛事”的注单将被取消，除非在采用D/L计算方式前已有明确结果并且之后没有任何显著会影响赛事结果的情况。”击球手”及”投球手”赛事在采用达-路方法(Duckworth Lewis Method - DL)之后所开的盘将由新的轮数来结算。</li>
-    <li>如果在单日国际板球赛的当天需重新投硬币决定发球权，所有在原订开赛时间前45分钟的注单将被取消。此规则将运用于所有盘口，除非盘口结算方式已有明确结果并且之后没有任何显著会影响赛事结果的情况，例如‘赢发球权’盘口。</li>
+    <li> Trong một ngày, nếu thời gian trận đấu bị rút ngắn hoặc bị gián đoạn do các yếu tố bên ngoài, tất cả mọi phiên cược sẽ được giải quyết theo các quy tắc trận đấu cricket chính thức. Nếu kết quả cuối cùng của trận đấu là phán quyết, siêu kết thúc hoặc ném tiền, tất cả mọi phiên cược sẽ bị hủy. </li>
+    <li> Nếu trận đấu kết thúc bằng cà vạt và quy tắc chính thức hoặc trận đấu không phát âm người chiến thắng, tất cả các phiên cược sẽ bị hủy. </li>
+    <Li> trường hợp sử dụng - Phương pháp đường dẫn (Duckworth Lewis Phương pháp - DL) được tính, tất cả các cược trong "vòng lên", "mở trận đấu cầu thủ ghi bàn cao nhất", "giải đấu hitter" và "sự kiện bình" liều tiêm duy nhất Sẽ bị hủy trừ khi có kết quả rõ ràng trước khi tính toán D / L được sử dụng và không có sự kiện quan trọng nào ảnh hưởng đến kết quả của sự kiện. Các đĩa được mở bởi các sự kiện "Batter" và "Pitcher" sau khi phương pháp Duckworth Lewis (DL) sẽ được giải quyết bằng các vòng mới. </li>
+    <Li> Nếu bạn cần phải tung đồng xu quyết định đúng để phục vụ vào ngày một ngày cricket quốc tế, tất cả các cược 45 phút trước khi lên kế hoạch thời gian bắt đầu sẽ bị hủy. Quy tắc này sẽ áp dụng cho tất cả các khiếm khuyết, sự vắng mặt của bất kỳ sự kiện quan trọng sẽ ảnh hưởng đến kết quả trừ khi có kết quả rõ ràng sau khi Handicap giải quyết và như vậy 'giành quyền để phục vụ' Handicap. </li>
 
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>获胜者（没有和局）</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Người chiến thắng (không phù hợp) </h3>
     <ul>
-        <li>预测哪一支球队将在比赛中胜出。</li>
-        <li>如果赛果是和局，所有投注将会返还。</li>
+        <li> Dự đoán đội nào sẽ thắng trong trò chơi. </li>
+        <li> Nếu kết quả là hòa, tất cả các cược sẽ được trả về. </li>
     </ul>
 
-    <h3>1 x 2</h3>
+    <h3> 1 x 2 </h3>
     <ul>
-        <li>预测哪一支球队将会在比赛中胜出或者赛事是否会以和局结束。</li>
+        <li> Dự đoán đội nào sẽ thắng trong trận đấu hoặc liệu trận đấu có kết thúc trong trận hòa hay không. </li>
     </ul>
 
-    <h3>获胜者（并列第一规则）</h3>
+    <h3> Người chiến thắng (ràng buộc quy tắc đầu tiên) </h3>
     <ul>
-        <li>预测哪一支球队将在比赛中胜出。</li>
-        <li>如果赛果是平手，则所有投注会根据并列第一规则结算。</li>
+        <li> Dự đoán đội nào sẽ thắng trong trò chơi. </li>
+        <li> Nếu kết quả là một trận hòa, tất cả mọi phiên cược sẽ được giải quyết theo quy tắc đầu tiên của tie-in. </li>
     </ul>
 
-    <h3>和局</h3>
+    <h3> 和 局 </h3>
     <ul>
-        <li>预测赛事是否会以和局结束。</li>
-        <li>如果赛果是和局，则所有投注在“是”的注单将会赢利。</li>
+        <li> Dự đoán sự kiện sẽ kết thúc bằng một trận hòa hay không. </li>
+        <li> Nếu kết quả là hòa, tất cả cược đặt vào "Có" sẽ có lãi. </li>
     </ul>
 
-    <h3>赢得发球权</h3>
+    <h3> Giành quyền phục vụ </h3>
     <ul>
-        <li>预测哪一支球队将赢得发球权，优先开始比赛。</li>
-        <li>如果结果没有宣判，所有注单将会取消。</li>
+        <li> Dự đoán đội nào sẽ giành được phục vụ và ưu tiên cho trò chơi. </li>
+        <li> Nếu kết quả không được phát âm, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>最佳击球手</h3>
+    <h3> Người dơi giỏi nhất </h3>
     <ul>
-        <li>以跑垒次数为基准，预测哪一位球员将会成为特定赛事中的最佳击球手。</li>
-        <li>投注的球员如果不在11名首发阵容中或提名为第12位后备球员，所有注单将被取消。</li>
-        <li>在两局赛制对赛里(甲级板球比赛)，除非另有注明，此盘口只以第一局的对赛结果为准。</li>
-        <li>如果投注的球员没有参与比赛，注单将结算为输。</li>
-        <li>如果比赛没有宣判优胜者，注单将按并列第一规则结算。</li>
+        <li> Dựa trên số lần chạy, dự đoán người chơi nào sẽ là người chơi batsman tốt nhất trong một sự kiện cụ thể. </li>
+        <li> Nếu một người chơi cá cược không thuộc đội hình 11 xuất phát hoặc được đề cử làm cầu thủ dự bị thứ 12, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Trong trận đấu hai trận đấu với trận đấu (trận đấu cricket Hạng A), trừ khi có ghi chú khác, điểm chấp này chỉ dựa trên kết quả của trận đấu đầu tiên. </li>
+        <li> Nếu người chơi cá cược không tham gia trận đấu, đặt cược sẽ được giải quyết là thua. </li>
+        <li> Nếu cuộc thi không phát âm người chiến thắng, đặt cược sẽ được giải quyết theo quy tắc đầu tiên. </li>
     </ul>
 
-    <h3>最佳投球手</h3>
+    <h3> Người ném bóng tốt nhất </h3>
     <ul>
-        <li>以取得的三柱门次数为基准，预测哪一位球员将可以成为特定赛事中的最佳投球手。</li>
-        <li>投注的球员如果不在11名首发阵容中或提名为第12位后备球员，所有注单将被取消。</li>
-        <li>在两局赛制对赛里(甲级板球比赛)，除非另有注明，此盘口只以第一局的对赛结果为准。</li>
-        <li>如果投注的球员没有参与比赛，注单将结算为输。</li>
-        <li>如果两名球员取得三柱门的次数相同，跑垒次数较少的投手将视为获胜者，不论球员个投出的轮数。如果比赛没有宣判优胜者，注单将按并列第一规则结算。</li>
+        <li> Dựa trên số lượng ba bài đăng thu được, dự đoán người chơi nào sẽ là người ném bóng tốt nhất trong một sự kiện cụ thể. </li>
+        <li> Nếu một người chơi cá cược không thuộc đội hình 11 xuất phát hoặc được đề cử làm cầu thủ dự bị thứ 12, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Trong trận đấu hai trận đấu với trận đấu (trận đấu cricket Hạng A), trừ khi có ghi chú khác, điểm chấp này chỉ dựa trên kết quả của trận đấu đầu tiên. </li>
+        <li> Nếu người chơi cá cược không tham gia trận đấu, đặt cược sẽ được giải quyết là thua. </li>
+        <li> Nếu hai người chơi nhận được cùng một số ba áp phích, người ném bóng có ít lần chạy hơn sẽ được coi là người chiến thắng, bất kể số vòng mà người chơi đã bỏ. Nếu người chiến thắng trong trận đấu không được phát âm, cược sẽ được giải quyết theo quy tắc đầu tiên. </li>
     </ul>
 
-    <h3>最多四分的球队</h3>
+    <h3> Tối đa bốn đội </h3>
     <ul>
-        <li>预测哪一支球队将会在比赛中获得最多四分次数。</li>
-        <li>平手将会是一个投注选项。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
+        <li> Dự đoán đội nào sẽ nhận được tối đa bốn điểm trong trò chơi. </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>最多六分的球队</h3>
+    <h3> Nhóm tối đa sáu điểm </h3>
     <ul>
-        <li>预测哪一支球队将会在比赛中获得最多六分次数。</li>
-        <li>平手将会是一个投注选项。</li>
-        <li>如果预定的回合有减少，投注将会被取消。</li>
+        <li> Dự đoán đội nào sẽ nhận được tối đa sáu điểm trong trò chơi. </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
+        <li> Nếu vòng dự kiến ​​bị giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>最多得分的球队</h3>
+    <h3> Đội có nhiều điểm số nhất </h3>
     <ul>
-        <li>预测哪一支球队将会在比赛中获得最多得分次数（四分和六分的组合）。</li>
-        <li>平手将会是一个投注选项。</li>
-        <li>如果必须完成的回合有减少，投注将会被取消。</li>
+        <li> Dự đoán đội nào sẽ nhận được nhiều điểm nhất trong trò chơi (kết hợp bốn và sáu điểm). </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>配对选手开场得分最高的球队</h3>
+    <h3> Đội có số điểm cao nhất trong trận mở màn </h3>
     <ul>
-        <li>预测哪一支球队的配对选手开场得分最高。</li>
-        <li>仅计算每支球队的第一局。</li>
-        <li>平手将会是一个投注选项。</li>
+        <li> Dự đoán người chơi phù hợp của đội nào có điểm số cao nhất. </li>
+        <li> Chỉ tính toán hiệp đầu tiên của mỗi đội. </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
     </ul>
 
-    <h3>首个三柱门被击倒前跑位得分</h3>
+    <h3> Cửa ba cột đầu tiên được ghi trước khi bị đánh ngã </h3>
     <ul>
-        <li>预测击球方的第一个击球手在出局前的跑位得分。</li>
-        <li>至少有一球击出，否则投注将会取消。</li>
-        <li>如果没有出局，投注将会取消，除非已经无条件地确认。</li>
+        <li> Người hitter đầu tiên của người hitter được dự đoán sẽ ghi bàn ở vị trí chạy trước trận đấu. </li>
+        <li> Ít nhất một quả bóng bị trúng, nếu không cược sẽ bị hủy. </li>
+        <li> Nếu không có lối ra, cược sẽ bị hủy trừ khi nó đã được xác nhận vô điều kiện. </li>
     </ul>
 
-    <h3>首个“三柱门”方式</h3>
+    <h3> Phương pháp "ba cột" đầu tiên </h3>
     <ul>
-        <li>预测第一个击球手的出局方式。</li>
-        <li>相应选项为接球出局和其他。</li>
-        <li>如果投球方没有击中三柱门，则所有投注将会被取消。</li>
+        <li> Dự đoán cách bột đầu tiên bị hỏng. </li>
+        <li> Các tùy chọn tương ứng đang bắt bóng và những người khác. </li>
+        <li> Nếu người ném bóng không trúng được ba áp phích, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>下一位出局的球手</h3>
+    <h3> Người chơi tiếp theo sẽ ra ngoài </h3>
     <ul>
-        <li>预测两个击球员谁将会下一个出局。</li>
-        <li>如果其中一名球员迫使退赛，所有注单将被取消。</li>
-        <li>如果没有球员出局，所有注单将被取消。</li>
+        <li> Dự đoán hai người sẽ là người tiếp theo. </li>
+        <li> Nếu một trong các cầu thủ bị buộc phải nghỉ hưu, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Nếu không có người chơi nào hết, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>第一个投球跑位得分</h3>
+    <h3> Điểm vị trí quảng cáo chiêu hàng đầu tiên </h3>
     <ul>
-        <li>预测赛事中第一个球击出的跑位得分。</li>
-        <li>如果赛事中没有球被击出，则所有投注均会被取消。</li>
+        <li> Dự đoán số điểm đang chạy của quả bóng đầu tiên trong trận đấu. </li>
+        <li> Nếu không có quả bóng nào xảy ra trong trường hợp này, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>比赛中得到100分</h3>
+    <h3> Nhận 100 điểm trong trò chơi </h3>
     <ul>
-        <li>预测赛事中是否有球员在任一赛局中得到100分或是更多。</li>
-        <li>如果必须完成的回合有减少，投注将会被取消。</li>
+        <li> Dự đoán người chơi có nhận được 100 điểm trở lên trong bất kỳ trò chơi nào không. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>比赛中得到50分</h3>
+    <h3> Nhận 50 điểm trong trò chơi </h3>
     <ul>
-        <li>预测赛事中是否有球员在任一赛局中得到50分或是更多。</li>
-        <li>如果必须完成的回合有减少，投注将会被取消。</li>
+        <li> Dự đoán người chơi có nhận được 50 điểm trở lên trong bất kỳ trò chơi nào không. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>球队得4分的总数</h3>
+    <h3> Tổng số đội ghi được 4 điểm </h3>
     <ul>
-        <li>预测球队得4分的总数将会大于或小于指定的数值。</li>
-        <li>如果必须完成的回合有减少，投注将会被取消。</li>
+        <li> Tổng số 4 điểm được dự đoán bởi nhóm sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>球队得6分的总数</h3>
+    <h3> Tổng số đội ghi được 6 điểm </h3>
     <ul>
-        <li>预测球队得6分的总数将会大于或小于指定的数值。</li>
-        <li>如果必须完成的回合有减少，投注将会被取消。</li>
+        <li> Tổng số 6 điểm được dự đoán bởi nhóm sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>球队得分的总数</h3>
+    <h3> Tổng số điểm của đội </h3>
     <ul>
-        <li>预测球队得分的总数（4分和6分的组合）将会大于或小于指定的数值。</li>
-        <li>如果必须完成的回合有减少，投注将会被取消。</li>
+        <li> Tổng số điểm đội dự đoán (kết hợp 4 và 6 điểm) sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>球队总跑位得分（两项投注）</h3>
+    <h3> Tổng số vị trí chạy của đội (hai cược) </h3>
     <ul>
-        <li>预测当前击球方的总跑位得分将会大于或小于指定的数值。</li>
-        <li>如果必须完成的回合有减少，投注将会被取消。</li>
+        <li> Dự đoán tổng số điểm trúng của người chơi hiện tại sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>球队总跑位得分（三项投注）</h3>
+    <h3> Tổng số điểm thi đấu của đội (ba cược) </h3>
     <ul>
-        <li>预测当前击球方的总跑位得分将会大于、等于或小于指定的数值范围。</li>
-        <li>如果必须完成的回合有减少，投注将会被取消。</li>
+        <li> Dự đoán tổng số điểm truy cập của người chơi hiện tại sẽ lớn hơn, bằng hoặc nhỏ hơn phạm vi giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>X回合获得最多跑位得分的球队</h3>
+    <h3> Đội hình X có số điểm chạy nhiều nhất </h3>
     <ul>
-        <li>预测哪一支球队将会在他们各自赛局的指定X回合获得最多跑位得分。</li>
-        <li>如果两支球队都未能完成指定的X回合，则所有投注均会取消，除非结果已经无条件确认。</li>
-        <li>平手将会是一个投注选项。</li>
+        <li> Dự đoán đội nào sẽ nhận được nhiều điểm nhất trong các vòng X được chỉ định của các trò chơi tương ứng. </li>
+        <li> Nếu cả hai đội không hoàn thành vòng X được chỉ định, tất cả các phiên cược sẽ bị hủy trừ khi kết quả đã được xác nhận vô điều kiện. </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
     </ul>
 
-    <h3>首回合跑位得分（两项投注）</h3>
+    <h3> Số điểm vị trí chạy vòng đầu tiên (hai cược) </h3>
     <ul>
-        <li>预测球队在首回合的跑位得分将会大于或是小于指定数值。</li>
-        <li>如果该球队未能完成首回合，则所有投注将会取消，除非结果已经无条件确认。</li>
+        <li> Điểm chạy của đội trong lượt đi sẽ được dự đoán là lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu đội không hoàn thành vòng đầu tiên, tất cả mọi phiên cược sẽ bị hủy trừ khi kết quả đã được xác nhận vô điều kiện. </li>
     </ul>
 
-    <h3>首回合最高跑位得分</h3>
+    <h3> Điểm vị trí chạy tối đa trong vòng đầu tiên </h3>
     <ul>
-        <li>预测哪一支球队在他们各自的第一个赛局的首回合获得最高跑位得分。</li>
-        <li>如果两支球队均未能完成首回合，则所有投注将会被取消，除非结果已经无条件确认。</li>
-        <li>平手将会是一个投注选项。</li>
+        <li> Dự đoán đội nào đạt điểm cao nhất trong lượt chơi đầu tiên của trận đầu tiên. </li>
+        <li> Nếu cả hai đội không hoàn thành vòng đầu tiên, tất cả mọi phiên cược sẽ bị hủy trừ khi kết quả đã được xác nhận vô điều kiện. </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
     </ul>
 
-    <h3>球队全部出局</h3>
+    <h3> Tất cả các đội đều ra ngoài </h3>
     <ul>
-        <li>预测击球方是否会在第一个赛局宣告结束时失去所有10个三柱门。</li>
-        <li>如果赛事在第一个赛局结束前便已经取消，则所有投注将会被取消。</li>
+        <li> Có dự đoán rằng bên batting sẽ mất tất cả 10 cửa ba bài đăng ở cuối trò chơi đầu tiên. </li>
+        <li> Nếu trận đấu bị hủy trước khi kết thúc trận đấu đầu tiên, tất cả các phiên cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>击球手投注</h3>
+    <h3> Cá cược Batter </h3>
     <ul>
-        <li>预测哪一个指定的击球手可以获得该局的最高跑位得分。</li>
-        <li>如果其中一个击球手退赛，所有投注将会被取消。如果没有球员出局，所有注单将被取消。</li>
-        <li>如果出现平手，并列第一规则适用。</li>
+        <li> Dự đoán cái nào được chỉ định Các đập có thể đạt được điểm số cao nhất của trò chơi. </li>
+        <li> Nếu một trong các batters nghỉ hưu, tất cả các cược sẽ bị hủy. Nếu không có người chơi nào hết, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Nếu có hòa, quy tắc đầu tiên sẽ được áp dụng. </li>
     </ul>
 
-    <h3>投球手投注</h3>
+    <h3> Cá cược pitcher </h3>
     <ul>
-        <li>预测哪一个指定的投球手可以取得该局的最多三柱门。</li>
-        <li>每个球员都必须要至少投一次球，否则所有投注将会被取消。</li>
-        <li>如果出现平手，并列第一规则适用。</li>
+        <li> Dự đoán người ném bóng được chỉ định nào có thể nhận tối đa ba bài đăng trong trò chơi. </li>
+        <li> Mỗi người chơi phải bỏ phiếu ít nhất một lần, nếu không tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Nếu có hòa, quy tắc đầu tiên sẽ được áp dụng. </li>
     </ul>
 
-    <h3>X回合跑位得分（两项投注）</h3>
+    <h3> Điểm vòng vị trí chạy X (hai cược) </h3>
     <ul>
-        <li>预测特定期间（例如5个回合）的跑位总得分将会大于或是小于指定数值。</li>
-        <li>如果特定的期间没有完全完成，则所有投注将会被取消，除非已经无条件地确认。</li>
+        <li> Tổng số điểm của vị trí chạy trong một khoảng thời gian cụ thể (ví dụ: 5 vòng) sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu một khoảng thời gian cụ thể không được hoàn thành đầy đủ, tất cả các phiên cược sẽ bị hủy trừ khi họ đã được xác nhận vô điều kiện. </li>
     </ul>
 
-    <h3>X回合跑位得分（三项投注）</h3>
+    <h3> Điểm vòng vị trí chạy X (ba cược) </h3>
     <ul>
-        <li>预测是否在规定时间达到得分总数,例如5,将预测小于或大于在指定的范围值。</li>
-        <li>如果特定的期间没有完全完成，则所有投注将会被取消，除非已经无条件地确认。</li>
+        <Li> dự đoán cho dù tổng số điểm đạt đến một thời gian định trước, ví dụ 5, phạm vi dự báo lớn hơn hoặc thấp hơn giá trị quy định. </li>
+        <li> Nếu một khoảng thời gian cụ thể không được hoàn thành đầy đủ, tất cả các phiên cược sẽ bị hủy trừ khi họ đã được xác nhận vô điều kiện. </li>
     </ul>
 
-    <h3>跑位得分总数两项投注（球员）</h3>
+    <h3> Hai tổng cược vào vị trí đang chạy (người chơi) </h3>
     <ul>
-        <li>预测球员的跑位得分总数将会大于或小于指定数值。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
-        <li>如果一个击球员因伤退赛并且没有返回，所有投注将会被取消，除非已经无条件地确认。</li>
-        <li>如果是在甲级板球赛事中提供，则仅计算指定赛局。</li>
+        <li> Tổng số điểm chạy cho một trình phát được dự đoán sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <Li> Nếu một batsman nghỉ hưu vì chấn thương và không trở về, tất cả cược sẽ bị hủy bỏ, trừ khi nó đã được xác nhận vô điều kiện. </li>
+        <li> Nếu nó được cung cấp trong một trận đấu cricket Hạng A, chỉ có trò chơi được chỉ định sẽ được tính. </li>
     </ul>
 
-    <h3>跑位得分总数三项投注（球员）</h3>
+    <h3> Ba tổng cược vào vị trí đang chạy (người chơi) </h3>
     <ul>
-        <li>预测球员的跑位得分总数将会大于、等于或小于指定数值范围。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
-        <li>如果一个击球员因伤退赛并且没有返回，所有投注将会被取消，除非已经无条件地确认。</li>
-        <li>如果是在甲级板球赛事中提供，则仅计算指定赛局。</li>
-
-    </ul>
-
-    <h3>跑位得分100（球员）</h3>
-    <ul>
-        <li>预测指定球员在某一局跑位得分是否可以达到100或是更多。</li>
-        <li>击球员必须面对至少一个球，否则注单将会被取消。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
-        <li>如果一个击球员因伤退赛并且没有返回，所有投注将会被取消，除非已经无条件地确认。</li>
-        <li>如果是在甲级板球赛事中提供，则仅计算指定赛局。</li>
-    </ul>
-
-    <h3>跑位得分50（球员）</h3>
-    <ul>
-        <li>预测指定球员在某一局跑位得分是否可以达到50或是更多。</li>
-        <li>击球员必须面对至少一个球，否则注单将会被取消。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
-        <li>如果一个击球员因伤退赛并且没有返回，所有投注将会被取消，除非已经无条件地确认。</li>
-        <li>如果是在甲级板球赛事中提供，则仅计算指定赛局。</li>
-    </ul>
-
-    <h3>出局方式（下个三柱门）</h3>
-    <ul>
-        <li>预测下一个击球员的出局方式。</li>
-        <li>可用的类型和数量选择取决于板球比赛的形式（有限的回合或是甲级）以及在比赛期间的形式。</li>
-        <li>如果没有更多的击球员出局，所有投注将会被取消。</li>
-    </ul>
-
-    <h3>球队跑位总得分–单/双</h3>
-    <ul>
-        <li>预测击球队的跑位总得分是单数还是双数。</li>
-        <li>至少要有一球在局间被击杀，否则投注将会被取消。</li>
-        <li>结算将依据官方管理机构公布的该局比分进行。</li>
-    </ul>
-
-    <h3>首回合跑位得分–单/双</h3>
-    <ul>
-        <li>预测击球队在该局的首回合跑位得分是单数还是双数。</li>
-        <li>至少要有一球在首回合被击杀，否则投注将会被取消。</li>
-    </ul>
-
-    <h3>最多歪球次数</h3>
-    <ul>
-        <li>预测哪一支球队将会在比赛中获得最多歪球。</li>
-        <li>平手将会是一个投注选项。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
-    </ul>
-
-    <h3>歪球的总数</h3>
-    <ul>
-        <li>预测赛事中的歪球总数将会大于或是小于指定数值。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
+        <li> Tổng số vị trí đang chạy cho trình phát được dự đoán sẽ lớn hơn, bằng hoặc nhỏ hơn phạm vi giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Nếu một người đánh bóng nghỉ hưu do chấn thương và không trở lại, tất cả mọi phiên cược sẽ bị hủy trừ khi họ đã được xác nhận vô điều kiện. </li>
+        <li> Nếu nó được cung cấp trong một trận đấu cricket Hạng A, chỉ có trò chơi được chỉ định sẽ được tính. </li>
 
     </ul>
 
-    <h3>被杀出局总数</h3>
+    <h3> Số điểm chạy 100 (trình phát) </h3>
     <ul>
-        <li>预测赛事的被杀出局总数将会大于或是小于指定数值。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
+        <li> Dự đoán liệu một người chơi cụ thể có thể ghi được 100 điểm trở lên ở một vị trí nhất định hay không. </li>
+        <li> Người đánh bóng phải đối mặt với ít nhất một quả bóng hoặc đặt cược sẽ bị hủy. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Nếu một người đánh bóng nghỉ hưu do chấn thương và không trở lại, tất cả mọi phiên cược sẽ bị hủy trừ khi họ đã được xác nhận vô điều kiện. </li>
+        <li> Nếu nó được cung cấp trong một trận đấu cricket Hạng A, chỉ có trò chơi được chỉ định sẽ được tính. </li>
     </ul>
 
-    <h3>最多击杀次数</h3>
+    <h3> Số điểm chạy 50 (người chơi) </h3>
     <ul>
-        <li>预测哪一支球队将会在比赛中获得最多击杀次数。</li>
-        <li>平手将会是一个投注选项。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
+        <li> Dự đoán liệu một người chơi có thể có điểm số từ 50 trở lên ở một vị trí nhất định hay không. </li>
+        <li> Người đánh bóng phải đối mặt với ít nhất một quả bóng hoặc đặt cược sẽ bị hủy. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Nếu một người đánh bóng nghỉ hưu do chấn thương và không trở lại, tất cả mọi phiên cược sẽ bị hủy trừ khi họ đã được xác nhận vô điều kiện. </li>
+        <li> Nếu nó được cung cấp trong một trận đấu cricket Hạng A, chỉ có trò chơi được chỉ định sẽ được tính. </li>
     </ul>
 
-    <h3>击杀总数</h3>
+    <h3> Chế độ thoát (cửa ba cột tiếp theo) </h3>
     <ul>
-        <li>预测赛事中的击杀总数将会大于或是小于指定数值。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
+        <li> Dự đoán cách thức bột tiếp theo bị loại. </li>
+        <li> Loại và số lượng các lựa chọn có sẵn tùy thuộc vào hình thức của trận đấu cricket (vòng giới hạn hoặc cấp A) và biểu mẫu trong trận đấu. </li>
+        <li> Nếu không có thêm batters ra, tất cả các cược sẽ bị hủy bỏ. </li>
     </ul>
 
-    <h3>最多零分</h3>
+    <h3> Tổng số điểm của vị trí chạy của đội - đơn / đôi </h3>
     <ul>
-        <li>预测哪一支球队将会在比赛中获得最多零分。</li>
-        <li>平手将会是一个投注选项。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
+        <li> Tổng số điểm của đội thi đấu được dự đoán là số ít hoặc gấp đôi. </li>
+        <li> Ít nhất một quả bóng sẽ bị giết trong trận đấu, nếu không cược sẽ bị hủy. </li>
+        <li> Thỏa thuận thu xếp sẽ dựa trên điểm số được xuất bản bởi cơ quan quản lý chính thức. </li>
     </ul>
 
-    <h3>零分总数</h3>
+    <h3> Điểm vị trí chạy vòng đầu tiên - đơn / đôi </h3>
     <ul>
-        <li>预测赛事中零分的总次数将会大于或是小于指定数值。</li>
-        <li>如果必须完成的回合有减少，所有投注将会被取消。</li>
+        <li> Điểm số dự đoán của đội trong vòng đầu tiên của trò chơi là số ít hoặc gấp đôi. </li>
+        <li> Ít nhất một quả bóng sẽ bị giết trong vòng đầu tiên, nếu không cược sẽ bị hủy. </li>
+    </ul>
+
+    <h3> Số lượng mục tiêu tối đa </h3>
+    <ul>
+        <li> Dự đoán đội nào sẽ nhận được nhiều cú đánh nhất trong trò chơi. </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+    </ul>
+
+    <h3> Tổng số croquets </h3>
+    <ul>
+        <li> Tổng số dế trong sự kiện được dự đoán sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+
+    </ul>
+
+    <h3> Tổng số bị đập vỡ </h3>
+    <ul>
+        <li> Tổng số trò chơi bị giết và được dự đoán sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+    </ul>
+
+    <h3> Số lần giết tối đa </h3>
+    <ul>
+        <li> Dự đoán đội nào sẽ nhận được nhiều sát thủ nhất trong trò chơi. </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+    </ul>
+
+    <h3> Tổng số kills </h3>
+    <ul>
+        <li> Tổng số lần giết trong sự kiện được dự đoán sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+    </ul>
+
+    <h3> Số điểm tối đa bằng không </h3>
+    <ul>
+        <li> Dự đoán đội nào sẽ nhận được nhiều điểm nhất trong trò chơi. </li>
+        <li> Cà vạt sẽ là một lựa chọn đặt cược. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
+    </ul>
+
+    <h3> Tổng số không </h3>
+    <ul>
+        <li> Tổng số số không trong sự kiện dự báo sẽ lớn hơn hoặc nhỏ hơn giá trị được chỉ định. </li>
+        <li> Nếu vòng phải hoàn thành được giảm, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
 
 </ul>
+
+
+
+

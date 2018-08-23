@@ -1,92 +1,92 @@
-<span class="acc_rules_date">最后更新日期: 05/07/2017</span>
-<h1>赛车</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 05/07/2017 </span>
+<h1> Đua xe </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果原定比赛场地更改，所有的注单将被视为无效。 </li>
-    <li>每场赛事的结果均以奖台上排名为最终结果。如之后发生丧失资格或修正结果将不予以计算。 </li>
-    <li>所有注单均以FIA/FIM官方公布的车手排位赛果为准。 </li>
+    <li> Nếu địa điểm ban đầu thay đổi, tất cả các phiên cược sẽ bị coi là không hợp lệ. </li>
+    <li> Kết quả của mỗi sự kiện được xếp hạng trên bục giảng là kết quả cuối cùng. Nếu sự không đủ tiêu chuẩn xảy ra sau đó hoặc kết quả của việc hiệu chỉnh sẽ không được tính toán. </li>
+    <li> Tất cả mọi phiên cược đều phải tuân theo bảng xếp hạng chính thức của FIA / FIM. </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>冠军投注</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Cá cược vô địch </h3>
     <ul>
-        <li>如果车队/车手无法进行比赛，所有注单仍然有效。 </li>
+        <li> Nếu đội / tài xế không thể chơi, tất cả mọi phiên cược sẽ vẫn hợp lệ. </li>
     </ul>
-    <h3>二选一投注</h3>
+    <h3> Chọn một đặt cược </h3>
     <ul>
-        <li>若两位配对车手其中一位缺席正式比赛﹐所有注单将一律被取消。 </li>
-        <li>投注将以所投车手最终排名优于另一位车手的排名为赢。 </li>
-        <li>如果双方车手都未完成比赛，则所有注单将一律被取消。 </li>
-        <li>如果双方车手已经开始比赛，但其中一位车手未能完成比赛，则另一位完成比赛的车手将被视为胜者。 </li>
+        <li> Nếu một trong hai trình điều khiển ghép đôi vắng mặt trong cuộc thi chính thức, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Cược sẽ thắng với thứ hạng của người lái xe được xếp hạng cao hơn người lái xe kia. </li>
+        <li> Nếu cả hai trình điều khiển không hoàn thành trận đấu, tất cả các cược sẽ bị hủy. </li>
+        <li> Nếu cả hai trình điều khiển đã bắt đầu cuộc đua nhưng một trong các trình điều khiển đã thất bại trong việc hoàn thành cuộc đua, một người lái xe khác hoàn thành cuộc đua sẽ được coi là người chiến thắng. </li>
     </ul>
-    <h3>让位赛</h3>
+    <h3> Đua phải </h3>
     <ul>
-        <li>让排位数盘口即在比赛正式开始前， 一方驾驶人/车手已得到另一方所让的虚拟排位数， 以领先的情况下开始比赛。 </li>
-        <li>只有双方驾驶人/车手的名字均在FIA/FIM官方公布的赛果名单里，投注才将被视为有效。 </li>
-        <li>如果其中一方驾驶人/车手无法完成比赛，不论任何原因，投注都将被取消。 </li>
-        <li>在计算让位分数下，投注将以所投车手最终排名优于另一车手的排名为赢。 </li>
-        <ul style="list-style:none">
+        <li> Hãy để cho các cấp bậc của handicap trước khi bắt đầu chính thức của trò chơi, một người lái xe / lái xe đã nhận được số lượng ghế ảo được phép của bên kia, bắt đầu trò chơi với người dẫn đầu. </li>
+        <li> Chỉ tên của cả hai trình điều khiển / trình điều khiển được liệt kê trong danh sách kết quả chính thức của FIA / FIM và cược sẽ được coi là hợp lệ. </li>
+        <li> Nếu một trong các trình điều khiển / trình điều khiển không thể hoàn thành trận đấu, đặt cược sẽ bị hủy vì bất kỳ lý do gì. </li>
+        <li> Khi tính toán điểm lợi nhuận, đặt cược sẽ được thắng bởi xếp hạng của tài xế diễn viên giỏi hơn so với xếp hạng của người lái xe khác. </li>
+        <ul style = "kiểu danh sách: none">
 
-            <li>范例</li>
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="acc_rulesTB">
+            <li> Ví dụ </li>
+            <table width = "100%" border = "0" cellspacing = "0" cellpadding = "0" class = "acc_rulesTB">
                 <tr>
-                    <td>赛事</td>
-                    <td>&nbsp;</td>
-                    <td>车手</td>
-                    <td colspan="2">让排位</td>
+                    <td> Sự kiện </td>
+                    <td> & nbsp; </td>
+                    <td> 车手 </td>
+                    <td colspan = "2"> Hãy để đủ điều kiện </td>
                 </tr>
-                <tr >
-                    <td rowspan="2" >意大利大奖赛</td>
-                    <td rowspan="2" >&nbsp;</td>
-                    <td class="fatWord">刘易斯•汉密尔顿</td>
-                    <td >1.5</td>
-                    <td >0.93</td>
+                <tr>
+                    <td rowspan = "2"> Grand Prix Ý </td>
+                    <td rowspan = "2"> & nbsp; </td>
+                    <td class = "fatWord"> Lewis Hamilton </td>
+                    <td> 1.5 </td>
+                    <td> 0,93 </td>
                 </tr>
-                <tr >
-                    <td class="fatWord">费尔南多•阿隆索</td>
-                    <td>&nbsp;</td>
-                    <td >0.93</td>
+                <tr>
+                    <td class = "fatWord"> Fernando Alonso </td>
+                    <td> & nbsp; </td>
+                    <td> 0,93 </td>
                 </tr>
             </table>
 
-            <h3>赛果</h3>
-            <p>刘易斯•汉密尔顿 第三名</p>
-            <p>费尔南多•阿隆索 第四名</p>
+            <h3> Kết quả </h3>
+            <p> Địa điểm thứ ba của Lewis Hamilton </p>
+            <p> Fernando Alonso vị trí thứ tư </p>
 
-            <h3>注单结果</h3>
-            <p>由于在让位赛开始时，费尔南多•阿隆索已获取1.5排位的让位，所以他领先刘易斯•汉密尔顿。</p>
+            <h3> Kết quả Lưu ý </h3>
+            Bởi vì Fernando Alonso đã có một vị trí 1,5 hàng ở đầu của handicap, ông là trước Lewis Hamilton. </p>
 
-        </ul>
     </ul>
-    <h3>最快圈</h3>
-    <ul>
-        <li>预测哪位车手获取正是比赛最快圈数的记录。 </li>
-        <li>排位圈和练习圈不予计算。 </li>
-    </ul>
-    <h3>达成成绩或排名之车手数</h3>
-    <ul>
-        <li>预测会有多少位车手将完成最少90%或更多圈数并且被FIA视为排名完成者。</li>
-    </ul>
-    <h3>安全车</h3>
-    <ul>
-        <li>预测安全车是否将会出现在比赛中。</li>
-        <li>如果比赛由安全车引领开始，所有安全车注单将将被取消。</li>
-        <li>VSC (虚拟安全车) 不算为安全车。</li>
-    </ul>
+</ul>
+<h3> vòng kết nối nhanh nhất </h3>
+<ul>
+    <li> Dự đoán trình điều khiển nào nhận được kỷ lục về vòng đua nhanh nhất trong trò chơi. </li>
+    <li> Vòng kết hợp vòng loại và vòng thực hành không được tính. </li>
+</ul>
+<h3> Số lượng trình điều khiển đạt điểm hoặc thứ hạng </h3>
+<ul>
+    <li> Dự đoán có bao nhiêu trình điều khiển sẽ hoàn thành ít nhất 90% hoặc nhiều vòng hơn và được coi là người đánh giá xếp hạng của FIA. </li>
+</ul>
+<h3> Xe an toàn </h3>
+<ul>
+    <li> Dự đoán xem xe an toàn có xuất hiện trong trò chơi hay không. </li>
+    <li> Nếu cuộc đua bắt đầu bằng xe an toàn, tất cả các vé cược an toàn sẽ bị hủy. </li>
+    <li> VSC (Xe an toàn ảo) không được coi là xe an toàn. </li>
+</ul>
 
-    <h3>输赢比数</h3>
-    <ul>
-        <li>预测在比赛结束时，一名车手与第二名车手之间的时间差。 </li>
-    </ul>
-    <h3>前三名（颁奖台站位）</h3>
-    <ul>
-        <li>预测，在正式比赛中第一名，第二名以及第三车手获得者。 </li>
-        <li>每场赛事的结果均以奖台上排名为最终结果，如之后发生任何改变都不予以计算。 </li>
-    </ul>
-    <h3>单/双</h3>
-    <ul>
-        <li>预测车手最总排位是单还是双。 </li>
-        <li>如果车手未完成比赛，所有注单一律取消。 </li>
-    </ul>
+<h3> Tỷ lệ thắng và thua </h3>
+<ul>
+    <li> Dự đoán sự khác biệt về thời gian giữa người lái xe và tài xế thứ hai ở cuối trò chơi. </li>
+</ul>
+<h3> Top 3 (Trạm cờ bạc) </h3>
+<ul>
+    <li> Dự báo, vị trí đầu tiên, vị trí thứ hai và người lái thứ ba trong cuộc thi chính thức. </li>
+    <li> Kết quả của mỗi sự kiện được xếp hạng là kết quả cuối cùng trên bục giảng, và sẽ không có thay đổi nào được tính sau đó. </li>
+</ul>
+<h3> Đơn / Đôi </h3>
+<ul>
+    <li> Để dự đoán tổng xếp hạng của người lái xe là đơn hay đôi. </li>
+    <li> Nếu người lái xe không hoàn thành trận đấu, tất cả mọi phiên cược sẽ bị hủy. </li>
+</ul>
 </ul>

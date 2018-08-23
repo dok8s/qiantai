@@ -1,73 +1,73 @@
-<span class="acc_rules_date">最后更新日期: 29/09/2016</span>
-<h1>网球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Ngày cập nhật lần cuối: 29/09/2016 </span>
+<h1> quần vợt </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果比赛场地的表面有变更，所有投注的注单将被取消。 </li>
-    <li>所有投注的注单均在比赛结束后才被视为有效，除非另有注明。 </li>
-    <li>如果投注的球员没有参与比赛，所有投注此球员的注单将被取消。 </li>
-    <li>如果一名球员或组合在比赛未结束前退出或被取消资格，所有该场比赛的注单将被取消，除非另有注明。 </li>
-    <li>如果比赛预定时间缩短或者需获胜比赛的比分提高，所有注单将被取消。 </li>
-    <li>如果赛事延期或中断，只要比赛最后有完成，所有投注将保持有效。 </li>
-    <li>如果赛事开出单局或单盘的盘口，而球员在赛事的某局或某盘退出或被取消资格，所有投注此局或此盘的注单将被取消，除非另有注明。 </li>
-    <li>如果比赛在法定时间提前进行，在比赛开始前的投注依然有效，在比赛开始后的所有投注均视为无效(滚球投注另作别论)。 </li>
-    <li>网球大满贯（四大公开赛：澳洲网球公开赛、美国网球公开赛、法国网球公开赛、温布顿网球公开赛），比赛结算方式:
+    <li> Nếu bề mặt của sân chơi thay đổi, tất cả mọi phiên cược đặt cược sẽ bị hủy. </li>
+    <li> Ghi chú cho tất cả các cược sẽ được coi là hợp lệ sau khi kết thúc trận đấu trừ khi có quy định khác. </li>
+    <li> Nếu cá cược của người chơi không tham gia trận đấu, tất cả các cược đặt trên cầu thủ này sẽ bị hủy. </li>
+    <li> Nếu một cầu thủ hoặc nhóm thoát hoặc bị loại trước khi kết thúc trận đấu, tất cả các phiên cược trong trận đấu đó sẽ bị hủy trừ khi có ghi chú khác. </li>
+    <li> Nếu thời gian dự kiến ​​của trận đấu bị rút ngắn hoặc số điểm của trận đấu thắng được tăng lên, tất cả các phiên cược sẽ bị hủy. </li>
+    <li> Nếu sự kiện bị trì hoãn hoặc bị gián đoạn, tất cả mọi phiên cược sẽ vẫn còn hiệu lực miễn là trận đấu kết thúc. </li>
+    <li> Nếu sự kiện mở một vị trí đơn hoặc người chơi và người chơi rút hoặc bị loại tại một trận đấu nhất định hoặc một sự kiện nhất định, tất cả mọi phiên cược được đặt trên đơn đặt hàng này hoặc đơn đặt hàng này sẽ bị hủy trừ khi có ghi chú khác. Minh. </li>
+    <Li> Nếu cuộc đua trước khi cược thời gian theo luật định trước khi bắt đầu cuộc đua vẫn còn hiệu lực, tất cả cược đặt sau khi bắt đầu cuộc đua được coi là không hợp lệ (Live Cược vấn đề riêng biệt). </li>
+    <li> Quần vợt Grand Slam (Bốn mở: Mở rộng ở Úc, Mở rộng ở Hoa Kỳ, Mở rộng Pháp, Mở Wimbledon), giải quyết trận đấu:
         <ul>
-            <li>男子组比赛：五盘中先赢三盘的球员，为胜方。 </li>
-            <li>女子组比赛：三盘中先赢两盘的球员，为胜方。 </li>
+            <li> Cạnh tranh nhóm của nam giới: Người chơi thắng ba bộ trong nửa đầu của trò chơi là người chiến thắng. </li>
+            <li> Cạnh tranh nhóm nữ: Người chơi thắng hai bộ trong tập đầu tiên là người chiến thắng. </li>
         </ul>
     </li>
 </ul>
 
-<h2>投注类型</h2>
+<h2> Loại đặt cược </h2>
 
-<ul class="acc_backUL">
-    <h3>独赢</h3>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng một mình </h3>
     <ul>
-        <li>预测哪一位球员将在比赛胜出。盘口提供两位球员为投注选项。 </li>
+        <li> Dự đoán người chơi nào sẽ thắng trong trò chơi. Hai người chơi được cung cấp như là lựa chọn cá cược tại handicap. </li>
     </ul>
 
-    <h3>让盘</h3>
+    <h3> Hãy để đĩa </h3>
     <ul>
-        <li>预测哪一位球员在盘口指定的让盘数赢得比赛。 </li>
+        <li> Dự đoán người chơi nào thắng trò chơi ở điểm chấp. </li>
     </ul>
 
-    <h3>让局</h3>
+    <h3> Tư vấn </h3>
     <ul>
-        <li>预测哪一位球员在盘口指定的让局数在某个时节（例如:全场比赛/第一盘/第二盘）赢得最多局。 </li>
-        <li>决胜局(抢七局)将视为一局。 </li>
+        <li> Dự đoán người chơi nào chỉ định số người chơi trong điểm chấp để giành được nhiều trò chơi nhất tại một thời điểm nhất định (ví dụ: toàn bộ trò chơi / bộ đầu tiên / tập thứ hai). </li>
+        <li> Người chia bài (lấy bảy lượt chơi) sẽ được coi là một trò chơi. </li>
     </ul>
 
-    <h3>总局数： 大 / 小</h3>
+    <h3> Tổng số bài đăng: Lớn / Nhỏ </h3>
     <ul>
-        <li>预测比赛中的某个时节（例如:全场比赛/第一盘/第二盘）进行的总局数将大于或小于在盘口指定的大/小盘局数。 </li>
-        <li>决胜局(抢七局)将视为一局。 </li>
-        <li>如果比赛中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大/小盘注单才会被结算。若遇到任何其他情况，注单将一律被取消。 </li>
+        <li> Tổng số vòng được dự đoán cho một mùa nhất định (ví dụ: toàn bộ trò chơi / giây / giây) sẽ lớn hơn hoặc ít hơn số lượng bảng lớn / nhỏ được chỉ định trên thị trường. </li>
+        <li> Người chia bài (lấy bảy lượt chơi) sẽ được coi là một trò chơi. </li>
+        <li> Đặt cược lớn / nhỏ sẽ được giải quyết nếu có kết quả rõ ràng trước giờ nghỉ và sẽ không có tác động đáng kể đến kết quả trận đấu. Việc đặt cược sẽ bị hủy nếu có bất kỳ trường hợp nào khác gặp phải. </li>
     </ul>
 
-    <h3>总局数：单 / 双</h3>
+    <h3> Tổng số bài đăng: đơn / đôi </h3>
     <ul>
-        <li>预测比赛中的某个时节（例如:全场比赛/第一盘/第二盘）进行的总局数是单数或双数。 </li>
-        <li>决胜局(抢七局)将视为一局。 </li>
+        <li> Tổng số vòng được dự đoán cho một mùa nhất định (ví dụ: toàn bộ trò chơi / đầu tiên / giây) là số ít hoặc gấp đôi. </li>
+        <li> Người chia bài (lấy bảy lượt chơi) sẽ được coi là một trò chơi. </li>
     </ul>
 
-    <h3>单盘投注</h3>
+    <h3> Đặt cược đơn </h3>
     <ul>
-        <li>预测单盘最终结果。 </li>
-        <li>投注的注单只有在单盘结束后才被视为有效。 </li>
-        <li>如果球员在某盘未结束前退出或被取消资格，所有投注此盘的注单将被取消。 </li>
+        <li> Dự đoán kết quả cuối cùng của đĩa đơn. </li>
+        <li> Cược đặt cược sẽ chỉ được coi là hợp lệ sau khi kết thúc đơn đặt hàng. </li>
+        <li> Nếu người chơi thoát hoặc bị loại trước khi kết thúc một phiên, tất cả các phiên cược được đặt trên đơn đặt hàng này sẽ bị hủy. </li>
     </ul>
 
-    <h3>波胆</h3>
+    <h3> Dự đoán từng </h3>
     <ul>
-        <li>预测比赛的每盘比分。</li>
-        <li>如果注单在赛事中断前已得到明确的胜负，并且任何进一步的赛果均不会对注单结果产生影响的情况下，注单会被视为有效。</li>
+        <li> Dự đoán từng điểm của trò chơi. </li>
+        <li> Đặt cược sẽ được coi là hợp lệ nếu cược có người chiến thắng rõ ràng trước khi sự kiện bị gián đoạn và mọi kết quả khác sẽ không ảnh hưởng đến kết quả đặt cược. </li>
     </ul>
 
-    <h3>总得分-大/小</h3>
+    <h3> Tổng số điểm-lớn / nhỏ </h3>
     <ul>
-        <li>预测提名的球员在某一特定的时间段内的个人总得分将大于或小于盘口指定的总分数线。</li>
-        <li>提供的时间段可能包含局，单盘及整场比赛。</li>
-        <li>注单的结算将根据ATP / WTA公布的结果为准。</li>
+        <li> Tổng số điểm của cá nhân được dự đoán sẽ được đề cử trong một khoảng thời gian cụ thể sẽ lớn hơn hoặc ít hơn tổng số điểm được chỉ định bởi điểm chấp. </li>
+        <li> Khoảng thời gian được cung cấp có thể bao gồm trò chơi, trò chơi đơn lẻ và toàn bộ trò chơi. </li>
+        <li> Việc thanh toán đặt cược sẽ dựa trên kết quả được công bố bởi ATP / WTA. </li>
     </ul>
 
 </ul>

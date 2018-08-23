@@ -1,55 +1,55 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>冬季运动& 冬季奥运会/比赛</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Thế vận hội mùa đông về thể thao và mùa đông / Cuộc thi </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>参赛者获得金，银，铜牌将被视为第一，第二和第三名获奖者。 </li>
-    <li>每场赛事的结果均以奖台上排名为最终结果。如之后发生丧失资格或结果修正将不予以计算。 </li>
-    <li>无论是团队或个人是否比赛，所有注单将被视为一律有效。 </li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将为视为有效投注。在开赛后投注的注单将被视为无效，滚球玩法除外。 </li>
-    <li>如果官方对特定赛事原本列出的条款进行更改，所有此特定赛事注单将被视为无效。 </li>
-    <li>官方赛程距离更改- 如果公布的官方赛程距离有更改，并与公司网站公布的赛程距离不符，所有注单将被视为无效。 </li>
-    <li>即使该场赛事没有举行颁奖仪式，注单结果将依据，国际滑雪联盟（FIS）、国际滑冰联盟（ISU）、国际冬季两项全能联盟（IBU）、国际奥林匹克委员会（IOC） 或任何官方组织公布的正式赛果而定。 </li>
-    <li>这些规则适用于以下赛事：</li>
+    <li> Những người tham gia sẽ nhận được huy chương vàng, bạc và đồng như người chiến thắng đầu tiên, thứ hai và thứ ba. </li>
+    <li> Kết quả của mỗi sự kiện được xếp hạng trên bục giảng là kết quả cuối cùng. Nếu sự không đủ tiêu chuẩn hoặc hiệu chỉnh kết quả xảy ra sau đó, nó sẽ không được tính toán. </li>
+    <li> Tất cả mọi phiên cược sẽ được coi là hợp lệ bất kể đội hoặc cá nhân có đang chơi hay không. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ bị coi là vô hiệu, ngoại trừ trận đấu. </li>
+    <li> Nếu thay đổi chính thức đối với các điều khoản ban đầu được liệt kê cho một sự kiện cụ thể, tất cả các sự kiện đặt cược cụ thể sẽ được coi là không hợp lệ. </li>
+    <Li> Thay đổi khoảng cách cuộc đua chính thức - nếu phát hành từ lịch trình chính thức có thay đổi, và công bố trang web của công ty không phù hợp với khoảng cách của cuộc đua, tất cả cược sẽ bị coi là không hợp lệ. </li>
+    <Li> Ngay cả khi cuộc đua đã không giữ lễ trao giải, cược sẽ được dựa trên kết quả, Liên minh quốc tế trượt tuyết (FIS), các Trượt Liên minh Quốc tế (ISU), Quốc tế Biathlon Liên minh Toàn Năng (Ibu), Ủy ban Olympic Quốc tế (IOC) hoặc bất kỳ Kết quả chính thức được công bố bởi tổ chức chính thức. </li>
+    <li> Các quy tắc này áp dụng cho các sự kiện sau: </li>
     <ul>
-        <li>高山滑雪</li>
-        <li>冬季两项</li>
-        <li>越野滑雪</li>
-        <li>自由式滑雪</li>
-        <li>无舵雪橇</li>
-        <li>北欧两项</li>
-        <li>滑冰（冬）滑冰（冬季）</li>
-        <li>山地雪橇滑雪/平底雪橇滑雪</li>
-        <li>跳台滑雪</li>
-        <li>雪板</li>
-        <li>短道速滑/速度滑冰</li>
-        <li>有舵雪橇</li>
-        <li>花样滑冰</li>
+        <li> Trượt tuyết núi cao </li>
+        <li> Giá thầu Mùa đông </li>
+        <li> Trượt tuyết băng đồng </li>
+        <li> Trượt tuyết tự do </li>
+        <li> Đạn trượt tuyết </li>
+        <li> Bắc Âu hai </li>
+        <li> Trượt băng (mùa đông) trượt băng (mùa đông) </li>
+        <li> Đi xe trượt băng trên núi / trượt tuyết bogleigh </li>
+        <li> Trượt tuyết trượt tuyết </li>
+        <li> snowboard </li>
+        <li> Trượt băng tốc độ / trượt băng tốc độ ngắn </li>
+        <li> Bobsleigh </li>
+        <li> Trượt băng nghệ thuật </li>
     </ul>
 
 </ul>
 
-<h3>二选一对赛</h3>
+<h3> Hai cặp kết quả phù hợp </h3>
 <ul>
-    <li>所有投注都以双方选手离开起跑线/门视为有效，如果赛事只是单轮比赛，注单结果将依据官方公布为准。 </li>
-    <li>选手获取更高的排位或获取更高的比分将视为获胜选手。当遇到无法判别哪位选手获取更高的排位或比分时，所有注单将被视为无效。 </li>
-    <li>在多轮赛事，如果双方选手都未能晋级下一轮比赛，所有注单将视为无效。如果双方选手都晋级下一轮比赛，但是并未完成比赛，获得最短记录时间或者最高比分的选手将为获胜选手。 </li>
+    <Li> Tất cả cược cho cả hai người chơi rời khỏi vạch xuất phát / cổng coi là hợp lệ nếu sự kiện này chỉ là một vòng duy nhất, cược sẽ được dựa trên các kết quả của thông báo chính thức sẽ được áp dụng. </li>
+    <li> Người chơi đạt điểm cao hơn hoặc có điểm cao hơn sẽ được coi là người chơi chiến thắng. Tất cả mọi phiên cược sẽ bị coi là không hợp lệ khi không thể xác định người chơi nào nhận được thứ hạng hoặc điểm số cao hơn. </li>
+    <li> Trong nhiều vòng đấu, nếu cả hai người chơi không chuyển sang vòng tiếp theo, tất cả mọi phiên cược sẽ được coi là không hợp lệ. Nếu cả hai người chơi tiến vào vòng tiếp theo, nhưng không kết thúc cuộc đua, có được thời gian ghi ngắn hoặc máy nghe nhạc số điểm cao nhất sẽ giành chiến thắng người chơi. </li>
 </ul>
 
-<h3>单项体育规则</h3>
-<ul class="acc_backUL">
-    <h3>冰壶</h3>
+<h3> Quy tắc thể thao đơn </h3>
+<ul class = "acc_backUL">
+    <h3> Curling </h3>
     <ul>
-        <li>所有投注都以最终赛果为准，包括附加局。赛事必须决出胜负注单方可视为有效。对于未能够完成的赛事，所有注单一律视为无效。 </li>
-        <li>指定局获胜方：这种投注是指在指定局中的获胜者。各个指定局必须完成比赛,注单方可视为有效。 </li>
+        <li> Tất cả các cược phải chịu kết quả cuối cùng, bao gồm cả trò chơi bổ sung. Sự kiện phải được xác định bởi người chiến thắng và người thua cuộc. Đối với một sự kiện không thể hoàn tất, tất cả các luật đơn lẻ được coi là không hợp lệ. </li>
+        <li> Người chiến thắng theo Văn phòng được chỉ định: Đặt cược này là người chiến thắng trong văn phòng được chỉ định. Mỗi văn phòng được chỉ định phải hoàn thành cuộc thi và người đặt cược có thể được coi là hợp lệ. </li>
     </ul>
 
-    <h3>冬季两项赛</h3>
+    <h3> Trò chơi phụ </h3>
     <ul>
-        <li>射击比赛（包括对决赛）如果冬季两项赛已经开赛，但是其中一位选手未能完成剩下的比赛，则所有注单一律取消，除非在比赛未完成时，投注项目的结果已经明确，并且之后没有任何显著会影响赛事结果的情况，注单才会被结算。 </li>
+        <Li> cuộc thi bắn súng (bao gồm cả trận chung kết) nếu cuộc đua bắt đầu biathlon đã có, nhưng một trong những người chơi không hoàn thành phần còn lại của trận đấu, thì tất cả cược sẽ bị hủy bỏ, trừ khi các trò chơi không được hoàn thành, kết quả của dự án đã được đặt cược Việc đặt cược sẽ được giải quyết nếu không có tình huống đáng kể nào ảnh hưởng đến kết quả của sự kiện. </li>
     </ul>
 
-    <h3>高山滑雪</h3>
+    <h3> Trượt tuyết núi cao </h3>
     <ul>
-        <li>对决赛：选手在更高的位置滑出即视为获胜者。如果其中一位选手未能参加比赛，所有注单一律视为无效。如果其中一位选手无论由于任何原因，取消参赛资格或者未能完成比赛，则另一选手将视为获胜者。正式比赛官方公布名单的获胜选手，才能被视为正式的优胜者。 （如：在障碍滑雪或者大回转滑雪赛中，双方选手必须完成赛事规定项目）如果双方选手不管任何原因都未能完成比赛，则以通过第一障碍时间计算最短时间差者为获胜方，不考虑双方选手通过多少障碍。 </li>
+        <li> Đến trận chung kết: Người chơi được coi là người chiến thắng khi anh ta ra ngoài ở vị trí cao hơn. Nếu một trong những người chơi không tham gia vào cuộc thi, tất cả các ảnh đơn được coi là không hợp lệ. Nếu một cầu thủ không phân biệt bất kỳ lý do nào, bị loại hoặc thất bại trong việc kết thúc cuộc đua, người chơi khác sẽ được coi là người chiến thắng. Người chiến thắng trong thông báo chính thức chính thức của danh sách chính thức sẽ được coi là người chiến thắng chính thức. (Ví dụ: trong slalom hoặc slalom trượt tuyết khổng lồ chủng tộc, cả hai người chơi phải hoàn thành các quy định cuộc đua dự án) nếu cả hai người chơi vì lý do nào là không thể tiếp tục những nơi trò chơi tính toán chênh lệch thời gian ngắn nhất là người chiến thắng trong những rào cản đầu tiên của thời gian, bất kể Có bao nhiêu trở ngại được thông qua bởi cả hai người chơi. </li>
     </ul>
 </ul>

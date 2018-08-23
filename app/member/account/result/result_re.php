@@ -56,40 +56,40 @@ $result = mysql_query($sql);
           <span class="acc_result_ball">
                     <!--特制下拉罢--->
          <ul class="acc_selectMS">
-			 <li id = "sel_gtype" onClick="showOption('gtype');" class="acc_selectMS_first" >足球</li>
+			 <li id = "sel_gtype" onClick="showOption('gtype');" class="acc_selectMS_first" >Bóng đá</li>
 			 <ul id = "chose_gtype" class="acc_selectMS_options" style="display:none;">
-				 <li id = "gtype_FT" value = "FT">足球</li>
-				 <li id="gtype_BK" value="BK" class="acc_selectBK">篮球 / 美式足球</li>
-				 <li id = "gtype_TN" value = "TN">网球</li>
-				 <li id = "gtype_VB" value = "VB">排球</li>
-				 <li id = "gtype_BM" value = "BM">羽毛球</li>
-				 <li id = "gtype_TT" value = "TT">乒乓球</li>
-				 <li id = "gtype_BS" value = "BS">棒球</li>
-				 <li id = "gtype_SK" value = "SK">斯诺克/台球</li>
-				 <li id = "gtype_OP" value = "OP">其他</li>
+				 <li id = "gtype_FT" value = "FT">Bóng đá</li>
+				 <li id="gtype_BK" value="BK" class="acc_selectBK">Bóng rổ</li>
+				 <li id = "gtype_TN" value = "TN">Quần vợt</li>
+				 <li id = "gtype_VB" value = "VB">Bóng chuyền</li>
+				 <li id = "gtype_BM" value = "BM">Cầu lông</li>
+				 <li id = "gtype_TT" value = "TT">Bóng bàn</li>
+				 <li id = "gtype_BS" value = "BS">Bóng chày</li>
+				 <li id = "gtype_SK" value = "SK">Bi-da / bi-a</li>
+				 <li id = "gtype_OP" value = "OP">Khác</li>
 			 </ul>
 		 </ul>
            </span>
 
            <span class="acc_result_small">
                     <!--特制下拉罢--->
-         <ul class="acc_selectMS"><li id = "sel_type" onClick="showOption('type');" class="acc_selectMS_first">赛事</li>
+         <ul class="acc_selectMS"><li id = "sel_type" onClick="showOption('type');" class="acc_selectMS_first">Sự kiện</li>
 			 <ul id = "chose_type" class="acc_selectMS_options" style="display:none;">
-				 <li id ="Matches" value = "">赛事</li>
-				 <li id ="Outright" value = "FS">冠军</li>
+				 <li id ="Matches" value = "">Sự kiện</li>
+				 <li id ="Outright" value = "FS">Quán quân</li>
 			 </ul>
 			 </li></ul>
           </span>
 
            <span class="acc_result_small">
                     <!--特制下拉罢--->
-          <span class="acc_state_title">选择日期</span>
+          <span class="acc_state_title">Chọn ngày</span>
          <ul class="acc_selectMS">
 			 <li id="date_start" onClick="showDate();" class="acc_selectMS_first"><?=$game_date?></li></ul>
          </span>
 
-		<span class="acc_previous_btn" onclick='setUrl("/app/member/account/result/result.php?game_type=<?=$gtype?>&chg_type=<?=$chg_type?>&list_date=<?=$q_game_date?>&uid=<?=$uid?>&langx=<?=$langx?>")'>前一天</span>
-		<span class="acc_next_btn" onclick='setUrl("/app/member/account/result/result.php?game_type=<?=$gtype?>&chg_type=<?=$chg_type?>&list_date=<?=$h_game_date?>&uid=<?=$uid?>&langx=<?=$langx?>")'>下一天</span>
+		<span class="acc_previous_btn" onclick='setUrl("/app/member/account/result/result.php?game_type=<?=$gtype?>&chg_type=<?=$chg_type?>&list_date=<?=$q_game_date?>&uid=<?=$uid?>&langx=<?=$langx?>")'>Ngày hôm trước</span>
+		<span class="acc_next_btn" onclick='setUrl("/app/member/account/result/result.php?game_type=<?=$gtype?>&chg_type=<?=$chg_type?>&list_date=<?=$h_game_date?>&uid=<?=$uid?>&langx=<?=$langx?>")'>Ngày hôm sau</span>
 	</div>
 	<?php
 
@@ -118,24 +118,24 @@ $result = mysql_query($sql);
 				switch($gtype){
 					case 'FT':
 					case 'OP':
-						$a2 = '上半场';
+						$a2 = 'Nửa đầu';
 						break;
 					case 'BK':
-						$a2 = '加时';
+						$a2 = 'Làm thêm giờ';
 						break;
 					case 'BS':
-						$a2 = '首5局';
+						$a2 = '5 lượt...';
 						break;
 					case 'SK':
 						$a2 = '';
 						break;
 					case 'TN':
-						$a2 = '让局';
+						$a2 = 'Nhường đường';
 						break;
 					case 'VB':
 					case 'BM':
 					case 'TT':
-						$a2 = '让分';
+						$a2 = 'Điểm chấp';
 						break;
 				}
 				?>
@@ -172,20 +172,20 @@ $result = mysql_query($sql);
 							<?php echo date('H:i',strtotime($row['M_Start']))?>
 						</td>
 						<td class="acc_result_team"><?=$MB_Team?> &nbsp;&nbsp;</td>
-						<td class="acc_result_full"><span class="acc_result_post"><?php echo !$row['MB_Inball']?'取消':$row['MB_Inball'];?></span></td>
+						<td class="acc_result_full"><span class="acc_result_post"><?php echo !$row['MB_Inball']?'Hủy bỏ':$row['MB_Inball'];?></span></td>
 						<?php if($gtype != 'SK'){ ?>
-							<td class="acc_result_bg"><span class="acc_result_post"><?php echo !$row['MB_Inball_HR']?'取消':$row['MB_Inball_HR'];?></span></td>
+							<td class="acc_result_bg"><span class="acc_result_post"><?php echo !$row['MB_Inball_HR']?'Hủy bỏ':$row['MB_Inball_HR'];?></span></td>
 						<?php } ?>
 						<?php if($gtype != 'OP'){ ?>
 							<td rowspan="2" class="acc_result_bg">
-								<span class="acc_result_btn" onclick="showResult_new('<?=$row['MID']?>','<?=$langx?>');">所有赛果</span>
+								<span class="acc_result_btn" onclick="showResult_new('<?=$row['MID']?>','<?=$langx?>');">Tất cả kết quả</span>
 							</td>
 						<?php }?>
 					</tr>
 					<tr class="acc_result_tr_other TR_<?=$m_id?>">
 						<td class="acc_result_team"><?=$TG_Team?> &nbsp;&nbsp;</td>
-						<td class="acc_result_full"><span class="BlackWord"><?php echo !$row['TG_Inball']?'取消':$row['TG_Inball'];?></span></td>
-						<td class="acc_result_bg"><span class="acc_cont_bold"><?php echo !$row['TG_Inball_HR']?'取消':$row['TG_Inball_HR'];?></span></td>
+						<td class="acc_result_full"><span class="BlackWord"><?php echo !$row['TG_Inball']?'Hủy bỏ':$row['TG_Inball'];?></span></td>
+						<td class="acc_result_bg"><span class="acc_cont_bold"><?php echo !$row['TG_Inball_HR']?'Hủy bỏ':$row['TG_Inball_HR'];?></span></td>
 					</tr>
 					<?php
 				}

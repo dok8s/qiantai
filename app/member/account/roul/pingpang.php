@@ -1,53 +1,53 @@
-<span class="acc_rules_date">最后更新日期: 29/09/2016</span>
-<h1>乒乓球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Ngày cập nhật lần cuối: 29/09/2016 </span>
+<h1> Bóng bàn </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>所有注单必须以赛事结束方可视为有效，除非另有特别说明。 </li>
-    <li>如果比赛预定时间缩短，或者赛事获胜要求比分提高，所有注单一律无效并取消。 </li>
-    <li>如果赛事延期或中断，只要比赛最后有完成，所有投注将保持有效。</li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将为视为有效投注。在开赛后投注的注单将被视为无效，滚球玩法除外。 </li>
+    <li> Tất cả các cược phải được coi là hợp lệ khi kết thúc sự kiện trừ khi có quy định khác. </li>
+    <li> Nếu thời gian được sắp xếp của trận đấu bị rút ngắn hoặc nếu trận đấu thắng điểm, tất cả các ghi chú sẽ không hợp lệ và bị hủy. </li>
+    <li> Nếu sự kiện bị trì hoãn hoặc bị gián đoạn, tất cả mọi phiên cược sẽ vẫn còn hiệu lực miễn là trận đấu kết thúc. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ bị coi là vô hiệu, ngoại trừ trận đấu. </li>
 </ul>
 
-<h2>投注类型</h2>
+<h2> Loại đặt cược </h2>
 
-<ul class="acc_backUL">
-    <h3>独赢</h3>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng một mình </h3>
     <ul>
-        <li>预测哪个球员将会赢取比赛的胜利。这个比赛包含双方球员。</li>
-    </ul>
-
-    <h3>让盘 / 让局</h3>
-    <ul>
-        <li>预测哪一位球员在盘口指定的让盘/局数赢得比赛。</li>
+        <li> Dự đoán người chơi nào sẽ thắng trò chơi. Trò chơi này chứa cả hai người chơi. </li>
     </ul>
 
-    <h3>总盘/总局数： 大 / 小</h3>
+    <h3> Hãy để / để Ban </h3>
     <ul>
-        <li>预测比赛进行的总盘/局数是大于或小于盘口指定的大小盘局数。</li>
+        <li> Dự đoán người chơi nào thắng trận đấu ở điểm chấp. </li>
     </ul>
 
-    <h3>让分</h3>
+    <h3> Tổng số / Tổng số bảng: lớn / nhỏ </h3>
     <ul>
-        <li>预测在某个时节 哪一位球员在盘口指定的让分数赢得比赛。</li>
+        <li> Tổng số trò chơi / văn phòng được dự đoán bởi trò chơi lớn hơn hoặc ít hơn số lượng vị trí được chỉ định bởi thị trường. </li>
     </ul>
-    <h3>总分： 大 / 小</h3>
+
+    <h3> Tặng điểm </h3>
     <ul>
-        <li>预测提名的球员在某一特定的时间段内的个人总得分将大于或小于盘口指定的总分数线。</li>
+        <li> Dự đoán người chơi nào sẽ thắng trò chơi tại thời điểm chấp. </li>
     </ul>
-    <h3>球员/球队得分 -大/小</h3>
+    <h3> Tổng số điểm: Lớn / Nhỏ </h3>
     <ul>
-        <li>预测主场或客场的总比分是大于还是小于指定盘口。</li>
-        <li>如果赛事中断，除非市场已经派彩或任何将来的得分不会影响到赛果的投注有效，其他所有注单一律视为无效。</li>
+        <li> Tổng số điểm của cá nhân được dự đoán sẽ được đề cử trong một khoảng thời gian cụ thể sẽ lớn hơn hoặc ít hơn tổng số điểm được chỉ định bởi điểm chấp. </li>
     </ul>
-    <h3>波胆</h3>
+    <h3> Điểm của Người chơi / Đội - Lớn / Nhỏ </h3>
     <ul>
-        <li>预测一个特定赛事全场的正确比分。</li>
-        <li>结算将依据相关部门最终公布的比分为准。</li>
-        <li>如果注单在赛事中断前已得到明确的胜负，并且任何进一步的赛果均不会对注单结果产生影响的情况下，注单会被视为有效。</li>
+        <li> Dự đoán tổng số điểm của trò chơi nhà hoặc sân khách có lớn hơn hoặc ít hơn tỷ lệ chấp được chỉ định hay không. </li>
+        <li> Nếu trận đấu bị gián đoạn, tất cả các cược khác sẽ được coi là không hợp lệ trừ khi thị trường đã trả tiền hoặc bất kỳ điểm số nào trong tương lai sẽ không ảnh hưởng đến cược. </li>
     </ul>
-    <h3>单/双</h3>
+    <h3> Dự đoán </h3>
     <ul>
-        <li>预测在某一特定的时间段内比赛进行的总局数、盘数或分数是单数还是双数。</li>
+        <li> Dự đoán điểm chính xác cho một sự kiện cụ thể. </li>
+        <li> Thỏa thuận thu xếp sẽ dựa trên điểm số được công bố cuối cùng của các phòng ban có liên quan. </li>
+        <li> Đặt cược sẽ được coi là hợp lệ nếu cược có người chiến thắng rõ ràng trước khi sự kiện bị gián đoạn và mọi kết quả khác sẽ không ảnh hưởng đến kết quả đặt cược. </li>
+    </ul>
+    <h3> Đơn / Đôi </h3>
+    <ul>
+        <li> Dự đoán tổng số trò chơi, đĩa hoặc điểm số được chơi trong một khoảng thời gian cụ thể là số ít hay thậm chí. </li>
     </ul>
 
 </ul>

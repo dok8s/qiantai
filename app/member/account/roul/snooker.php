@@ -1,41 +1,41 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>斯诺克/台球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Bi-a / Bi-a </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果比赛没有完成，所有的投注将被视为无效，除非另有特别说明。 </li>
-    <li>如果选手未完成赛事，所有投注此选手注单无效。 </li>
-    <li>如果球员在比赛结束前弃权或取消参赛资格，所有投注此赛事的注单一律视为无效，除非在个别体育规则另有特别说明。 </li>
-    <li>如果赛事延期或中断，只要比赛最后有完成，所有投注将保持有效。</li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将为视为有效投注。在开赛后投注的注单将被视为无效， 滚球玩法除外。 </li>
+    <li> Nếu trận đấu không được hoàn thành, tất cả mọi phiên cược sẽ bị coi là vô hiệu trừ khi có quy định khác. </li>
+    <li> Nếu người chơi không hoàn thành sự kiện, tất cả các cược đặt cược của người chơi này sẽ bị vô hiệu. </li>
+    <li> Nếu một cầu thủ bỏ hoặc truất quyền thi đấu trước khi kết thúc trận đấu, mọi cược đặt cho sự kiện này sẽ bị coi là không hợp lệ trừ khi được quy định khác trong các quy tắc thể thao cá nhân. </li>
+    <li> Nếu sự kiện bị trì hoãn hoặc bị gián đoạn, tất cả mọi phiên cược sẽ vẫn còn hiệu lực miễn là trận đấu kết thúc. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ bị coi là vô hiệu, ngoại trừ trận đấu. </li>
 </ul>
 
-<h2>投注类型</h2>
+<h2> Loại đặt cược </h2>
 
-<ul class="acc_backUL">
-    <h3>独赢盘</h3>
+<ul class = "acc_backUL">
+    <h3> Thắng trong nước </h3>
     <ul>
-        <li>预测哪个球员将赢取比赛胜利。这个比赛包含双方球员。</li>
+        <li> Dự đoán người chơi nào sẽ thắng trò chơi. Trò chơi này chứa cả hai người chơi. </li>
     </ul>
 
-    <h3>让分盘</h3>
+    <h3> Hãy để đơn đặt hàng </h3>
     <ul>
-        <li>预测哪个球员将在指定的让局比赛获得胜利。</li>
+        <li> Dự đoán người chơi nào sẽ thắng trong trò chơi được chỉ định. </li>
     </ul>
 
-    <h3>大/小</h3>
+    <h3> Lớn / nhỏ </h3>
     <ul>
-        <li>预测预测赛事总比分将大于或小于指定的盘口。 </li>
-        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大小球投注的注单才会被结算。若遇到任何其他情况，注单将一律被取消。 </li>
+        <li> Dự báo dự đoán tổng số điểm của sự kiện sẽ lớn hơn hoặc thấp hơn tỷ lệ chấp được chỉ định. </li>
+        <li> Nếu có kết quả rõ ràng trước khi sự kiện bị gián đoạn và không có sự kiện quan trọng nào ảnh hưởng đến kết quả của trận đấu, đặt cược vào các cược lớn và nhỏ sẽ được giải quyết. Việc đặt cược sẽ bị hủy nếu có bất kỳ trường hợp nào khác gặp phải. </li>
     </ul>
 
-    <h3>单/双</h3>
+    <h3> Đơn / Đôi </h3>
     <ul>
-        <li>预测赛事的总比分是单数或双数。 </li>
+        <li> Tổng số điểm cho sự kiện được dự đoán là số ít hoặc gấp đôi. </li>
     </ul>
 
-    <h3>局数投注</h3>
+    <h3> Đặt giá thầu </h3>
     <ul>
-        <li>预测哪个球员将会赢得一场指定赛事特定局数的胜利。</li>
-        <li>投注的结算将依据WPBSA最终公布的局数获胜者为准。</li>
+        <li> Dự đoán người chơi nào sẽ giành được một số lượng trò chơi cụ thể trong một sự kiện cụ thể. </li>
+        <li> Việc thanh toán đặt cược sẽ được dựa trên người chiến thắng cuối cùng của WPBSA. </li>
     </ul>
 </ul>

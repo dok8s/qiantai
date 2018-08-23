@@ -1,22 +1,22 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>自行车</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Xe đạp </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>自行车车手需超越比赛的起跑线或参与比赛的阶段，投注的注单才被视为有效。 </li>
-    <li>颁奖仪式公布的名次将视为官方结果，如之后发生取消资格或修改结果的情况将不予以计算考虑。 </li>
+    <li> Người đi xe đạp được yêu cầu vượt quá vạch xuất phát của cuộc đua hoặc tham gia cuộc đua. Đặt cược được coi là hợp lệ. </li>
+    <li> Các bảng xếp hạng được công bố tại lễ trao giải sẽ được coi là kết quả chính thức, nếu không có bất kỳ sự loại trừ hoặc sửa đổi kết quả nào, nó sẽ không được xem xét. </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>冠军投注</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Cá cược vô địch </h3>
     <ul>
-        <li>如果??投注的车手未能出赛，所有注单将保持有效。 </li>
+        <li> Nếu trình điều khiển đặt cược không chơi được, tất cả mọi phiên cược sẽ vẫn hợp lệ. </li>
     </ul>
-    <h3>二选一投注</h3>
+    <h3> Chọn một đặt cược </h3>
     <ul>
-        <li>如果任何一方车手未能出赛，所有注单将被取消。 </li>
-        <li>注单的结算将按照两位车手在比赛后获得的名次为准。 </li>
-        <li>如果两位车手都无法完成比赛或比赛的某个阶段，所有注单将被取消。 </li>
-        <li>如果任何一方车手在开赛后未能完成比赛或比赛的某个阶段，另一位完成比赛或比赛的某个阶段的车手将视为获胜者。 </li>
+        <li> Nếu một trong hai trình điều khiển không chơi được, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Việc thanh toán đặt cược sẽ dựa trên số lượng vị trí thu được của hai trình điều khiển sau trận đấu. </li>
+        <li> Nếu cả hai trình điều khiển không thể hoàn thành một giai đoạn nhất định của trận đấu hoặc trận đấu, tất cả các phiên cược sẽ bị hủy. </li>
+        <li> Nếu một trong hai người lái xe không hoàn thành một cuộc đua hoặc một giai đoạn nhất định của cuộc đua sau khi bắt đầu cuộc đua, người lái xe khác hoàn thành một giai đoạn nhất định của cuộc đua hoặc trận đấu sẽ được coi là người chiến thắng. </li>
     </ul>
 </ul>

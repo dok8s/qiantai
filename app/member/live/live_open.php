@@ -1,7 +1,7 @@
 <div class="liveTV_main">
     <!-- title -->
     <div class="live_header">
-        <h1>观看现场</h1>
+        <h1>Xem cảnh</h1>
     </div>
     <!-- title End -->
 

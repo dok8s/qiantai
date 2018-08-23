@@ -1,75 +1,75 @@
-<span class="acc_rules_date">最后更新日期: 20/09/2016</span>
-<h1>棒球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Ngày cập nhật lần cuối: 20/09/2016 </span>
+<h1> Bóng chày </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果比赛场地有变更，所有注单将被取消。 </li>
-    <li>国际棒球比赛规则:如果比赛最少进行七局后有一队领先10分，或最少进行五局后有一队领先15分，赛事将会提早结束。如果遇此情况，所有的投注将继续保持有效，包括独赢盘，单/双盘，让分盘（让垒盘）和大/小盘（总比分）。 </li>
-    <li>若投注让分盘和大/小盘（总比分），比赛结果以9局后为准（如果对手已经领先，结果便以8局半为准）。如果赛事在加局赛时被保留或中断，比分将以最后一局的结果为准，除非主队打成平局，或在加局赛的下半场已经领先对手，比分将以比赛被保留时的结果为准。 </li>
-    <li>结算时, 加时(局)赛将计算在内，除非另有注明。</li>
-    <li>上半场投注是按照第1局到第5局的结果为准。 </li>
-    <li>下半场投注是按照第6局到第9局的结果为准。出于结算的用意，下半场的加时(局)赛将计算在内。 </li>
-    <li>在不考虑第一投手的情况下，注单将保持有效。 </li>
-    <li>如果赛事是在下半场中断所有上半场的投注保持有效。 </li>
-    <li>如果赛事是在下半场中断，所有下半场和全场的注单将被取消，除非在个别玩法规则另有注明。</li>
-    <li>如果比赛在法定时间提前进行，在比赛开始前的投注依然有效，在比赛开始后的所有投注均视为无效(滚球投注另作别论)。</li>
+    <li> Nếu địa điểm thay đổi, tất cả mọi phiên cược sẽ bị hủy. </li>
+    <Li> cuộc thi bóng chày quốc tế cai trị: sau khi tối thiểu là bảy hiệp nếu trò chơi có một đội ngũ hàng đầu 10 điểm, tương đương tối thiểu là một đội bóng hàng đầu 15 điểm sau năm trận, cuộc đua sẽ kết thúc sớm. Trong trường hợp này, tất cả các cược sẽ vẫn hợp lệ, bao gồm thắng-thắng, đơn / đôi, cho (phân phối) và lớn / nhỏ (tổng số điểm). </li>
+    <Li> Nếu Handicap cá cược và lớn / nắp nhỏ (tổng số điểm), kết quả của cuộc thi để thắng sau 9 phiên (nếu đối thủ có chiến thắng, kết quả sẽ là tùy thuộc vào các hiệp 8 rưỡi). Nếu một trận đấu bị gián đoạn hoặc được giữ lại trong cuộc đua cộng với hiệp, tỷ số sẽ là kết quả của các trận đấu cuối cùng của đối tượng, kết quả trừ khi đội nhà bốc thăm, hoặc một hiệp cộng trong nửa cuối của mùa giải đã là một đối thủ hàng đầu, điểm số sẽ được dành riêng cho các trò chơi Quasi. </li>
+    <li> Tại thời điểm thanh toán, thời gian làm thêm giờ (phòng) sẽ được tính trừ khi có quy định khác. </li>
+    <li> Cược nửa đầu tiên dựa trên kết quả của trận đấu đầu tiên đến trận đấu thứ năm. </li>
+    <li> Cược thứ hai được dựa trên kết quả của vòng 6 đến 9. Đối với mục đích giải quyết, nửa sau của giờ làm thêm (cục) sẽ được tính. </li>
+    <li> Đặt cược sẽ vẫn hợp lệ bất kể người ném bóng đầu tiên. </li>
+    <li> Nếu trận đấu bị gián đoạn trong hiệp hai, tất cả các cược đặt cược đầu tiên sẽ vẫn hợp lệ. </li>
+    <li> Nếu sự kiện bị gián đoạn trong hiệp hai, tất cả các cược thứ hai và toàn bộ sẽ bị hủy trừ khi có quy định khác trong quy tắc chơi cá nhân. </li>
+    <Li> Nếu cuộc đua trước khi cược thời gian theo luật định trước khi bắt đầu cuộc đua vẫn còn hiệu lực, tất cả cược đặt sau khi bắt đầu cuộc đua được coi là không hợp lệ (Live Cược vấn đề riêng biệt). </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>独赢</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng một mình </h3>
     <ul>
-        <li>预测哪一支球队将在比赛胜出。 </li>
-        <li>结算时, 加时(局)赛将计算在内。</li>
+        <li> Dự đoán đội nào sẽ thắng trong trò chơi. </li>
+        <li> Trong dàn xếp, trận đấu thêm giờ (cục) sẽ được tính. </li>
     </ul>
-    <h3>让球</h3>
+    <h3> Hãy để bóng </h3>
     <ul>
-        <li>预测哪一支球队在盘口指定的让分数赢得某个时节或全场比赛。</li>
-        <li>结算时, 加时(局)赛将计算在内。</li>
+        <li> Dự đoán đội nào được phép giành một mùa hoặc trận đấu nhất định trong tỷ lệ chấp. </li>
+        <li> Trong dàn xếp, trận đấu thêm giờ (cục) sẽ được tính. </li>
     </ul>
-    <h3>滚球让球</h3>
+    <h3> Bóng ròng rọc vào bóng </h3>
     <ul>
-        <li>预测哪一支球队在盘口指定的让分数赢得某个时节或全场比赛。 </li>
-        <li>结算时, 加时(局)赛将计算在内。</li>
+        <li> Dự đoán đội nào được phép giành một mùa hoặc trận đấu nhất định trong tỷ lệ chấp. </li>
+        <li> Trong dàn xếp, trận đấu thêm giờ (cục) sẽ được tính. </li>
     </ul>
-    <h3>总得分:  大 / 小</h3>
+    <h3> Tổng số điểm: Lớn / Nhỏ </h3>
     <ul>
-        <li>预测赛事总比分将大于或小于在盘口指定的大/小盘分数。 </li>
-        <li>结算时, 加时(局)赛将计算在内。</li>
-        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大/小盘注单才会被结算。若遇到任何其他情况，注单将一律被取消。 </li>
-        <li>如果赛事在上半场中断，所有注单将被取消，除非中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况注单才会被结算。</li>
-        <li>如果赛事在下半场取消或中断，所有上半场注单保持有效。 </li>
-        <li>如果赛事在下半场取消或中断，所有下半场和全场注单将被取消，除非中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况注单才会被结算。</li>
+        <li> Tổng số điểm của sự kiện được dự đoán sẽ lớn hơn hoặc nhỏ hơn số điểm tối đa / nhỏ được chỉ định tại điểm chấp. </li>
+        <li> Trong dàn xếp, trận đấu thêm giờ (cục) sẽ được tính. </li>
+        <li> Đặt cược lớn / nhỏ sẽ được giải quyết nếu có kết quả rõ ràng trước giờ nghỉ và sẽ không có tác động đáng kể đến kết quả trận đấu. Việc đặt cược sẽ bị hủy nếu có bất kỳ trường hợp nào khác gặp phải. </li>
+        <Li> Nếu một trận đấu bị gián đoạn trong nửa đầu, tất cả cược sẽ bị hủy bỏ, mà không cần bất kỳ sự kiện quan trọng sẽ ảnh hưởng đến kết quả của cược sẽ được giải quyết sau khi nghỉ ngơi trước khi trừ trường hợp có rõ ràng và kết quả. </li>
+        <li> Nếu sự kiện bị hủy hoặc bị gián đoạn trong hiệp hai, tất cả các cược đặt cược đầu tiên vẫn hợp lệ. </li>
+        <Li> Nếu một trận đấu bị hủy hoặc bị gián đoạn trong hiệp hai, hiệp hai và khán giả tất cả cược sẽ bị hủy bỏ, mà không cần bất kỳ sự kiện quan trọng sẽ ảnh hưởng đến kết quả của cược sẽ được giải quyết sau khi nghỉ ngơi trước khi trừ trường hợp có rõ ràng và kết quả. </li>
     </ul>
-    <h3>滚球总得分:  大 / 小</h3>
+    <h3> Tổng số điểm bóng: Lớn / Nhỏ </h3>
     <ul>
-        <li>预测赛事总比分将大于或小于在盘口指定的大/小盘分数。 </li>
-        <li>结算是以0-0的比分按盘口开出的大小盘让分数做裁决。投注当时的比分对结算没有影响。 </li>
-        <li>结算时, 加时(局)赛将计算在内。 </li>
+        <li> Tổng số điểm của sự kiện được dự đoán sẽ lớn hơn hoặc nhỏ hơn số điểm tối đa / nhỏ được chỉ định tại điểm chấp. </li>
+        <li> Việc thanh toán được dựa trên kích thước của điểm số 0-0 trên thị trường. Việc đặt cược vào thời điểm đó không ảnh hưởng đến việc giải quyết. </li>
+        <li> Trong dàn xếp, trận đấu thêm giờ (cục) sẽ được tính. </li>
     </ul>
-    <h3>总得分:  单 / 双</h3>
+    <h3> Tổng số điểm: Đơn / Đôi </h3>
     <ul>
-        <li>预测赛事的总比分是单数或双数。 </li>
-        <li>结算时, 加时(局)赛将计算在内。</li>
+        <li> Tổng số điểm cho sự kiện được dự đoán là số ít hoặc gấp đôi. </li>
+        <li> Trong dàn xếp, trận đấu thêm giờ (cục) sẽ được tính. </li>
     </ul>
-    <h3>独赢 - 前5局</h3>
+    <h3> Chiến thắng một mình - Top 5 lượt chơi </h3>
     <ul>
-        <li>预测哪支球队将在前5局结束时获胜或者打平。</li>
-        <li>只提供于此时间段，不适用于赛事结束时的最终比分</li>
+        <li> Dự đoán đội nào sẽ thắng hoặc hòa vào cuối 5 hiệp đầu tiên. </li>
+        <li> Chỉ có sẵn cho khoảng thời gian này, không dành cho điểm số cuối cùng ở cuối sự kiện </li>
     </ul>
-    <h3>球队得分 - 大/小盘</h3>
+    <h3> Điểm Đội - Lớn / Nhỏ </h3>
     <ul>
-        <li>预测指定的球队总跑垒得分将大于或小于盘口指定的大/小盘分数。</li>
-        <li>结算包括加时赛局</li>
+        <li> Tổng số điểm của đội dự đoán sẽ lớn hơn hoặc ít hơn số điểm lớn / nhỏ được chỉ định cho điểm chấp. </li>
+        <li> Dàn xếp bao gồm trò chơi làm thêm giờ </li>
     </ul>
-    <h3>净胜分数</h3>
+    <h3> Điểm thắng ròng </h3>
     <ul>
-        <li>预测哪一支球队将赢得这场比赛并比他们的对手多多少</li>
-        <li>举例：A队最后得分是12，B队最后得分是8，那么“净胜分数”就是4。</li>
-        <li>结算包括加时赛局</li>
+        <li> Dự đoán đội nào sẽ giành chiến thắng trò chơi này và bao nhiêu hơn đối thủ của họ </li>
+        <li> Ví dụ: Điểm số cuối cùng của Đội A là 12 và điểm cuối cùng của Đội B là 8, do đó, "điểm thắng ròng" là 4. </li>
+        <li> Dàn xếp bao gồm trò chơi làm thêm giờ </li>
     </ul>
-    <h3>加时赛</h3>
+    <h3> Làm thêm giờ </h3>
     <ul>
-        <li>预测赛事是否超出常规9局时间（除非另有说明）。</li>
-        <li>出于结算的目的，任何常规的比赛延长到第10局或更多，将被视为进入“加时赛”。</li>
+        <li> Dự đoán nếu sự kiện vượt quá thời gian 9 trò chơi thông thường (trừ khi có quy định khác). </li>
+        <li> Vì mục đích dàn xếp, bất kỳ trò chơi thông thường nào kéo dài đến lượt chơi thứ 10 trở lên sẽ được coi là nhập "làm thêm giờ". </li>
     </ul>
 </ul>

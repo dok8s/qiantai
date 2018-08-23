@@ -1,77 +1,77 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>冰球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Khúc côn cầu </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果原定比赛场地更改，所有的投注将被视为无效。</li>
-    <li>在没有特别说明的情况下，赛事必须正常进行至少55分钟，注单才被视为有效。</li>
-    <li>在罚球中，获胜方会在赛事结束后的最终比分上加一分。</li>
-    <li>在赛节投注中，特殊的赛节必须全部完成则注单才被视为有效，除非有明确说明或者个别投注规则。其他情况下，注单将一律取消。</li>
-    <li>第三节赛节投注不包括加时赛和罚球赛。</li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单被视为有效投注。在开赛后投注的注单将被视为无效投注，滚球投注类型不包括在内。</li>
-    <li>除了在有特别说明的情况下,加时赛并不计算在内。</li>
+    <li> Nếu địa điểm ban đầu thay đổi, tất cả mọi phiên cược sẽ bị hủy. </li>
+    <li> Cược phải có hiệu lực trong ít nhất 55 phút mà không có chỉ dẫn đặc biệt. </li>
+    <li> Trong lượt chơi miễn phí, người chiến thắng sẽ thêm một điểm vào điểm số cuối cùng sau sự kiện. </li>
+    <li> Trong một trận đấu đặt cược, đặt cược phải được coi là hợp lệ nếu giai đoạn đặc biệt phải được hoàn thành, trừ khi được quy định rõ ràng hoặc quy tắc cá cược cá nhân. Trong các trường hợp khác, cược sẽ bị hủy. </li>
+    <li> Cá cược quý III không bao gồm làm thêm giờ và ném miễn phí. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ được coi là đặt cược không hợp lệ và loại đặt cược sẽ không được bao gồm. </li>
+    <li> Ngoài các hướng dẫn đặc biệt, giờ làm thêm không được tính. </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>独赢盘(优胜者) </h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng Người chiến thắng (Người chiến thắng) </h3>
     <ul>
-        <li>预测哪支球队将赢得比赛。</li>
+        <li> Dự đoán đội nào sẽ giành chiến thắng trong trò chơi. </li>
 
     </ul>
 
-    <h3>1 X 2（独赢盘）</h3>
+    <h3> 1 X 2 (thắng-thắng) </h3>
     <ul>
-        <li>预测哪支球队将赢得比赛/赛节。 盘口提供两支球队和平局为投注选项。加时赛并不计算在内。</li>
+        <li> Dự đoán đội nào sẽ thắng liên hoan trò chơi / thể thao. Hai đội và Văn phòng Hòa bình được cung cấp như là lựa chọn cá cược. Làm thêm giờ không được tính. </li>
 
     </ul>
 
-    <h3>让球</h3>
+    <h3> Hãy để bóng </h3>
     <ul>
-        <li>预测哪支球队将获得让球比赛/赛节的胜利。</li>
+        <li> Dự đoán đội nào sẽ giành chiến thắng trong lễ hội thể thao / khuyết tật. </li>
     </ul>
 
-    <h3>滚球让球</h3>
+    <h3> Bóng ròng rọc vào bóng </h3>
     <ul>
-        <li>预测哪支球队将获得让球比赛/赛节的胜利。</li>
+        <li> Dự đoán đội nào sẽ giành chiến thắng trong lễ hội thể thao / khuyết tật. </li>
     </ul>
 
-    <h3>大/小(球)</h3>
+    <h3> Lớn / nhỏ (bóng) </h3>
     <ul>
-        <li>预测赛事/赛节总进球数将大于或小于盘口分数。</li>
-        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大小球投注的注单才会被结算。 若遇到任何其他情况，注单将一律被取消。</li>
+        <li> Tổng số mục tiêu được dự đoán cho sự kiện / môn thể thao sẽ lớn hơn hoặc ít hơn điểm chấp. </li>
+        <li> Nếu có kết quả rõ ràng trước khi sự kiện bị gián đoạn và không có sự kiện quan trọng nào ảnh hưởng đến kết quả của trận đấu, đặt cược vào các cược lớn và nhỏ sẽ được giải quyết. Việc đặt cược sẽ bị hủy nếu có bất kỳ trường hợp nào khác gặp phải. </li>
     </ul>
 
-    <h3>滚球大/小（球）</h3>
+    <h3> Lăn bóng lớn / nhỏ (bóng) </h3>
     <ul>
-        <li>预测赛事/赛节总进球数将大于或小于盘口分数。</li>
-        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大小球投注的注单才会被结算。 若遇到任何其他情况，注单将一律被取消。</li>
+        <li> Tổng số mục tiêu được dự đoán cho sự kiện / môn thể thao sẽ lớn hơn hoặc ít hơn điểm chấp. </li>
+        <li> Nếu có kết quả rõ ràng trước khi sự kiện bị gián đoạn và không có sự kiện quan trọng nào ảnh hưởng đến kết quả của trận đấu, đặt cược vào các cược lớn và nhỏ sẽ được giải quyết. Việc đặt cược sẽ bị hủy nếu có bất kỳ trường hợp nào khác gặp phải. </li>
     </ul>
 
-    <h3>单/双</h3>
+    <h3> Đơn / Đôi </h3>
     <ul>
-        <li>预测赛事/赛节总进球数为单或者双。</li>
+        <li> Tổng số bàn thắng được ghi trong sự kiện / lịch thi đấu là một hoặc hai lần. </li>
 
     </ul>
 
-    <h3>最先进球球队</h3>
+    <h3> Nhóm nâng cao nhất </h3>
     <ul>
-        <li>预测哪支球队将最先得分。</li>
-        <li>无论赛事在任何时间点取消，只要有一队在赛事取消前已经得分，所有的投注将被视为有效。</li>
-        <li>如果在赛事取消时未有任何一方得分，所有的注单将一律被取消。</li>
+        <li> Dự đoán đội nào sẽ ghi bàn trước. </li>
+        <li> Trong khi sự kiện bị hủy tại bất kỳ thời điểm nào, miễn là một đội đã ghi bàn trước khi sự kiện bị hủy, tất cả các phiên cược sẽ được coi là hợp lệ. </li>
+        <li> Nếu không có điểm nào khi trận đấu bị hủy, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>最后进球球队</h3>
+    <h3> Nhóm mục tiêu cuối cùng </h3>
     <ul>
-        <li>预测哪支球队将最后得分。</li>
-        <li>如果在赛事取消时未有任何一方得分，所有的注单将一律被取消。</li>
+        <li> Dự đoán đội nào sẽ ghi bàn cuối cùng. </li>
+        <li> Nếu không có điểm nào khi trận đấu bị hủy, tất cả mọi phiên cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>球队最高得分的赛节</h3>
+    <h3> Lễ hội ghi bàn cao nhất của đội </h3>
     <ul>
-        <li>预测哪支球队在一场赛事中将获得最高的赛节得分。</li>
-        <li>加时赛不计算在内。</li>
-        <li>如果赛事取消，所有注单将一律被取消。</li>
-        <li>如果赛事在3节正常比赛时间结束后未有任何一队得分，所有的注单将一律被取消。</li>
+        <li> Dự đoán đội nào sẽ nhận được điểm số cao nhất trong một trò chơi. </li>
+        <li> Làm thêm giờ không được tính. </li>
+        <li> Nếu sự kiện bị hủy, tất cả mọi phiên cược sẽ bị hủy. </li>
+        <li> Nếu trận đấu không có bất kỳ điểm số đội nào sau khi kết thúc thời gian bình thường của 3 phiên, tất cả các phiên cược sẽ bị hủy. </li>
     </ul>
 
 

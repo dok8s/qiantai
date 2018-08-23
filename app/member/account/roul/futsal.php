@@ -1,53 +1,53 @@
-<span class="acc_rules_date">最后更新日期: 21/09/2016</span>
-<h1>室内足球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 21/09/2016 </span>
+<h1> Bóng đá trong nhà </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果比赛场地有变更，所有注单将被取消。 </li>
-    <li>所有投注的结算皆以全场40分钟完场时间后的最终赛果为准。</li>
-    <li>除非另有注明，所有室内足球投注的结算皆以球赛下半场（每半场20分钟）完赛后的最终赛果为准。</li>
-    <li>如比赛在法定时间提前进行，在比赛开始前的投注依然有效，在比赛开始后的所有投注均视为无效(滚球投注另作别论)。</li>
+    <li> Nếu địa điểm thay đổi, tất cả mọi phiên cược sẽ bị hủy. </li>
+    <li> Việc thanh toán tất cả các cược sẽ được dựa trên kết quả cuối cùng sau 40 phút của trận đấu. </li>
+    <li> Trừ khi có quy định khác, tất cả các cược bóng trong nhà sẽ được giải quyết trong hiệp hai của trận đấu (20 phút mỗi hiệp). </li>
+    <Li> như cạnh tranh trong trước theo luật định về thời gian, trước khi bắt đầu cá cược đua vẫn còn hiệu lực, tất cả cược đặt sau khi bắt đầu cuộc đua được coi là không hợp lệ (Live Cược vấn đề riêng biệt). </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>独赢</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng một mình </h3>
     <ul>
-        <li>预测哪一支球队将在比赛胜出。盘口提供两支球队和平局为投注选项。 </li>
+        <li> Dự đoán đội nào sẽ thắng trong trò chơi. Hai đội và Văn phòng Hòa bình được cung cấp như là lựa chọn cá cược. </li>
     </ul>
-    <h3>让球</h3>
+    <h3> Hãy để bóng </h3>
     <ul>
-        <li>预测哪一支球队在盘口指定的让球数赢得某个时节或全场比赛。 </li>
+        <li> Dự đoán đội nào sẽ thắng một mùa hoặc trận đấu nhất định tại điểm chấp. </li>
     </ul>
-    <h3>滚球让球</h3>
+    <h3> Bóng ròng rọc vào bóng </h3>
     <ul>
-        <li>预测哪一支球队在盘口指定的让球数赢得某个时节或全场比赛。 </li>
-        <li>结算是以投注时到比赛/时节结束后的赛果做裁决。即是以赛事完场比分减去投注当时的比分。</li>
+        <li> Dự đoán đội nào sẽ thắng một mùa hoặc trận đấu nhất định tại điểm chấp. </li>
+        <li> Dàn xếp dựa trên kết quả của cược vào cuối trận đấu / thời gian. Tức là, số điểm đặt cược tại thời điểm trận đấu được trừ từ số điểm của trận đấu. </li>
     </ul>
-    <h3>大/小</h3>
+    <h3> Lớn / nhỏ </h3>
     <ul>
-        <li>预测赛事总入球数将大于或小于在盘口指定的大/小盘球数。 </li>
-        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大/小盘注单才会被结算。若遇到任何其他情况，注单将一律被取消。 </li>
+        <li> Tổng số bàn thắng ghi được trong trận đấu sẽ lớn hơn hoặc ít hơn số lượng quả bóng lớn / nhỏ quy định tại điểm chấp. </li>
+        <li> Đặt cược lớn / nhỏ sẽ được giải quyết nếu có kết quả rõ ràng trước giờ nghỉ và sẽ không có tác động đáng kể đến kết quả trận đấu. Việc đặt cược sẽ bị hủy nếu có bất kỳ trường hợp nào khác gặp phải. </li>
     </ul>
-    <h3>滚球大/小</h3>
+    <h3> Lăn bóng lớn / nhỏ </h3>
     <ul>
-        <li>预测赛事总入球数将大于或小于在盘口指定的大/小盘球数。 </li>
-        <li>结算是以比赛/时节结束后的总入球数做裁决。投注当时，赛事的比分将视为0-0来计算。 </li>
+        <li> Tổng số bàn thắng ghi được trong trận đấu sẽ lớn hơn hoặc ít hơn số lượng quả bóng lớn / nhỏ quy định tại điểm chấp. </li>
+        <li> Dàn xếp dựa trên tổng số bàn thắng ghi được sau trận đấu / thời gian. Tại thời điểm đặt cược, số điểm của sự kiện sẽ được tính là 0-0. </li>
     </ul>
-    <h3>单/双</h3>
+    <h3> Đơn / Đôi </h3>
     <ul>
-        <li>预测赛事的总入球数是单数或双数。 </li>
+        <li> Tổng số bàn thắng được ghi cho sự kiện này là số ít hoặc gấp đôi. </li>
     </ul>
-    <h3>最先得分球队</h3>
+    <h3> Đội ghi bàn đầu tiên </h3>
     <ul>
-        <li>预测最先进球的球队。 </li>
-        <li>如果赛事在有进球后中断，所有最先进球球队的注单将保持有效。 </li>
-        <li>如果赛事在没有球队进球前中断，所有最先进球球队的注单将被取消。 </li>
-        <li>如果赛事在两个半场结束后没有球队进球，所有最先进球球队的注单将被取消。 </li>
+        <li> Nhóm dự đoán các mục tiêu nâng cao nhất. </li>
+        <li> Nếu sự kiện bị gián đoạn sau một mục tiêu, cược của tất cả các đội nâng cao nhất sẽ vẫn hợp lệ. </li>
+        <li> Nếu trận đấu bị gián đoạn trước khi điểm số của đội, tất cả các cược của đội bóng cao cấp nhất sẽ bị hủy. </li>
+        <li> Nếu trận đấu không ghi bàn sau hai hiệp đấu, cược của tất cả các đội cao cấp nhất sẽ bị hủy. </li>
     </ul>
-    <h3>最后得分球队</h3>
+    <h3> Đội điểm số cuối cùng </h3>
     <ul>
-        <li>预测最后进球的球队。 </li>
-        <li>如果赛事中断，所有最后进球球队的注单将被取消。 </li>
-        <li>如果赛事在两个半场结束后没有球队进球，所有最后进球球队的注单将被取消。 </li>
+        <li> Nhóm dự đoán mục tiêu cuối cùng. </li>
+        <li> Nếu trận đấu bị gián đoạn, tất cả các cược vào đội ghi bàn cuối cùng sẽ bị hủy. </li>
+        <li> Nếu trận đấu không ghi bàn sau khi kết thúc hiệp hai, tất cả các cược của đội ghi bàn cuối cùng sẽ bị hủy. </li>
     </ul>
 </ul>

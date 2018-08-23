@@ -1,45 +1,45 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>水球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Bóng nước </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>在没有特别说明的情况下，所有的投注皆以在32分钟完场时间所产生的赛果而定，不包括加时或罚球。 </li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将为视为有效投注。在开赛后投注的注单将被视为无效， 滚球玩法除外。 </li>
-    <li>如果原定比赛场地更改， 所有的投注将被视为无效。 </li>
+    <li> Trừ khi được quy định khác, tất cả các cược được dựa trên kết quả của thời gian kết thúc 32 phút, không bao gồm làm thêm giờ hoặc ném miễn phí. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ bị coi là vô hiệu, ngoại trừ trận đấu. </li>
+    <li> Nếu địa điểm ban đầu thay đổi, tất cả mọi phiên cược sẽ bị hủy. </li>
 </ul>
 
-<h2>投注类型</h2>
+<h2> Loại đặt cược </h2>
 
-<ul class="acc_backUL">
-    <h3>1 x 2独赢</h3>
+<ul class = "acc_backUL">
+    <h3> 1 x 2 thắng một mình </h3>
     <ul>
-        <li>预测哪一方将获得比赛的胜利。这个投注方式将包含2个球队和平局的投注选项。 </li>
+        <li> Dự đoán bên nào sẽ thắng trò chơi. Đặt cược này sẽ bao gồm các lựa chọn cá cược cho 2 đội và Cục Hòa bình. </li>
     </ul>
 
-    <h3>让球</h3>
+    <h3> Hãy để bóng </h3>
     <ul>
-        <li>预测哪一方将获得让球比赛/赛节的胜利。 </li>
+        <li> Dự đoán bên nào sẽ giành chiến thắng trong trận đấu thể thao / khuyết tật. </li>
     </ul>
 
-    <h3>滚球让球</h3>
+    <h3> Bóng ròng rọc vào bóng </h3>
     <ul>
-        <li>预测哪一方将在让球盘比赛/赛节的胜利。 </li>
-        <li>滚球让球盘的输赢是以比赛最终比分减去投注当时的比赛比分，在计算让球分数下根据比分差来评判输赢。 </li>
+        <li> Cải thiện bên nào sẽ tham gia trò chơi / trò chơi thể thao. </li>
+        <li> Kéo bóng để thắng hoặc thua trò chơi dựa trên điểm số cuối cùng của trò chơi trừ đi điểm số trận đấu cá cược, và điểm thắng được tính dựa trên chênh lệch điểm. </li>
     </ul>
 
-    <h3>大/小(球)</h3>
+    <h3> Lớn / nhỏ (bóng) </h3>
     <ul>
-        <li>预测赛事总进球数将大于或小于指定的盘口。 </li>
-        <li>如果赛事取消，大小球投注会赛事已经确认任何潜在因素并不会影响最总赛果情况下结算。其他情况下，注单将一律取消。 </li>
+        <li> Tổng số mục tiêu được dự đoán cho sự kiện sẽ lớn hơn hoặc ít hơn tỷ lệ chấp được chỉ định. </li>
+        <li> Nếu sự kiện bị hủy, cá cược lớn và nhỏ sẽ xác nhận rằng mọi yếu tố tiềm năng sẽ không ảnh hưởng đến việc giải quyết tổng số kết quả nhất. Trong các trường hợp khác, cược sẽ bị hủy. </li>
     </ul>
 
-    <h3>滚球大/小（球）</h3>
+    <h3> Lăn bóng lớn / nhỏ (bóng) </h3>
     <ul>
-        <li>预测总进球数将大于或小于指定的盘口</li>
-        <li>滚球大小球比分以0-0开始计算，派彩是根据最终的比分为准。 </li>
+        <li> Tổng số mục tiêu được dự đoán sẽ lớn hơn hoặc nhỏ hơn tỷ lệ chấp được chỉ định </li>
+        <li> Điểm số bóng của quả bóng bắt đầu bằng 0-0 và khoản thanh toán được dựa trên điểm số cuối cùng. </li>
     </ul>
 
-    <h3>单/双</h3>
+    <h3> Đơn / Đôi </h3>
     <ul>
-        <li>预测赛事的总进球数是单数或双数。 </li>
+        <li> Tổng số mục tiêu được dự đoán cho sự kiện là số ít hoặc đôi. </li>
     </ul>
 </ul>

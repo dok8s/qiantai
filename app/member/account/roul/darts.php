@@ -1,193 +1,193 @@
-<span class="acc_rules_date">最后更新日期: 01/03/2016</span>
-<h1>飞镖</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 01/03/2016 </span>
+<h1> Phi tiêu </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果投注的选手没有参与比赛，所有所有投注此选手的注意将被取消。</li>
-    <li>如果一个选手在比赛未结束前退出或被取消比赛资格，这场比赛的所有投注将视为无效，除非另有说明。</li>
-    <li>如果比赛或赛事取消，中断或延迟并且没有在官方指定开球时间的12小时内重新开始，所有该场赛事的投注即被视为无效且取消，除非在个别体育规则里另有指定注明。公司取消该赛事所有注单的结果被视为最终决定，无需参考官方赛事裁判或相关部门的决定。</li>
-    <li>如果比赛在法定时间提前进行，只有在比赛开始前的投注仍然有效。比赛开始后的所有投注将被视为无效。（滚球投注另作别论）。</li>
+    <li> Nếu người chơi cá cược không tham gia cuộc thi, tất cả các cược của người chơi này sẽ bị hủy. </li>
+    <li> Nếu người chơi thoát hoặc bị loại trước khi kết thúc trận đấu, tất cả các phiên cược trong trận đấu này sẽ bị coi là vô hiệu trừ khi có quy định khác. </li>
+    <li> Nếu trận đấu hoặc sự kiện bị hủy, bị gián đoạn hoặc bị trì hoãn và không khởi động lại trong vòng 12 giờ kể từ thời gian tee chính thức, tất cả các cược trong trận đấu đó được coi là không hợp lệ và bị hủy trừ khi được quy định khác trong các quy tắc thể thao cá nhân Lưu ý. Kết quả của công ty hủy bỏ tất cả các phiên cược trong sự kiện được coi là cuối cùng và không cần phải tham khảo trọng tài chính thức hoặc quyết định của bộ phận liên quan. </li>
+    <li> Nếu trận đấu được nâng cao theo thời gian hợp pháp, chỉ các cược sẽ có hiệu lực trước khi bắt đầu trận đấu. Tất cả các cược đặt sau khi bắt đầu trận đấu sẽ bị hủy. (Chơi cá cược là một vấn đề khác). </li>
 
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>优胜者</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Người chiến thắng </h3>
     <ul>
-        <li>预测哪一位选手将会在指定比赛中胜出。</li>
-        <li>如果比赛没有完成，相关机构所宣布的胜者玩家将会被视为优胜者。</li>
-        <li>这个市场根据赛事可提供二项或者三项选择。</li>
-        <li>如果二项投注中出现平局,那么所有注单将视为无效。</li>平局的选项将包含在三项投注的选项中。</li>
-    </ul>
+        <li> Dự đoán người chơi nào sẽ thắng trong trận đấu được chỉ định. </li>
+        <li> Nếu trò chơi không được hoàn thành, người chiến thắng được công bố bởi các cơ quan liên quan sẽ được coi là người chiến thắng. </li>
+        <li> Thị trường này cung cấp hai hoặc ba tùy chọn tùy thuộc vào sự kiện. </li>
+        <li> Nếu có sự ràng buộc trong hai cược, tất cả mọi phiên cược sẽ được coi là không hợp lệ. </li> Các tùy chọn cho trận hòa sẽ được bao gồm trong các tùy chọn cho ba cược. </li>
+</ul>
 
 
-    <h3>优胜者（盘）</h3>
-    <ul>
-        <li>预测哪一位选手将成为市场名单中指定盘的获胜者。</li>
-        <li>如果指定盘未能完成，所有投注在该市场的注单将被视为无效。</li>
-        <li>如果指定盘已完成，但是赛事没有完成，所有投注在这个市场的注单将被视为有效。</li>
-    </ul>
+<h3> Người chiến thắng (đĩa) </h3>
+<ul>
+    <li> Dự đoán người chơi nào sẽ là người chiến thắng của đĩa được chỉ định trong danh sách thị trường. </li>
+    <li> Nếu lệnh được chỉ định không được hoàn thành, tất cả các cược đặt trên thị trường sẽ bị coi là không hợp lệ. </li>
+    <li> Nếu lệnh được chỉ định hoàn thành nhưng trận đấu chưa hoàn thành, tất cả các cược đặt trên thị trường này sẽ được coi là hợp lệ. </li>
+</ul>
 
 
-    <h3>(局) 优胜者</h3>
-    <ul>
-        <li>预测哪一位选手将是市场名单中指定局的获胜者。</li>
-        <li>局可能是特定的赛事其中一局的局数或特定赛事其中一盘的局数。</li>
-        <li>如果指定局未能完成，所有在这个市场的投注将被视为无效。</li>
-        <li>如果指定盘已完成，但是赛事没有完成，所有投注在这个市场的注单将被视为有效。</li>
-    </ul>
+<h3> Người chiến thắng </h3>
+<ul>
+    <li> Dự đoán người chơi nào sẽ là người chiến thắng của văn phòng được chỉ định trong danh sách thị trường. </li>
+    <li> Văn phòng có thể là số lượng trò chơi trong một trong các sự kiện cụ thể hoặc số lượng trò chơi trong một trong các sự kiện cụ thể. </li>
+    <li> Nếu văn phòng được chỉ định không hoàn thành, tất cả các cược đặt tại thị trường này sẽ bị coi là vô hiệu. </li>
+    <li> Nếu lệnh được chỉ định hoàn thành nhưng trận đấu chưa hoàn thành, tất cả các cược đặt trên thị trường này sẽ được coi là hợp lệ. </li>
+</ul>
 
 
-    <h3>波胆</h3>
-    <ul>
-        <li>在比赛结束时预测正确的比分。</li>
-        <li>如果比赛是基于“局”的话，每位选手的总局数记录将被采用。</li>
-        <li>如果比赛是基于“盘“的话，每位选手的总盘数记录将被采用。</li>
-        <li>如果全场比赛没有完成，所有的投注将会被视为无效。</li>
-    </ul>
+<h3> Dự đoán </h3>
+<ul>
+    <li> Dự đoán điểm chính xác ở cuối trò chơi. </li>
+    <li> Nếu trò chơi dựa trên "Cục", tổng số bản ghi cho mỗi người chơi sẽ được sử dụng. </li>
+    <li> Nếu trò chơi dựa trên "đĩa", tổng số bản ghi cho mỗi người chơi sẽ được sử dụng. </li>
+    <li> Nếu trò chơi không được hoàn thành, tất cả mọi phiên cược sẽ bị hủy. </li>
+</ul>
 
 
-    <h3>让球</h3>
-    <ul>
-        <li>预测赛事在盘口指定的让球数上的结果。</li>
-        <li>如果赛事是以“局”为基础，这个让球的提供将以最后局的得分为基础。</li>
-        <li>如果赛事是以“盘”为基础，这个让球的提供将以最后盘的得分为基础
-        <li>如果比赛没有完成，那么所有的赌注将是无效的，除非赛事已有明确结果。</li>
-    </ul>
+<h3> Hãy để bóng </h3>
+<ul>
+    <li> Dự đoán kết quả trận đấu dựa trên số điểm chấp được gán cho điểm chấp. </li>
+    <li> Nếu sự kiện dựa trên "Bảng", quả bóng sẽ được cung cấp dựa trên điểm số cuối cùng. </li>
+    <li> Nếu sự kiện dựa trên "đĩa", phiếu mua hàng sẽ dựa trên điểm số cuối cùng.
+    <li> Nếu trận đấu không được hoàn thành, thì tất cả mọi phiên cược sẽ bị vô hiệu trừ khi trận đấu có kết quả rõ ràng. </li>
+</ul>
 
-    <h3>总局数：大/小</h3>
-    <ul>
-        <li>预测赛事的总局数将大于或小于赛事指定的大/小局分数。</li>
-        <li>如果比赛没有完成，那么所有的赌注将是无效的，除非赛事已有明确结果。</li>
-    </ul>
+<h3> Số chung: Lớn / nhỏ </h3>
+<ul>
+    <li> Tổng số trò chơi được dự đoán cho sự kiện sẽ lớn hơn hoặc nhỏ hơn số điểm tối đa / nhỏ được chỉ định bởi sự kiện. </li>
+    <li> Nếu trận đấu không được hoàn thành, thì tất cả mọi phiên cược sẽ bị vô hiệu trừ khi trận đấu có kết quả rõ ràng. </li>
+</ul>
 
-    <h3>总局数-X盘</h3>
-    <ul>
-        <li>预测在特定盘的范围内的确切的局数。</li>
-        <li>如果特定的盘没有完成，所有的投注是无效的。</li>
-        <li>如果特定盘有完成，但赛事并没有完成，那么所有投注在这个市场上的注单将被视为有效。</li>
-    </ul>
+<h3> Tổng số đĩa văn phòng-X </h3>
+<ul>
+    <li> Dự đoán số vòng chính xác trong một loạt các đĩa cụ thể. </li>
+    <li> Nếu một đĩa cụ thể không được hoàn thành, tất cả các cược sẽ bị vô hiệu. </li>
+    <li> Nếu một đơn đặt hàng cụ thể được hoàn thành nhưng sự kiện không được hoàn thành, thì tất cả các cược đặt trên thị trường này sẽ được coi là hợp lệ. </li>
+</ul>
 
-    <h3>总盘数：大/小</h3>
-    <ul>
-        <li>预测赛事的总盘数将大于或小于赛事指定的大/小盘分数。</li>
-        <li>如果赛事没有完成，那么所有的赌注将是无效的，除非赛事已有明确结果。</li>
-    </ul>
-
-
-    <h3>首先达到3局</h3>
-    <ul>
-        <li>预测哪一个选手将先赢得3 局。</li>
-        <li>如果在比赛中没有任何一方赢取3局，所有的投注将被视为无效。</li>
-    </ul>
-
-    <h3>在4局后得分</h3>
-    <ul>
-        <li>预测在首4局已完成后的指定选手的正确得分。</li>
-        <li>如果比赛的首4局没有完成，那么所有的投注都将是无效的。</li>
-    </ul>
+<h3> Tổng số đĩa: lớn / nhỏ </h3>
+<ul>
+    <li> Tổng số sự kiện được dự đoán sẽ lớn hơn hoặc nhỏ hơn số điểm tối đa / nhỏ được chỉ định cho sự kiện. </li>
+    <li> Nếu sự kiện không được hoàn thành, thì tất cả mọi phiên cược sẽ bị vô hiệu trừ khi trận đấu có kết quả rõ ràng. </li>
+</ul>
 
 
-    <h3>在4局后领先</h3>
-    <ul>
-        <li>预测在比赛首4局已完成的情况下领先的选手。</li>
-        <li>平局也可以供选择。</li>
-        <li>如果比赛的首4局没有完成，所以的投注将被视为无效。</li>
-    </ul>
+<h3> Lần đầu tiên đạt đến 3 lượt chơi </h3>
+<ul>
+    <li> Dự đoán người chơi nào sẽ giành được 3 lượt chơi đầu tiên. </li>
+    <li> Nếu không có bên nào thắng 3 hiệp trong trận đấu, tất cả mọi phiên cược sẽ bị hủy. </li>
+</ul>
+
+<h3> Điểm sau 4 lượt chơi </h3>
+<ul>
+    <li> Dự đoán số điểm chính xác cho người chơi được chỉ định sau khi 4 lượt chơi đầu tiên đã được hoàn thành. </li>
+    <li> Nếu 4 hiệp đầu tiên của trận đấu không được hoàn thành, thì tất cả mọi phiên cược sẽ bị vô hiệu. </li>
+</ul>
 
 
-    <h3>波胆-X 盘</h3>
-    <ul>
-        <li>预测在特定盘结束后的局数正确的比分。</li>
-        <li>如果特定的盘没有完成，所有的投注将会视为无效。</li>
-        <li>如果特定的盘完成，但是赛事没有完成，在这个市场所有的投注将会被确认。</li>
-    </ul>
+<h3> Dẫn đầu sau 4 phiên </h3>
+<ul>
+    <li> Dự đoán những người chơi hàng đầu trong 4 trận đầu tiên của trò chơi. </li>
+    <li> Một bản vẽ cũng có sẵn. </li>
+    <li> Nếu 4 hiệp đầu tiên của trận đấu không được hoàn thành, đặt cược sẽ được coi là không hợp lệ. </li>
+</ul>
 
 
-    <h3>180分</h3>
-    <ul>
-        <li>预测在特定时节内是否有180得分。</li>
-        <li>这个市场可能基于赛事所有局中特定局或赛事其中一盘中的特定局。</li>
-        <li>如果选手的名字没有包含在市场名单里面，这个结果将会基于任何一名选手的180分记录。</li>
-        <li>如果球员名字在市场名称内，赛果将以该玩家在比赛180分的记录。</li>
-        <li>如果特定局没有完成，所有这个市场的投注将被视为无效。</li>
-    </ul>
+<h3> Đĩa Bore-X </h3>
+<ul>
+    <li> Dự đoán số điểm chính xác cho số vòng sau khi kết thúc một đĩa cụ thể. </li>
+    <li> Nếu một đĩa cụ thể không được hoàn thành, tất cả các phiên cược sẽ được coi là không hợp lệ. </li>
+    <li> Nếu một đơn đặt hàng cụ thể được hoàn thành nhưng trận đấu không được hoàn thành, tất cả các cược đặt tại thị trường này sẽ được xác nhận. </li>
+</ul>
 
 
-    <h3>180分－大/小盘</h3>
-    <ul>
-        <li>预测赛事的总180分记录将大于或小于赛事指定的大/小180分记录。</li>
-        <li>如果选手的名字没有包含在市场名单里面，结果将会基于两名选手的180分记录为准。</li>
-        <li>如果球员名称在市场名称内，赛果将基于该玩家在比赛180总分的记</li>
-        <li>如果比赛没有完成，所有的投注将会被视为无效，除非赛事已有明确结果。</li>
-    </ul>
+<h3> 180 điểm </h3>
+<ul>
+    <li> Dự đoán nếu có 180 điểm trong một khoảng thời gian cụ thể. </li>
+    <li> Thị trường này có thể dựa trên một trò chơi cụ thể trong một trong các giải đấu hoặc trong một giải đấu cụ thể. </li>
+    <li> Nếu tên của người chơi không được đưa vào danh sách thị trường, kết quả sẽ dựa trên 180 điểm của bất kỳ người chơi nào. </li>
+    <li> Nếu tên của người chơi nằm trong tên thị trường, kết quả sẽ được người chơi ghi lại trong trò chơi 180 điểm. </li>
+    <li> Nếu một văn phòng cụ thể không được hoàn thành, tất cả các cược trên thị trường này sẽ bị hủy. </li>
+</ul>
 
 
-    <h3>180分-让球</h3>
-    <ul>
-        <li>预测赛事盘口在每个选手指定的让球数上的180分结果。</li>
-        <li>结算将基于赛事结束后每个选手的180分记录总数为准。</li>
-        <li>如果比赛没有完成，所有的投注将会被视为无效，除非赛事已有明确结果。</li>
-    </ul>
-
-    <h3>获得最多180分</h3>
-    <ul>
-        <li>预测在赛事中哪一位选手获得最多180分记录。</li>
-        <li>平局也包含在选项里面。</li>
-        <li>如果比赛没有完成，所有的投注将会被视为无效，除非赛事已有明确结果。</li>
-    </ul>
+<h3> 180 điểm - kích thước lớn / nhỏ </h3>
+<ul>
+    <li> Tổng số 180 điểm được ghi cho sự kiện sẽ lớn hơn hoặc ít hơn 180 điểm được ghi lại cho sự kiện. </li>
+    <li> Nếu tên của người chơi không được đưa vào danh sách thị trường, kết quả sẽ dựa trên 180 điểm của hai người chơi. </li>
+    <li> Nếu tên của người chơi nằm trong tên thị trường, kết quả sẽ dựa trên tổng số điểm của người chơi là 180 trong trò chơi </li>
+    <li> Nếu trận đấu không được hoàn thành, tất cả mọi phiên cược sẽ bị hủy nếu trận đấu không có kết quả rõ ràng. </li>
+</ul>
 
 
-    <h3>决胜镖盘口</h3>
-    <ul>
-        <li>预测哪一位选手将在赛事最后一局以决胜镖取胜。</li>
-        <li>如果赛事没有完成，所 有的投注将被视为无效。</li>
-    </ul>
+<h3> 180 điểm - để bóng </h3>
+<ul>
+    <li> Dự đoán kết quả của 180 điểm trên số bàn thắng được gán cho mỗi người chơi. </li>
+    <li> Dàn xếp sẽ dựa trên tổng số 180 điểm cho mỗi người chơi sau sự kiện. </li>
+    <li> Nếu trận đấu không được hoàn thành, tất cả mọi phiên cược sẽ bị hủy nếu trận đấu không có kết quả rõ ràng. </li>
+</ul>
+
+<h3> Nhận tối đa 180 điểm </h3>
+<ul>
+    <li> Dự đoán người chơi nào nhận được 180 điểm trong sự kiện. </li>
+    <li> Bản vẽ cũng được bao gồm trong các tùy chọn. </li>
+    <li> Nếu trận đấu không được hoàn thành, tất cả mọi phiên cược sẽ bị hủy nếu trận đấu không có kết quả rõ ràng. </li>
+</ul>
 
 
-    <h3>X 决胜镖总数：大/小 X</h3>
-    <ul>
-        <li>预测赛事的特定局的决胜镖总数大于或小于赛事指定的大/小决胜镖总数。</li>
-        <li>如果赛事是以局为基准的，那么市场的提供将会以特定的局为基准。</li>
-        <li>如果赛事是以盘为基准的，那市场的提供将会以这一盘的特定局为基准。</li>
-        <li>如果特定局没有完成，所有的投注将被视为无效。</li>
-    </ul>
+<h3> Xác định tỷ lệ chấp của Dart </h3>
+<ul>
+    <li> Dự đoán người chơi nào sẽ thắng trận chung kết ở vòng chung kết của sự kiện. </li>
+    <li> Nếu sự kiện chưa hoàn thành, tất cả các phiên cược sẽ bị hủy. </li>
+</ul>
 
 
-    <h3>决胜镖总数：大/小（ X－X）</h3>
-    <ul>
-        <li>预测赛事中的特定局的决胜镖总数是在数值范围之间或决胜镖总数是高于或低于该数值范围。</li>
-        <li>如果赛事是以局为基准的， 那么市场的提供将会以特定局为基准。</li>
-        <li>如果赛事是以盘为基准的，那么市场的提供将会以这一局的特定局为基准。</li>
-        <li>如果特定局没有完成，所有的投注将会被视为无效。</li>
-    </ul>
+<h3> X Tổng số người chiến thắng: Big / small X </h3>
+<ul>
+    <li> Tổng số phi tiêu quyết định trong một trò chơi cụ thể dự đoán một sự kiện lớn hơn hoặc ít hơn tổng số phi tiêu lớn / nhỏ được chỉ định trong sự kiện. </li>
+    <li> Nếu sự kiện dựa trên bảng, thì thị trường sẽ dựa trên một bảng cụ thể. </li>
+    <li> Nếu sự kiện được dựa trên đĩa, thì việc cung cấp thị trường sẽ dựa trên bảng cụ thể của đĩa. </li>
+    <li> Nếu một văn phòng cụ thể không được hoàn thành, tất cả các phiên cược sẽ bị hủy. </li>
+</ul>
 
 
-    <h3>最高决胜镖：大/小 X</h3>
-    <ul>
-        <li>预测赛事的最高决胜镖是大于或小于指定的大/小。</li>这个最高决胜镖可能会是170。</li>
-        <li>如果一个选手的名字不在市场名单里面，结果将是基于双方选手的决胜镖记录结算。</li>
-        <li>如果选手的名字包含在市场名单里面，这个结果将会基于特定选手的最高决胜镖。</li>
-        <li>如果赛事没有完成，那么所有的赌注将是无效的，除非赛事已有明确结果。</li>
-    </ul>
+<h3> Tổng số người chiến thắng: Lớn / Nhỏ (X-X) </h3>
+<ul>
+    <li> Tổng số phi tiêu quyết định trong một trò chơi cụ thể trong trận đấu được dự đoán là giữa phạm vi giá trị hoặc tổng số phi tiêu ở trên hoặc dưới phạm vi này. </li>
+    <li> Nếu sự kiện dựa trên bảng, thì thị trường sẽ dựa trên một bảng cụ thể. </li>
+    <li> Nếu sự kiện dựa trên đĩa, thì thị trường sẽ dựa trên văn phòng cụ thể của trò chơi. </li>
+    <li> Nếu một văn phòng cụ thể không được hoàn thành, tất cả các phiên cược sẽ bị hủy. </li>
+</ul>
+
+
+<h3> Chiến thắng quyết định cao nhất: lớn / nhỏ X </h3>
+<ul>
+    <li> Phi tiêu cao nhất được dự đoán cho sự kiện lớn hơn hoặc nhỏ hơn kích thước được chỉ định / nhỏ. </li> Đây là phi tiêu quyết định cao nhất có thể là 170. </li>
+<li> Nếu tên của người chơi không có trong danh sách thị trường, kết quả sẽ dựa trên hồ sơ của người chiến thắng về các khu định cư của cả hai người chơi. </li>
+<li> Nếu tên của người chơi được đưa vào danh sách thị trường, kết quả sẽ dựa trên số điểm cao nhất của người chơi cụ thể. </li>
+<li> Nếu sự kiện không được hoàn thành, thì tất cả mọi phiên cược sẽ bị vô hiệu trừ khi trận đấu có kết quả rõ ràng. </li>
+</ul>
 
 
 
-    <h3>最高决胜镖：大/小 （X－X）</h3>
-    <ul>
-        <li>预测赛事中的最高决胜镖是在数值范围之间或最高决胜镖是高于或低于该数值范围。这个最高决胜镖可能会是170。</li>
-        <li>如果一个选手的名字不在市场名单里面，结果将是基于双方选手的决胜镖记录结算。</li>
-        <li>如果选手的名字是包含在市场名单里面，结果将会以特定选手的最高决胜镖结算。</li>
-        <li>如果赛事没有完成，那么所有的赌注将是无效的，除非赛事已有明确结果。</li>
-    </ul>
+<h3> Chiến thắng quyết định cao nhất: lớn / nhỏ (X-X) </h3>
+<ul>
+    <li> Số phi tiêu quyết định cao nhất trong sự kiện dự báo nằm giữa phạm vi giá trị hoặc phi tiêu quyết định cao nhất ở trên hoặc dưới phạm vi giá trị này. Phi tiêu đoạt giải cao nhất này có thể là 170. </li>
+    <li> Nếu tên của người chơi không có trong danh sách thị trường, kết quả sẽ dựa trên hồ sơ của người chiến thắng về các khu định cư của cả hai người chơi. </li>
+    <li> Nếu tên của người chơi được đưa vào danh sách thị trường, kết quả sẽ được giải quyết với số điểm cao nhất của người chơi cụ thể. </li>
+    <li> Nếu sự kiện không được hoàn thành, thì tất cả mọi phiên cược sẽ bị vô hiệu trừ khi trận đấu có kết quả rõ ràng. </li>
+</ul>
 
 
-    <h3>决胜镖颜色</h3>
-    <ul>
-        <li>预测在赛事特定期间的决胜镖颜色（例如：最后一镖）。</li>
-        <li>如果比赛是以“局”为基础的，那么这个市场的提供将会以特定的局为基准。</li>
-        <li>如果比赛是以“盘”为基础的，那么这个市场的提供将会以这一盘的特定局为基准。</li>
-        <li>所提供的选择永远是“红色”或“绿色”。</li>
-        <li>如果特定局没有完成，所有的投注将会被视为无效。</li>
-    </ul>
+<h3> Màu phi tiêu quyết định </h3>
+<ul>
+    <li> Dự đoán màu của trận chung kết trong khoảng thời gian cụ thể của sự kiện (ví dụ: phi tiêu cuối cùng). </li>
+    <li> Nếu trò chơi dựa trên "văn phòng", thì việc cung cấp của thị trường này sẽ dựa trên một văn phòng cụ thể. </li>
+    <li> Nếu trò chơi dựa trên "đĩa", thì việc cung cấp trên thị trường sẽ dựa trên bảng cụ thể của đĩa. </li>
+    <li> Các lựa chọn được cung cấp luôn "đỏ" hoặc "xanh lục". </li>
+    <li> Nếu một văn phòng cụ thể không được hoàn thành, tất cả các phiên cược sẽ bị hủy. </li>
+</ul>
 
 </ul>

@@ -1,36 +1,36 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>拳击/搏斗</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Quyền anh / Đi bộ </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>第一回合的铃声响起后，投注的注单将视为有效。 </li>
-    <li>每个回合的时长为3分钟；大/小盘里的'半回合'将以90秒为准。 </li>
-    <li>如果规定的回合数有所更改，所有投注大/小盘注单将被取消。 </li>
-    <li>如果赛事出现平局， 投注二选一（H2H）玩法的注单将被取消。 </li>
-    <li>注单的结算将根据比赛公布的结果为准，比赛结果可以以点数，技术性击倒，击倒或剥夺资格来定义。</li>
+    <li> Đặt cược sẽ được coi là hợp lệ sau vòng đầu tiên của chuông reo. </li>
+    <li> Độ dài của mỗi vòng là 3 phút, 'nửa vòng' trong lớn / nhỏ sẽ là 90 giây. </li>
+    <li> Nếu số vòng được chỉ định thay đổi, tất cả cược đặt cược lớn / nhỏ sẽ bị hủy. </li>
+    <li> Nếu có sự ràng buộc trong trận đấu, cược đặt cược (H2H) sẽ bị hủy. </li>
+    <li> Việc giải quyết đặt cược sẽ dựa trên kết quả được công bố bởi đối thủ cạnh tranh. Kết quả của cuộc thi có thể được xác định theo điểm, kỹ thuật knockdown, knockdown hoặc tước đoạt. </li>
     <ul>
-        <li>KO（击倒）包括TKO（技术性击倒）和剥夺拳击手资格。 </li>
-        <li>平局包括技术性打和。 </li>
-        <li>判决包括技术性判决。 </li>
+        <li> KO (Knockdown) bao gồm TKO (kỹ thuật knockdown) và tước quyền của võ sĩ quyền Anh. </li>
+        <li> Bản vẽ bao gồm các lần truy cập kỹ thuật. </li>
+        <li> Bản án bao gồm phán quyết kỹ thuật. </li>
     </ul>
-    <li>如果赛果在比赛结束并且拳击手离开擂台后有任何修正或修改将被视为无效。 </li>
-    <li>如果供投注的拳手名单里有拳手退赛或被替补，所有注单将被取消。 </li>
-    <li>如果官方宣布一方或双方拳手都没有达到比赛指定的体重要求，所有注单将被取消。 </li>
+    <li> Nếu kết quả kết thúc ở cuối trò chơi và võ sĩ quyền Anh rời khỏi vòng đấu, mọi sửa đổi hoặc sửa đổi sẽ bị hủy. </li>
+    <li> Nếu có võ sĩ quyền Anh trong danh sách võ sĩ để cá cược về hưu hoặc bị thay thế, tất cả mọi phiên cược sẽ bị hủy. </li>
+    <li> Nếu chính thức thông báo rằng một hoặc cả hai võ sĩ đã không đáp ứng các yêu cầu về trọng lượng được chỉ định trong cuộc thi, tất cả các phiên cược sẽ bị hủy. </li>
 </ul>
 
-<div class="acc_rules_TXTG">
-    <h1>搏斗（综合格斗）</h1>
-    <span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-    <h2>一般规则</h2>
+<div class = "acc_rules_TXTG">
+    <h1> Đi bộ (Chiến đấu hỗn hợp) </h1>
+    <span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+    <h2> Quy tắc chung </h2>
     <ul>
-        <li>当裁判宣布第一回合的开始后，投注的注单将视为有效。 </li>
-        <li>终极格斗赛每一个回合的时长为5分钟，大/小盘里的'半回合'将以150秒为准。</li>
-        <li>每个冠军头衔争夺战有5个回合，非冠军头衔争夺战有3个回合。每回合当中的休息时间为1分钟。 </li>
-        <li>比赛后公布的结果将视为最终赛果并且可以以得分，降服，技术性击倒，击倒或剥夺资格来定义。如果赛果在比赛结束并且拳击手离开擂台后有任何修正或修改将被视为无效。</li>
+        <li> Đặt cược sẽ được coi là hợp lệ khi trọng tài thông báo bắt đầu vòng đầu tiên. </li>
+        <li> Trận chiến cuối cùng là 5 phút mỗi vòng và nửa vòng trong trận đấu lớn / nhỏ sẽ là 150 giây. </li>
+        <li> Có 5 vòng cho mỗi chức vô địch và 3 vòng cho trận chiến vô địch. Thời gian nghỉ trong mỗi vòng là 1 phút. </li>
+        <li> Các kết quả được công bố sau khi cuộc thi sẽ được xem là cuối cùng và có thể được xác định bằng cách chấm điểm, đầu hàng, hạ gục kỹ thuật, hạ gục hoặc tước đoạt. Nếu kết quả chấm dứt ở cuối trò chơi và võ sĩ quyền Anh rời khỏi vòng đấu, mọi sửa đổi hoặc sửa đổi sẽ bị hủy. </li>
         <ul>
-            <li>降服：其中一位拳手清楚地拍打地面或他的对手，或口头方式告知裁判认输。 </li>
-            <li>技术性击倒：如果一位拳手无法继续比赛，比赛将以技术性击倒定义比赛结束。 </li>
-            <li>平局包括技术性打和。 </li>
+            <li> Nội dung gửi: Một trong những võ sĩ rõ ràng chạm vào mặt đất hoặc đối thủ của mình hoặc bằng lời nói với trọng tài thừa nhận thất bại. </li>
+            <li> Kỹ thuật hạ gục: Nếu một võ sĩ quyền Anh không thể tiếp tục trò chơi, trò chơi sẽ bị hạ gục kỹ thuật để xác định kết thúc trò chơi. </li>
+            <li> Bản vẽ bao gồm các lần truy cập kỹ thuật. </li>
         </ul>
-        <li>如果在比赛结束后裁判重新计算比分或官方更改赛果，将对注单的结算没有影响。 </li>
+        <li> Nếu trọng tài tính toán lại điểm số hoặc chính thức thay đổi kết quả sau trận đấu, nó sẽ không ảnh hưởng đến việc dàn xếp cược. </li>
     </ul>
 </div>

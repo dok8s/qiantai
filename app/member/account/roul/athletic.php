@@ -1,19 +1,19 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>田径</h1>
-<h2>一般规则</h2>
+<span class="acc_rules_date">Ngày cập nhật cuối cùng: 04/03/2015</span>
+<h1>Điền kinh</h1>
+<h2>Quy tắc chung</h2>
 <ul>
-    <li>在赛事颁奖仪式上所授予的金牌，银牌及铜牌被视为第一名，第二名及第三名。 </li>
-    <li>颁奖仪式公布的名次将视为官方结果，如之后发生取消资格或修改结果的情况将不予以考虑。 </li>
-    <li>除了投注在没有参与第一轮预赛/资格赛的选手之外，所有注单将视为有效。 </li>
-    <li>如果该场赛事没有第一轮预赛/资格赛，注单的结算将按照比赛的最终结果为准。 </li>
-    <li>如比赛在法定时间提前进行，在比赛开始前的投注依然有效，在比赛开始后的所有投注均视为无效(滚球投注另作别论)。 </li>
-    <li>注单的结算在比赛结束后将根据官方IAAF判定的赛果为准，有无颁奖仪式将不影响。 </li>
-    <li>投注二选一，赛事投注或三方对赛的盘口，以下规则将运用于此：</li>
+    <li> Huy chương vàng, huy chương bạc và huy chương đồng được trao tại lễ trao giải được xem là thứ nhất, thứ hai và thứ ba. </li>
+    <li> Các bảng xếp hạng được công bố tại lễ trao giải sẽ được coi là kết quả chính thức và sẽ không được xem xét trong trường hợp không đủ điều kiện hoặc sửa đổi kết quả. </li>
+    <li> Tất cả các cược sẽ được coi là hợp lệ ngoại trừ các cược đặt trong vòng sơ tuyển / bằng cấp đầu tiên. </li>
+    <li> Nếu không có vòng sơ tuyển / vòng loại đầu tiên cho sự kiện này, việc dàn xếp cược sẽ dựa trên kết quả cuối cùng của trận đấu. </li>
+    <Li> như cạnh tranh trong trước theo luật định về thời gian, trước khi bắt đầu cá cược đua vẫn còn hiệu lực, tất cả cược đặt sau khi bắt đầu cuộc đua được coi là không hợp lệ (Live Cược vấn đề riêng biệt). </li>
+    <li> Việc thanh toán đặt cược sẽ dựa trên kết quả của IAAF chính thức sau khi trận đấu kết thúc. Lễ trao giải sẽ không bị ảnh hưởng. </li>
+    <li> Đặt cược vào lựa chọn thứ hai, trận đấu cá cược hoặc trận đấu ba chiều, các quy tắc sau đây sẽ áp dụng tại đây: </li>
     <ul>
-        <li>如果只有一位选手晋级决赛，投注该选手的注单将结算为赢。 </li>
-        <li>如果没有选手晋级至决赛，冠军将根据(a.)完成最多回合，或(b.)资格赛中以最佳时间完成比赛的选手为准。 </li>
+        <li> Nếu chỉ có một người chơi tiến vào vòng chung kết, cá cược vào cược của người chơi đó sẽ được giải quyết như một chiến thắng. </li>
+        <Li> Nếu không có cầu thủ đủ điều kiện cho trận chung kết, người chiến thắng sẽ hoàn thành vòng nhất theo (a.), Hoặc (b). Để hoàn thành cuộc đua vòng loại với thời gian tốt nhất người chơi thắng. </li>
     </ul>
 
-    <li style="list-style: none">(a) 回合-优胜者则是能晋级到下一回合的资格赛并且已将其他选手击败。 </li>
-    <li style="list-style: none">(b) 最佳时间-用于当选手在同一个资格赛但不同场次进行比赛时。以最佳时间完成比赛的选手来决定优胜者，无论选手在该场次获得的名次。 </li>
+    <Li style = "list-style: none"> (a) tròn - người chiến thắng có thể tiến vào vòng tiếp theo của vòng loại và bạn phải đánh bại các cầu thủ khác. </li>
+    <li style = "list-style: none"> (b) Thời gian tốt nhất - được sử dụng khi người chơi đang chơi trong cùng một trận đấu đủ điều kiện nhưng trong các trò chơi khác nhau. Người chiến thắng được xác định bởi người chơi hoàn thành trò chơi tại thời điểm tốt nhất, bất kể thứ hạng của người chơi trong phiên. </li>
 </ul>

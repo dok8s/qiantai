@@ -1,29 +1,29 @@
-<span class="acc_rules_date">最后更新日期: 19/07/2016</span>
-<h1>长曲棍球</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 19/07/2016 </span>
+<h1> Lacrosse </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>所有长曲棍球的投注均以完场60分钟赛果为准，伤停补时计算在内，但不包括加时赛。除非另有特别说明。 </li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将被视为有效投注。在开赛之后投注的注单将被视为无效投注，滚球投注类型不包括在内。 </li>
+    <li> Tất cả cược đặt cược dựa trên kết quả 60 phút, và thời gian chấn thương được tính, nhưng không bao gồm thêm giờ. Trừ khi có quy định khác. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ được coi là đặt cược không hợp lệ và loại đặt cược sẽ không được bao gồm. </li>
 </ul>
 
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>投注</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Đặt cược </h3>
     <ul>
-        <li>预测哪支球队将赢得比赛，盘口将提供两支球队作为投注选项。加时赛计算在内。 </li>
+        <li> Trước khi dự đoán đội nào sẽ giành chiến thắng trong trò chơi, Điểm chấp sẽ cung cấp hai đội là tùy chọn đặt cược. Làm thêm giờ được tính. </li>
     </ul>
-    <h3>让球盘</h3>
+    <h3> Hãy để bóng </h3>
     <ul>
-        <li>预测哪支球队将获得让球比赛/局的胜利。加时赛计算在内。 </li>
+        <li> Dự đoán đội nào sẽ thắng trận đấu / trận đấu. Làm thêm giờ được tính. </li>
     </ul>
-    <h3>大/小</h3>
+    <h3> Lớn / nhỏ </h3>
     <ul>
-        <li>预测赛事总进球数将大于或小于盘口分数。加时赛计算在内。 </li>
-        <li>如果赛事中断前已有明确结果并且之后没有任何显著会影响赛事结果的情况，大小球投注的注单才会被结算。若遇到任何其他情况，注单将一律被取消。 </li>
+        <li> Tổng số mục tiêu được dự đoán cho sự kiện sẽ lớn hơn hoặc ít hơn điểm chấp. Làm thêm giờ được tính. </li>
+        <li> Nếu có kết quả rõ ràng trước khi sự kiện bị gián đoạn và không có sự kiện quan trọng nào ảnh hưởng đến kết quả của trận đấu, đặt cược vào các cược lớn và nhỏ sẽ được giải quyết. Việc đặt cược sẽ bị hủy nếu có bất kỳ trường hợp nào khác gặp phải. </li>
     </ul>
-    <h3>单/双</h3>
+    <h3> Đơn / Đôi </h3>
     <ul>
-        <li>预测赛事总进球数是单数或双数。加时赛计算在内。 </li>
+        <li> Tổng số mục tiêu được dự đoán cho sự kiện là số ít hoặc đôi. Làm thêm giờ được tính. </li>
     </ul>
 
 </ul>

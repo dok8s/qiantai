@@ -1,66 +1,66 @@
-<span class="acc_rules_date">最后更新日期: 02/12/2015</span>
-<h1>电子竞技</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Ngày cập nhật lần cuối: 02/12/2015 </span>
+<h1> Thể thao điện tử </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果比赛没有完成（例如：队员退赛、取消资格或游戏服务器的问题）所有该赛事的投注将被视为无效。</li>
-    <li>如赛事在原定比赛前提前开始，在赛事开始后的所有注单视为无效，滚球投注除外。</li>
-    <li>如果一个队员/队伍在比赛开始前给出至少一个地图的轻易获胜，所有投注在该赛事的注单将被视为无效，除非这个优势在该投注市场已经很明显。</li>
-    <li>如地图/回合的数量和该投注市场所显示的不一致，所有投注将被视为无效。</li>
-    <li>如一个队伍使用一个已知的昵称来比赛或者和至少一个官方玩家游戏，所有的投注视为有效。</li>
-    <li>如一个队伍或者两个队伍有较少队员进行比赛，所有的投注视为有效。</li>
-    <li>一旦比赛开始或者已经杀死，所有投注在个别地图的注单视为有效，将根据官方宣布的赢家计算，包含比赛中队员退赛、取消资格和游戏服务器的问题（延迟/ DDOS）。</li>
-    <li>如果比赛为轻易获胜的判决结果，所有的投注将被视为无效，除非投注在单一已经完成的地图。</li>
-    <li>所有的投注将按照官方正式公布的相关赛果进行结算。如果一场比赛一直在进行（例如：游戏出现BUG或者游戏服务器问题），游戏将立即被通知重制，官方结果适用。</li>
+    <li> Nếu trận đấu không được hoàn thành (ví dụ: người chơi nghỉ hưu, bị loại hoặc các vấn đề về máy chủ trò chơi) tất cả các phiên cược trong sự kiện này sẽ bị hủy. </li>
+    <li> Nếu sự kiện bắt đầu trước trận đấu gốc, tất cả các cược sau khi bắt đầu sự kiện được coi là không hợp lệ, ngoại trừ cược. </li>
+    <Li> Nếu một cầu thủ / đội được đưa ra trước khi bắt đầu của trò chơi đi bộ với ít nhất một bản đồ của tất cả các cược trong trường hợp cược nó sẽ được coi là không hợp lệ, trừ khi lợi thế này là đã rõ ràng trên thị trường cá cược. </li>
+    <li> Nếu số lượng bản đồ / vòng không khớp với số lượng bản đồ được hiển thị trong thị trường cá cược, tất cả các phiên cược sẽ bị hủy. </li>
+    <li> Nếu một đội sử dụng biệt hiệu đã biết để chơi hoặc chơi với ít nhất một cầu thủ chính thức, tất cả các cược được coi là hợp lệ. </li>
+    <li> Nếu một đội hoặc hai đội có ít người chơi hơn thì tất cả mọi phiên cược đều được coi là hợp lệ. </li>
+    <Li> Sau khi trận đấu bắt đầu hoặc đã bị giết, tất cả cược sẽ cược trên bản đồ cá nhân là hợp lệ, sẽ được tính theo công bố chính thức của người chiến thắng, các trò chơi bao gồm các cầu thủ nghỉ hưu, hủy bỏ các vấn đề điều kiện và máy chủ trò chơi (độ trễ / DDOS) . </li>
+    <li> Nếu trận đấu là một kết quả dễ dàng thắng, tất cả mọi phiên cược sẽ bị coi là vô hiệu lực trừ khi đặt cược được đặt trên một bản đồ hoàn thành. </li>
+    <li> Tất cả các cược sẽ được giải quyết theo kết quả được công bố chính thức. Nếu trò chơi đang diễn ra (ví dụ: một lỗi trong trò chơi hoặc sự cố với máy chủ trò chơi), trò chơi sẽ được thông báo ngay lập tức để tái tạo và kết quả chính thức sẽ được áp dụng. </li>
 </ul>
-<h2>投注类型</h2>
-<ul class="acc_backUL">
-    <h3>独赢</h3>
+<h2> Loại đặt cược </h2>
+<ul class = "acc_backUL">
+    <h3> Chiến thắng một mình </h3>
     <ul>
-        <li>预测谁将会赢得这场比赛，任何形式的加时或补时将予以计算在内。</li>
+        <li> Để dự đoán ai sẽ thắng trò chơi, bất kỳ hình thức làm thêm giờ nào hoặc thời gian chờ sẽ được tính. </li>
     </ul>
-    <h3>让分</h3>
+    <h3> Tặng điểm </h3>
     <ul>
-        <li>预测计算让分结果胜者。任何形式的加时或补时将予以计算在内。 </li>
-        <li>电子竞技赛中的让分投注，将授权某队或队员，在地图或回合中处于劣势的一方前面会显示+号，例如：</li>
+        <li> Tính toán dự đoán nhường đường cho người chiến thắng. Bất kỳ hình thức làm thêm giờ hoặc chấm công sẽ được tính. </li>
+        <li> Đặt cược chấp trong một giải đấu eSports sẽ cho phép một nhóm hoặc thành viên trong nhóm hiển thị dấu + ở phía trước của một bên bị thiệt thòi trên bản đồ hoặc chuyển, ví dụ: </li>
         <ul>
-            <li>队员A&nbsp;&nbsp;&nbsp;-1.5&nbsp;&nbsp;&nbsp;1.88</li>
-            <li>队员B&nbsp;&nbsp;&nbsp;+1.5&nbsp;&nbsp;1.88</li>
-            <li>如果队员A取得净胜两个或以上地图的胜利，则队员A为胜出选项，队员B为输的选项。如果队员A取得净胜1个地图或队员B赢了，则队员B为胜出选项，队员A为输的选项。</li>
+            <li> Đội A & nbsp; & nbsp; & nbsp; -1.5 & nbsp; & nbsp; & nbsp; 1.88 </li>
+            <li> Đội B & nbsp; & nbsp; & nbsp; + 1.5 & nbsp; & nbsp; 1.88 </li>
+            <li> Nếu người chơi A thắng thắng trên hai bản đồ trở lên, thì người chơi A là tùy chọn chiến thắng và người chơi B là tùy chọn thua. Nếu người chơi thắng 1 bản đồ hoặc đội B thắng, người chơi B là tùy chọn thắng và người chơi A là tùy chọn thua. </li>
         </ul>
-        <li>在电子竞技赛事中，让分可被视为让回合/地图或其他计算方式，具体取决于相关赛事。让分盘口类型仅会显示让分。 （例如，在反恐精英让分是受让回合，而在魔兽中是让地图数。</li>
-        <li>在单一的反恐精英地图中，如果一场比赛已经开始但未完成（一些回合结束以后队员退赛或取消资格），投注在独赢盘口的注单根据官方宣布的赢家结算，然而投注在回合让分盘的注单将视为无效。</li>
+        <li> Trong các sự kiện eSports, điểm chấp có thể được coi là lượt / bản đồ hoặc tính toán khác tùy thuộc vào sự kiện. Hãy để loại sàn chỉ hiển thị điểm chấp. (Ví dụ, trong Counter-Strike Concession là một vòng chuyển giao, và trong Warcraft là để cho số lượng bản đồ. </li>
+        <Li> trong một bản đồ duy nhất trong Counter-Strike, nếu một trò chơi đã bắt đầu nhưng chưa hoàn thành (sau khi kết thúc vòng một số các cầu thủ ra khỏi cuộc đua hoặc truất quyền thi đấu), cược vào Win Handicap cược theo thông báo chính thức của người chiến thắng trong giải quyết, tuy nhiên, Cược đặt trên lượt sẽ bị coi là vô hiệu lực. </li>
     </ul>
-    <h3>大/小</h3>
+    <h3> Lớn / nhỏ </h3>
     <ul>
-        <li>预测在比赛中的总地图数/回合数是否大于或小于盘口数，任何形式的额外时间或加时赛均计算在内。</li>
+        <li> Dự đoán xem tổng số bản đồ / vòng trong trò chơi có lớn hơn hay nhỏ hơn số vị trí, và bất kỳ hình thức thêm giờ hay giờ làm thêm nào đều được tính. </li>
     </ul>
-    <h3>滚球</h3>
+    <h3> Lăn bóng </h3>
     <ul>
-        <li>结算是以0-0的比分在比赛结束后按盘口开出的让回合或地图数做裁决。投注当时的比分对结算没有影响。</li>
-        <li>如果比赛重新开始，所有在该比赛的滚球投注将被视为无效。</li>
+        <li> Dàn xếp dựa trên tỷ số 0-0 ở cuối trận đấu và số vòng hoặc bản đồ được xác định bởi thị trường. Việc đặt cược vào thời điểm đó không ảnh hưởng đến việc giải quyết. </li>
+        <li> Nếu trận đấu khởi động lại, tất cả cược vào trận đấu sẽ bị hủy. </li>
     </ul>
-    <h3>加注 /特别</h3>
+    <h3> Thêm / Đặc biệt </h3>
     <ul>
-        <li>一旦比赛开始，如赛果已经明确，所有投注以下盘口的注单视为有效。反之，其中一个条件没有满足或者没有赢家，所有的注单将退回本金。</li>
-        <li>以下条款描述提供的不同类型的加注和特别投注：</li>
+        <li> Sau khi bắt đầu trận đấu, nếu kết quả rõ ràng, tất cả các cược đặt vào các vị trí sau sẽ được coi là hợp lệ. Ngược lại, nếu một trong các điều kiện không được đáp ứng hoặc không có người chiến thắng, tất cả các cược sẽ được trả lại cho hiệu trưởng. </li>
+        <li> Các thuật ngữ sau mô tả các loại tăng khác nhau và đặt cược đặc biệt được cung cấp: </li>
         <ul>
-            <li>比赛打和-比赛最终是否打和</li>
-            <li>赢家-单一地图的赢家</li>
-            <li>第一血-最先杀死对方得分的队伍</li>
-            <li>首队先到达10杀-最先对对方造成10杀的队伍</li>
-            <li>持续时间-地图比赛总持续时间，根据游戏内的计时器</li>
-            <li>配对最高击杀数-获得最高击杀数的玩家</li>
-            <li>配对最高死亡数-获得死亡次数最高的玩家</li>
-            <li>GODLIKE会出现-任何队员的杀人数达到9个</li>
-            <li>信使被击杀-任何信使被其中一个队伍击杀</li>
-            <li>第一回合赢家（手枪局）-一个地图中第一回合赢家（手枪局）</li>
-            <li>第十六回合赢家（手枪局）-一个地图中第十六回合赢家（手枪局）</li>
-            <li>首队先得5分-最先获胜5回合的队伍</li>
-            <li>首个男爵击杀-最先杀死第一个男爵的队伍</li>
-            <li>首个小龙击杀-最先杀死第一个小龙的队伍</li>
-            <li>首个罗山击杀-最先杀死第一个罗山的队伍</li>
-            <li>摧毁首个防御塔-最先摧毁对方防御塔的队伍，包括对方队伍自毁防御塔</li>
-            <li>摧毁首个炮塔-最先摧毁对方炮塔的队伍</li>
+            <li> Trò chơi được chơi và - trò chơi cuối cùng đã được chơi và </li>
+            <li> Người chiến thắng - người chiến thắng của một bản đồ </li>
+            <li> First Blood - nhóm đầu tiên giết chết điểm số của nhau </li>
+            <li> Đội đầu tiên lần đầu tiên đạt 10 kill - nhóm đầu tiên gây ra 10 kill cho nhau </li>
+            <li> Thời lượng - tổng thời lượng của khớp bản đồ, dựa trên bộ đếm thời gian trong trò chơi </li>
+            <li> Ghép nối số kẻ giết người cao nhất - người chơi nhận số kill cao nhất </li>
+            <li> Ghép nối số người chết nhiều nhất - người chơi có số người chết cao nhất </li>
+            <li> GODLIKE sẽ xuất hiện - số lần giết cho bất kỳ trình phát nào đạt đến 9 </li>
+            <li> Người đưa tin đã bị giết - bất kỳ sứ giả nào cũng bị một trong các đội bị giết </li>
+            <li> Người chiến thắng vòng đầu tiên (Pistol Bureau) - người chiến thắng vòng đầu tiên trong bản đồ (Pistol Bureau) </li>
+            <li> Người chiến thắng vòng 16 (Pistol Bureau) - Người chiến thắng vòng 16 trong bản đồ (Pistol Bureau) </li>
+            <li> Đội đầu tiên giành được 5 điểm - đội đầu tiên thắng 5 vòng </li>
+            <li> Kẻ giết người đầu tiên giết người - người đầu tiên giết đội baron đầu tiên </li>
+            <li> Con rồng đầu tiên giết - người đầu tiên giết đội rồng đầu tiên </li>
+            <li> Kẻ giết Luoshan đầu tiên - người đầu tiên giết đội Luoshan đầu tiên </li>
+            <li> Phá hủy tháp phòng thủ đầu tiên - đội đầu tiên phá hủy tháp phòng thủ khác, bao gồm cả tháp phòng thủ tự hủy diệt của đội đối lập </li>
+            <li> Phá hủy tháp pháo đầu tiên - nhóm đầu tiên phá hủy tháp pháo khác </li>
         </ul>
     </ul>
 </ul>

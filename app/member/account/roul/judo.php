@@ -1,12 +1,12 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>柔道、摔跤、跆拳道</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> judo, đấu vật, taekwondo </h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>选手在颁奖仪式上所授予的金牌，银牌及铜牌分别认定为第一名，第二名及第三名。 </li>
-    <li>每场赛事的结果均以奖台上排名为最终结果。如之后发生丧失资格或结果修正将不予以计算。 </li>
-    <li>在投注二选一赛事时，只有双方参赛者均参与比赛时，注单才被为有效。 </li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单被视为有效投注。在开赛之后投注的注单将被视为无效投注，滚球投注类型不包括在内。 </li>
-    <li>如果该场赛事没有举行颁奖仪式，所有柔道投注的输赢将依据 I.J.F（国际体联）公布的正式赛果而定。 </li>
-    <li>如果该场赛事没有举行颁奖仪式，所有摔跤投注的输赢将依据 F.?I.L.A（国际体联）公布的正式赛果而定。 </li>
-    <li>如果该场赛事没有举行颁奖仪式，所有跆拳道投注的输赢将依据 W.T.F（国际体联）公布的正式赛果而定。 </li>
+    <li> Huy chương vàng, bạc và đồng được trao bởi các thí sinh tại lễ trao giải được công nhận là lần đầu tiên, thứ hai và thứ ba tương ứng. </li>
+    <li> Kết quả của mỗi sự kiện được xếp hạng trên bục giảng là kết quả cuối cùng. Nếu sự không đủ tiêu chuẩn hoặc hiệu chỉnh kết quả xảy ra sau đó, nó sẽ không được tính toán. </li>
+    <li> Khi đặt cược vào hai trận đấu, đặt cược sẽ chỉ có giá trị nếu cả hai người tham gia cuộc thi. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ được coi là đặt cược không hợp lệ và loại đặt cược sẽ không được bao gồm. </li>
+    <li> Nếu lễ trao giải không được tổ chức trong sự kiện, thắng hoặc thua của tất cả các cược judo sẽ dựa trên kết quả chính thức được công bố bởi I.J.F (Liên đoàn Điền kinh Quốc tế). </li>
+    <li> Nếu lễ trao giải không được tổ chức trong sự kiện, thắng hay thua của tất cả các cược đấu vật sẽ được dựa trên kết quả chính thức được công bố bởi F.?I.L.A (Liên đoàn Quốc tế). </li>
+    <li> Nếu lễ trao giải không được tổ chức trong sự kiện, tất cả thắng và thắng cược Taekwondo sẽ dựa trên kết quả chính thức được công bố bởi W.T.F (Liên đoàn Điền kinh Quốc tế). </li>
 </ul>

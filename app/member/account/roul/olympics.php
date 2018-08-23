@@ -1,13 +1,13 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>奥林匹克或相关事件投注</h1>
-<h2>一般规则</h2>
+<span class = "acc_rules_date"> Cập nhật lần cuối: 04/03/2015 </span>
+<h1> Cá cược sự kiện Olympic hoặc liên quan </ h1>
+<h2> Quy tắc chung </h2>
 <ul>
-    <li>如果是"体育博彩规则"内有的体育项目，则将依该项目规则为准，例如：足球依据足球规则、网球依据网球规则，拳击依据拳击规则等。 </li>
-    <li>"常用规则"将被应用于比赛，除非另有特别说明。 </li>
-    <li>参赛者获得金，银，铜牌将被视为第一，第二和第三名获奖者。 </li>
-    <li>每场赛事的结果均以奖台上排名为最终结果。如之后发生丧失资格或结果修正将不予以计算。 </li>
-    <li>无论是团队或个人是否参加比赛，所有的注单将一律被视为有效。 </li>
-    <li>若赛事未按照正常开赛时间进行，但在奥林匹克运动会结束的官方时间内完成，所有的冠军投注仍然有效，投注的输赢将根据国际奥林匹克委员会(IOC)官方公布的赛果而定。若其中有一场赛事未彻底完成和官方未公布结果，所有投注将被视为无效。 </li>
-    <li>如果比赛提前开赛，只有在开赛之前投注的注单将被视为有效投注。在开赛之后投注的注单将被视为无效投注，滚球投注类型不包括在内。 </li>
-    <li>如果该场赛事没有举行颁奖仪式，投注的输赢将依据国际滑雪联盟(FIS)、国际滑冰联盟(ISU)、国际冬季两项全能联盟(IBU)、国际奥林匹克委员会(IOC) 或任何官方公布的正式赛果而定。 </li>
+    <Li> Nếu có một môn thể thao trong "Thể thao cược Rules", theo dự án sẽ phải tuân theo các quy tắc, ví dụ: theo các quy tắc của bóng đá bóng đá, quần vợt, theo các quy tắc của quần vợt, đấm bốc, theo quy tắc boxing. </li>
+    <li> "Quy tắc chung" sẽ được áp dụng cho trò chơi trừ khi có quy định khác. </li>
+    <li> Những người tham gia sẽ nhận được huy chương vàng, bạc và đồng như người chiến thắng đầu tiên, thứ hai và thứ ba. </li>
+    <li> Kết quả của mỗi sự kiện được xếp hạng trên bục giảng là kết quả cuối cùng. Nếu sự không đủ tiêu chuẩn hoặc hiệu chỉnh kết quả xảy ra sau đó, nó sẽ không được tính toán. </li>
+    <li> Tất cả mọi phiên cược sẽ được coi là hợp lệ bất kể đội hoặc cá nhân tham gia cuộc thi hay không. </li>
+    <Li> Nếu một trận đấu không được thực hiện phù hợp với thời gian bắt đầu bình thường, nhưng trong thời gian chính thức của việc hoàn thành vào cuối Thế vận hội Olympic, tất cả các cược vẫn là tiêu đề hợp lệ, thắng hay thua cược Kết quả sẽ được dựa trên các Ủy ban Olympic quốc tế chính thức (IOC). Nếu một trong các sự kiện chưa hoàn thành và kết quả chính thức không được công bố, tất cả các phiên cược sẽ bị hủy. </li>
+    <li> Nếu trận đấu bắt đầu sớm, chỉ các cược đặt trước khi bắt đầu trận đấu mới được coi là cược hợp lệ. Một đặt cược được đặt sau khi bắt đầu trận đấu sẽ được coi là đặt cược không hợp lệ và loại đặt cược sẽ không được bao gồm. </li>
+    <Li> bất kỳ chính thức nếu cuộc đua không giữ lễ trao giải, thắng hay thua cược sẽ được dựa trên Liên minh trượt tuyết quốc tế (FIS), các Trượt Liên minh Quốc tế (ISU), Quốc tế Biathlon Liên minh Toàn Năng (Ibu), Ủy ban Olympic Quốc tế (IOC) hoặc Kết quả chính thức của thông báo sẽ phụ thuộc. </li>
 </ul>

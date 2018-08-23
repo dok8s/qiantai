@@ -1,10 +1,10 @@
-<span class="acc_rules_date">最后更新日期: 04/03/2015</span>
-<h1>射箭与射击</h1>
-<h2>一般规则</h2>
+<span class="acc_rules_date">Ngày cập nhật cuối cùng: 04/03/2015</span>
+<h1>Bắn cung và bắn súng</h1>
+<h2>Quy tắc chung</h2>
 <ul>
-    <li>在赛事颁奖仪式上所授予的金牌，银牌及铜牌被视为第一名，第二名及第三名。 </li>
-    <li>颁奖仪式公布的名次将视为官方结果，如之后发生取消资格或修改结果的情况将不予以考虑。 </li>
-    <li>如果投注的团体或射击手没有参与比赛，所有注单将保持有效。 </li>
-    <li>如比赛在法定时间提前进行，在比赛开始前的投注依然有效，在比赛开始后的所有投注均视为无效(滚球投注另作别论)。 </li>
-    <li>注单的结算在比赛结束后将根据官方FITA（射箭）和ISSF（射击）判定的赛果为准，有无颁奖仪式将不影响。 </li>
+    <li>Huy chương vàng, huy chương bạc và huy chương đồng được trao tặng tại lễ trao giải được xem là thứ nhất, thứ hai và thứ ba.</li>
+    <li>Các bảng xếp hạng công bố tại lễ trao giải sẽ được coi là kết quả chính thức, và sẽ không được xem xét nếu có bất kỳ sự loại trừ hoặc sửa đổi kết quả. </li>
+    <li>Nếu nhóm cá cược hoặc game bắn súng không tham gia cuộc thi, tất cả mọi phiên cược sẽ vẫn hợp lệ. </li>
+    <li>Nếu trận đấu được chơi trước tại thời điểm luật định, cược sẽ vẫn còn hiệu lực cho đến khi bắt đầu trận đấu và tất cả các cược sau khi bắt đầu trận đấu sẽ bị coi là vô hiệu (cả cá cược). </li>
+    <li>Việc giải quyết ghi chú sẽ dựa trên kết quả chính thức của FITA (Bắn cung) và ISSF (chụp) sau khi trận đấu kết thúc và lễ trao giải sẽ không bị ảnh hưởng.</li>
 </ul>

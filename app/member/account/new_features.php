@@ -22,7 +22,7 @@
         <div class="acc_features_DataMain">
 
         <div class="acc_features_header noFloat">
-             <h1>选择释放</h1>
+             <h1>Chọn bản phát hành</h1>
              <!--特制下拉罢-->
              <ul class="acc_selectSP"><li id="first" class="acc_selectSP_first">Truyền hình trực tiếp</li>
                 <ul id="NF_options" class="acc_selectSP_options" style="display:none;">
@@ -313,7 +313,7 @@
 
 
 
-       <a href="#top"><div id="topDiv" class="acc_backTopBTN">回最上层</div></a>
+       <a href="#top"><div id="topDiv" class="acc_backTopBTN">Quay lại đầu trang</div></a>
     </div>
 </body>
 </html>

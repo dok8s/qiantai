@@ -1,212 +1,212 @@
-<span class="acc_rules_date"></span>
-<h1>连串过关/复式过关/组合过关</h1>
-<h2>示意</h2>
-<p>连串过关是指选择二个或更多的赛事在一个单一的注单中。每一个选择连串投注的赛事必须获胜此连串的注单才视为获胜。如果第一个注单是获胜的，投注获胜的注单会添加到第二个投注选项，直到连串过关中的所有投注获胜或到有一场失败为结束。</p>
+<span class = "acc_rules_date"> </span>
+<h1> Chuỗi giải phóng mặt bằng / giải phóng mặt bằng nhiều lần / giải phóng mặt bằng kết hợp </h1>
+<h2> Tín hiệu </h2>
+<p> Một loạt các đường chuyền có nghĩa là chọn hai hoặc nhiều sự kiện trong một lần đặt cược. Mỗi lần đặt cược liên tiếp mà chọn một loạt các cược phải thắng loạt cược này được coi là người chiến thắng. Nếu đặt cược đầu tiên thắng, cược thắng cược sẽ được thêm vào tùy chọn đặt cược thứ hai cho đến khi tất cả các cược trong chuỗi vượt qua hoặc kết thúc của một thất bại. </p>
 
-<p>例如：</p>
+<p> Ví dụ: </p>
 
-<p>投注一个100元的3串1连串过关在以下的三场赛事:</p>
-
-<ul>
-    <li>曼联 @ 1.80 </li>
-    <li>切尔西 @ 1.50 </li>
-    <li>阿森纳 @ 1.66 </li>
-</ul>
-
-<p>如果所有的三场赛事都获胜，连串过关的盈利为448.20元（包括本金）。详细的计算方式您可以查看以下的信息:</p>
+<p> Đặt cược chuỗi 100 chuỗi 1 chuỗi 100 chuỗi để đi qua ba sự kiện sau: </p>
 
 <ul>
-    <li>注单 1:曼联 1.80 x $100 = 返还 $180</li>
-    <li>注单 2: 切尔西 1.50 x $180 = 返还 $270</li>
-    <li>注单 3: 阿森纳 1.66 x $270 = 返还 $448.20</li>
+    <li> Manlian @ 1.80 </li>
+    <li> Chelsea @ 1.50 </li>
+    <li> Arsenal @ 1.66 </li>
 </ul>
 
-<h2>连串过关要点:</h2>
+<p> Nếu cả ba sự kiện giành chiến thắng, lợi nhuận của một loạt đường chuyền là 448,20 nhân dân tệ (bao gồm cả tiền gốc). Để tính toán chi tiết, bạn có thể xem thông tin sau: </p>
 
 <ul>
-    <li>本公司一个注单中最多的连串过关为15串。</li>
-    <li>所有投注赛事都需要根据体育博彩规则为准。</li>
-    <li>不是所有的赛事都可以投注连串过关。如果您在投注列表中看到不可以组合二个不相关的赛事（可以查看以下的信息关于有关联的连串），那么就是其中一场并没有开出连串过关投注。</li>
+    <li> Lưu ý 1: Manchester United 1,80 x 100 đô la = Trả lại 180 đô la </li>
+    <li> Lưu ý 2: Chelsea 1,50 x 180 đô la = Quay lại $ 270 </li>
+    <li> Lưu ý 3: Arsenal 1,66 x $ 270 = Quay lại $ 448,20 </li>
 </ul>
 
-<h2>连串过关中选项</h2>
-
-<p>连串过关投注，选择组合有关联的同一赛事或投注市场的结果会影响其他另一个投注市场，此注单是不接受的。</p>
-
-<p>例如:</p>
-
-<p>以下的2串1是不接受的，由于是同一场赛事:</p>
-<ul>
-    <li>曼联获胜独赢盘口@1.80 </li>
-    <li>曼联2-0获胜，正确比分盘口@7.0 </li>
-</ul>
-
-<p>如果曼联2-0获胜，组合盘口为12.6。其实盘口应该为7.0，因为曼联2-0获胜，那么独赢盘口自然而然为获胜。 </p>
-
-<p>连串过关投注，选择组合有关联的同一球队或球员，即使他们是不同的时间，同样是不接受例如一个结果会影响另一个结果。 </p>
-
-<p>例如:</p>
+<h2> Một loạt các điểm chính: </h2>
 
 <ul>
-    <li>曼联进入冠军杯决赛@6.0</li>
-    <li>曼联赢得冠军杯冠军@10</li>
-    <li>组合盘口@60.0 </li>
+    <li> Khoản ghi chú thường xuyên nhất trong công ty là 15 chuỗi. </li>
+    <li> Tất cả các sự kiện cá cược đều phải tuân theo Quy tắc Cá cược Thể thao. </li>
+    <li> Không phải tất cả các sự kiện đều có thể được đặt cược trên một loạt vé. Nếu bạn không thể nhìn thấy sự kết hợp của hai sự kiện (bạn có thể xem các thông tin sau về loạt liên quan) là không phù hợp trong danh sách cá cược, mà không phải là ra khỏi một loạt các nhiều cược. </li>
 </ul>
 
-<p>这个连串过关被视为第二个赛果会影响到第一个赛果。如果曼联获得冠军杯联赛冠军，那么曼联自然而然就进入冠军杯决赛。因此，盘口仅仅为10.0。 </p>
+<h2> Một loạt tùy chọn vượt qua </h2>
 
-<p>本公司有权利取消有关联的连串过关投注。</p>
+<p> Một loạt cược đặt cược, kết quả của việc chọn cùng một sự kiện hoặc thị trường đặt cược liên kết với sự kết hợp sẽ ảnh hưởng đến thị trường cá cược khác, đặt cược này không được chấp nhận. </p>
 
-<h2>连串过关</h2>
+<p> Ví dụ: </p>
 
-<p>在连串过关中有任何的投注赛事无效或者打和（如以下的范例），此连串过关注单仍然有效，并且按照任何所胜出的其余投注结算，范例如下：</p>
+<p> 2 chuỗi sau 1 không được chấp nhận vì chúng là cùng một sự kiện: </p>
+<ul>
+    <li> Manchester United giành chiến thắng trong trận thắng-thắng @ 1.80 </li>
+    <li> Manchester United thắng 2-0, số điểm chính xác @ 7.0 </li>
+</ul>
+
+<p> Nếu Manchester United thắng 2-0, thị trường kết hợp là 12,6. Trên thực tế, tỷ lệ chấp nên là 7.0, vì Manchester United thắng 2-0, khi đó tỷ lệ thắng cược giành chiến thắng tự nhiên sẽ thắng. </p>
+
+<P> Ác-series, một sự kết hợp của cùng một nhóm hoặc máy nghe nhạc đã liên kết thời gian ngay cả khi họ là khác nhau, cùng một kết quả không được chấp nhận, ví dụ, một kết quả có thể ảnh hưởng khác. </p>
+
+<p> Ví dụ: </p>
 
 <ul>
-    <li>投注项1：切尔西（-0.5）-切尔西赢。 </li>
-    <li>投注项2:投注2：曼联（-1）-曼联赢1-0.</li>
-    <li>投注项3:投注3: 阿森纳（-0.5）-阿森纳赢。 </li>
+    <li> Manchester United vào chung kết Champions League @ 6.0 </li>
+    <li> Manchester United đã giành cúp vô địch @ 10 </li>
+    <li> Điểm chấp kết hợp @ 60.0 </li>
 </ul>
 
-<p>正如曼联是以（-1）的亚洲盘口1-0获胜，但在连串过关中的此赛事视为和。因此，当切尔西获胜连串阿森纳获胜过关，此连串过关将被视为切尔西以及阿森纳的2串，而非最初的3串。同时，打和的过关投注项目将会被自动以1计算。 </p>
+<p> Chuỗi chuyền này được coi là kết quả thứ hai sẽ ảnh hưởng đến kết quả đầu tiên. Nếu Manchester United thắng Champions League, thì Manchester United sẽ tự nhiên vào chung kết Champions League. Do đó, thị trường chỉ có 10,0. </p>
 
-<p>过关的计算范例如下</p>
-<p>范例1：其中一个投注项为和:</p>
+<p> Công ty có quyền hủy một loạt các cược được kết nối. </p>
 
-<table width="78.8%"  class="acc_rulesTB" cellspacing="1" cellpadding="0">
+<h2> Một loạt đường chuyền </ h2>
+
+<P> trong series với một vượt qua bất kỳ đặt cược không hợp lệ hoặc chơi sự kiện và (như trong ví dụ sau), đây là hiệu quả khi một loạt các mối quan tâm hơn, và như trong bất kỳ còn lại chiến thắng Ví dụ cược giải quyết: </p>
+
+<ul>
+    <li> Cược 1: Chelsea (-0.5) - Chelsea thắng. </li>
+    <li> Đặt cược 2: Đặt cược 2: Manchester United (-1) - Manchester United thắng 1-0. </li>
+    <li> Đặt cược 3: Đặt cược 3: Arsenal (-0.5) - Arsenal thắng. </li>
+</ul>
+
+<p> Khi Manchester United thắng 1-0 trong Handicap Châu Á (-1), nhưng trận đấu này trong một loạt các đường chuyền được coi là tổng. Vì vậy, khi Chelsea thắng một loạt các trận thắng của Arsenal, loạt bài này sẽ được coi là 2 chuỗi của Chelsea và Arsenal, thay vì 3 chuỗi ban đầu. Đồng thời, các cá cược và cá cược sẽ được tính tự động ở mức 1. </p>
+
+<p> Ví dụ tính toán của giải phóng mặt bằng như sau </p>
+<p> Ví dụ 1: Một trong các mục đặt cược là: </p>
+
+<table width = "78.8%" class = "acc_rulesTB" cellspacing = "1" cellpadding = "0">
     <tr>
-        <th>投注项</th>
-        <th>让球</th>
-        <th>陪率</th>
-        <th>赛果</th>
-        <th>结果</th>
+        <th> Đặt cược các mặt hàng </th>
+        <th> Đưa bóng </th>
+        <th> Với tỷ lệ </th>
+        <th> Kết quả </th>
+        <th> Kết quả </th>
     </tr>
     <tr>
-        <td>切尔西</td>
-        <td>(-0.5/1)</td>
-        <td>1.85</td>
-        <td>赢 2-0</td>
-        <td>全赢</td>
+        <td> Chelsea </td>
+        <td> (- 0,5 / 1) </td>
+        <td> 1,85 </td>
+        <td> Thắng 2-0 </td>
+        <td> thắng </td>
     </tr>
-    <tr class="fatWord">
-        <td>曼联</td>
-        <td>(-1)</td>
-        <td>1.95</td>
-        <td>赢 1-0</td>
-        <td>和</td>
+    <tr class = "fatWord">
+        <td> Manlian United </td>
+        <td> (- 1) </td>
+        <td> 1,95 </td>
+        <td> Thắng 1-0 </td>
+        <td> và </td>
     </tr>
     <tr>
-        <td>阿森纳</td>
-        <td>(-1/1.5)</td>
-        <td>2.05</td>
-        <td>赢 3-0</td>
-        <td>全赢</td>
+        <td> Arsenal </td>
+        <td> (- 1 / 1.5) </td>
+        <td> 2.05 </td>
+        <td> Thắng 3-0 </td>
+        <td> thắng </td>
     </tr>
 </table>
 
-<p>投注金额：$100 3串一</p>
+<p> Số tiền đặt cược: $ 100 3 chuỗi một </p>
 
-<p>计算方式如下</p>
+<p> Phương pháp tính toán như sau </p>
 
-<p>$100 x 1.85 x 1 x 2.05 = $379.25， 扣除本金$100 = 盈利<b>$279.25</b></p>
+<P> $ 100 x 1,85 x 1 x 2,05 = $ 379,25, trừ chính = $ 100 lợi nhuận <b> $ 279,25 </b> </p>
 
 <ul>
-    <li>切尔西(-0.5/1): <b>赢</b> - $100 x 1.85 = 返还$185。此金额将会移至下个选项。</li>
-    <li>曼联(-1): <b>和</b> - $185 x 1 = $185. 此金额将会移至到下一选项。</li>
-    <li>阿森纳 (-1/1.5): <b>赢</b> - $185 x 2.05 = 返还 $379.25</li>
-    <li>盈利：$379.25 – $100 = <b>$279.25.</b></li>
+    <li> Chelsea (-0,5 / 1): <b> Thắng </b> - 100 đô la x 1,85 = 185 đô la. Số tiền này sẽ được chuyển sang tùy chọn tiếp theo. </li>
+    <li> Manchester United (-1): <b> và </b> - 185 đô la x 1 = 185 đô la. Số tiền này sẽ được chuyển sang tùy chọn tiếp theo. </li>
+    <li> Arsenal (-1 / 1,5): <b> Thắng </b> - $ 185 x 2,05 = Trả lại $ 379,25 </li>
+    <li> Lợi nhuận: $ 379,25 - $ 100 = <b> $ 279,25. </b> </li>
 </ul>
 
-<p>范例2：其中一个投注项为赢半平半</p>
+<p> Ví dụ 2: Một trong các mục cược là một nửa tốt nhất </p>
 
-<table width="78.8%"  class="acc_rulesTB" cellspacing="1" cellpadding="0">
+<table width = "78.8%" class = "acc_rulesTB" cellspacing = "1" cellpadding = "0">
     <tr>
-        <th>投注项</th>
-        <th>让球</th>
-        <th>陪率</th>
-        <th>赛果</th>
-        <th>结果</th>
+        <th> Đặt cược các mặt hàng </th>
+        <th> Đưa bóng </th>
+        <th> Với tỷ lệ </th>
+        <th> Kết quả </th>
+        <th> Kết quả </th>
     </tr>
-    <tr class="fatWord">
-        <td>切尔西</td>
-        <td>(-0.5/1)</td>
-        <td>1.85</td>
-        <td>赢 1-0</td>
-        <td>赢半 / 平半</td>
-    </tr>
-    <tr>
-        <td>曼联</td>
-        <td>(-1)</td>
-        <td>1.95</td>
-        <td>赢 2-0</td>
-        <td>全赢</td>
+    <tr class = "fatWord">
+        <td> Chelsea </td>
+        <td> (- 0,5 / 1) </td>
+        <td> 1,85 </td>
+        <td> Thắng 1-0 </td>
+        <td> Thắng nửa phần / nửa phẳng </td>
     </tr>
     <tr>
-        <td>阿森纳</td>
-        <td>(-1/1.5)</td>
-        <td>2.05</td>
-        <td>赢 3-0</td>
-        <td>全赢</td>
+        <td> Manlian United </td>
+        <td> (- 1) </td>
+        <td> 1,95 </td>
+        <td> Thắng 2-0 </td>
+        <td> thắng </td>
+    </tr>
+    <tr>
+        <td> Arsenal </td>
+        <td> (- 1 / 1.5) </td>
+        <td> 2.05 </td>
+        <td> Thắng 3-0 </td>
+        <td> thắng </td>
     </tr>
 </table>
 
-<p>连串投注：$100 3串一</p>
-<p>计算方式如下：</p>
-<p>$100 x [1 + 0.5 x 0.85] x 1.95 x 2.05 = $569.64， 扣除本金$100 = 赢<b>$469.64</b></p>
+<p> Một loạt cược: $ 100 3 chuỗi một </p>
+<p> Tính toán như sau: </p>
+<P> $ 100 x [1 + 0,5 x 0,85] x 1,95 x 2,05 = $ 569,64, trừ chủ yếu giành chiến thắng $ 100 = <b> $ 469,64 </b> </p>
 
 <ul>
-    <li>切尔西 (-0.5/1): <b>赢半/平半</b> – 此注单被分为两项，只有一半的投注盈利，
-        <br />盈利的部分$50 x 1.85 = $92.50
-        <br />打和部分$50 x 1 = $50
-        <br />返还是$92.50 + $50 = $142.50。此金额将移至下个投注项</li>
-    <li>曼联 (-1): <b>盈利</b> - $142.50 x 1.95 = $277.87，此金额将移至下个投注项</li>
-    <li>阿森纳 (-1/1.5): <b>盈利</b> - $277.87 x 2.05 =$569.64</li>
-    <li>总盈利: $569.64 – $100 = <b>$469.64.</b></li>
+    <Li> Chelsea (-0,5 / 1): <b> Win nửa / nửa - </b> - liều tiêm duy nhất này được chia thành hai, chỉ một nửa số lợi nhuận đặt cược,
+        <br /> Phần lợi nhuận $ 50 x 1,85 = $ 92,50
+        <br /> nhấn và một phần $ 50 x 1 = $ 50
+        <br /> Trả lại là $ 92,50 + $ 50 = $ 142,50. Số tiền này sẽ được chuyển sang mục đặt cược tiếp theo </li>
+    <Li> Man (-1): <b> lợi nhuận </b> - $ 142.50 x 1,95 = $ 277,87, điều này sẽ lên tới các điều khoản cá cược tiếp theo </li>
+    <li> Arsenal (-1 / 1,5): <b> Lợi nhuận </b> - 277,87 đô la x 2,05 = 569,64 đô la </li>
+    <li> Tổng lợi nhuận: $ 569,64 - $ 100 = <b> $ 469,64. </b> </li>
 </ul>
 
-<p>范例3：其中一个投注项为赢半平半</p>
+<p> Ví dụ 3: Một trong các mục cá cược là trò chơi nửa nướng </p>
 
-<table width="78.8%" class="acc_rulesTB" cellspacing="0" cellpadding="0">
+<table width = "78.8%" class = "acc_rulesTB" cellspacing = "0" cellpadding = "0">
     <tr>
-        <th>投注项</th>
-        <th>让球</th>
-        <th>陪率</th>
-        <th>赛果</th>
-        <th>结果</th>
+        <th> Đặt cược các mặt hàng </th>
+        <th> Đưa bóng </th>
+        <th> Với tỷ lệ </th>
+        <th> Kết quả </th>
+        <th> Kết quả </th>
     </tr>
     <tr>
-        <td>切尔西</td>
-        <td>(-0.5/1)</td>
-        <td>1.85</td>
-        <td>赢 2-0</td>
-        <td>全赢</td>
+        <td> Chelsea </td>
+        <td> (- 0,5 / 1) </td>
+        <td> 1,85 </td>
+        <td> Thắng 2-0 </td>
+        <td> thắng </td>
     </tr>
     <tr>
-        <td>曼联</td>
-        <td>(-1)</td>
-        <td>1.95</td>
-        <td>赢 2-0</td>
-        <td>全赢</td>
+        <td> Manlian United </td>
+        <td> (- 1) </td>
+        <td> 1,95 </td>
+        <td> Thắng 2-0 </td>
+        <td> thắng </td>
     </tr>
-    <tr class="fatWord">
-        <td>阿森纳</td>
-        <td>(-1/1.5)</td>
-        <td>2.05</td>
-        <td>赢 1-0</td>
-        <td>输半 /平半</td>
+    <tr class = "fatWord">
+        <td> Arsenal </td>
+        <td> (- 1 / 1.5) </td>
+        <td> 2.05 </td>
+        <td> Thắng 1-0 </td>
+        <td> mất một nửa / nửa phẳng </td>
     </tr>
 </table>
 
-<p>连串投注：$100 3串一</p>
-<p>计算方式如下：</p>
-<p>$100 x 1.85 x 1.95 x 0.5 = $180.38, 扣除本金$100 =盈利$80.38</p>
+<p> Một loạt cược: $ 100 3 chuỗi một </p>
+<p> Tính toán như sau: </p>
+<p> $ 100 x 1,85 x 1,95 x 0,5 = $ 180,38, khấu trừ số tiền gốc $ 100 = lợi nhuận $ 80,38 </p>
 
 <ul>
-    <li>切尔西(-0.5/1): <b>赢</b> - $100 x 1.85 = $185 = 返回$185. 此金额将移至下个投注项</li>
-    <li>曼联(-1): <b>赢</b> - $185 x 1.95 = $360.75. 此金额将移至下个投注项</li>
-    <li>阿森纳 (-1/1.5): <b>输半/平半</b> - 投注额度将一分为二，其中一半为输。
-        <br>$360.75 x 0.5 = $180.38.
-        <br>输半: $180.38
-        <br>平半: $180.38 x 1 = $180.38</li>
-    <li>返回: $180.38</li>
-    <li>总盈利: $180.38 – $100 = <b>$80.38.</b></li>
+    <Li> Chelsea (-0,5 / 1): <b> thắng </b> - $ 100 x 1,85 = $ 185 = $ 185 Số tiền này sẽ được trả lại cho các điều khoản cá cược tiếp theo </li>.
+    <Li> Man (-1) :. <B> thắng </b> - $ 185 x 1,95 = $ 360,75 Số tiền này sẽ được các điều khoản cá cược tiếp theo </li>
+    <li> Arsenal (-1 / 1.5): <b> Nửa rưỡi </b> - Số tiền đặt cược sẽ được chia thành hai, một nửa trong số đó sẽ bị mất.
+        <br> $ 360,75 x 0,5 = $ 180,38.
+        <br> Truyền một nửa: 180,38 đô la
+        <br> Ping Nửa: $ 180,38 x 1 = $ 180,38 </li>
+    <li> Trở lại: $ 180,38 </li>
+    <li> Tổng lợi nhuận: $ 180,38 - $ 100 = <b> $ 80,38. </b> </li>
 </ul>
